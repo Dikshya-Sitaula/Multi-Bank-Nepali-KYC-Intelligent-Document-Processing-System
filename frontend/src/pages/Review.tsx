@@ -185,8 +185,8 @@ export default function Review() {
                     <button aria-label="Zoom out" onClick={() => zoomOut()} className="grid size-11 place-items-center rounded-xl border border-line bg-bg/80"><ZoomOut className="size-4" /></button>
                     <button aria-label="Reset view" onClick={() => resetTransform()} className="grid h-11 place-items-center rounded-xl border border-line bg-bg/80 px-3 text-xs">Fit</button>
                   </div>
-                  <TransformComponent wrapperStyle={{ width: '100%', height: '75vh' }} contentStyle={{ width: '100%' }}>
-                    <svg viewBox={`0 0 ${size[0]} ${size[1]}`} className="w-full">
+                  <TransformComponent wrapperStyle={{ width: '100%', height: '75vh' }} contentStyle={{ width: '100%', height: '75vh', justifyContent: 'center' }}>
+                    <svg viewBox={`0 0 ${size[0]} ${size[1]}`} className="h-full w-auto max-w-full">
                       <image href={fileUrl(aligned)} width={size[0]} height={size[1]} />
                       {fields.map((f, i) => {
                         if (!f.bbox) return null

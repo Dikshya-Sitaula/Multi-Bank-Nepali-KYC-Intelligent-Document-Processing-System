@@ -7,7 +7,7 @@ import { useEffect, type ButtonHTMLAttributes, type ReactNode } from 'react'
 import { cn, STATUS_COLOUR, STATUS_LABEL } from '../lib/utils'
 
 export function Card({ className, children, ...rest }: { className?: string; children: ReactNode } & React.HTMLAttributes<HTMLDivElement>) {
-  return <div className={cn('glass rounded-2xl', className)} {...rest}>{children}</div>
+  return <div className={cn('glass min-w-0 rounded-2xl', className)} {...rest}>{children}</div>
 }
 
 export function CardTitle({ children, icon, right }: { children: ReactNode; icon?: ReactNode; right?: ReactNode }) {

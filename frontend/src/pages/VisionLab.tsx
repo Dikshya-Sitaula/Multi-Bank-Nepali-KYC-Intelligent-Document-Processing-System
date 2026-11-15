@@ -327,7 +327,7 @@ export default function VisionLab() {
                 <ResponsiveContainer>
                   <BarChart data={timing} layout="vertical" margin={{ left: 4, right: 16 }}>
                     <XAxis type="number" tick={{ fill: 'var(--muted)', fontSize: 10 }} unit=" ms" />
-                    <YAxis type="category" dataKey="name" width={104} tick={{ fill: 'var(--muted)', fontSize: 10 }} />
+                    <YAxis type="category" dataKey="name" width={104} interval={0} tick={{ fill: 'var(--muted)', fontSize: 10 }} />
                     <RTooltip contentStyle={{ background: '#0d1117', border: '1px solid #222', borderRadius: 12 }} formatter={(v) => ms(Number(v))} />
                     <Bar dataKey="ms" radius={[0, 6, 6, 0]} onClick={(d) => setSelected((d as unknown as { key: string }).key)}>
                       {timing.map((t) => <Cell key={t.key} fill={t.key === stage.key ? '#22d3ee' : '#334155'} cursor="pointer" />)}
