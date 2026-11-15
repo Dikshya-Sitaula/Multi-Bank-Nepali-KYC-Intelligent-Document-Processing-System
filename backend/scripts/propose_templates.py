@@ -171,7 +171,7 @@ def propose_page(tid: str, pno: int, img: np.ndarray, texts: list[dict], vec: li
     scale = w / 2480.0
     cands = detect_raster(img)
     if vec:
-        cands = merge_vector(cands, vec, scale)
+        cands = merge_vector(cands, vec, scale, img)
     boxes = [c for c in cands if c.kind in ("box", "frame")]
     checkboxes = [c for c in cands if c.kind == "checkbox"]
     proposals: list[dict] = []
@@ -252,6 +252,8 @@ def propose_page(tid: str, pno: int, img: np.ndarray, texts: list[dict], vec: li
 def main() -> int:
     ap = argparse.ArgumentParser(description="Auto-propose template regions")
     ap.add_argument("templates", nargs="*", help="template ids (default: all)")
+    ap.add_argument("--force", action="store_true",
+                    help="re-propose a template that already has review_edits.yaml (its candidate numbers change)")
     args = ap.parse_args()
 
     rules = yaml.safe_load(KEYWORDS.read_text(encoding="utf-8"))["rules"]
@@ -263,6 +265,10 @@ def main() -> int:
         if args.templates and tid not in args.templates:
             continue
         tdir = ROOT / "templates" / tid
+        if (tdir / "review_edits.yaml").exists() and not args.force:
+            print(f"{tid}: already reviewed (review_edits.yaml refers to these candidate numbers); "
+                  "skipped. Use --force to re-propose and then re-review.")
+            continue
         out = tdir / "proposals"
         out.mkdir(exist_ok=True)
         pdf_path = ROOT / "data" / "source_forms" / src_cfg.get(tid, {}).get("file", "")

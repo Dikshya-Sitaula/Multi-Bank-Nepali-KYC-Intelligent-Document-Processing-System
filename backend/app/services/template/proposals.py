@@ -244,9 +244,39 @@ def vector_rects(page: Any, dpi: int = 300) -> list[Candidate]:
     return out
 
 
-def merge_vector(raster: list[Candidate], vector: list[Candidate], scale: float) -> list[Candidate]:
+def visible_border_fraction(v: Candidate, ink: np.ndarray, band: int = 4) -> float:
+    """Fraction of a rectangle's border that has ink within `band` px on the rendered page."""
+    h, w = ink.shape[:2]
+    x0, y0 = max(0, v.x), max(0, v.y)
+    x1, y1 = min(w - 1, v.x + v.w), min(h - 1, v.y + v.h)
+    if x1 <= x0 or y1 <= y0:
+        return 0.0
+    dil = ink  # caller passes an already dilated map
+    hits = total = 0
+    for yy in (y0, y1):
+        seg = dil[yy, x0:x1]
+        hits += int((seg > 0).sum())
+        total += seg.size
+    for xx in (x0, x1):
+        seg = dil[y0:y1, xx]
+        hits += int((seg > 0).sum())
+        total += seg.size
+    return hits / total if total else 0.0
+
+
+def merge_vector(raster: list[Candidate], vector: list[Candidate], scale: float,
+                 img: np.ndarray | None = None) -> list[Candidate]:
     """Snap raster boxes to matching vector rectangles (more exact); add vector-only boxes
-    that are big enough to write in and not already covered."""
+    that are big enough to write in and not already covered.
+
+    Some PDFs contain rectangles that are never visibly drawn (hidden layers, clip paths,
+    white boxes). A vector rectangle is only trusted when the rendered page has ink along
+    most of its border."""
+    if img is not None:
+        gray = img if img.ndim == 2 else cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        ink = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, 35, 12)
+        ink = cv2.dilate(ink, cv2.getStructuringElement(cv2.MORPH_RECT, (7, 7)))
+        vector = [v for v in vector if visible_border_fraction(v, ink) >= 0.85]
     out = list(raster)
     for v in vector:
         vx = v.as_xyxy()

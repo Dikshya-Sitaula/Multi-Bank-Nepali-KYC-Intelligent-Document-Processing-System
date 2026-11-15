@@ -28,6 +28,12 @@ pages:
     group_by_x:                # set group_id by horizontal position (table columns)
       - {y: [0.28, 0.46], columns: [[0.26, 0.50, permanent], [0.50, 0.72, current]]}
     defaults: {party: guardian, applicant_index: 2}   # applied to every region on the page
+    keep_only: true            # keep only candidates listed under `set` or in a table
+    tables:                    # assign many cells at once (normalised page coordinates)
+      - rows: [[0.058, 0.077, national_id], [0.077, 0.097, citizenship, {field_map: {id_number: citizenship_number}}]]
+        cols: [[0.25, 0.41, id_number], [0.41, 0.57, id_issued_by], [0.96, 1.0, null]]   # null = drop
+        row_attr: group_id     # or row_index (then the row value is an integer)
+        kinds: [box]           # optional: only these candidate kinds
 
 Run:  .venv\\Scripts\\python.exe backend\\scripts\\build_template.py nicasia [--force]
 """
@@ -66,6 +72,15 @@ def _oid(v) -> str:
     return str(v)
 
 
+def _label(v):
+    """Label text from YAML; unquoted Yes/No arrive as booleans."""
+    if v is True:
+        return "Yes"
+    if v is False:
+        return "No"
+    return None if v is None else str(v)
+
+
 def _norm(b: list[float], w: int, h: int) -> list[float]:
     x, y, bw, bh = b
     return [round(x / w, 6), round(y / h, 6), round(bw / w, 6), round(bh / h, 6)]
@@ -97,10 +112,39 @@ def build(tid: str) -> tuple[Template, list[str]]:
         drop = set(pe.get("drop") or [])
         sets = {int(k): v for k, v in (pe.get("set") or {}).items()}
         defaults = pe.get("defaults") or {}
+        keep_only = bool(pe.get("keep_only"))
+        # Table op: assign field by column and group/row by row for every candidate whose
+        # centre falls in a cell. Explicit `set` entries still win.
+        table_ov: dict[int, dict] = {}
+        for tb in pe.get("tables") or []:
+            for p in props:
+                x, y, w, h = p["bbox"]
+                cx, cy = (x + w / 2) / pw, (y + h / 2) / ph
+                if tb.get("kinds") and p["kind"] not in tb["kinds"]:
+                    continue
+                row = next((r for r in tb["rows"] if r[0] <= cy < r[1]), None)
+                col = next((c for c in tb["cols"] if c[0] <= cx < c[1]), None)
+                if row is None or col is None or not col[2]:
+                    continue
+                # The candidate must fit inside its cell; a whole-row outline whose centre
+                # happens to fall in a column is not a cell.
+                if x / pw < col[0] - 0.01 or (x + w) / pw > col[1] + 0.01:
+                    continue
+                fid = col[2]
+                extra = row[3] if len(row) > 3 and isinstance(row[3], dict) else {}
+                fid = (extra.get("field_map") or {}).get(fid, fid)
+                ov = {"field_id": fid}
+                if row[2] is not None:
+                    ov[tb.get("row_attr", "group_id")] = row[2]
+                for k, v in (tb.get("attrs") or {}).items():
+                    ov.setdefault(k, v)
+                table_ov[p["n"]] = ov
+        for n, ov in table_ov.items():
+            sets[n] = {**ov, **sets.get(n, {})}
         page_regions: list[Region] = []
         for p in props:
             n = p["n"]
-            if n in drop:
+            if n in drop or (keep_only and n not in sets):
                 continue
             ov = sets.get(n, {})
             fid = ov.get("field_id", p.get("suggested_field"))
@@ -138,7 +182,7 @@ def build(tid: str) -> tuple[Template, list[str]]:
                 continue
             opts = None
             if a.get("options"):
-                opts = [CheckboxOption(id=_oid(o["id"]), label=o.get("label"), bbox=_norm(o["bbox_px"], pw, ph))
+                opts = [CheckboxOption(id=_oid(o["id"]), label=_label(o.get("label")), bbox=_norm(o["bbox_px"], pw, ph))
                         for o in a["options"]]
             attrs = {**defaults, **{k2: v for k2, v in a.items() if k2 in REGION_KEYS}}
             page_regions.append(Region(id=f"p{ref.page_number}_a{k:02d}", page=ref.page_number,

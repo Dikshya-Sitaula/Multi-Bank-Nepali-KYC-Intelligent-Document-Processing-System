@@ -1,0 +1,3644 @@
+[
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   890,
+   1162,
+   244,
+   28
+  ],
+  "source": "raster",
+  "cell_count": 7,
+  "cells": [
+   [
+    890,
+    1162,
+    20,
+    28
+   ],
+   [
+    942,
+    1169,
+    30,
+    21
+   ],
+   [
+    1006,
+    1169,
+    19,
+    21
+   ],
+   [
+    1026,
+    1169,
+    18,
+    21
+   ],
+   [
+    1064,
+    1169,
+    18,
+    21
+   ],
+   [
+    1083,
+    1169,
+    18,
+    21
+   ],
+   [
+    1116,
+    1169,
+    18,
+    21
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Viber (भाईबर)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 0
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   934,
+   1788,
+   115,
+   21
+  ],
+  "source": "raster",
+  "cell_count": 4,
+  "cells": [
+   [
+    934,
+    1788,
+    20,
+    21
+   ],
+   [
+    954,
+    1788,
+    28,
+    21
+   ],
+   [
+    983,
+    1788,
+    27,
+    21
+   ],
+   [
+    1031,
+    1788,
+    18,
+    21
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 1
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   527,
+   2041,
+   68,
+   29
+  ],
+  "source": "raster",
+  "cell_count": 3,
+  "cells": [
+   [
+    527,
+    2041,
+    20,
+    29
+   ],
+   [
+    556,
+    2041,
+    19,
+    29
+   ],
+   [
+    576,
+    2049,
+    19,
+    21
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 2
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   137,
+   2049,
+   96,
+   21
+  ],
+  "source": "raster",
+  "cell_count": 3,
+  "cells": [
+   [
+    137,
+    2049,
+    20,
+    21
+   ],
+   [
+    172,
+    2049,
+    18,
+    21
+   ],
+   [
+    213,
+    2049,
+    20,
+    21
+   ]
+  ],
+  "suggested_field": "email",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Email ID (ईमेल परिचय)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   698,
+   74,
+   44,
+   16
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Machhapuchchhre Bank Limited",
+   "right": "KYC UPDATE AND DORMANT",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 4
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1090,
+   391,
+   22,
+   34
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(कृपया निम्न बमोजिम सूचनाको आधारमा मेरो / हाम्रो ग्राहक पहिचान र निष्क्रय खाता अद्यावधिक गरिदिनु हुन अनुरोध गर्दछु Please update our KYC and Dormant account based on following information.",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 5
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   817,
+   392,
+   20,
+   32
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(कृपया निम्न बमोजिम सूचनाको आधारमा मेरो / हाम्रो ग्राहक पहिचान र निष्क्रय खाता अद्यावधिक गरिदिनु हुन अनुरोध गर्दछु Please update our KYC and Dormant account based on following information.",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   988,
+   392,
+   21,
+   32
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(कृपया निम्न बमोजिम सूचनाको आधारमा मेरो / हाम्रो ग्राहक पहिचान र निष्क्रय खाता अद्यावधिक गरिदिनु हुन अनुरोध गर्दछु Please update our KYC and Dormant account based on following information.",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1182,
+   1783,
+   18,
+   26
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 8
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1167,
+   2044,
+   52,
+   30
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "location_map",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Location map of Accountholders Residence (खातावालाको ठेगानाको नक्सा)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 9
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1193,
+   1165,
+   17,
+   25
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Viber (भाईबर)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 10
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   96,
+   2312,
+   1134,
+   843
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "nearest_landmark",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "Y Please mention the nearest landmark. गरिदिनु कृपया नजिकको सीमा चिन्ह उल्लेख होला ।)",
+   "left": "",
+   "right": "कृपया नजिकको सीमा चिन्ह उल्लेख गरिदिनु होला I)",
+   "above": "*Latitude: *Longitude:",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 11
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   1232,
+   2312,
+   1125,
+   843
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "nearest_landmark",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "Y Please mention the nearest landmark. कृपया नजिकको सीमा चिन्ह उल्लेख गरिदिनु होला I)",
+   "left": "Please mention the nearest landmark. होला ।) Y",
+   "right": "",
+   "above": "*Latitude: *Longitude:",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 12
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   96,
+   2194,
+   1134,
+   116
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "*Longitude: *Latitude:",
+   "left": "",
+   "right": "*Longitude:",
+   "above": "(स्थायी ठेगानाको नक्सा)",
+   "row": "",
+   "col": "Location map of Registered Address (स्थायी ठेगानाको नक्सा)",
+   "matched_on": "above"
+  },
+  "n": 13
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1232,
+   2194,
+   1125,
+   116
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "*Longitude: *Latitude:",
+   "left": "",
+   "right": "",
+   "above": "(हालको ठेगानाको नक्सा) Location map of current Address",
+   "row": "*Longitude: *Latitude:",
+   "col": "Location map of current Address (हालको ठेगानाको नक्सा)",
+   "matched_on": "row"
+  },
+  "n": 14
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   2074,
+   186,
+   319,
+   401
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "person_photo",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "Photo",
+   "left": "Minor ( नाबालिग) Y  Y Major (बालिग)",
+   "right": "",
+   "above": "खाता अद्यावधिक फारम (व्यक्तिगत) AJC ACTIVATION FORM (PERSONAL)",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 15
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   408,
+   1939,
+   1970,
+   53
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "email",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Email ID (ईमेल परिचय)",
+   "right": "",
+   "above": "Mobile No. ( मोबाइल नं.) Phone No. (फोन नं.)",
+   "row": "Email ID (ईमेल परिचय)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 16
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   96,
+   2103,
+   1134,
+   89
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Location map of Registered Address (स्थायी ठेगानाको नक्सा)",
+   "left": "",
+   "right": "(हालको ठेगानाको नक्सा)",
+   "above": "Location map of Accountholders Residence (खातावालाको ठेगानाको नक्सा)",
+   "row": "",
+   "col": "Location map of Accountholders Residence (खातावालाको ठेगानाको नक्सा)",
+   "matched_on": "above"
+  },
+  "n": 17
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1232,
+   2103,
+   1125,
+   89
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Location map of current Address (हालको ठेगानाको नक्सा)",
+   "left": "Location map of Registered Address",
+   "right": "",
+   "above": "",
+   "row": "Location map of Registered Address (स्थायी ठेगानाको नक्सा)",
+   "col": "Mobile No. ( मोबाइल नं.)",
+   "matched_on": "left"
+  },
+  "n": 18
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   308,
+   525,
+   1727,
+   64
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "customer_id",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Major (बालिग) ग्राहक संकेत)",
+   "row": "Account Holder s Name ( खातावालाको नाम)",
+   "col": "IDENTITY DETAILS (पहिचान विवरण)",
+   "matched_on": "above"
+  },
+  "n": 19
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   97,
+   3338,
+   1419,
+   91
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Page 1 of 3",
+   "left": "",
+   "right": "",
+   "above": "वसोवास गर्ने ठेगाना परिवर्तन भएमा बैंकलाई तुरुन्त नयां ठेगानाको नक्सा समेत जानकारी गराउनु पर्नेछ ।) (नोट",
+   "row": "",
+   "col": "Y Please mention the nearest landmark. कृपया नजिकको सीमा चिन्ह उल्लेख होला ।) गरिदिनु",
+   "matched_on": "above"
+  },
+  "n": 20
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   381,
+   1467,
+   719,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_municipality",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Municipality (न.पा. Municipality Rural गा.पा.)",
+   "right": "",
+   "above": "",
+   "row": "Municipality Rural Municipality (न.पा. गा.पा.)",
+   "col": "Permanent ( स्थायी)",
+   "matched_on": "left"
+  },
+  "n": 21
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1102,
+   1467,
+   677,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_municipality",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Municipality Rural Municipality (न.पा. गा.पा.)",
+   "col": "Current (हालको)",
+   "matched_on": "row"
+  },
+  "n": 22
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1377,
+   1828,
+   1002,
+   56
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Mobile No. ( मोबाइल नं.)",
+   "left": "Phone No. (फोन नं.)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 23
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1780,
+   1467,
+   604,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_municipality",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Municipality Rural Municipality (न.पा. गा.पा.)",
+   "col": "Local Contact ( स्थानीय सम्पर्क)",
+   "matched_on": "row"
+  },
+  "n": 24
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1377,
+   1884,
+   1002,
+   55
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Mobile No. ( मोबाइल नं.)",
+   "row": "Contact No. ( सम्पर्क नं.)",
+   "col": "Mobile No. ( मोबाइल नं.)",
+   "matched_on": "row"
+  },
+  "n": 25
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   410,
+   1828,
+   965,
+   56
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Phone No. (फोन नं.)",
+   "left": "",
+   "right": "",
+   "above": "Communication Details ( सम्पर्क विवरण)",
+   "row": "",
+   "col": "Permanent ( स्थायी)",
+   "matched_on": "col"
+  },
+  "n": 26
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   410,
+   1884,
+   965,
+   55
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Contact No. ( सम्पर्क नं.)",
+   "right": "",
+   "above": "Phone No. (फोन नं.) Communication Details ( सम्पर्क विवरण)",
+   "row": "Contact No. ( सम्पर्क नं.)",
+   "col": "Phone No. (फोन नं.)",
+   "matched_on": "left"
+  },
+  "n": 27
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1518,
+   937,
+   873,
+   56
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "nationality",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Resident ( बासिन्दा)",
+   "right": "",
+   "above": "Married (विवाहित) Unmarried ( अविवाहित",
+   "row": "Nationality (राष्ट्रियता)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 28
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   381,
+   1623,
+   719,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_tole",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "TolelStreet टोल मार्ग)",
+   "right": "",
+   "above": "",
+   "row": "TolelStreet टोल मार्ग)",
+   "col": "Permanent ( स्थायी)",
+   "matched_on": "left"
+  },
+  "n": 29
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   381,
+   1404,
+   719,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_district",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "District (जिल्ला)",
+   "right": "",
+   "above": "",
+   "row": "District (जिल्ला)",
+   "col": "Permanent ( स्थायी)",
+   "matched_on": "left"
+  },
+  "n": 30
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   381,
+   1279,
+   719,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Country देश)",
+   "right": "",
+   "above": "Permanent ( स्थायी) Correspondence Details (पत्राचार विवरण)",
+   "row": "Country देश)",
+   "col": "Permanent ( स्थायी)",
+   "matched_on": "left"
+  },
+  "n": 31
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   381,
+   1342,
+   719,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_province",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Province (प्रदेश)",
+   "right": "",
+   "above": "Permanent ( स्थायी)",
+   "row": "Province (प्रदेश)",
+   "col": "Permanent ( स्थायी)",
+   "matched_on": "left"
+  },
+  "n": 32
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   381,
+   1685,
+   719,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_house_no",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "House No. (घर नं.)",
+   "right": "",
+   "above": "",
+   "row": "House No. (घर नं.)",
+   "col": "Permanent ( स्थायी)",
+   "matched_on": "left"
+  },
+  "n": 33
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   381,
+   1560,
+   719,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_ward",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Ward No. (वडा नं.)",
+   "right": "",
+   "above": "",
+   "row": "Ward No. (वडा नं.)",
+   "col": "Permanent ( स्थायी)",
+   "matched_on": "left"
+  },
+  "n": 34
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   382,
+   1216,
+   718,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Permanent ( स्थायी)",
+   "left": "Address (ठेगाना)",
+   "right": "Current (हालको)",
+   "above": "Correspondence Details (पत्राचार विवरण)",
+   "row": "Address (ठेगाना)",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 35
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   429,
+   937,
+   760,
+   57
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "nationality",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Nationality (राष्ट्रियता)",
+   "right": "Resident ( बासिन्दा)",
+   "above": "पुरुष) Female ( महिला)",
+   "row": "Nationality (राष्ट्रियता)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 36
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1102,
+   1623,
+   677,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_tole",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "TolelStreet टोल मार्ग)",
+   "col": "Current (हालको)",
+   "matched_on": "row"
+  },
+  "n": 37
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1102,
+   1216,
+   677,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Current (हालको)",
+   "left": "Permanent ( स्थायी)",
+   "right": "Local Contact ( स्थानीय सम्पर्क)",
+   "above": "Correspondence Details (पत्राचार विवरण)",
+   "row": "Address (ठेगाना)",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 38
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1102,
+   1342,
+   677,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_province",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Current (हालको)",
+   "row": "Province (प्रदेश)",
+   "col": "Current (हालको)",
+   "matched_on": "row"
+  },
+  "n": 39
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1102,
+   1685,
+   677,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_house_no",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "House No. (घर नं.)",
+   "col": "Current (हालको)",
+   "matched_on": "row"
+  },
+  "n": 40
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1102,
+   1404,
+   677,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_district",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "District (जिल्ला)",
+   "col": "Current (हालको)",
+   "matched_on": "row"
+  },
+  "n": 41
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1102,
+   1560,
+   677,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_ward",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Ward No. (वडा नं.)",
+   "col": "Current (हालको)",
+   "matched_on": "row"
+  },
+  "n": 42
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1102,
+   1279,
+   677,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Current (हालको) Correspondence Details (पत्राचार विवरण)",
+   "row": "Country देश)",
+   "col": "Current (हालको)",
+   "matched_on": "row"
+  },
+  "n": 43
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1780,
+   1216,
+   605,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Local Contact ( स्थानीय सम्पर्क)",
+   "left": "Current (हालको)",
+   "right": "",
+   "above": "",
+   "row": "Address (ठेगाना)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 44
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1780,
+   1560,
+   604,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_ward",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Ward No. (वडा नं.)",
+   "col": "Local Contact ( स्थानीय सम्पर्क)",
+   "matched_on": "row"
+  },
+  "n": 45
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1780,
+   1342,
+   604,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_province",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Local Contact ( स्थानीय सम्पर्क)",
+   "row": "Province (प्रदेश)",
+   "col": "Local Contact ( स्थानीय सम्पर्क)",
+   "matched_on": "row"
+  },
+  "n": 46
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1780,
+   1623,
+   604,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_tole",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "TolelStreet टोल मार्ग)",
+   "col": "Local Contact ( स्थानीय सम्पर्क)",
+   "matched_on": "row"
+  },
+  "n": 47
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1780,
+   1404,
+   604,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_district",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "District (जिल्ला)",
+   "col": "Local Contact ( स्थानीय सम्पर्क)",
+   "matched_on": "row"
+  },
+  "n": 48
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1780,
+   1685,
+   604,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_house_no",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "House No. (घर नं.)",
+   "col": "Local Contact ( स्थानीय सम्पर्क)",
+   "matched_on": "row"
+  },
+  "n": 49
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1780,
+   1279,
+   604,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Local Contact ( स्थानीय सम्पर्क)",
+   "row": "Country देश)",
+   "col": "Local Contact ( स्थानीय सम्पर्क)",
+   "matched_on": "row"
+  },
+  "n": 50
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   1073,
+   541,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Social Media ID (सामाजिक सञ्जाल संकेत)",
+   "left": "",
+   "right": "",
+   "above": "Education (शिक्षा) Literate ( साक्षर)",
+   "row": "",
+   "col": "Date Of Birth (जन्म मिति)",
+   "matched_on": "above"
+  },
+  "n": 51
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   525,
+   420,
+   64
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Account Holder s Name ( खातावालाको नाम)",
+   "left": "",
+   "right": "",
+   "above": "ग्राहक संकेत) Customer ID",
+   "row": "",
+   "col": "Customer ID ग्राहक संकेत)",
+   "matched_on": "above"
+  },
+  "n": 52
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   446,
+   417,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ग्राहक संकेत) Customer ID",
+   "left": "",
+   "right": "",
+   "above": "(कृपया निम्न बमोजिम सूचनाको आधारमा मेरो / हाम्रो ग्राहक पहिचान र निष्क्रय खाता अद्यावधिक गरिदिनु हुन अनुरोध गर्दछु",
+   "row": "",
+   "col": "Machhapuchchhre Bank Limited माधापुच्ध्रे बैक लिमिटेड",
+   "matched_on": "above"
+  },
+  "n": 53
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   604,
+   417,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Account No. (खाता नं.)",
+   "left": "",
+   "right": "",
+   "above": "Account Holder s Name ( खातावालाको नाम)",
+   "row": "",
+   "col": "Account Holder s Name ( खातावालाको नाम)",
+   "matched_on": "col"
+  },
+  "n": 54
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   99,
+   1467,
+   281,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Municipality Rural Municipality (न.पा. गा.पा.)",
+   "left": "",
+   "right": "",
+   "above": "District (जिल्ला) Province (प्रदेश)",
+   "row": "",
+   "col": "District (जिल्ला)",
+   "matched_on": "above"
+  },
+  "n": 55
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1455,
+   1164,
+   920,
+   26
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Correspondence Details (पत्राचार विवरण)",
+   "right": "",
+   "above": "Facebook ( फेसबुक) Others ( अन्य)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 56
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1488,
+   1778,
+   887,
+   25
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Communication Details ( सम्पर्क विवरण)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 57
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   798,
+   382,
+   57
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date Of Birth (जन्म मिति)",
+   "left": "",
+   "right": "B.S. (वि.सं.)",
+   "above": "Reason for dormancy Is the account dormant or not",
+   "row": "",
+   "col": "Account No. (खाता नं.)",
+   "matched_on": "above"
+  },
+  "n": 58
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1167,
+   446,
+   337,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Account Holder ( खातावाला)",
+   "left": "",
+   "right": "Minor ( नाबालिग)",
+   "above": "IDENTITY DETAILS (पहिचान विवरण) (कृपया निम्न बमोजिम सूचनाको आधारमा मेरो / हाम्रो ग्राहक पहिचान र निष्क्रय खाता अद्यावधिक गरिदिनु हुन अनुरोध गर्दछु",
+   "row": "Customer ID ग्राहक संकेत)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 59
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1361,
+   392,
+   665,
+   32
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "IDENTITY DETAILS (पहिचान विवरण)",
+   "right": "Photo",
+   "above": "M Date ( मिति)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 60
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   112,
+   392,
+   654,
+   32
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "IDENTITY DETAILS (पहिचान विवरण)",
+   "above": "(कृपया निम्न बमोजिम सूचनाको आधारमा मेरो / हाम्रो ग्राहक पहिचान र निष्क्रय खाता अद्यावधिक गरिदिनु हुन अनुरोध गर्दछु Please update our KYC and Dormant account based on following information.",
+   "row": "",
+   "col": "Machhapuchchhre Bank Limited माधापुच्ध्रे बैक लिमिटेड",
+   "matched_on": "above"
+  },
+  "n": 61
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1150,
+   867,
+   331,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Marital Status वैवाहिक स्थिति)",
+   "left": "पुरुष) Female ( महिला) Others ( अन्य)",
+   "right": "Married (विवाहित)",
+   "above": "A.D. (ई.सं.)",
+   "row": "Gender (लिङ्ग",
+   "col": "Account Holder ( खातावाला)",
+   "matched_on": "row"
+  },
+  "n": 62
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   106,
+   1778,
+   807,
+   25
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_house_no",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Communication Details ( सम्पर्क विवरण)",
+   "above": "House No. (घर नं.)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 63
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   110,
+   1165,
+   774,
+   26
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Correspondence Details (पत्राचार विवरण)",
+   "above": "Social Media ID (सामाजिक सञ्जाल संकेत)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 64
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   937,
+   331,
+   57
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Nationality (राष्ट्रियता)",
+   "left": "",
+   "right": "",
+   "above": "Gender (लिङ्ग Date Of Birth (जन्म मिति)",
+   "row": "",
+   "col": "Gender (लिङ्ग",
+   "matched_on": "above"
+  },
+  "n": 65
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1865,
+   1074,
+   331,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Viber (भाईबर) Facebook ( फेसबुक)",
+   "right": "Others ( अन्य)",
+   "above": "",
+   "row": "Social Media ID (सामाजिक सञ्जाल संकेत)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 66
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   672,
+   1072,
+   331,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Social Media ID (सामाजिक सञ्जाल संकेत)",
+   "right": "Viber (भाईबर)",
+   "above": "Illiterate निरक्षर)",
+   "row": "Social Media ID (सामाजिक सञ्जाल संकेत)",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 67
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1229,
+   1073,
+   331,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Social Media ID (सामाजिक सञ्जाल संकेत) Viber (भाईबर)",
+   "right": "Facebook ( फेसबुक)",
+   "above": "Resident ( बासिन्दा)",
+   "row": "Social Media ID (सामाजिक सञ्जाल संकेत)",
+   "col": "Resident ( बासिन्दा)",
+   "matched_on": "col"
+  },
+  "n": 68
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   95,
+   1828,
+   314,
+   56
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "email",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Contact No. ( सम्पर्क नं.) Email ID (ईमेल परिचय)",
+   "matched_on": "col"
+  },
+  "n": 69
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   97,
+   1216,
+   283,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Address (ठेगाना)",
+   "left": "",
+   "right": "Permanent ( स्थायी)",
+   "above": "",
+   "row": "",
+   "col": "Education (शिक्षा)",
+   "matched_on": "col"
+  },
+  "n": 70
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   99,
+   1685,
+   281,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "House No. (घर नं.)",
+   "left": "",
+   "right": "",
+   "above": "TolelStreet टोल मार्ग)",
+   "row": "",
+   "col": "TolelStreet टोल मार्ग)",
+   "matched_on": "above"
+  },
+  "n": 71
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   99,
+   1404,
+   281,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "District (जिल्ला)",
+   "left": "",
+   "right": "",
+   "above": "Province (प्रदेश) Country देश)",
+   "row": "",
+   "col": "Province (प्रदेश)",
+   "matched_on": "above"
+  },
+  "n": 72
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   99,
+   1279,
+   281,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Country देश)",
+   "left": "",
+   "right": "",
+   "above": "Address (ठेगाना)",
+   "row": "",
+   "col": "Address (ठेगाना)",
+   "matched_on": "col"
+  },
+  "n": 73
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   99,
+   1560,
+   281,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Ward No. (वडा नं.)",
+   "left": "",
+   "right": "",
+   "above": "Municipality (न.पा. गा.पा.)",
+   "row": "",
+   "col": "Municipality Rural Municipality (न.पा. गा.पा.)",
+   "matched_on": "above"
+  },
+  "n": 74
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   99,
+   1623,
+   281,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "TolelStreet टोल मार्ग)",
+   "left": "",
+   "right": "",
+   "above": "Ward No. (वडा नं.) Municipality (न.पा.",
+   "row": "",
+   "col": "Ward No. (वडा नं.)",
+   "matched_on": "above"
+  },
+  "n": 75
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   99,
+   1342,
+   281,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Province (प्रदेश)",
+   "left": "",
+   "right": "",
+   "above": "Country देश) Address (ठेगाना)",
+   "row": "",
+   "col": "Country देश)",
+   "matched_on": "above"
+  },
+  "n": 76
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   95,
+   1884,
+   314,
+   55
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Contact No. ( सम्पर्क नं.)",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Contact No. ( सम्पर्क नं.) Email ID (ईमेल परिचय)",
+   "matched_on": "col"
+  },
+  "n": 77
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   95,
+   1940,
+   313,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Email ID (ईमेल परिचय)",
+   "left": "",
+   "right": "",
+   "above": "Contact No. ( सम्पर्क नं.)",
+   "row": "",
+   "col": "Contact No. ( सम्पर्क नं.)",
+   "matched_on": "above"
+  },
+  "n": 78
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1215,
+   937,
+   302,
+   56
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Resident ( बासिन्दा)",
+   "left": "",
+   "right": "",
+   "above": "Marital Status वैवाहिक स्थिति) A.D. (ई.सं.)",
+   "row": "Nationality (राष्ट्रियता)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 79
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   1008,
+   301,
+   50
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Education (शिक्षा)",
+   "left": "",
+   "right": "Literate ( साक्षर)",
+   "above": "Nationality (राष्ट्रियता) Gender (लिङ्ग",
+   "row": "",
+   "col": "Nationality (राष्ट्रियता)",
+   "matched_on": "above"
+  },
+  "n": 80
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   871,
+   235,
+   52
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Gender (लिङ्ग",
+   "left": "",
+   "right": "Male",
+   "above": "Date Of Birth (जन्म मिति) Reason for dormancy",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 81
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   632,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Account No. (खाता नं.)",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 82
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1570,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 83
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1101,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Account No. (खाता नं.)",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 84
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1688,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 85
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   750,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Account No. (खाता नं.)",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 86
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1922,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 87
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1805,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 88
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1336,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 89
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   984,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Account No. (खाता नं.)",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 90
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1219,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 91
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1453,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 92
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   515,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Account No. (खाता नं.)",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 93
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   867,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Account No. (खाता नं.)",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 94
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2156,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 95
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2274,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 96
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2039,
+   604,
+   117,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Account No. (खाता नं.)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 97
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   711,
+   417,
+   67
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Reason for dormancy",
+   "left": "",
+   "right": "निष्कृय",
+   "above": "Account No. (खाता नं.)",
+   "row": "",
+   "col": "Account No. (खाता नं.)",
+   "matched_on": "above"
+  },
+  "n": 98
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   1764,
+   2295,
+   52
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Communication Details ( सम्पर्क विवरण)",
+   "left": "",
+   "right": "",
+   "above": "House No. (घर नं.) TolelStreet टोल",
+   "row": "",
+   "col": "Address (ठेगाना) Permanent ( स्थायी) Current (हालको) Local Contact ( स्थानीय सम्पर्क)",
+   "matched_on": "above"
+  },
+  "n": 99
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   95,
+   1826,
+   314,
+   167
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Contact No. ( सम्पर्क नं.) Email ID (ईमेल परिचय)",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "House No. (घर नं.)",
+   "matched_on": "col"
+  },
+  "n": 100
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   97,
+   1216,
+   282,
+   531
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_house_no",
+  "group_id": "mailing",
+  "label_cell": false,
+  "context": {
+   "inside": "Address (ठेगाना) Country देश) Province (प्रदेश) District (जिल्ला) Municipality Rural Municipality (न.पा. गा.पा.) Ward No. (वडा नं.) TolelStreet टोल मार्ग) House No. (घर नं.)",
+   "left": "",
+   "right": "Permanent ( स्थायी)",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 101
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   97,
+   1216,
+   2286,
+   62
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Address (ठेगाना) Local Contact ( स्थानीय सम्पर्क) Permanent ( स्थायी) Current (हालको)",
+   "left": "",
+   "right": "",
+   "above": "Correspondence Details (पत्राचार विवरण)",
+   "row": "",
+   "col": "IDENTITY DETAILS (पहिचान विवरण)",
+   "matched_on": "col"
+  },
+  "n": 102
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   96,
+   51,
+   497,
+   112
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Machhapuchchhre Bank Limited माधापुच्ध्रे बैक लिमिटेड",
+   "left": "",
+   "right": "सबल, उत्कृष्ट एवं विस्तारित",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 103
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   378,
+   1940,
+   58
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "IDENTITY DETAILS (पहिचान विवरण)",
+   "left": "",
+   "right": "Photo",
+   "above": "(कृपया निम्न बमोजिम सूचनाको आधारमा मेरो / हाम्रो ग्राहक पहिचान र निष्क्रय खाता अद्यावधिक गरिदिनु हुन अनुरोध गर्दछु M",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 104
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   103,
+   1152,
+   1443,
+   60
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Correspondence Details (पत्राचार विवरण)",
+   "left": "",
+   "right": "",
+   "above": "Viber (भाईबर) Social Media ID (सामाजिक सञ्जाल संकेत)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 105
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   2031,
+   1138,
+   56
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Location map of Accountholders Residence (खातावालाको ठेगानाको नक्सा)",
+   "left": "",
+   "right": "",
+   "above": "Email ID (ईमेल परिचय)",
+   "row": "",
+   "col": "Correspondence Details (पत्राचार विवरण)",
+   "matched_on": "above"
+  },
+  "n": 106
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1530,
+   294,
+   506,
+   57
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "M",
+    "bbox": [
+     1530,
+     294,
+     59,
+     57
+    ]
+   },
+   {
+    "label": "M",
+    "bbox": [
+     1589,
+     294,
+     59,
+     57
+    ]
+   },
+   {
+    "label": "M",
+    "bbox": [
+     1665,
+     294,
+     59,
+     57
+    ]
+   },
+   {
+    "label": "Y  Y",
+    "bbox": [
+     1724,
+     294,
+     59,
+     57
+    ]
+   },
+   {
+    "label": "Y  Y",
+    "bbox": [
+     1799,
+     294,
+     59,
+     57
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1859,
+     294,
+     59,
+     57
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1918,
+     294,
+     59,
+     57
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1977,
+     294,
+     59,
+     57
+    ]
+   }
+  ],
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "(कृपया निम्न बमोजिम सूचनाको आधारमा मेरो / हाम्रो ग्राहक पहिचान र निष्क्रय खाता अद्यावधिक गरिदिनु हुन अनुरोध गर्दछु Date ( मिति)",
+   "options": [
+    "M",
+    "M",
+    "M",
+    "Y  Y",
+    "Y  Y",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 107
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   788,
+   392,
+   198,
+   33
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     788,
+     392,
+     27,
+     33
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     959,
+     392,
+     27,
+     33
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    ""
+   ]
+  },
+  "n": 108
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   515,
+   446,
+   1535,
+   65
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     515,
+     446,
+     71,
+     65
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     586,
+     446,
+     69,
+     65
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     656,
+     446,
+     69,
+     65
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     726,
+     446,
+     69,
+     65
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     796,
+     446,
+     69,
+     65
+    ]
+   },
+   {
+    "label": "Account Holder ( खातावाला)",
+    "bbox": [
+     866,
+     446,
+     69,
+     65
+    ]
+   },
+   {
+    "label": "Account Holder ( खातावाला)",
+    "bbox": [
+     936,
+     446,
+     69,
+     65
+    ]
+   },
+   {
+    "label": "Account Holder ( खातावाला)",
+    "bbox": [
+     1006,
+     446,
+     69,
+     65
+    ]
+   },
+   {
+    "label": "Account Holder ( खातावाला)",
+    "bbox": [
+     1076,
+     446,
+     69,
+     65
+    ]
+   },
+   {
+    "label": "Minor ( नाबालिग)",
+    "bbox": [
+     1540,
+     453,
+     53,
+     52
+    ]
+   },
+   {
+    "label": "Major (बालिग)",
+    "bbox": [
+     1816,
+     453,
+     53,
+     52
+    ]
+   }
+  ],
+  "suggested_field": "customer_id",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Customer ID ग्राहक संकेत)",
+   "options": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Account Holder ( खातावाला)",
+    "Account Holder ( खातावाला)",
+    "Account Holder ( खातावाला)",
+    "Account Holder ( खातावाला)",
+    "Minor ( नाबालिग)",
+    "Major (बालिग)"
+   ]
+  },
+  "n": 109
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1223,
+   684,
+   498,
+   47
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1223,
+     684,
+     54,
+     47
+    ]
+   },
+   {
+    "label": "No (होइन)",
+    "bbox": [
+     1524,
+     684,
+     54,
+     47
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "(खाता निष्कृय भएको हाो / होइन ।)",
+   "options": [
+    "Yes",
+    "No (होइन)"
+   ]
+  },
+  "n": 110
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   693,
+   798,
+   1413,
+   58
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "M",
+    "bbox": [
+     693,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "M",
+    "bbox": [
+     763,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "M",
+    "bbox": [
+     854,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     924,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "A.D. (ई.सं.)",
+    "bbox": [
+     1014,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "A.D. (ई.सं.)",
+    "bbox": [
+     1085,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "A.D. (ई.सं.)",
+    "bbox": [
+     1155,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "A.D. (ई.सं.)",
+    "bbox": [
+     1225,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "M",
+    "bbox": [
+     1503,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "M",
+    "bbox": [
+     1574,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "M",
+    "bbox": [
+     1664,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1734,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1825,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1895,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1965,
+     798,
+     70,
+     58
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     2036,
+     798,
+     70,
+     58
+    ]
+   }
+  ],
+  "suggested_field": "dob_bs",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Date Of Birth (जन्म मिति) B.S. (वि.सं.)",
+   "options": [
+    "M",
+    "M",
+    "M",
+    "",
+    "A.D. (ई.सं.)",
+    "A.D. (ई.सं.)",
+    "A.D. (ई.सं.)",
+    "A.D. (ई.सं.)",
+    "M",
+    "M",
+    "M",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 111
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   348,
+   871,
+   1770,
+   52
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Male",
+    "bbox": [
+     348,
+     871,
+     53,
+     52
+    ]
+   },
+   {
+    "label": "Female ( महिला)",
+    "bbox": [
+     561,
+     871,
+     53,
+     52
+    ]
+   },
+   {
+    "label": "Others ( अन्य)",
+    "bbox": [
+     817,
+     871,
+     53,
+     52
+    ]
+   },
+   {
+    "label": "Married (विवाहित)",
+    "bbox": [
+     1467,
+     871,
+     53,
+     52
+    ]
+   },
+   {
+    "label": "Unmarried ( अविवाहित",
+    "bbox": [
+     1742,
+     871,
+     53,
+     52
+    ]
+   },
+   {
+    "label": "Others ( अन्य)",
+    "bbox": [
+     2065,
+     871,
+     53,
+     52
+    ]
+   }
+  ],
+  "suggested_field": "gender",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Gender (लिङ्ग",
+   "options": [
+    "Male",
+    "Female ( महिला)",
+    "Others ( अन्य)",
+    "Married (विवाहित)",
+    "Unmarried ( अविवाहित",
+    "Others ( अन्य)"
+   ]
+  },
+  "n": 112
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   431,
+   1008,
+   676,
+   50
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Literate ( साक्षर)",
+    "bbox": [
+     431,
+     1008,
+     56,
+     50
+    ]
+   },
+   {
+    "label": "Illiterate निरक्षर)",
+    "bbox": [
+     791,
+     1008,
+     56,
+     50
+    ]
+   }
+  ],
+  "suggested_field": "education",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Education (शिक्षा)",
+   "options": [
+    "Literate ( साक्षर)",
+    "Illiterate निरक्षर)"
+   ]
+  },
+  "n": 113
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1141,
+   1163,
+   41,
+   27
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1141,
+     1163,
+     23,
+     27
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1164,
+     1165,
+     18,
+     25
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    ""
+   ]
+  },
+  "n": 114
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1159,
+   1781,
+   23,
+   28
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1159,
+     1781,
+     23,
+     28
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 115
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1059,
+   1788,
+   92,
+   21
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1059,
+     1788,
+     16,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1074,
+     1788,
+     17,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1113,
+     1788,
+     19,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1133,
+     1788,
+     18,
+     21
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 116
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   292,
+   2049,
+   496,
+   21
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     292,
+     2049,
+     17,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     339,
+     2049,
+     20,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     402,
+     2049,
+     16,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     417,
+     2049,
+     16,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     433,
+     2049,
+     20,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     652,
+     2049,
+     18,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     715,
+     2049,
+     19,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     754,
+     2049,
+     16,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     770,
+     2049,
+     18,
+     21
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 117
+ }
+]

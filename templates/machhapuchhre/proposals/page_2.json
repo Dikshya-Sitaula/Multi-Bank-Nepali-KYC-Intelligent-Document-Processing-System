@@ -1,0 +1,6004 @@
+[
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1178,
+   76,
+   85,
+   35
+  ],
+  "source": "raster",
+  "cell_count": 3,
+  "cells": [
+   [
+    1178,
+    76,
+    27,
+    35
+   ],
+   [
+    1206,
+    78,
+    21,
+    33
+   ],
+   [
+    1242,
+    84,
+    21,
+    27
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 0
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1053,
+   84,
+   91,
+   27
+  ],
+  "source": "raster",
+  "cell_count": 3,
+  "cells": [
+   [
+    1053,
+    84,
+    19,
+    27
+   ],
+   [
+    1072,
+    84,
+    20,
+    27
+   ],
+   [
+    1120,
+    84,
+    24,
+    27
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 1
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   994,
+   1614,
+   110,
+   32
+  ],
+  "source": "raster",
+  "cell_count": 4,
+  "cells": [
+   [
+    994,
+    1614,
+    22,
+    32
+   ],
+   [
+    1016,
+    1614,
+    21,
+    25
+   ],
+   [
+    1063,
+    1614,
+    19,
+    25
+   ],
+   [
+    1082,
+    1614,
+    22,
+    25
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 2
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1111,
+   2530,
+   110,
+   27
+  ],
+  "source": "raster",
+  "cell_count": 3,
+  "cells": [
+   [
+    1111,
+    2530,
+    18,
+    20
+   ],
+   [
+    1153,
+    2530,
+    18,
+    27
+   ],
+   [
+    1202,
+    2530,
+    19,
+    21
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "भन्दा कम)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   931,
+   74,
+   24,
+   37
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 4
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1287,
+   76,
+   18,
+   35
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 5
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   895,
+   721,
+   18,
+   30
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   655,
+   722,
+   19,
+   29
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   776,
+   722,
+   18,
+   28
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 8
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1222,
+   729,
+   19,
+   29
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 9
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   902,
+   2522,
+   17,
+   28
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 10
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   768,
+   2682,
+   816,
+   534
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "<रु. १० लाखसम्म (Less than NPR Million) 5 Million) १०-५०  लाखसम्म (Between NPR 1 ५० लाख १ करोडसम्म (Between NPR 5 - १० Million) १-५ करोडसम्म (Between NPR १० - ५० Million) ५-१० करोडसम्म (Between NPR ५०  १०० Million) रु.१०-२० करोडसम्म (Between NPR १०० - २०० Million) २० करोडभन्दा माथि (Above NPR २०० Million)",
+   "left": "१५-२५ लाखसम्म (NPR १.५ - २.५ Million) १००-५००  लाखसम्म (NPR १० ~ ५० Million) ५०० लाखभन्दा माथि (Above NPR ५O Million)",
+   "right": "रु.१०-१५",
+   "above": "सम्पत्ती) Net Worth",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 11
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   1585,
+   2682,
+   795,
+   534
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "annual_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "५-१० लाखसम्म (Between NPRO.५ - 1 Million) लाखसम्म (Between NPR 1 १.५ Million) रु.१०-१५ = रु.१५ - २५ लाखसम्म (Between NPR १.५ - २.५ Million) रु.२५-५० लाखसम्म (Between NPR २.५ - 5 Million) रु.५०-१ करोड (Between NPR 5 - १० Million) करोडभन्दा माथि (Above NPR १० Million) >रु. ८",
+   "left": "१०० Million) रु.१०-२० करोडसम्म (Between NPR १०० - २०० Million) NPR 5 - १० Million)",
+   "right": "",
+   "above": "(वार्षिक आम्दानी) Annual Income",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 12
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   92,
+   2682,
+   676,
+   534
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "< रु. ५ लाखसम्म (Below NPR O.5 Million) ५-१0  लाखसम्म (NPRO.S - 1 Million) १०-१५ लाखसम्म (NPR 1 १.५ Million) १५-२५ लाखसम्म (NPR १.५ - २.५ Million) २५-५० लाखसम्म (NPR २.५ - 5 Million) ५०-१००  लाखसम्म (NPR 5 - १० Million) १००-५००  लाखसम्म (NPR १० ~ ५० Million) ५०० लाखभन्दा माथि (Above NPR ५O Million)",
+   "left": "",
+   "right": "रु.१०-२० करोडसम्म (Between NPR १०० - २०० Million)",
+   "above": "(बार्षिक अनुमानित कारोबार) Transaction Details",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 13
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   813,
+   2155,
+   1572,
+   73
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Employer Association Name ( रोजगार दाताको नाम)",
+   "right": "",
+   "above": "Self Employed ( स्वरोजगार )",
+   "row": "Employer Association Name ( रोजगार दाताको नाम)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 14
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   703,
+   2077,
+   1683,
+   57
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Student ( विद्यार्थी) Others",
+   "right": "",
+   "above": "Self Employed ( स्वरोजगार ) House Wife (गृहिणी)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 15
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1065,
+   2246,
+   1318,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "annual_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Estimated Annual Income in NPR : (अनुमानित वार्षिक आय रु. )",
+   "right": "",
+   "above": "",
+   "row": "Estimated Annual Income in NPR : (अनुमानित वार्षिक आय रु. )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 16
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1065,
+   2336,
+   1318,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "annual_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Estimated annual turnover in the account ( खातामा वार्षिक अनुमानित कारोवार)",
+   "right": "",
+   "above": "",
+   "row": "Estimated annual turnover in the account ( खातामा वार्षिक अनुमानित कारोवार)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 17
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   768,
+   2573,
+   816,
+   108
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Net Worth सम्पत्ती)",
+   "left": "Transaction Details (बार्षिक अनुमानित कारोबार)",
+   "right": "Annual Income",
+   "above": "Expected Transaction volume in the account per annum. Please tick (v in appropriate box) (खातामा हुने बार्षिक",
+   "row": "Transaction Details Net Worth Annual Income (बार्षिक अनुमानित कारोबार) सम्पत्ती) (वार्षिक आम्दानी)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 18
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   97,
+   3365,
+   1419,
+   91
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Page 2 of 3",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 19
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1585,
+   2573,
+   795,
+   108
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Annual Income (वार्षिक आम्दानी)",
+   "left": "सम्पत्ती) Net Worth",
+   "right": "",
+   "above": "अनुमानित कारोबार रकम (कृपया",
+   "row": "Transaction Details Net Worth Annual Income (बार्षिक अनुमानित कारोबार) सम्पत्ती) (वार्षिक आम्दानी)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 20
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   772,
+   748,
+   108
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Full Name पूरा नाम)",
+   "left": "Relation ( सम्बन्ध)",
+   "right": "(परिचयको किसिम)",
+   "above": "Related Parties (Strike out where not applicable [(सम्बन्धित व्यक्ति (लागु नहुने भएमा काट्ने ]",
+   "row": "ID Type Have Account at (MBLJ ? Customer No. Relation ( सम्बन्ध) Full Name पूरा नाम) ID No. (परिचय नं.) (परिचयको किसिम) माछापुच्ने बैकमा खाता छ वा छैन ? ग्राहक नं.",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 21
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   1460,
+   748,
+   104
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "right": "",
+   "above": "",
+   "row": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "col": "Full Name पूरा नाम)",
+   "matched_on": "left"
+  },
+  "n": 22
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   2573,
+   676,
+   108
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Transaction Details (बार्षिक अनुमानित कारोबार)",
+   "left": "",
+   "right": "",
+   "above": "Expected Transaction volume in the account per annum. Please tick (v in appropriate box) (खातामा हुने बार्षिक",
+   "row": "Transaction Details Net Worth Annual Income (बार्षिक अनुमानित कारोबार) सम्पत्ती) (वार्षिक आम्दानी)",
+   "col": "Number of Monthly transaction (मासिक कारोबार सख्या)",
+   "matched_on": "row"
+  },
+  "n": 23
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   2245,
+   972,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": ": (अनुमानित वार्षिक आय रु. ) Estimated Annual Income in NPR",
+   "left": "",
+   "right": "",
+   "above": "Employer Association Name ( रोजगार दाताको नाम)",
+   "row": "",
+   "col": "Employer Association Name ( रोजगार दाताको नाम)",
+   "matched_on": "above"
+  },
+  "n": 24
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   2335,
+   972,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "अनुमानित कारोवार) Estimated annual turnover in the account ( खातामा वार्षिक",
+   "left": "",
+   "right": "",
+   "above": ": (अनुमानित वार्षिक आय रु. ) Estimated Annual Income in NPR",
+   "row": "",
+   "col": "Estimated Annual Income in NPR : (अनुमानित वार्षिक आय रु. )",
+   "matched_on": "above"
+  },
+  "n": 25
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   1315,
+   748,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Father-In -Law ( ससुरा)",
+   "right": "",
+   "above": "",
+   "row": "Father-In -Law ( ससुरा)",
+   "col": "Full Name पूरा नाम)",
+   "matched_on": "left"
+  },
+  "n": 26
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   881,
+   748,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Spouse ( पति / पत्नी)",
+   "right": "",
+   "above": "Full Name पूरा नाम)",
+   "row": "Spouse ( पति / पत्नी)",
+   "col": "Full Name पूरा नाम)",
+   "matched_on": "left"
+  },
+  "n": 27
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   1098,
+   748,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Grandfather (हजुरबुबा)",
+   "right": "",
+   "above": "",
+   "row": "Grandfather (हजुरबुबा)",
+   "col": "Full Name पूरा नाम)",
+   "matched_on": "left"
+  },
+  "n": 28
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   1243,
+   748,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Daughter (छोरी)",
+   "right": "",
+   "above": "",
+   "row": "Daughter (छोरी)",
+   "col": "Full Name पूरा नाम)",
+   "matched_on": "left"
+  },
+  "n": 29
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   1388,
+   748,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Legal Custodian ( कानूनी संरक्षक) ",
+   "right": "",
+   "above": "",
+   "row": "Legal Custodian ( कानूनी संरक्षक) ",
+   "col": "Full Name पूरा नाम)",
+   "matched_on": "col"
+  },
+  "n": 30
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   954,
+   748,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "mother",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Mother (आमा)",
+   "right": "",
+   "above": "",
+   "row": "Mother (आमा)",
+   "col": "Full Name पूरा नाम)",
+   "matched_on": "left"
+  },
+  "n": 31
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   1026,
+   748,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Father (बुबा)",
+   "right": "",
+   "above": "",
+   "row": "Father (बुबा)",
+   "col": "Full Name पूरा नाम)",
+   "matched_on": "left"
+  },
+  "n": 32
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   1171,
+   748,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Son (छोरा)",
+   "right": "",
+   "above": "",
+   "row": "Son (छोरा)",
+   "col": "Full Name पूरा नाम)",
+   "matched_on": "left"
+  },
+  "n": 33
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   96,
+   2155,
+   716,
+   73
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Employer Association Name ( रोजगार दाताको नाम)",
+   "left": "",
+   "right": "",
+   "above": "Student ( विद्यार्थी) Others",
+   "row": "",
+   "col": "Nature of Occupation (व्यवसायको प्रकृ",
+   "matched_on": "col"
+  },
+  "n": 34
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1439,
+   1740,
+   947,
+   53
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Investment (लगानी) Others ( अन्य)",
+   "right": "",
+   "above": "Remittance ( बिप्रेषण) Loan Transaction ( कर्जा कारोबार)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 35
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   91,
+   2426,
+   729,
+   57
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Number of Monthly transaction (मासिक कारोबार सख्या)",
+   "left": "",
+   "right": "<१५ (१५",
+   "above": "Estimated annual turnover in the account ( खातामा वार्षिक",
+   "row": "",
+   "col": "Employer Association Name ( रोजगार दाताको नाम)",
+   "matched_on": "above"
+  },
+  "n": 36
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   772,
+   374,
+   108
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Relation ( सम्बन्ध)",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "ID Type Have Account at (MBLJ ? Customer No. Relation ( सम्बन्ध) Full Name पूरा नाम) ID No. (परिचय नं.) (परिचयको किसिम) माछापुच्ने बैकमा खाता छ वा छैन ? ग्राहक नं.",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 37
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   1460,
+   373,
+   104
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "left": "",
+   "right": "",
+   "above": "Legal Custodian ( कानूनी संरक्षक) ",
+   "row": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "col": "Legal Custodian ( कानूनी संरक्षक) ",
+   "matched_on": "row"
+  },
+  "n": 38
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   772,
+   334,
+   108
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Customer No. ग्राहक नं.",
+   "left": "ID No. (परिचय नं.) Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "right": "",
+   "above": "",
+   "row": "ID Type Have Account at (MBLJ ? Customer No. Relation ( सम्बन्ध) Full Name पूरा नाम) ID No. (परिचय नं.) (परिचयको किसिम) माछापुच्ने बैकमा खाता छ वा छैन ? ग्राहक नं.",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 39
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   478,
+   520,
+   69
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "PAN ( स्थायी लेखा नं.)",
+   "left": "",
+   "right": "",
+   "above": "Driving License सवारी चालक अनुमतिपत्र Passport ( राहदानी)",
+   "row": "",
+   "col": "Driving License सवारी चालक अनुमतिपत्र",
+   "matched_on": "col"
+  },
+  "n": 40
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   94,
+   1684,
+   727,
+   50
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Purpose of Account Opening (खाता खोल्नुको उद्देश्य)",
+   "left": "",
+   "right": "Saving (बचत)",
+   "above": "",
+   "row": "",
+   "col": "Other अन्य)",
+   "matched_on": "col"
+  },
+  "n": 41
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   201,
+   520,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "left": "",
+   "right": "",
+   "above": "Legal ID (कानूनी परिचय)",
+   "row": "",
+   "col": "Legal ID (कानूनी परिचय)",
+   "matched_on": "col"
+  },
+  "n": 42
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   271,
+   520,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Citizenship (नागरिकता)",
+   "left": "",
+   "right": "",
+   "above": "National Identity card (राष्ट्रिय परिचय पत्र) Legal ID (कानूनी परिचय)",
+   "row": "",
+   "col": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "matched_on": "above"
+  },
+  "n": 43
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   617,
+   520,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Other अन्य)",
+   "left": "",
+   "right": "",
+   "above": "Birth Certificate जन्मदर्ता प्रमाणपत्र) PAN ( स्थायी लेखा नं.)",
+   "row": "",
+   "col": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "matched_on": "above"
+  },
+  "n": 44
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   340,
+   520,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Passport ( राहदानी)",
+   "left": "",
+   "right": "",
+   "above": "Citizenship (नागरिकता) National Identity card (राष्ट्रिय परिचय पत्र)",
+   "row": "",
+   "col": "Citizenship (नागरिकता)",
+   "matched_on": "above"
+  },
+  "n": 45
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   409,
+   520,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Driving License सवारी चालक अनुमतिपत्र",
+   "left": "",
+   "right": "",
+   "above": "Passport ( राहदानी) Citizenship (नागरिकता)",
+   "row": "",
+   "col": "Passport ( राहदानी)",
+   "matched_on": "col"
+  },
+  "n": 46
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   548,
+   520,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "left": "",
+   "right": "",
+   "above": "PAN ( स्थायी लेखा नं.) Driving License सवारी चालक अनुमतिपत्र",
+   "row": "",
+   "col": "PAN ( स्थायी लेखा नं.)",
+   "matched_on": "above"
+  },
+  "n": 47
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   1460,
+   335,
+   104
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "col": "Customer No. ग्राहक नं.",
+   "matched_on": "row"
+  },
+  "n": 48
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1570,
+   1601,
+   806,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 49
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   135,
+   519,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Legal ID (कानूनी परिचय)",
+   "left": "",
+   "right": "Number Type ( नं. / किसिम)",
+   "above": "",
+   "row": "Legal ID (कानूनी परिचय) Number Type ( नं. / किसिम) Issuing District ( जारी जिल्ला) Date of Issue ( जारी मिति) Expiry Date (समाप्ति मिति। Primary प्राथमिक)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 50
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   772,
+   300,
+   108
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ID No. (परिचय नं.)",
+   "left": "पूरा नाम) ID Type (परिचयको किसिम)",
+   "right": "माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "above": "Related Parties (Strike out where not applicable [(सम्बन्धित व्यक्ति (लागु नहुने भएमा काट्ने ]",
+   "row": "ID Type Have Account at (MBLJ ? Customer No. Relation ( सम्बन्ध) Full Name पूरा नाम) ID No. (परिचय नं.) (परिचयको किसिम) माछापुच्ने बैकमा खाता छ वा छैन ? ग्राहक नं.",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 51
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1279,
+   2427,
+   561,
+   57
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "१५-३० (१५ देखि ३० सम्म)",
+   "left": "सख्या) <१५ (१५ भन्दा कम)",
+   "right": ">30 (३0",
+   "above": "",
+   "row": "Number of Monthly transaction (मासिक कारोबार सख्या)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 52
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   95,
+   1945,
+   578,
+   56
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Nature of Occupation (व्यवसायको प्रकृ",
+   "left": "",
+   "right": "Private Sector (निजी क्षेत्र",
+   "above": "Source of Fund कोषको श्रोत",
+   "row": "",
+   "col": "Source of Fund कोषको श्रोत",
+   "matched_on": "above"
+  },
+  "n": 53
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1527,
+   74,
+   853,
+   37
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 54
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   1460,
+   300,
+   104
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "col": "ID No. (परिचय नं.)",
+   "matched_on": "row"
+  },
+  "n": 55
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   106,
+   1601,
+   721,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Due Dilligence Details ( ग्राहक विस्तृत विवरण)",
+   "above": "(सम्बन्धीत गै़र व्यक्तिगत खाता) Related non personal",
+   "row": "",
+   "col": "Other अन्य)",
+   "matched_on": "above"
+  },
+  "n": 56
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1841,
+   2427,
+   542,
+   57
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "भन्दा माथिः >30 (३0",
+   "left": "भन्दा कम) १५-३० (१५ देखि ३० सम्म)",
+   "right": "",
+   "above": "",
+   "row": "Number of Monthly transaction (मासिक कारोबार सख्या)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 57
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   772,
+   286,
+   108
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "left": "ID Type (परिचयको किसिम) ID No. (परिचय नं.)",
+   "right": "Customer No.",
+   "above": "",
+   "row": "ID Type Have Account at (MBLJ ? Customer No. Relation ( सम्बन्ध) Full Name पूरा नाम) ID No. (परिचय नं.) (परिचयको किसिम) माछापुच्ने बैकमा खाता छ वा छैन ? ग्राहक नं.",
+   "col": "Expiry Date (समाप्ति मिति।",
+   "matched_on": "left"
+  },
+  "n": 58
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   1460,
+   286,
+   104
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "col": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "matched_on": "row"
+  },
+  "n": 59
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   112,
+   74,
+   800,
+   37
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Identification Details (परिचय विवरण)",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 60
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   622,
+   201,
+   399,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "national_id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "right": "",
+   "above": "Number Type ( नं. / किसिम)",
+   "row": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "col": "Number Type ( नं. / किसिम)",
+   "matched_on": "left"
+  },
+  "n": 61
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   622,
+   548,
+   399,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "right": "",
+   "above": "",
+   "row": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "col": "Number Type ( नं. / किसिम)",
+   "matched_on": "col"
+  },
+  "n": 62
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   622,
+   479,
+   399,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "PAN ( स्थायी लेखा नं.)",
+   "right": "",
+   "above": "",
+   "row": "PAN ( स्थायी लेखा नं.)",
+   "col": "Number Type ( नं. / किसिम)",
+   "matched_on": "left"
+  },
+  "n": 63
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   622,
+   409,
+   399,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Driving License सवारी चालक अनुमतिपत्र",
+   "right": "",
+   "above": "",
+   "row": "Driving License सवारी चालक अनुमतिपत्र",
+   "col": "Number Type ( नं. / किसिम)",
+   "matched_on": "col"
+  },
+  "n": 64
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   622,
+   271,
+   399,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Citizenship (नागरिकता)",
+   "right": "",
+   "above": "Number Type ( नं. / किसिम)",
+   "row": "Citizenship (नागरिकता)",
+   "col": "Number Type ( नं. / किसिम)",
+   "matched_on": "col"
+  },
+  "n": 65
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   622,
+   617,
+   399,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Other अन्य)",
+   "right": "",
+   "above": "",
+   "row": "Other अन्य)",
+   "col": "Number Type ( नं. / किसिम)",
+   "matched_on": "col"
+  },
+  "n": 66
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   622,
+   340,
+   399,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Passport ( राहदानी)",
+   "right": "",
+   "above": "",
+   "row": "Passport ( राहदानी)",
+   "col": "Number Type ( नं. / किसिम)",
+   "matched_on": "col"
+  },
+  "n": 67
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   1098,
+   373,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Grandfather (हजुरबुबा)",
+   "left": "",
+   "right": "",
+   "above": "Father (बुबा) Mother (आमा)",
+   "row": "Grandfather (हजुरबुबा)",
+   "col": "Father (बुबा)",
+   "matched_on": "row"
+  },
+  "n": 68
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   1315,
+   373,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Father-In -Law ( ससुरा)",
+   "left": "",
+   "right": "",
+   "above": "Daughter (छोरी) Son (छोरा)",
+   "row": "Father-In -Law ( ससुरा)",
+   "col": "Daughter (छोरी)",
+   "matched_on": "row"
+  },
+  "n": 69
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1022,
+   271,
+   391,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_issue_district",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Citizenship (नागरिकता)",
+   "right": "",
+   "above": "Issuing District ( जारी जिल्ला)",
+   "row": "Citizenship (नागरिकता)",
+   "col": "Issuing District ( जारी जिल्ला)",
+   "matched_on": "above"
+  },
+  "n": 70
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1022,
+   548,
+   391,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_issue_district",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "right": "",
+   "above": "",
+   "row": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "col": "Issuing District ( जारी जिल्ला)",
+   "matched_on": "col"
+  },
+  "n": 71
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1022,
+   409,
+   391,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_issue_district",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Driving License सवारी चालक अनुमतिपत्र",
+   "right": "",
+   "above": "",
+   "row": "Driving License सवारी चालक अनुमतिपत्र",
+   "col": "Issuing District ( जारी जिल्ला)",
+   "matched_on": "col"
+  },
+  "n": 72
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1022,
+   201,
+   391,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "national_id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "right": "",
+   "above": "Issuing District ( जारी जिल्ला) Identification Details (परिचय विवरण)",
+   "row": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "col": "Issuing District ( जारी जिल्ला)",
+   "matched_on": "left"
+  },
+  "n": 73
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1022,
+   479,
+   391,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "PAN ( स्थायी लेखा नं.)",
+   "right": "",
+   "above": "",
+   "row": "PAN ( स्थायी लेखा नं.)",
+   "col": "Issuing District ( जारी जिल्ला)",
+   "matched_on": "left"
+  },
+  "n": 74
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1022,
+   340,
+   391,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_issue_district",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Passport ( राहदानी)",
+   "right": "",
+   "above": "",
+   "row": "Passport ( राहदानी)",
+   "col": "Issuing District ( जारी जिल्ला)",
+   "matched_on": "col"
+  },
+  "n": 75
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1022,
+   617,
+   391,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_issue_district",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Other अन्य)",
+   "right": "",
+   "above": "",
+   "row": "Other अन्य)",
+   "col": "Issuing District ( जारी जिल्ला)",
+   "matched_on": "col"
+  },
+  "n": 76
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   1171,
+   373,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Son (छोरा)",
+   "left": "",
+   "right": "",
+   "above": "Grandfather (हजुरबुबा) Father (बुबा)",
+   "row": "Son (छोरा)",
+   "col": "Grandfather (हजुरबुबा)",
+   "matched_on": "row"
+  },
+  "n": 77
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   1026,
+   373,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Father (बुबा)",
+   "left": "",
+   "right": "",
+   "above": "Mother (आमा) Spouse ( पति / पत्नी)",
+   "row": "Father (बुबा)",
+   "col": "Mother (आमा)",
+   "matched_on": "row"
+  },
+  "n": 78
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   1243,
+   373,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Daughter (छोरी)",
+   "left": "",
+   "right": "",
+   "above": "Son (छोरा) Grandfather (हजुरबुबा)",
+   "row": "Daughter (छोरी)",
+   "col": "Son (छोरा)",
+   "matched_on": "row"
+  },
+  "n": 79
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   882,
+   373,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Spouse ( पति / पत्नी)",
+   "left": "",
+   "right": "",
+   "above": "Relation ( सम्बन्ध)",
+   "row": "Spouse ( पति / पत्नी)",
+   "col": "Spouse ( पति / पत्नी) Mother (आमा) Father (बुबा) Grandfather (हजुरबुबा) Son (छोरा) Daughter (छोरी) Father-In -Law ( ससुरा) Legal Custodian ( कानूनी Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता) संरक्षक) ",
+   "matched_on": "row"
+  },
+  "n": 80
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   954,
+   373,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Mother (आमा)",
+   "left": "",
+   "right": "",
+   "above": "Spouse ( पति / पत्नी)",
+   "row": "Mother (आमा)",
+   "col": "Spouse ( पति / पत्नी)",
+   "matched_on": "row"
+  },
+  "n": 81
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   1388,
+   373,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "संरक्षक)  Legal Custodian ( कानूनी",
+   "left": "",
+   "right": "",
+   "above": "Father-In -Law ( ससुरा) Daughter (छोरी)",
+   "row": "Legal Custodian ( कानूनी संरक्षक) ",
+   "col": "Father-In -Law ( ससुरा)",
+   "matched_on": "above"
+  },
+  "n": 82
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   821,
+   2427,
+   457,
+   57
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "<१५ (१५ भन्दा कम)",
+   "left": "Number of Monthly transaction (मासिक कारोबार सख्या)",
+   "right": "१५-३० (१५ देखि ३० सम्म)",
+   "above": "अनुमानित कारोवार)",
+   "row": "Number of Monthly transaction (मासिक कारोबार सख्या)",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 83
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   772,
+   241,
+   108
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ID Type (परिचयको किसिम)",
+   "left": "Full Name पूरा नाम)",
+   "right": "ID No. (परिचय नं.)",
+   "above": "Related Parties (Strike out where not applicable [(सम्बन्धित व्यक्ति (लागु नहुने भएमा काट्ने ]",
+   "row": "ID Type Have Account at (MBLJ ? Customer No. Relation ( सम्बन्ध) Full Name पूरा नाम) ID No. (परिचय नं.) (परिचयको किसिम) माछापुच्ने बैकमा खाता छ वा छैन ? ग्राहक नं.",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 84
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   622,
+   135,
+   399,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Number Type ( नं. / किसिम)",
+   "left": "Legal ID (कानूनी परिचय)",
+   "right": "Issuing District ( जारी जिल्ला)",
+   "above": "",
+   "row": "Legal ID (कानूनी परिचय) Number Type ( नं. / किसिम) Issuing District ( जारी जिल्ला) Date of Issue ( जारी मिति) Expiry Date (समाप्ति मिति। Primary प्राथमिक)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 85
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1022,
+   135,
+   391,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Issuing District ( जारी जिल्ला)",
+   "left": "Legal ID (कानूनी परिचय) Number Type ( नं. / किसिम)",
+   "right": "Date of Issue ( जारी मिति)",
+   "above": "Identification Details (परिचय विवरण)",
+   "row": "Legal ID (कानूनी परिचय) Number Type ( नं. / किसिम) Issuing District ( जारी जिल्ला) Date of Issue ( जारी मिति) Expiry Date (समाप्ति मिति। Primary प्राथमिक)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 86
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   1460,
+   241,
+   104
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "col": "ID Type (परिचयको किसिम)",
+   "matched_on": "row"
+  },
+  "n": 87
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1887,
+   1874,
+   498,
+   51
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Disposal of Assets ( सम्पत्ति बिक्री / समाप्ति) Others ( अन्य",
+   "right": "",
+   "above": "Investment Income ( लगानी आय)",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 88
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   271,
+   365,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Expiry Date (समाप्ति मिति।",
+   "row": "Citizenship (नागरिकता)",
+   "col": "Expiry Date (समाप्ति मिति।",
+   "matched_on": "above"
+  },
+  "n": 89
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   617,
+   365,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Other अन्य)",
+   "col": "Expiry Date (समाप्ति मिति।",
+   "matched_on": "col"
+  },
+  "n": 90
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   201,
+   365,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "national_id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Expiry Date (समाप्ति मिति।",
+   "row": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "col": "Expiry Date (समाप्ति मिति।",
+   "matched_on": "row"
+  },
+  "n": 91
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   340,
+   365,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Passport ( राहदानी)",
+   "col": "Expiry Date (समाप्ति मिति।",
+   "matched_on": "col"
+  },
+  "n": 92
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   479,
+   365,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "PAN ( स्थायी लेखा नं.)",
+   "col": "Expiry Date (समाप्ति मिति।",
+   "matched_on": "row"
+  },
+  "n": 93
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   548,
+   365,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "col": "Expiry Date (समाप्ति मिति।",
+   "matched_on": "col"
+  },
+  "n": 94
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   409,
+   365,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Driving License सवारी चालक अनुमतिपत्र",
+   "col": "Expiry Date (समाप्ति मिति।",
+   "matched_on": "col"
+  },
+  "n": 95
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   1315,
+   335,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Father-In -Law ( ससुरा)",
+   "col": "Customer No. ग्राहक नं.",
+   "matched_on": "row"
+  },
+  "n": 96
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   1098,
+   335,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Grandfather (हजुरबुबा)",
+   "col": "Customer No. ग्राहक नं.",
+   "matched_on": "row"
+  },
+  "n": 97
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   881,
+   335,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "ग्राहक नं. Customer No.",
+   "row": "Spouse ( पति / पत्नी)",
+   "col": "Customer No. ग्राहक नं.",
+   "matched_on": "row"
+  },
+  "n": 98
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1413,
+   271,
+   354,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Issue ( जारी मिति)",
+   "row": "Citizenship (नागरिकता)",
+   "col": "Date of Issue ( जारी मिति)",
+   "matched_on": "above"
+  },
+  "n": 99
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1413,
+   201,
+   354,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "national_id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Issue ( जारी मिति) Identification Details (परिचय विवरण)",
+   "row": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "col": "Date of Issue ( जारी मिति)",
+   "matched_on": "row"
+  },
+  "n": 100
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1413,
+   340,
+   354,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Passport ( राहदानी)",
+   "col": "Date of Issue ( जारी मिति)",
+   "matched_on": "col"
+  },
+  "n": 101
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1413,
+   409,
+   354,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Driving License सवारी चालक अनुमतिपत्र",
+   "col": "Date of Issue ( जारी मिति)",
+   "matched_on": "col"
+  },
+  "n": 102
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1413,
+   479,
+   354,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "PAN ( स्थायी लेखा नं.)",
+   "col": "Date of Issue ( जारी मिति)",
+   "matched_on": "row"
+  },
+  "n": 103
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1413,
+   548,
+   354,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "col": "Date of Issue ( जारी मिति)",
+   "matched_on": "col"
+  },
+  "n": 104
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1413,
+   617,
+   354,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Other अन्य)",
+   "col": "Date of Issue ( जारी मिति)",
+   "matched_on": "col"
+  },
+  "n": 105
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   1026,
+   335,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Father (बुबा)",
+   "col": "Customer No. ग्राहक नं.",
+   "matched_on": "row"
+  },
+  "n": 106
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   1171,
+   335,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Son (छोरा)",
+   "col": "Customer No. ग्राहक नं.",
+   "matched_on": "row"
+  },
+  "n": 107
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   1388,
+   335,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Legal Custodian ( कानूनी संरक्षक) ",
+   "col": "Customer No. ग्राहक नं.",
+   "matched_on": "col"
+  },
+  "n": 108
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   954,
+   335,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "mother",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "ग्राहक नं.",
+   "row": "Mother (आमा)",
+   "col": "Customer No. ग्राहक नं.",
+   "matched_on": "row"
+  },
+  "n": 109
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2055,
+   1243,
+   335,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Daughter (छोरी)",
+   "col": "Customer No. ग्राहक नं.",
+   "matched_on": "row"
+  },
+  "n": 110
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   135,
+   365,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Expiry Date (समाप्ति मिति।",
+   "left": "Issuing District ( जारी जिल्ला) Date of Issue ( जारी मिति)",
+   "right": "Primary प्राथमिक)",
+   "above": "",
+   "row": "Legal ID (कानूनी परिचय) Number Type ( नं. / किसिम) Issuing District ( जारी जिल्ला) Date of Issue ( जारी मिति) Expiry Date (समाप्ति मिति। Primary प्राथमिक)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 111
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1413,
+   135,
+   354,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of Issue ( जारी मिति)",
+   "left": "Number Type ( नं. / किसिम) Issuing District ( जारी जिल्ला)",
+   "right": "Expiry Date (समाप्ति मिति।",
+   "above": "Identification Details (परिचय विवरण)",
+   "row": "Legal ID (कानूनी परिचय) Number Type ( नं. / किसिम) Issuing District ( जारी जिल्ला) Date of Issue ( जारी मिति) Expiry Date (समाप्ति मिति। Primary प्राथमिक)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 112
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1827,
+   715,
+   552,
+   40
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 113
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   1315,
+   300,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Father-In -Law ( ससुरा)",
+   "col": "ID No. (परिचय नं.)",
+   "matched_on": "row"
+  },
+  "n": 114
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   881,
+   300,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "ID No. (परिचय नं.)",
+   "row": "Spouse ( पति / पत्नी)",
+   "col": "ID No. (परिचय नं.)",
+   "matched_on": "row"
+  },
+  "n": 115
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   1098,
+   300,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Grandfather (हजुरबुबा)",
+   "col": "ID No. (परिचय नं.)",
+   "matched_on": "row"
+  },
+  "n": 116
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   94,
+   1814,
+   429,
+   50
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "कोषको श्रोत Source of Fund",
+   "left": "",
+   "right": "Remuneration ( पारिश्रमिक)",
+   "above": "Purpose of Account Opening (खाता खोल्नुको उद्देश्य)",
+   "row": "",
+   "col": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "matched_on": "above"
+  },
+  "n": 117
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   1388,
+   300,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Legal Custodian ( कानूनी संरक्षक) ",
+   "col": "ID No. (परिचय नं.)",
+   "matched_on": "col"
+  },
+  "n": 118
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   1026,
+   300,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Father (बुबा)",
+   "col": "ID No. (परिचय नं.)",
+   "matched_on": "row"
+  },
+  "n": 119
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   1243,
+   300,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Daughter (छोरी)",
+   "col": "ID No. (परिचय नं.)",
+   "matched_on": "row"
+  },
+  "n": 120
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   954,
+   300,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "mother",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Mother (आमा)",
+   "col": "ID No. (परिचय नं.)",
+   "matched_on": "row"
+  },
+  "n": 121
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   1171,
+   300,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Son (छोरा)",
+   "col": "ID No. (परिचय नं.)",
+   "matched_on": "row"
+  },
+  "n": 122
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   1315,
+   286,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Father-In -Law ( ससुरा)",
+   "col": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "matched_on": "row"
+  },
+  "n": 123
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   1098,
+   286,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Grandfather (हजुरबुबा)",
+   "col": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "matched_on": "row"
+  },
+  "n": 124
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   881,
+   286,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "माछापुच्ने बैकमा खाता छ वा छैन ? Have Account at (MBLJ ?",
+   "row": "Spouse ( पति / पत्नी)",
+   "col": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "matched_on": "row"
+  },
+  "n": 125
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   954,
+   286,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "mother",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "row": "Mother (आमा)",
+   "col": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "matched_on": "row"
+  },
+  "n": 126
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   1243,
+   286,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Daughter (छोरी)",
+   "col": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "matched_on": "row"
+  },
+  "n": 127
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   1388,
+   286,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Legal Custodian ( कानूनी संरक्षक) ",
+   "col": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "matched_on": "col"
+  },
+  "n": 128
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   1171,
+   286,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Son (छोरा)",
+   "col": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "matched_on": "row"
+  },
+  "n": 129
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1768,
+   1026,
+   286,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Father (बुबा)",
+   "col": "Have Account at (MBLJ ? माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "matched_on": "row"
+  },
+  "n": 130
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   112,
+   715,
+   539,
+   37
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Related Parties (Strike out where not applicable [(सम्बन्धित व्यक्ति (लागु नहुने भएमा काट्ने ]",
+   "above": "Other अन्य)",
+   "row": "",
+   "col": "Other अन्य)",
+   "matched_on": "col"
+  },
+  "n": 131
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2133,
+   340,
+   257,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Passport ( राहदानी)",
+   "col": "Primary प्राथमिक)",
+   "matched_on": "col"
+  },
+  "n": 132
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2133,
+   409,
+   257,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Driving License सवारी चालक अनुमतिपत्र",
+   "col": "Primary प्राथमिक)",
+   "matched_on": "col"
+  },
+  "n": 133
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2133,
+   479,
+   257,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "PAN ( स्थायी लेखा नं.)",
+   "col": "Primary प्राथमिक)",
+   "matched_on": "row"
+  },
+  "n": 134
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2133,
+   201,
+   257,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "national_id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Primary प्राथमिक)",
+   "row": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "col": "Primary प्राथमिक)",
+   "matched_on": "row"
+  },
+  "n": 135
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2133,
+   548,
+   257,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "col": "Primary प्राथमिक)",
+   "matched_on": "col"
+  },
+  "n": 136
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2133,
+   271,
+   257,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Primary प्राथमिक)",
+   "row": "Citizenship (नागरिकता)",
+   "col": "Primary प्राथमिक)",
+   "matched_on": "col"
+  },
+  "n": 137
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2133,
+   617,
+   257,
+   68
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Other अन्य)",
+   "col": "Primary प्राथमिक)",
+   "matched_on": "col"
+  },
+  "n": 138
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   881,
+   242,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(परिचयको किसिम) ID Type",
+   "row": "Spouse ( पति / पत्नी)",
+   "col": "ID Type (परिचयको किसिम)",
+   "matched_on": "row"
+  },
+  "n": 139
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   1098,
+   241,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Grandfather (हजुरबुबा)",
+   "col": "ID Type (परिचयको किसिम)",
+   "matched_on": "row"
+  },
+  "n": 140
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   1315,
+   241,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Father-In -Law ( ससुरा)",
+   "col": "ID Type (परिचयको किसिम)",
+   "matched_on": "row"
+  },
+  "n": 141
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   954,
+   241,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "mother",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(परिचयको किसिम)",
+   "row": "Mother (आमा)",
+   "col": "ID Type (परिचयको किसिम)",
+   "matched_on": "row"
+  },
+  "n": 142
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   1171,
+   241,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Son (छोरा)",
+   "col": "ID Type (परिचयको किसिम)",
+   "matched_on": "row"
+  },
+  "n": 143
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   1026,
+   241,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Father (बुबा)",
+   "col": "ID Type (परिचयको किसिम)",
+   "matched_on": "row"
+  },
+  "n": 144
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   1243,
+   241,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Daughter (छोरी)",
+   "col": "ID Type (परिचयको किसिम)",
+   "matched_on": "row"
+  },
+  "n": 145
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1225,
+   1388,
+   241,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_type",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Legal Custodian ( कानूनी संरक्षक) ",
+   "col": "ID Type (परिचयको किसिम)",
+   "matched_on": "col"
+  },
+  "n": 146
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2133,
+   135,
+   257,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Primary प्राथमिक)",
+   "left": "Date of Issue ( जारी मिति) Expiry Date (समाप्ति मिति।",
+   "right": "",
+   "above": "",
+   "row": "Legal ID (कानूनी परिचय) Number Type ( नं. / किसिम) Issuing District ( जारी जिल्ला) Date of Issue ( जारी मिति) Expiry Date (समाप्ति मिति। Primary प्राथमिक)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 147
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1555,
+   3227,
+   811,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 148
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   547,
+   2289,
+   69
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "left": "",
+   "right": "",
+   "above": "PAN ( स्थायी लेखा नं.) Driving License सवारी चालक अनुमतिपत्र",
+   "row": "",
+   "col": "PAN ( स्थायी लेखा नं.)",
+   "matched_on": "above"
+  },
+  "n": 149
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   616,
+   2289,
+   69
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Other अन्य)",
+   "left": "",
+   "right": "",
+   "above": "Birth Certificate जन्मदर्ता प्रमाणपत्र) PAN ( स्थायी लेखा नं.)",
+   "row": "",
+   "col": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "matched_on": "above"
+  },
+  "n": 150
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   134,
+   2289,
+   65
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Issuing District ( जारी जिल्ला) Legal ID (कानूनी परिचय) Number Type ( नं. / किसिम) Expiry Date (समाप्ति मिति। Date of Issue ( जारी मिति) Primary प्राथमिक)",
+   "left": "",
+   "right": "",
+   "above": "Identification Details (परिचय विवरण)",
+   "row": "",
+   "col": "Identification Details (परिचय विवरण)",
+   "matched_on": "col"
+  },
+  "n": 151
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   200,
+   2289,
+   69
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "left": "",
+   "right": "",
+   "above": "Number Type ( नं. / किसिम) Primary प्राथमिक)",
+   "row": "",
+   "col": "Legal ID (कानूनी परिचय) Number Type ( नं. / किसिम) Issuing District ( जारी जिल्ला) Date of Issue ( जारी मिति) Expiry Date (समाप्ति मिति। Primary प्राथमिक)",
+   "matched_on": "col"
+  },
+  "n": 152
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   339,
+   2289,
+   69
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Passport ( राहदानी)",
+   "left": "",
+   "right": "",
+   "above": "Citizenship (नागरिकता) National Identity card (राष्ट्रिय परिचय पत्र)",
+   "row": "",
+   "col": "Citizenship (नागरिकता)",
+   "matched_on": "above"
+  },
+  "n": 153
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   270,
+   2289,
+   69
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Citizenship (नागरिकता)",
+   "left": "",
+   "right": "",
+   "above": "National Identity card (राष्ट्रिय परिचय पत्र) Number Type ( नं. / किसिम)",
+   "row": "",
+   "col": "National Identity card (राष्ट्रिय परिचय पत्र)",
+   "matched_on": "above"
+  },
+  "n": 154
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   408,
+   2289,
+   69
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Driving License सवारी चालक अनुमतिपत्र",
+   "left": "",
+   "right": "",
+   "above": "Passport ( राहदानी) Citizenship (नागरिकता)",
+   "row": "",
+   "col": "Passport ( राहदानी)",
+   "matched_on": "col"
+  },
+  "n": 155
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   477,
+   2289,
+   69
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "PAN ( स्थायी लेखा नं.)",
+   "left": "",
+   "right": "",
+   "above": "Driving License सवारी चालक अनुमतिपत्र Passport ( राहदानी)",
+   "row": "",
+   "col": "Driving License सवारी चालक अनुमतिपत्र",
+   "matched_on": "col"
+  },
+  "n": 156
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   98,
+   60,
+   2294,
+   63
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Identification Details (परिचय विवरण)",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 157
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   101,
+   881,
+   374,
+   683
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "Spouse ( पति / पत्नी) Mother (आमा) Father (बुबा) Grandfather (हजुरबुबा) Son (छोरा) Daughter (छोरी) Father-In -Law ( ससुरा) संरक्षक)  Legal Custodian ( कानूनी Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "left": "",
+   "right": "",
+   "above": "Relation ( सम्बन्ध)",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 158
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   771,
+   2288,
+   109
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Have Account at (MBLJ ? Customer No. ID Type ID No. (परिचय नं.) Relation ( सम्बन्ध) Full Name पूरा नाम) माछापुच्ने बैकमा खाता छ वा छैन ? (परिचयको किसिम) ग्राहक नं.",
+   "left": "",
+   "right": "",
+   "above": "Related Parties (Strike out where not applicable [(सम्बन्धित व्यक्ति (लागु नहुने भएमा काट्ने ]",
+   "row": "",
+   "col": "Related Parties (Strike out where not applicable [(सम्बन्धित व्यक्ति (लागु नहुने भएमा काट्ने ]",
+   "matched_on": "above"
+  },
+  "n": 159
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   881,
+   2288,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Spouse ( पति / पत्नी)",
+   "left": "",
+   "right": "",
+   "above": "माछापुच्ने बैकमा खाता छ वा छैन ? (परिचयको किसिम)",
+   "row": "",
+   "col": "ID Type Have Account at (MBLJ ? Customer No. Relation ( सम्बन्ध) Full Name पूरा नाम) ID No. (परिचय नं.) (परिचयको किसिम) माछापुच्ने बैकमा खाता छ वा छैन ? ग्राहक नं.",
+   "matched_on": "above"
+  },
+  "n": 160
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   953,
+   2288,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Mother (आमा)",
+   "left": "",
+   "right": "",
+   "above": "Spouse ( पति / पत्नी) माछापुच्ने बैकमा खाता छ वा छैन ?",
+   "row": "",
+   "col": "Spouse ( पति / पत्नी)",
+   "matched_on": "above"
+  },
+  "n": 161
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   1025,
+   2288,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Father (बुबा)",
+   "left": "",
+   "right": "",
+   "above": "Mother (आमा) Spouse ( पति / पत्नी)",
+   "row": "",
+   "col": "Mother (आमा)",
+   "matched_on": "above"
+  },
+  "n": 162
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   1097,
+   2288,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Grandfather (हजुरबुबा)",
+   "left": "",
+   "right": "",
+   "above": "Father (बुबा) Mother (आमा)",
+   "row": "",
+   "col": "Father (बुबा)",
+   "matched_on": "above"
+  },
+  "n": 163
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   1170,
+   2288,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Son (छोरा)",
+   "left": "",
+   "right": "",
+   "above": "Grandfather (हजुरबुबा) Father (बुबा)",
+   "row": "",
+   "col": "Grandfather (हजुरबुबा)",
+   "matched_on": "above"
+  },
+  "n": 164
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   1242,
+   2288,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Daughter (छोरी)",
+   "left": "",
+   "right": "",
+   "above": "Son (छोरा) Grandfather (हजुरबुबा)",
+   "row": "",
+   "col": "Son (छोरा)",
+   "matched_on": "above"
+  },
+  "n": 165
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   1314,
+   2288,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Father-In -Law ( ससुरा)",
+   "left": "",
+   "right": "",
+   "above": "Daughter (छोरी) Son (छोरा)",
+   "row": "",
+   "col": "Daughter (छोरी)",
+   "matched_on": "above"
+  },
+  "n": 166
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   1387,
+   2288,
+   72
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "संरक्षक)  Legal Custodian ( कानूनी",
+   "left": "",
+   "right": "",
+   "above": "Father-In -Law ( ससुरा) Daughter (छोरी)",
+   "row": "",
+   "col": "Father-In -Law ( ससुरा)",
+   "matched_on": "above"
+  },
+  "n": 167
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   1459,
+   2288,
+   105
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "left": "",
+   "right": "",
+   "above": "Legal Custodian ( कानूनी संरक्षक) ",
+   "row": "",
+   "col": "Legal Custodian ( कानूनी संरक्षक) ",
+   "matched_on": "col"
+  },
+  "n": 168
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   99,
+   701,
+   2293,
+   64
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Related Parties (Strike out where not applicable [(सम्बन्धित व्यक्ति (लागु नहुने भएमा काट्ने ]",
+   "left": "",
+   "right": "",
+   "above": "Other अन्य) Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+   "row": "",
+   "col": "Other अन्य)",
+   "matched_on": "col"
+  },
+  "n": 169
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   1587,
+   2296,
+   69
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Due Dilligence Details ( ग्राहक विस्तृत विवरण)",
+   "left": "",
+   "right": "",
+   "above": "(सम्बन्धीत गै़र व्यक्तिगत खाता) Related non personal",
+   "row": "",
+   "col": "Related non personal (सम्बन्धीत गै़र व्यक्तिगत खाता)",
+   "matched_on": "above"
+  },
+  "n": 170
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   88,
+   2504,
+   2292,
+   60
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "अनुमानित चिन्ह Expected Transaction volume in the account per annum. Please tick (v in appropriate box) (खातामा हुने बार्षिक कारोबार रकम (कृपया सम्बन्धित कोठामा लगाउनुहोला)",
+   "left": "",
+   "right": "",
+   "above": "१५-३० (१५ देखि ३० सम्म) Number of Monthly transaction (मासिक कारोबार",
+   "row": "",
+   "col": "Number of Monthly transaction (मासिक कारोबार सख्या) <१५ (१५ भन्दा कम) १५-३० (१५ देखि ३० सम्म) >30 (३0 भन्दा माथिः",
+   "matched_on": "col"
+  },
+  "n": 171
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   91,
+   2573,
+   2288,
+   108
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Annual Income Transaction Details Net Worth (बार्षिक अनुमानित कारोबार) (वार्षिक आम्दानी) सम्पत्ती)",
+   "left": "",
+   "right": "",
+   "above": "अनुमानित Expected Transaction volume in the account per annum. Please tick (v in appropriate box) (खातामा हुने बार्षिक",
+   "row": "",
+   "col": "Expected Transaction volume in the account per annum. Please tick (v in appropriate box) (खातामा हुने बार्षिक कारोबार रकम (कृपया सम्बन्धित कोठामा लगाउनुहोला) चिन्ह",
+   "matched_on": "col"
+  },
+  "n": 172
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   91,
+   2573,
+   2288,
+   642
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "annual_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "Annual Income Transaction Details Net Worth (बार्षिक अनुमानित कारोबार) (वार्षिक आम्दानी) सम्पत्ती) < रु. ५ लाखसम्म (Below NPR O.5 Million) <रु. १० लाखसम्म (Less than NPR Million) ५-१० लाखसम्म (Between NPRO.५ - 1 Million) 5 Million) ५-१0  लाखसम्म (NPRO.S - 1 Million) १०-५०  लाखसम्म (Between NPR 1 लाखसम्म (Between NPR 1 १.५ Million) रु.१०-१५ = ५० लाख १ करोडसम्म (Between १०-१५ लाखसम्म (NPR 1 १.५ Million) NPR 5 - १० Million) रु.१५ - २५ लाखसम्म (Between NPR १.५ - २.५ Million) १-५ करोडसम्म (Between NPR १० - ५० Million) १५-२५ लाखसम्म (NPR १.५ - २.५ Million) रु.२५-५० लाखसम्म (Between NPR २.५ - 5 Million) ५-१० करोडसम्म (Between NPR ५०  रु.५०-१ करोड (Between NPR 5 - १० Million) २५-५० लाखसम्म (NPR २.५ - 5 Million) १०० Million) रु.१०-२० करोडसम्म (Between NPR १०० - २०० Million) करोडभन्दा माथि (Above NPR १० Million) ५०-१००  लाखसम्म (NPR 5 - १० Million) >रु. ८ २० करोडभन्दा माथि (Above NPR २०० Million) १००-५००  लाखसम्म (NPR १० ~ ५० Million) ५०० लाखभन्दा माथि (Above NPR ५O Million)",
+   "left": "",
+   "right": "",
+   "above": "अनुमानित Expected Transaction volume in the account per annum. Please tick (v in appropriate box) (खातामा हुने बार्षिक",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 173
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   2335,
+   2291,
+   73
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "अनुमानित कारोवार) Estimated annual turnover in the account ( खातामा वार्षिक",
+   "left": "",
+   "right": "",
+   "above": ": (अनुमानित वार्षिक आय रु. ) Estimated Annual Income in NPR",
+   "row": "",
+   "col": "Estimated Annual Income in NPR : (अनुमानित वार्षिक आय रु. )",
+   "matched_on": "above"
+  },
+  "n": 174
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   2245,
+   2291,
+   73
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": ": (अनुमानित वार्षिक आय रु. ) Estimated Annual Income in NPR",
+   "left": "",
+   "right": "",
+   "above": "Employer Association Name ( रोजगार दाताको नाम)",
+   "row": "",
+   "col": "Due Dilligence Details ( ग्राहक विस्तृत विवरण)",
+   "matched_on": "above"
+  },
+  "n": 175
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   91,
+   2426,
+   2291,
+   57
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "१५-३० (१५ देखि ३० सम्म) Number of Monthly transaction (मासिक कारोबार भन्दा माथिः <१५ (१५ >30 (३0 सख्या) भन्दा कम)",
+   "left": "",
+   "right": "",
+   "above": "अनुमानित कारोवार) Estimated annual turnover in the account ( खातामा वार्षिक",
+   "row": "",
+   "col": "Estimated annual turnover in the account ( खातामा वार्षिक अनुमानित कारोवार)",
+   "matched_on": "above"
+  },
+  "n": 176
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   956,
+   84,
+   22,
+   27
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     956,
+     84,
+     22,
+     27
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 177
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   111,
+   212,
+   501,
+   50
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "National Identity card (राष्ट्रिय परिचय पत्र)",
+    "bbox": [
+     111,
+     212,
+     63,
+     50
+    ]
+   }
+  ],
+  "suggested_field": "national_id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "National Identity card (राष्ट्रिय परिचय पत्र)"
+   ]
+  },
+  "n": 178
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   111,
+   281,
+   391,
+   50
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Citizenship (नागरिकता)",
+    "bbox": [
+     111,
+     281,
+     63,
+     50
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Citizenship (नागरिकता)"
+   ]
+  },
+  "n": 179
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   111,
+   350,
+   322,
+   50
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Passport ( राहदानी)",
+    "bbox": [
+     111,
+     350,
+     63,
+     50
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Passport ( राहदानी)"
+   ]
+  },
+  "n": 180
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   111,
+   419,
+   502,
+   50
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Driving License सवारी चालक अनुमतिपत्र",
+    "bbox": [
+     111,
+     419,
+     63,
+     50
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Driving License सवारी चालक अनुमतिपत्र"
+   ]
+  },
+  "n": 181
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   111,
+   488,
+   339,
+   50
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "PAN ( स्थायी लेखा नं.)",
+    "bbox": [
+     111,
+     488,
+     63,
+     50
+    ]
+   }
+  ],
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "PAN ( स्थायी लेखा नं.)"
+   ]
+  },
+  "n": 182
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   111,
+   557,
+   498,
+   50
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Birth Certificate जन्मदर्ता प्रमाणपत्र)",
+    "bbox": [
+     111,
+     557,
+     63,
+     50
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Birth Certificate जन्मदर्ता प्रमाणपत्र)"
+   ]
+  },
+  "n": 183
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   111,
+   624,
+   229,
+   50
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Other अन्य)",
+    "bbox": [
+     111,
+     624,
+     63,
+     50
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Other अन्य)"
+   ]
+  },
+  "n": 184
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   989,
+   728,
+   19,
+   23
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     989,
+     728,
+     19,
+     23
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 185
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   834,
+   1607,
+   369,
+   32
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     834,
+     1607,
+     27,
+     31
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     921,
+     1607,
+     27,
+     31
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1117,
+     1607,
+     26,
+     31
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1182,
+     1614,
+     21,
+     25
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 186
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   835,
+   1682,
+   1553,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Saving (बचत)",
+    "bbox": [
+     835,
+     1682,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Remuneration ( पारिश्रमिक)",
+    "bbox": [
+     1102,
+     1682,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Remittance ( बिप्रेषण)",
+    "bbox": [
+     1541,
+     1682,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Loan Transaction ( कर्जा कारोबार)",
+    "bbox": [
+     1901,
+     1682,
+     40,
+     41
+    ]
+   }
+  ],
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Purpose of Account Opening (खाता खोल्नुको उद्देश्य)",
+   "options": [
+    "Saving (बचत)",
+    "Remuneration ( पारिश्रमिक)",
+    "Remittance ( बिप्रेषण)",
+    "Loan Transaction ( कर्जा कारोबार)"
+   ]
+  },
+  "n": 187
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   835,
+   1746,
+   584,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Investment (लगानी)",
+    "bbox": [
+     835,
+     1746,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Others ( अन्य)",
+    "bbox": [
+     1190,
+     1746,
+     40,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Investment (लगानी)",
+    "Others ( अन्य)"
+   ]
+  },
+  "n": 188
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   558,
+   1814,
+   1829,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Remuneration ( पारिश्रमिक)",
+    "bbox": [
+     558,
+     1814,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Agriculture",
+    "bbox": [
+     1042,
+     1814,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Business Income (व्यवसाय )",
+    "bbox": [
+     1408,
+     1814,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Investment Income ( लगानी आय)",
+    "bbox": [
+     1894,
+     1814,
+     40,
+     41
+    ]
+   }
+  ],
+  "suggested_field": "source_of_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Source of Fund कोषको श्रोत",
+   "options": [
+    "Remuneration ( पारिश्रमिक)",
+    "Agriculture",
+    "Business Income (व्यवसाय )",
+    "Investment Income ( लगानी आय)"
+   ]
+  },
+  "n": 189
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   558,
+   1879,
+   1308,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Inheritance Gift ( पैतृक / उपहार",
+    "bbox": [
+     558,
+     1879,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Disposal of Assets ( सम्पत्ति बिक्री / समाप्ति)",
+    "bbox": [
+     1040,
+     1879,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Others ( अन्य",
+    "bbox": [
+     1644,
+     1879,
+     40,
+     41
+    ]
+   }
+  ],
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Inheritance Gift ( पैतृक / उपहार",
+    "Disposal of Assets ( सम्पत्ति बिक्री / समाप्ति)",
+    "Others ( अन्य"
+   ]
+  },
+  "n": 190
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   715,
+   1952,
+   1676,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Private Sector (निजी क्षेत्र",
+    "bbox": [
+     715,
+     1952,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Professional ( पेशागत)",
+    "bbox": [
+     1215,
+     1952,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Retired ( अवकाश)",
+    "bbox": [
+     1666,
+     1952,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Politician ( राजनीतिज्ञ)",
+    "bbox": [
+     2052,
+     1952,
+     40,
+     41
+    ]
+   }
+  ],
+  "suggested_field": "occupation_choice",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Nature of Occupation (व्यवसायको प्रकृ",
+   "options": [
+    "Private Sector (निजी क्षेत्र",
+    "Professional ( पेशागत)",
+    "Retired ( अवकाश)",
+    "Politician ( राजनीतिज्ञ)"
+   ]
+  },
+  "n": 191
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   620,
+   2019,
+   1624,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Self Employed ( स्वरोजगार )",
+    "bbox": [
+     620,
+     2019,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "House Wife (गृहिणी)",
+    "bbox": [
+     1095,
+     2019,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Government Sector ( सरकारी क्षेत्र",
+    "bbox": [
+     1477,
+     2019,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Business",
+    "bbox": [
+     2052,
+     2019,
+     40,
+     41
+    ]
+   }
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "left": "Public Sector ( सार्वजनिक क्षेत्र",
+   "options": [
+    "Self Employed ( स्वरोजगार )",
+    "House Wife (गृहिणी)",
+    "Government Sector ( सरकारी क्षेत्र",
+    "Business"
+   ]
+  },
+  "n": 192
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   96,
+   2020,
+   445,
+   38
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Public Sector ( सार्वजनिक क्षेत्र",
+    "bbox": [
+     96,
+     2020,
+     40,
+     38
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Public Sector ( सार्वजनिक क्षेत्र"
+   ]
+  },
+  "n": 193
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   96,
+   2085,
+   501,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Student ( विद्यार्थी)",
+    "bbox": [
+     96,
+     2085,
+     40,
+     41
+    ]
+   },
+   {
+    "label": "Others",
+    "bbox": [
+     435,
+     2085,
+     40,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Student ( विद्यार्थी)",
+    "Others"
+   ]
+  },
+  "n": 194
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1354,
+   2439,
+   668,
+   33
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "१५-३० (१५ देखि ३० सम्म)",
+    "bbox": [
+     1354,
+     2439,
+     41,
+     32
+    ]
+   },
+   {
+    "label": ">30 (३0",
+    "bbox": [
+     1861,
+     2439,
+     41,
+     33
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "सख्या) <१५ (१५ भन्दा कम)",
+   "options": [
+    "१५-३० (१५ देखि ३० सम्म)",
+    ">30 (३0"
+   ]
+  },
+  "n": 195
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   891,
+   2440,
+   156,
+   32
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "<१५ (१५",
+    "bbox": [
+     891,
+     2440,
+     41,
+     32
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Number of Monthly transaction (मासिक कारोबार सख्या)",
+   "options": [
+    "<१५ (१५"
+   ]
+  },
+  "n": 196
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   119,
+   2530,
+   1576,
+   21
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     119,
+     2530,
+     18,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     155,
+     2530,
+     17,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     287,
+     2530,
+     17,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     318,
+     2530,
+     17,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     389,
+     2530,
+     17,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     476,
+     2530,
+     26,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     535,
+     2530,
+     18,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     590,
+     2530,
+     17,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     696,
+     2530,
+     17,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     751,
+     2530,
+     17,
+     21
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     804,
+     2530,
+     17,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     822,
+     2530,
+     18,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     860,
+     2530,
+     26,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     975,
+     2530,
+     17,
+     21
+    ]
+   },
+   {
+    "label": "अनुमानित",
+    "bbox": [
+     1349,
+     2530,
+     18,
+     21
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "अनुमानित"
+   ]
+  },
+  "n": 197
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   119,
+   2708,
+   1174,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "< रु. ५ लाखसम्म (Below NPR O.5 Million)",
+    "bbox": [
+     119,
+     2708,
+     46,
+     41
+    ]
+   },
+   {
+    "label": "<रु. १० लाखसम्म (Less than NPR",
+    "bbox": [
+     799,
+     2708,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "< रु. ५ लाखसम्म (Below NPR O.5 Million)",
+    "<रु. १० लाखसम्म (Less than NPR"
+   ]
+  },
+  "n": 198
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1630,
+   2708,
+   694,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "५-१० लाखसम्म (Between NPRO.५ - 1 Million)",
+    "bbox": [
+     1630,
+     2708,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "<रु. १० लाखसम्म (Less than NPR Million)",
+   "options": [
+    "५-१० लाखसम्म (Between NPRO.५ - 1 Million)"
+   ]
+  },
+  "n": 199
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   119,
+   2771,
+   1207,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "५-१0  लाखसम्म (NPRO.S - 1 Million)",
+    "bbox": [
+     119,
+     2771,
+     46,
+     41
+    ]
+   },
+   {
+    "label": "१०-५०  लाखसम्म (Between NPR 1",
+    "bbox": [
+     799,
+     2771,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "५-१0  लाखसम्म (NPRO.S - 1 Million)",
+    "१०-५०  लाखसम्म (Between NPR 1"
+   ]
+  },
+  "n": 200
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1630,
+   2771,
+   170,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "रु.१०-१५",
+    "bbox": [
+     1630,
+     2771,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "१०-५०  लाखसम्म (Between NPR 1 5 Million)",
+   "options": [
+    "रु.१०-१५"
+   ]
+  },
+  "n": 201
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   119,
+   2834,
+   1174,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "१०-१५ लाखसम्म (NPR 1",
+    "bbox": [
+     119,
+     2834,
+     46,
+     41
+    ]
+   },
+   {
+    "label": "५० लाख १ करोडसम्म (Between",
+    "bbox": [
+     799,
+     2834,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "१०-१५ लाखसम्म (NPR 1",
+    "५० लाख १ करोडसम्म (Between"
+   ]
+  },
+  "n": 202
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1630,
+   2834,
+   724,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "रु.१५ - २५ लाखसम्म (Between NPR १.५ - २.५ Million)",
+    "bbox": [
+     1630,
+     2834,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "५० लाख १ करोडसम्म (Between NPR 5 - १० Million)",
+   "options": [
+    "रु.१५ - २५ लाखसम्म (Between NPR १.५ - २.५ Million)"
+   ]
+  },
+  "n": 203
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   119,
+   2896,
+   1384,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "१५-२५ लाखसम्म (NPR १.५ - २.५ Million)",
+    "bbox": [
+     119,
+     2896,
+     46,
+     41
+    ]
+   },
+   {
+    "label": "१-५ करोडसम्म (Between NPR १० - ५० Million)",
+    "bbox": [
+     799,
+     2896,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "१५-२५ लाखसम्म (NPR १.५ - २.५ Million)",
+    "१-५ करोडसम्म (Between NPR १० - ५० Million)"
+   ]
+  },
+  "n": 204
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1630,
+   2896,
+   699,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "रु.२५-५० लाखसम्म (Between NPR २.५ - 5 Million)",
+    "bbox": [
+     1630,
+     2896,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "१-५ करोडसम्म (Between NPR १० - ५० Million)",
+   "options": [
+    "रु.२५-५० लाखसम्म (Between NPR २.५ - 5 Million)"
+   ]
+  },
+  "n": 205
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   119,
+   2959,
+   1230,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "२५-५० लाखसम्म (NPR २.५ - 5 Million)",
+    "bbox": [
+     119,
+     2959,
+     46,
+     41
+    ]
+   },
+   {
+    "label": "५-१० करोडसम्म (Between NPR ५० ",
+    "bbox": [
+     799,
+     2959,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "२५-५० लाखसम्म (NPR २.५ - 5 Million)",
+    "५-१० करोडसम्म (Between NPR ५० "
+   ]
+  },
+  "n": 206
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1630,
+   2959,
+   636,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "रु.५०-१ करोड (Between NPR 5 - १० Million)",
+    "bbox": [
+     1630,
+     2959,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "५-१० करोडसम्म (Between NPR ५०  १०० Million)",
+   "options": [
+    "रु.५०-१ करोड (Between NPR 5 - १० Million)"
+   ]
+  },
+  "n": 207
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   119,
+   3022,
+   1440,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "५०-१००  लाखसम्म (NPR 5 - १० Million)",
+    "bbox": [
+     119,
+     3022,
+     46,
+     41
+    ]
+   },
+   {
+    "label": "रु.१०-२० करोडसम्म (Between NPR १०० - २०० Million)",
+    "bbox": [
+     799,
+     3022,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "५०-१००  लाखसम्म (NPR 5 - १० Million)",
+    "रु.१०-२० करोडसम्म (Between NPR १०० - २०० Million)"
+   ]
+  },
+  "n": 208
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1630,
+   3022,
+   127,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": ">रु.",
+    "bbox": [
+     1630,
+     3022,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "रु.१०-२० करोडसम्म (Between NPR १०० - २०० Million)",
+   "options": [
+    ">रु."
+   ]
+  },
+  "n": 209
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   119,
+   3084,
+   1363,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "१००-५००  लाखसम्म (NPR १० ~ ५० Million)",
+    "bbox": [
+     119,
+     3084,
+     46,
+     41
+    ]
+   },
+   {
+    "label": "२० करोडभन्दा माथि (Above NPR २०० Million)",
+    "bbox": [
+     799,
+     3084,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "१००-५००  लाखसम्म (NPR १० ~ ५० Million)",
+    "२० करोडभन्दा माथि (Above NPR २०० Million)"
+   ]
+  },
+  "n": 210
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   119,
+   3147,
+   626,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "५०० लाखभन्दा माथि (Above NPR ५O Million)",
+    "bbox": [
+     119,
+     3147,
+     46,
+     41
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "५०० लाखभन्दा माथि (Above NPR ५O Million)"
+   ]
+  },
+  "n": 211
+ }
+]

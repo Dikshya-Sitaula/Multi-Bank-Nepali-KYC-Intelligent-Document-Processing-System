@@ -1,0 +1,27 @@
+{
+ "template_id": "laxmisunrise",
+ "bank_name": "Laxmi Sunrise Bank",
+ "role": "training",
+ "pages": [
+  {
+   "page_number": 1,
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 2,
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 3,
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 4,
+   "width": 2481,
+   "height": 3508
+  }
+ ]
+}
