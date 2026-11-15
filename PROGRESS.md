@@ -1,6 +1,6 @@
 # PROGRESS.md
 
-Last updated: 2026-11-15 (session 2)
+Last updated: 2026-11-15 (session 2, after demo sprint)
 
 ## Resume instructions
 
@@ -10,13 +10,38 @@ Resume. Read CLAUDE.md and PROGRESS.md and continue.
 
 Current branch convention: `phase-N-<slug>` merged into `main` when the phase passes.
 
-## ACTIVE: one-hour demo sprint
+## Demo sprint (2026-11-15): DONE, merged to main
 
-**Demo sprint is active** (instructions in `docs/SPRINT.md`, branch `demo-sprint`).
-Current step: **Step 2 (demo form generator)**. Step 1 done: EasyOCR preload at startup;
-Phase 3 was already merged with the full 160-capture self-test, so no rerun.
-Phase 4 (Template Studio) is paused; its branch `phase-4-template-enrollment` holds the
-reviewed Laxmi Sunrise and Machhapuchchhre templates.
+Instructions: `docs/SPRINT.md`. Branch `demo-sprint` (built on `phase-4-template-enrollment`).
+
+**What works (tested for real through the API and in a browser):**
+- One-command start (`scripts/dev.py`), JWT login, `create_user.py` (password typed in).
+- Upload of images/PDF with quality warnings; background job with live stage progress.
+- Inspectable CV pipeline (`backend/app/services/extraction/vision.py`): 20 recorded stages
+  with real images, parameters, metrics and timings; live re-run of preprocessing and
+  identification with new parameters (denoise, CLAHE, threshold, Canny, SIFT/ORB).
+- Template identification on the 4 uploaded demo documents: every page matched to the right
+  bank and page, including a 24-degree rotated + shadowed photo (alignment overlap 0.975).
+- OpenCV box snapping (e.g. Laxmi p1: 52/60 boxes snapped, mean IoU 0.97), checkbox ink
+  fill vs blank baseline, EasyOCR en + ne, normalisation/validation, statuses.
+- Review (edit, verify, audit), search (English and Devanagari), export JSON/CSV,
+  dashboard counts from the DB.
+- Frontend: dashboard, upload, Vision Lab, review, documents, search; dark/light; no
+  horizontal overflow at 1440 and 390 px (checked with `scripts/screenshots.mjs`).
+- 69 backend tests pass.
+
+**Measured on the demo run (CPU):** Laxmi Sunrise 4 pages in 69.9 s (OCR 34.5 s);
+Machhapuchchhre 3 pages 45.6 s; NIC Asia 5 pages 90.0 s; average OCR confidence 74.2%.
+
+**Skipped in the sprint:** Template Studio UI, YOLO training, HTR (CRNN) training,
+evaluation pages, Playwright test suite, long docs, Nabil proposals.
+
+**Honest limitations:** no YOLO (template-alignment mode only); boxed dates/PAN read poorly
+by EasyOCR; some confident OCR readings are wrong; NIC Asia template is unreviewed
+auto-proposals; synthetic handwriting only; CPU only (driver too old for CUDA torch).
+
+**Next step after the demo:** resume Phase 4 (Template Studio + Checkpoint A), review the
+NIC Asia template, then Phase 5 (full synthetic data engine) and Checkpoint B.
 
 ## Phase status
 
@@ -25,7 +50,7 @@ reviewed Laxmi Sunrise and Machhapuchchhre templates.
 | 1 | Inspect and plan | DONE (merged to main) |
 | 2 | Backend foundation | DONE (merged to main) |
 | 3 | Preprocessing + quality + template identification | DONE (merged to main) |
-| 4 | Template enrollment (CHECKPOINT A) | IN PROGRESS |
+| 4 | Template enrollment (CHECKPOINT A) | IN PROGRESS (Laxmi + Machhapuchchhre reviewed; Studio UI not built) |
 | 5 | Synthetic data engine | not started |
 | 6 | Frontend foundation | not started |
 | 7 | YOLO training (CHECKPOINT B) | not started |

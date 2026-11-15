@@ -46,7 +46,9 @@ def main() -> int:
         for p in procs:
             if p.poll() is None:
                 if os.name == "nt":
-                    p.terminate()
+                    # Kill the whole tree: uvicorn --reload runs the app in a child
+                    # process that would otherwise keep port 8000 open.
+                    subprocess.run(["taskkill", "/PID", str(p.pid), "/T", "/F"], capture_output=True)
                 else:
                     p.send_signal(signal.SIGINT)
         for p in procs:
