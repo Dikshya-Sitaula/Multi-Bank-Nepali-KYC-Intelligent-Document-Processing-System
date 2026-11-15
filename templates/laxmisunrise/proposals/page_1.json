@@ -1,0 +1,2791 @@
+[
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   440,
+   624,
+   565,
+   54
+  ],
+  "source": "raster",
+  "cell_count": 8,
+  "cells": [
+   [
+    440,
+    624,
+    60,
+    54
+   ],
+   [
+    512,
+    624,
+    60,
+    54
+   ],
+   [
+    584,
+    624,
+    60,
+    54
+   ],
+   [
+    656,
+    624,
+    61,
+    54
+   ],
+   [
+    729,
+    624,
+    60,
+    54
+   ],
+   [
+    801,
+    624,
+    60,
+    54
+   ],
+   [
+    873,
+    624,
+    60,
+    54
+   ],
+   [
+    945,
+    624,
+    60,
+    54
+   ]
+  ],
+  "suggested_field": "dob_bs",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "M",
+   "left": "BS (वि.सं. )",
+   "right": "",
+   "above": "Date of Birth (जन्म मिति):",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 0
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1781,
+   624,
+   565,
+   54
+  ],
+  "source": "raster",
+  "cell_count": 8,
+  "cells": [
+   [
+    1781,
+    624,
+    60,
+    54
+   ],
+   [
+    1853,
+    624,
+    60,
+    54
+   ],
+   [
+    1925,
+    624,
+    60,
+    54
+   ],
+   [
+    1997,
+    624,
+    61,
+    54
+   ],
+   [
+    2070,
+    624,
+    60,
+    54
+   ],
+   [
+    2142,
+    624,
+    60,
+    54
+   ],
+   [
+    2214,
+    624,
+    60,
+    54
+   ],
+   [
+    2286,
+    624,
+    60,
+    54
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "M",
+   "left": "AD (ई. सं. )",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 1
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   152,
+   1964,
+   894,
+   66
+  ],
+  "source": "raster",
+  "cell_count": 10,
+  "cells": [
+   [
+    152,
+    1964,
+    88,
+    66
+   ],
+   [
+    242,
+    1964,
+    88,
+    66
+   ],
+   [
+    331,
+    1964,
+    88,
+    66
+   ],
+   [
+    421,
+    1964,
+    88,
+    66
+   ],
+   [
+    510,
+    1964,
+    88,
+    66
+   ],
+   [
+    600,
+    1964,
+    88,
+    66
+   ],
+   [
+    690,
+    1964,
+    87,
+    66
+   ],
+   [
+    779,
+    1964,
+    88,
+    66
+   ],
+   [
+    869,
+    1964,
+    88,
+    66
+   ],
+   [
+    958,
+    1964,
+    88,
+    66
+   ]
+  ],
+  "suggested_field": "national_id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "(हालसम्म राष्ट्रिय परिचय पत्र नलिएको)",
+   "above": "(b) NID Number (रा.प.प. नम्बर):",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 2
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   152,
+   2340,
+   804,
+   66
+  ],
+  "source": "raster",
+  "cell_count": 9,
+  "cells": [
+   [
+    152,
+    2340,
+    88,
+    66
+   ],
+   [
+    242,
+    2340,
+    88,
+    66
+   ],
+   [
+    331,
+    2340,
+    88,
+    66
+   ],
+   [
+    421,
+    2340,
+    88,
+    66
+   ],
+   [
+    510,
+    2340,
+    88,
+    66
+   ],
+   [
+    600,
+    2340,
+    88,
+    66
+   ],
+   [
+    690,
+    2340,
+    87,
+    66
+   ],
+   [
+    779,
+    2340,
+    88,
+    66
+   ],
+   [
+    869,
+    2340,
+    87,
+    66
+   ]
+  ],
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "PAN Number (स्थायी लेखा नम्बर): d)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1296,
+   135,
+   1053,
+   183
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Individual KYC (व्यक्तिगत ग्राहक पहिचान विवरण)",
+   "left": "Laxmi Sunrise Bank Limited लक्ष्मी सन्राइज बैंक लिमिटेड",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 4
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   666,
+   3073,
+   1678,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_type",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "ID Type (परिचयपत्रको किसिम )",
+   "right": "",
+   "above": "अभिभावक वा संरक्षकको पहिचानको विवरण):",
+   "row": "ID Type (परिचयपत्रको किसिम )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 5
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   666,
+   2501,
+   1678,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_type",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "ID Type (परिचयपत्रको किसिम )",
+   "right": "",
+   "above": "(हालसम्म स्थायी लेखा नम्बर नलिएको)",
+   "row": "ID Type (परिचयपत्रको किसिम )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2114,
+   338,
+   231,
+   268
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Photo",
+   "left": "",
+   "right": "",
+   "above": "(व्यक्तिगत ग्राहक पहिचान विवरण)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   882,
+   590,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Permanent Address (स्थायी ठेगाना )",
+   "left": "",
+   "right": "Present Address",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 8
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   882,
+   548,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "left": "Permanent Address (हालको ठेगाना) Present Address",
+   "right": "",
+   "above": "Country (देश)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 9
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   882,
+   548,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Present Address (हालको ठेगाना)",
+   "left": "(स्थायी ठेगाना ) Permanent Address",
+   "right": "Mailing Corresponding Address",
+   "above": "Country (देश)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 10
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1740,
+   852,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Citizenship No. नागरिकता नं.",
+   "left": "",
+   "right": "Date of Issue (जारी मिति",
+   "above": "Note: [Mandatory for Nepalese Citizen (a) Citizenship (नागरिकता )",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 11
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1807,
+   852,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Citizenship No. नागरिकता नं.",
+   "row": "",
+   "col": "Citizenship No. नागरिकता नं.",
+   "matched_on": "above"
+  },
+  "n": 12
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   858,
+   2842,
+   794,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "left": "ID No. (प्रमाणपत्र/ परिचयपत्र नं. )",
+   "right": "Date of Issue (जारी मिति",
+   "above": "नाबालक परिचय पत्र ) वा",
+   "row": "ID No. (प्रमाणपत्र/ परिचयपत्र नं. )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 13
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   858,
+   2910,
+   794,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issued_by",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "row": "",
+   "col": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "matched_on": "above"
+  },
+  "n": 14
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   882,
+   505,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Permanent Address",
+   "above": "(4) Address (ठेगाना )",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 15
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   2910,
+   705,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "ID No. (प्रमाणपत्र/ परिचयपत्र नं. )",
+   "row": "",
+   "col": "ID No. (प्रमाणपत्र/ परिचयपत्र नं. )",
+   "matched_on": "above"
+  },
+  "n": 16
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   2842,
+   705,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ID No. (प्रमाणपत्र/ परिचयपत्र नं. )",
+   "left": "",
+   "right": "Issued by (जारी गर्ने निकाय",
+   "above": "Birth Certificate Minor ID (जन्म दर्ता प्रमाणपत्र (a)",
+   "row": "",
+   "col": "ID No. (परिचयपत्र नं. )",
+   "matched_on": "above"
+  },
+  "n": 17
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1654,
+   2842,
+   690,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of Issue (जारी मिति",
+   "left": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "right": "",
+   "above": "",
+   "row": "ID No. (प्रमाणपत्र/ परिचयपत्र नं. )",
+   "col": "Issued by (जारी जर्ने जिल्ला )",
+   "matched_on": "left"
+  },
+  "n": 18
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1654,
+   2910,
+   690,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Issue (जारी मिति",
+   "row": "",
+   "col": "Date of Issue (जारी मिति",
+   "matched_on": "above"
+  },
+  "n": 19
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1658,
+   1807,
+   686,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issued_by",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Issued by (जारी जर्ने जिल्ला ) (नेपाली नागरिकको हकमा अनिवार्य) ]",
+   "row": "",
+   "col": "Issued by (जारी जर्ने जिल्ला )",
+   "matched_on": "above"
+  },
+  "n": 20
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1658,
+   1740,
+   686,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Issued by (जारी जर्ने जिल्ला )",
+   "left": "Date of Issue (जारी मिति",
+   "right": "",
+   "above": "(नेपाली नागरिकको हकमा अनिवार्य) ]",
+   "row": "Citizenship No. नागरिकता नं.",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 21
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   666,
+   3207,
+   632,
+   67
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issued_by",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "row": "",
+   "col": "Issued by (जारी गर्ने निकाय र जिल्ला )",
+   "matched_on": "above"
+  },
+  "n": 22
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1006,
+   1740,
+   651,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of Issue (जारी मिति",
+   "left": "Citizenship No. नागरिकता नं.",
+   "right": "Issued by (जारी जर्ने जिल्ला )",
+   "above": "Note: [Mandatory for Nepalese Citizen (नेपाली नागरिकको हकमा अनिवार्य) ]",
+   "row": "Citizenship No. नागरिकता नं.",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 23
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1006,
+   1807,
+   651,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Issue (जारी मिति Note: [Mandatory for Nepalese Citizen",
+   "row": "",
+   "col": "Date of Issue (जारी मिति",
+   "matched_on": "above"
+  },
+  "n": 24
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   666,
+   3140,
+   632,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Issued by (जारी गर्ने निकाय जिल्ला ) र",
+   "left": "ID No. (परिचयपत्र नं. )",
+   "right": "Date of Issue (जारी मिति",
+   "above": "",
+   "row": "ID No. (परिचयपत्र नं. )",
+   "col": "Issued by (जारी गर्ने निकाय र जिल्ला )",
+   "matched_on": "left"
+  },
+  "n": 25
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   666,
+   2636,
+   632,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issued_by",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Issued by (जारी गर्ने निकाय र जिल्ला )",
+   "row": "",
+   "col": "Issued by (जारी गर्ने निकाय र जिल्ला )",
+   "matched_on": "above"
+  },
+  "n": 26
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   666,
+   2569,
+   632,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Issued by (जारी गर्ने निकाय र जिल्ला )",
+   "left": "ID No. (परिचयपत्र नं. )",
+   "right": "Date of Issue (जारी मिति",
+   "above": "",
+   "row": "ID No. (परिचयपत्र नं. )",
+   "col": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "matched_on": "left"
+  },
+  "n": 27
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   704,
+   2124,
+   610,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "left": "Passport No. ( राहदानी नं. )",
+   "right": "Date of Issue (जारी मिति",
+   "above": "",
+   "row": "Passport No. ( राहदानी नं. )",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 28
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   704,
+   2192,
+   610,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issued_by",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "row": "",
+   "col": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "matched_on": "above"
+  },
+  "n": 29
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   986,
+   590,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_house_no",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "House No. (घर नं. )",
+   "right": "",
+   "above": "(स्थायी ठेगाना ) Permanent Address",
+   "row": "House No. (घर नं. )",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 30
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   1457,
+   590,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "mobile",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Mobile No. (मोबाईल नं",
+   "right": "",
+   "above": "",
+   "row": "Mobile No. (मोबाईल नं",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 31
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   1390,
+   590,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "phone",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Tel. (टेलिफोन नं.",
+   "right": "",
+   "above": "",
+   "row": "Tel. (टेलिफोन नं.",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 32
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   1188,
+   590,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_municipality",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Mun. /Rural Mun. (न.पा./गा़.पा़. )",
+   "right": "",
+   "above": "",
+   "row": "Mun. /Rural Mun. (न.पा./गा़.पा़. )",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 33
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   1255,
+   590,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_district",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "District (जिल्ला )",
+   "right": "",
+   "above": "",
+   "row": "District (जिल्ला )",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 34
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   1053,
+   590,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_tole",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Tole (टोल।/गाउ )",
+   "right": "",
+   "above": "(स्थायी ठेगाना )",
+   "row": "Tole (टोल।/गाउ )",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 35
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   1121,
+   590,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_ward",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Ward No. (वडा नं. )",
+   "right": "",
+   "above": "",
+   "row": "Ward No. (वडा नं. )",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 36
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   1524,
+   590,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "email",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Email ईमेल",
+   "right": "",
+   "above": "",
+   "row": "Email ईमेल",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 37
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   658,
+   1323,
+   590,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_province",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Province (प्रदेश )",
+   "right": "",
+   "above": "",
+   "row": "Province (प्रदेश )",
+   "col": "Permanent Address (स्थायी ठेगाना )",
+   "matched_on": "left"
+  },
+  "n": 38
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   3207,
+   546,
+   67
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Expiry (समाप्ति मिति)",
+   "row": "",
+   "col": "Date of Expiry (समाप्ति मिति)",
+   "matched_on": "above"
+  },
+  "n": 39
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   2192,
+   550,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "passport_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Passport No. ( राहदानी नं. ) Passport (पासपोर्ट)",
+   "row": "",
+   "col": "Passport No. ( राहदानी नं. )",
+   "matched_on": "above"
+  },
+  "n": 40
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   2124,
+   550,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Passport No. ( राहदानी नं. )",
+   "left": "",
+   "right": "Issued by (जारी गर्ने निकाय",
+   "above": "Passport (पासपोर्ट) (c)",
+   "row": "",
+   "col": "Email ईमेल",
+   "matched_on": "col"
+  },
+  "n": 41
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   1457,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "mobile",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Mobile No. (मोबाईल नं",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 42
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   1188,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_municipality",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Mun. /Rural Mun. (न.पा./गा़.पा़. )",
+   "right": "",
+   "above": "",
+   "row": "Mun. /Rural Mun. (न.पा./गा़.पा़. )",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "left"
+  },
+  "n": 43
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   1188,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_municipality",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Mun. /Rural Mun. (न.पा./गा़.पा़. )",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 44
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   1524,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "email",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Email ईमेल",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 45
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   1255,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_district",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "District (जिल्ला )",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 46
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   1255,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_district",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "District (जिल्ला )",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 47
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   1121,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_ward",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Ward No. (वडा नं. )",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 48
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   1053,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_tole",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(पत्राचार गर्ने ठेगाना)",
+   "row": "Tole (टोल।/गाउ )",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 49
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   1457,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "mobile",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Mobile No. (मोबाईल नं",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 50
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   986,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_house_no",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(हालको ठेगाना) Present Address",
+   "row": "House No. (घर नं. )",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 51
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   986,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_house_no",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(पत्राचार गर्ने ठेगाना) Mailing Corresponding Address",
+   "row": "House No. (घर नं. )",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 52
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   1390,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "phone",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Tel. (टेलिफोन नं.",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 53
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   1053,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_tole",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(हालको ठेगाना)",
+   "row": "Tole (टोल।/गाउ )",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 54
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   1524,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "email",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Email ईमेल",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 55
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   1390,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "phone",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Tel. (टेलिफोन नं.",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 56
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   1121,
+   548,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_ward",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Ward No. (वडा नं. )",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 57
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   2636,
+   546,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Expiry ( समाप्ति मिति)",
+   "row": "",
+   "col": "Date of Expiry ( समाप्ति मिति)",
+   "matched_on": "above"
+  },
+  "n": 58
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   3140,
+   546,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of Expiry (समाप्ति मिति)",
+   "left": "र जिल्ला ) Date of Issue (जारी मिति",
+   "right": "",
+   "above": "",
+   "row": "ID No. (परिचयपत्र नं. )",
+   "col": "Date of Expiry ( समाप्ति मिति)",
+   "matched_on": "left"
+  },
+  "n": 59
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1249,
+   1323,
+   548,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_province",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Province (प्रदेश )",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 60
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   1323,
+   548,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_province",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Province (प्रदेश )",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "row"
+  },
+  "n": 61
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1798,
+   2569,
+   546,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of Expiry ( समाप्ति मिति)",
+   "left": "Issued by (जारी गर्ने निकाय र जिल्ला ) Date of Issue (जारी मिति",
+   "right": "",
+   "above": "",
+   "row": "ID No. (परिचयपत्र नं. )",
+   "col": "Date of Expiry समाप्ति मिति",
+   "matched_on": "left"
+  },
+  "n": 62
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1814,
+   2124,
+   528,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of Expiry समाप्ति मिति",
+   "left": "Issued by (जारी गर्ने निकाय जिल्ला ) Date of Issue (जारी मिति",
+   "right": "",
+   "above": "",
+   "row": "Passport No. ( राहदानी नं. )",
+   "col": "Mailing Corresponding Address (पत्राचार गर्ने ठेगाना)",
+   "matched_on": "left"
+  },
+  "n": 63
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1814,
+   2192,
+   528,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Expiry समाप्ति मिति",
+   "row": "",
+   "col": "Date of Expiry समाप्ति मिति",
+   "matched_on": "above"
+  },
+  "n": 64
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   3207,
+   512,
+   67
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "ID No. (परिचयपत्र नं. )",
+   "row": "",
+   "col": "ID No. (परिचयपत्र नं. )",
+   "matched_on": "above"
+  },
+  "n": 65
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   3140,
+   512,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ID No. (परिचयपत्र नं. )",
+   "left": "",
+   "right": "Issued by (जारी गर्ने निकाय",
+   "above": "ID Type (परिचयपत्रको किसिम )",
+   "row": "",
+   "col": "ID Type (परिचयपत्रको किसिम )",
+   "matched_on": "above"
+  },
+  "n": 66
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   2636,
+   512,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_type",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "ID No. (परिचयपत्र नं. ) ID Type (परिचयपत्रको किसिम )",
+   "row": "",
+   "col": "ID No. (परिचयपत्र नं. )",
+   "matched_on": "above"
+  },
+  "n": 67
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   3073,
+   512,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ID Type (परिचयपत्रको किसिम )",
+   "left": "",
+   "right": "",
+   "above": "Guardians Identification Details (b)",
+   "row": "",
+   "col": "ID No. (परिचयपत्र नं. )",
+   "matched_on": "col"
+  },
+  "n": 68
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   2501,
+   512,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ID Type (परिचयपत्रको किसिम )",
+   "left": "",
+   "right": "",
+   "above": "(e) Others ( अन्य )",
+   "row": "",
+   "col": "Passport No. ( राहदानी नं. )",
+   "matched_on": "col"
+  },
+  "n": 69
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1457,
+   505,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Mobile No. (मोबाईल नं",
+   "left": "",
+   "right": "",
+   "above": "Tel. (टेलिफोन नं. Province (प्रदेश )",
+   "row": "",
+   "col": "Tel. (टेलिफोन नं.",
+   "matched_on": "above"
+  },
+  "n": 70
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1188,
+   505,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Mun. /Rural Mun. (न.पा./गा़.पा़. )",
+   "left": "",
+   "right": "",
+   "above": "Ward No. (वडा नं. )",
+   "row": "",
+   "col": "Ward No. (वडा नं. )",
+   "matched_on": "above"
+  },
+  "n": 71
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1524,
+   505,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Email ईमेल",
+   "left": "",
+   "right": "",
+   "above": "Mobile No. (मोबाईल नं",
+   "row": "",
+   "col": "Mobile No. (मोबाईल नं",
+   "matched_on": "above"
+  },
+  "n": 72
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1255,
+   505,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "District (जिल्ला )",
+   "left": "",
+   "right": "",
+   "above": "Mun. /Rural Mun. (न.पा./गा़.पा़. ) Ward No.",
+   "row": "",
+   "col": "Mun. /Rural Mun. (न.पा./गा़.पा़. )",
+   "matched_on": "above"
+  },
+  "n": 73
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1121,
+   505,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Ward No. (वडा नं. )",
+   "left": "",
+   "right": "",
+   "above": "Tole (टोल।/गाउ ) House No. (घर नं. )",
+   "row": "",
+   "col": "Tole (टोल।/गाउ )",
+   "matched_on": "above"
+  },
+  "n": 74
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1390,
+   505,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Tel. (टेलिफोन नं.",
+   "left": "",
+   "right": "",
+   "above": "Province (प्रदेश ) District (जिल्ला )",
+   "row": "",
+   "col": "Province (प्रदेश )",
+   "matched_on": "above"
+  },
+  "n": 75
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1053,
+   505,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Tole (टोल।/गाउ )",
+   "left": "",
+   "right": "",
+   "above": "House No. (घर नं. )",
+   "row": "",
+   "col": "House No. (घर नं. )",
+   "matched_on": "above"
+  },
+  "n": 76
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   986,
+   505,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "House No. (घर नं. )",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 77
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   2569,
+   512,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ID No. (परिचयपत्र नं. )",
+   "left": "",
+   "right": "Issued by (जारी गर्ने निकाय",
+   "above": "ID Type (परिचयपत्रको किसिम ) (e)",
+   "row": "",
+   "col": "ID Type (परिचयपत्रको किसिम )",
+   "matched_on": "above"
+  },
+  "n": 78
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1300,
+   3207,
+   496,
+   67
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Issue (जारी मिति",
+   "row": "",
+   "col": "Date of Issue (जारी मिति",
+   "matched_on": "above"
+  },
+  "n": 79
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   152,
+   1323,
+   505,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Province (प्रदेश )",
+   "left": "",
+   "right": "",
+   "above": "District (जिल्ला ) Mun. /Rural Mun. (न.पा./गा़.पा़. )",
+   "row": "",
+   "col": "District (जिल्ला )",
+   "matched_on": "above"
+  },
+  "n": 80
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1300,
+   2636,
+   496,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Issue (जारी मिति",
+   "row": "",
+   "col": "Date of Issue (जारी मिति",
+   "matched_on": "above"
+  },
+  "n": 81
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1300,
+   3140,
+   496,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of Issue (जारी मिति",
+   "left": "Issued by (जारी गर्ने निकाय र जिल्ला )",
+   "right": "Date of Expiry (समाप्ति मिति)",
+   "above": "",
+   "row": "ID No. (परिचयपत्र नं. )",
+   "col": "Date of Issue (जारी मिति",
+   "matched_on": "left"
+  },
+  "n": 82
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1316,
+   2192,
+   496,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_issue_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Date of Issue (जारी मिति",
+   "row": "",
+   "col": "Date of Issue (जारी मिति",
+   "matched_on": "above"
+  },
+  "n": 83
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1316,
+   2124,
+   496,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of Issue (जारी मिति",
+   "left": "Passport No. ( राहदानी नं. ) Issued by (जारी गर्ने निकाय जिल्ला )",
+   "right": "Date of Expiry",
+   "above": "(हालसम्म राष्ट्रिय परिचय पत्र नलिएको)",
+   "row": "Passport No. ( राहदानी नं. )",
+   "col": "Present Address (हालको ठेगाना)",
+   "matched_on": "left"
+  },
+  "n": 84
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1300,
+   2569,
+   496,
+   65
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of Issue (जारी मिति",
+   "left": "Issued by (जारी गर्ने निकाय र जिल्ला )",
+   "right": "Date of Expiry ( समाप्ति मिति)",
+   "above": "",
+   "row": "ID No. (परिचयपत्र नं. )",
+   "col": "Date of Issue (जारी मिति",
+   "matched_on": "left"
+  },
+  "n": 85
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   118,
+   43,
+   2246,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 86
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   698,
+   462,
+   1403,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "(1) Name Surname (नाम थर",
+   "right": "Photo",
+   "above": "Branch (शाखा)",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 87
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   612,
+   731,
+   987,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "nationality",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "(3) Nationality ( राष्ट्रियता )",
+   "right": "Country (देश)",
+   "above": "M",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 88
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1897,
+   731,
+   451,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Country (देश)",
+   "right": "",
+   "above": "M",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 89
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   937,
+   3275,
+   439,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "education",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Education Qualification (शैक्षिक योग्यता )",
+   "right": "",
+   "above": "Issued by (जारी गर्ने निकाय जिल्ला )",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 90
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   3387,
+   2480,
+   120
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Laxmi Sunrise",
+   "left": "",
+   "right": "",
+   "above": "Education Qualification (शैक्षिक योग्यता )",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 91
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2372,
+   0,
+   107,
+   3464
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Date of Expiry (समाप्ति मिति) Date of Expiry ( समाप्ति मिति) Mailing Corresponding Address",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 92
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   0,
+   107,
+   3464
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "(2)",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 93
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   0,
+   2480,
+   107
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 94
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2301,
+   3387,
+   70,
+   120
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Laxmi Sunrise",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 95
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1856,
+   177,
+   33,
+   42
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1856,
+     177,
+     33,
+     42
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 96
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1438,
+   256,
+   28,
+   34
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1438,
+     256,
+     28,
+     34
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Laxmi Sunrise Bank Limited लक्ष्मी सन्राइज बैंक लिमिटेड",
+   "options": [
+    ""
+   ]
+  },
+  "n": 97
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   406,
+   699,
+   997,
+   39
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Female (महिला )",
+    "bbox": [
+     406,
+     699,
+     44,
+     39
+    ]
+   },
+   {
+    "label": "Male ( पुरुष )",
+    "bbox": [
+     758,
+     699,
+     44,
+     39
+    ]
+   },
+   {
+    "label": "Other (अन्य",
+    "bbox": [
+     1099,
+     699,
+     44,
+     39
+    ]
+   }
+  ],
+  "suggested_field": "gender",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Sex (लिङ्ग )",
+   "options": [
+    "Female (महिला )",
+    "Male ( पुरुष )",
+    "Other (अन्य"
+   ]
+  },
+  "n": 98
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1204,
+   1939,
+   606,
+   39
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Haven t received NID till date",
+    "bbox": [
+     1204,
+     1939,
+     44,
+     39
+    ]
+   }
+  ],
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Haven t received NID till date"
+   ]
+  },
+  "n": 99
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1204,
+   2334,
+   614,
+   39
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Haven t received PAN till date",
+    "bbox": [
+     1204,
+     2334,
+     44,
+     39
+    ]
+   }
+  ],
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Haven t received PAN till date"
+   ]
+  },
+  "n": 100
+ }
+]

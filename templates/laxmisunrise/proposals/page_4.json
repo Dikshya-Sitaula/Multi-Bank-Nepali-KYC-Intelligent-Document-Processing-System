@@ -1,0 +1,227 @@
+[
+ {
+  "kind": "frame",
+  "bbox": [
+   1017,
+   1213,
+   312,
+   372
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 0
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   1394,
+   1213,
+   312,
+   372
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 1
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   118,
+   43,
+   2246,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 2
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1931,
+   1971,
+   401,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Date (मिति)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   3387,
+   2480,
+   120
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Laxmi Sunrise",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 4
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2372,
+   0,
+   107,
+   3464
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "पनि मैले। हामीले उपलब्ध गराएको कुनै जानकारी भ्रामक वा जलत प्रमाणित भएमा ल्यसको परिणामको लागि म।हामी पूर्ण जिम्मेवार मैले। हामीले उपलब्ध गराएका सूचनाहरु मेरो।हाम्रो जानकारीमा",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 5
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   0,
+   107,
+   3464
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Declaration (घोषणा)",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   0,
+   2480,
+   107
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   107,
+   3387,
+   70,
+   120
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Laxmi Sunrise",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 8
+ }
+]

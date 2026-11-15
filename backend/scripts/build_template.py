@@ -57,6 +57,15 @@ from app.services.template.schema import (  # noqa: E402
 REGION_KEYS = {"field_id", "group_id", "party", "applicant_index", "row_index", "printed_prefill", "cell_count"}
 
 
+def _oid(v) -> str:
+    """Option id from YAML. Unquoted yes/no are parsed by YAML 1.1 as booleans."""
+    if v is True:
+        return "yes"
+    if v is False:
+        return "no"
+    return str(v)
+
+
 def _norm(b: list[float], w: int, h: int) -> list[float]:
     x, y, bw, bh = b
     return [round(x / w, 6), round(y / h, 6), round(bw / w, 6), round(bh / h, 6)]
@@ -107,7 +116,7 @@ def build(tid: str) -> tuple[Template, list[str]]:
                 ids = ov.get("options") or [f"opt{i + 1}" for i in range(len(raw))]
                 if len(ids) != len(raw):
                     warnings.append(f"p{ref.page_number} c{n}: {len(ids)} option ids for {len(raw)} boxes")
-                opts = [CheckboxOption(id=(i if isinstance(i, str) else i["id"]),
+                opts = [CheckboxOption(id=(i["id"] if isinstance(i, dict) else _oid(i)),
                                        label=(o.get("label") or None) if not isinstance(i, dict) else i.get("label"),
                                        bbox=_norm(o["bbox"], pw, ph)) for i, o in zip(ids, raw)]
             cells = [_norm(c, pw, ph) for c in p["cells"]] if p.get("cells") else None
@@ -129,7 +138,8 @@ def build(tid: str) -> tuple[Template, list[str]]:
                 continue
             opts = None
             if a.get("options"):
-                opts = [CheckboxOption(id=o["id"], label=o.get("label"), bbox=_norm(o["bbox_px"], pw, ph)) for o in a["options"]]
+                opts = [CheckboxOption(id=_oid(o["id"]), label=o.get("label"), bbox=_norm(o["bbox_px"], pw, ph))
+                        for o in a["options"]]
             attrs = {**defaults, **{k2: v for k2, v in a.items() if k2 in REGION_KEYS}}
             page_regions.append(Region(id=f"p{ref.page_number}_a{k:02d}", page=ref.page_number,
                                        bbox=_norm(a["bbox_px"], pw, ph), checkbox_options=opts,

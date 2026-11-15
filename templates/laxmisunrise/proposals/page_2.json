@@ -1,0 +1,2535 @@
+[
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1437,
+   3119,
+   384,
+   53
+  ],
+  "source": "raster",
+  "cell_count": 5,
+  "cells": [
+   [
+    1437,
+    3119,
+    74,
+    53
+   ],
+   [
+    1512,
+    3119,
+    83,
+    53
+   ],
+   [
+    1595,
+    3119,
+    80,
+    53
+   ],
+   [
+    1676,
+    3119,
+    74,
+    53
+   ],
+   [
+    1750,
+    3119,
+    71,
+    53
+   ]
+  ],
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "भने खाता नं. उल्लेख गर्नुहोस्",
+   "right": "",
+   "above": "(16) Do you already have account with Laxmi Sunrise Bank ? (के तपाईको पहिले नै लक्ष्ममी सन्राइज बैंकमा कुनै खाता छ",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 0
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   224,
+   231,
+   97,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ऋ.सं.",
+   "left": "",
+   "right": "",
+   "above": "Details of Family Members ( परिवार सदस्य सम्बन्धमा )",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 1
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   224,
+   296,
+   97,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "1",
+   "left": "",
+   "right": "Spouse (पति/पल्नि",
+   "above": "ऋ.सं. Details of Family Members ( परिवार सदस्य सम्बन्धमा )",
+   "row": "",
+   "col": "ऋ.सं.",
+   "matched_on": "col"
+  },
+  "n": 2
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   224,
+   362,
+   97,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "२",
+   "left": "",
+   "right": "Father",
+   "above": "1 ऋ.सं.",
+   "row": "",
+   "col": "1",
+   "matched_on": "col"
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   224,
+   425,
+   97,
+   58
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "3",
+   "left": "",
+   "right": "Mother",
+   "above": "२ 1",
+   "row": "",
+   "col": "२",
+   "matched_on": "col"
+  },
+  "n": 4
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   224,
+   483,
+   97,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "4",
+   "left": "",
+   "right": "Grandfather (बाजे )",
+   "above": "3 २",
+   "row": "",
+   "col": "3",
+   "matched_on": "col"
+  },
+  "n": 5
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1095,
+   548,
+   105,
+   61
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1095,
+   610,
+   105,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Son ( छोरा )",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1095,
+   673,
+   105,
+   59
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 8
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1095,
+   732,
+   105,
+   61
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 9
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1095,
+   794,
+   105,
+   61
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Daughter",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 10
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1095,
+   855,
+   105,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 11
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1095,
+   922,
+   105,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 12
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1095,
+   988,
+   105,
+   70
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Daughter in-law",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 13
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1095,
+   1059,
+   105,
+   70
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "बुहारी )",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 14
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   224,
+   1130,
+   97,
+   102
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "8",
+   "left": "",
+   "right": "Father in-law ( ससुरा)",
+   "above": "",
+   "row": "",
+   "col": "5",
+   "matched_on": "col"
+  },
+  "n": 15
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1291,
+   3119,
+   78,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "If yes, mention account no. भने खाता नं. उल्लेख गर्नुहोस्",
+   "right": "",
+   "above": "(16) Do you already have account with Laxmi Sunrise Bank ? (के तपाईको पहिले नै लक्ष्ममी सन्राइज बैंकमा कुनै खाता छ",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 16
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   323,
+   922,
+   772,
+   207
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Daughter in-law बुहारी )",
+   "left": "",
+   "right": "",
+   "above": "Daughter",
+   "row": "",
+   "col": "Daughter",
+   "matched_on": "above"
+  },
+  "n": 17
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   323,
+   732,
+   772,
+   189
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Daughter",
+   "left": "",
+   "right": "",
+   "above": "Son ( छोरा )",
+   "row": "",
+   "col": "Son ( छोरा )",
+   "matched_on": "above"
+  },
+  "n": 18
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   323,
+   548,
+   772,
+   184
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Son ( छोरा )",
+   "left": "5",
+   "right": "",
+   "above": "Grandfather (बाजे ) Mother",
+   "row": "5",
+   "col": "Grandfather (बाजे )",
+   "matched_on": "above"
+  },
+  "n": 19
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   1130,
+   1143,
+   102
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Father in-law ( ससुरा) For Married Women Only (विवाहित महिलाको हकमा",
+   "right": "",
+   "above": "",
+   "row": "8",
+   "col": "नाम थर",
+   "matched_on": "left"
+  },
+  "n": 20
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   339,
+   1703,
+   497,
+   209
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Name of Institution (संस्थाको नाम )",
+   "left": "S.N. (सि.नं. )",
+   "right": "Nature of Occupation/",
+   "above": "(10) Details of Account Holder's Occupation / Business",
+   "row": "S.N. (सि.नं. )",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 21
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   836,
+   1703,
+   434,
+   209
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Nature of Occupation/ Business (पेशा/व्यवसायको प्रकृति",
+   "left": "(सि.नं. ) (संस्थाको नाम ) Name of Institution",
+   "right": "Address of Inst.",
+   "above": "(10) Details of Account Holder's Occupation / Business (खातावाला ग्राहक संलग्न रहेको पेशा/व्यवसाय )",
+   "row": "S.N. (सि.नं. )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 22
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   323,
+   1130,
+   877,
+   102
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Father in-law ( ससुरा) For Married Women Only (विवाहित महिलाको हकमा",
+   "left": "8",
+   "right": "",
+   "above": "बुहारी )",
+   "row": "8",
+   "col": "Daughter in-law बुहारी )",
+   "matched_on": "above"
+  },
+  "n": 23
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1271,
+   1703,
+   419,
+   209
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Address of Inst. (संस्थाको ठेगाना )",
+   "left": "Business (पेशा/व्यवसायको प्रकृति Nature of Occupation/",
+   "right": "Designation",
+   "above": "(खातावाला ग्राहक संलग्न रहेको पेशा/व्यवसाय )",
+   "row": "S.N. (सि.नं. )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 24
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   1059,
+   1143,
+   70
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "नाम थर",
+   "matched_on": "col"
+  },
+  "n": 25
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   988,
+   1143,
+   70
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Daughter in-law",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "नाम थर",
+   "matched_on": "left"
+  },
+  "n": 26
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   922,
+   1143,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "नाम थर",
+   "matched_on": "col"
+  },
+  "n": 27
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   855,
+   1143,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "नाम थर",
+   "matched_on": "col"
+  },
+  "n": 28
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   296,
+   1143,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Spouse (पति/पल्नि",
+   "right": "",
+   "above": "नाम थर",
+   "row": "1",
+   "col": "नाम थर",
+   "matched_on": "left"
+  },
+  "n": 29
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   231,
+   1143,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "थर नाम",
+   "left": "नाता",
+   "right": "",
+   "above": "",
+   "row": "ऋ.सं.",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 30
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   483,
+   1143,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Grandfather (बाजे )",
+   "right": "",
+   "above": "",
+   "row": "4",
+   "col": "नाम थर",
+   "matched_on": "left"
+  },
+  "n": 31
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1973,
+   1703,
+   349,
+   209
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Estimated Annual Income/ Remuneration (अनुमानित वार्षिक आन्दानी/पारिश्रमिक",
+   "left": "(पद) Position/ Designation",
+   "right": "",
+   "above": "",
+   "row": "S.N. (सि.नं. )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 32
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   610,
+   1143,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Son ( छोरा )",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "नाम थर",
+   "matched_on": "left"
+  },
+  "n": 33
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   362,
+   1143,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "बl",
+   "right": "",
+   "above": "नाम थर",
+   "row": "२",
+   "col": "नाम थर",
+   "matched_on": "above"
+  },
+  "n": 34
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   548,
+   1143,
+   61
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "नाम थर",
+   "matched_on": "col"
+  },
+  "n": 35
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   732,
+   1143,
+   61
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "नाम थर",
+   "matched_on": "col"
+  },
+  "n": 36
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   794,
+   1143,
+   61
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Daughter",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "नाम थर",
+   "matched_on": "left"
+  },
+  "n": 37
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   673,
+   1143,
+   59
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "नाम थर",
+   "matched_on": "col"
+  },
+  "n": 38
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1201,
+   425,
+   1143,
+   58
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "mother",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "आमा )",
+   "right": "",
+   "above": "",
+   "row": "3",
+   "col": "नाम थर",
+   "matched_on": "left"
+  },
+  "n": 39
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1690,
+   1703,
+   282,
+   209
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Position/ Designation (पद)",
+   "left": "Nature of Occupation/ (संस्थाको ठेगाना ) Address of Inst.",
+   "right": "Estimated Annual",
+   "above": "(खातावाला ग्राहक संलग्न रहेको पेशा/व्यवसाय )",
+   "row": "S.N. (सि.नं. )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 40
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   323,
+   296,
+   877,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Spouse (पति/पल्नि",
+   "left": "1",
+   "right": "",
+   "above": "नाता Details of Family Members ( परिवार सदस्य सम्बन्धमा )",
+   "row": "1",
+   "col": "नाता",
+   "matched_on": "col"
+  },
+  "n": 41
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   323,
+   483,
+   877,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Grandfather (बाजे )",
+   "left": "4",
+   "right": "",
+   "above": "Mother आमा )",
+   "row": "4",
+   "col": "Mother आमा )",
+   "matched_on": "above"
+  },
+  "n": 42
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   323,
+   231,
+   877,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "नाता",
+   "left": "ऋ.सं.",
+   "right": "",
+   "above": "Details of Family Members ( परिवार सदस्य सम्बन्धमा )",
+   "row": "ऋ.सं.",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 43
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   323,
+   362,
+   877,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Father बl",
+   "left": "२",
+   "right": "",
+   "above": "Spouse (पति/पल्नि नाता",
+   "row": "२",
+   "col": "Spouse (पति/पल्नि",
+   "matched_on": "above"
+  },
+  "n": 44
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   323,
+   425,
+   877,
+   58
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Mother आमा )",
+   "left": "3",
+   "right": "",
+   "above": "Father बl",
+   "row": "3",
+   "col": "Father बl",
+   "matched_on": "above"
+  },
+  "n": 45
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   339,
+   1913,
+   497,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Name of Institution (संस्थाको नाम )",
+   "matched_on": "col"
+  },
+  "n": 46
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   339,
+   2074,
+   497,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Name of Institution (संस्थाको नाम )",
+   "matched_on": "col"
+  },
+  "n": 47
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   836,
+   1913,
+   434,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "occupation_choice",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(पेशा/व्यवसायको प्रकृति",
+   "row": "",
+   "col": "Nature of Occupation/ Business (पेशा/व्यवसायको प्रकृति",
+   "matched_on": "above"
+  },
+  "n": 48
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   339,
+   1999,
+   497,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Name of Institution (संस्थाको नाम )",
+   "matched_on": "col"
+  },
+  "n": 49
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   836,
+   2074,
+   434,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "occupation_choice",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Nature of Occupation/ Business (पेशा/व्यवसायको प्रकृति",
+   "matched_on": "col"
+  },
+  "n": 50
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1271,
+   1913,
+   419,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Address of Inst. (संस्थाको ठेगाना )",
+   "matched_on": "col"
+  },
+  "n": 51
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1271,
+   2074,
+   419,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Address of Inst. (संस्थाको ठेगाना )",
+   "matched_on": "col"
+  },
+  "n": 52
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   836,
+   1999,
+   434,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "occupation_choice",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Nature of Occupation/ Business (पेशा/व्यवसायको प्रकृति",
+   "matched_on": "col"
+  },
+  "n": 53
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1271,
+   1999,
+   419,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Address of Inst. (संस्थाको ठेगाना )",
+   "matched_on": "col"
+  },
+  "n": 54
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1973,
+   1913,
+   349,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "annual_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "आन्दानी/पारिश्रमिक (अनुमानित वार्षिक",
+   "row": "",
+   "col": "Estimated Annual Income/ Remuneration (अनुमानित वार्षिक आन्दानी/पारिश्रमिक",
+   "matched_on": "col"
+  },
+  "n": 55
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1973,
+   2074,
+   349,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "annual_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Estimated Annual Income/ Remuneration (अनुमानित वार्षिक आन्दानी/पारिश्रमिक",
+   "matched_on": "col"
+  },
+  "n": 56
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1973,
+   1999,
+   349,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "annual_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "आन्दानी/पारिश्रमिक",
+   "row": "",
+   "col": "Estimated Annual Income/ Remuneration (अनुमानित वार्षिक आन्दानी/पारिश्रमिक",
+   "matched_on": "col"
+  },
+  "n": 57
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1690,
+   1913,
+   282,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(पद)",
+   "row": "",
+   "col": "Position/ Designation (पद)",
+   "matched_on": "above"
+  },
+  "n": 58
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   223,
+   1703,
+   115,
+   209
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "S.N. (सि.नं. )",
+   "left": "",
+   "right": "Name of Institution",
+   "above": "(10) Details of Account Holder's Occupation / Business",
+   "row": "",
+   "col": "8",
+   "matched_on": "above"
+  },
+  "n": 59
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1690,
+   2074,
+   282,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Position/ Designation (पद)",
+   "matched_on": "col"
+  },
+  "n": 60
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1690,
+   1999,
+   282,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Position/ Designation (पद)",
+   "matched_on": "col"
+  },
+  "n": 61
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   224,
+   922,
+   97,
+   207
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Daughter in-law",
+   "above": "",
+   "row": "",
+   "col": "5",
+   "matched_on": "col"
+  },
+  "n": 62
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   224,
+   732,
+   97,
+   189
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Daughter",
+   "above": "5",
+   "row": "",
+   "col": "5",
+   "matched_on": "col"
+  },
+  "n": 63
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   224,
+   548,
+   97,
+   184
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "5",
+   "left": "",
+   "right": "Son ( छोरा )",
+   "above": "4 3",
+   "row": "",
+   "col": "4",
+   "matched_on": "col"
+  },
+  "n": 64
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   223,
+   1913,
+   115,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "S.N. (सि.नं. )",
+   "matched_on": "col"
+  },
+  "n": 65
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   223,
+   2074,
+   115,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "S.N. (सि.नं. )",
+   "matched_on": "col"
+  },
+  "n": 66
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   223,
+   1999,
+   115,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "S.N. (सि.नं. )",
+   "matched_on": "col"
+  },
+  "n": 67
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   118,
+   43,
+   2246,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 68
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   224,
+   1511,
+   882,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Return on Investment (लगानी प्रतिफल )",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 69
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1151,
+   1511,
+   1181,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Other Income (Please specify) अन्य (उल्लेख जर्नु पर्ने",
+   "right": "",
+   "above": "Remittance from abroad (Mention name of country)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 70
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   2064,
+   2286,
+   297,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "(11) Annual Projected Transaction Amount in the account (NPR) (खातामा वार्षिक कारोवार हुने अनुमानित रकम) (ने.रु)",
+   "right": "",
+   "above": "विवरण पेश जर्नुपर्ने",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 71
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   882,
+   2703,
+   1028,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "If yes, specify (यदि भने उल्लेख गर्नुहोस्)",
+   "right": "",
+   "above": "(14) Have you been convicted for any crime in the past? (तपाईं विगतमा कुनै अपराधमा दण्डित हुनुभएको ?)",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 72
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   3387,
+   2480,
+   120
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Laxmi Sunrise",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "S.N. Name of Institution Nature of Occupation/ Address of Inst. Position/ Estimated Annual (सि.नं. ) (संस्थाको नाम ) Business (संस्थाको ठेगाना ) Designation Income/ Remuneration (पेशा/व्यवसायको प्रकृति (पद) (अनुमानित वार्षिक आन्दानी/पारिश्रमिक",
+   "matched_on": "col"
+  },
+  "n": 73
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2372,
+   0,
+   107,
+   3464
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "विवरण पेश जर्नुपर्ने No (होइन ) No (होइन)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 74
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   0,
+   107,
+   3464
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "(16) Do you already have account with Laxmi Sunrise Bank ? (के तपाईको पहिले नै लक्ष्ममी सन्राइज बैंकमा कुनै खाता छ",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 75
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   0,
+   2480,
+   107
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 76
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   107,
+   3387,
+   70,
+   120
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Laxmi Sunrise",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 77
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   223,
+   231,
+   2120,
+   1001
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "ऋ.सं. थर नाता नाम Spouse (पति/पल्नि 1 Father २ बl Mother 3 आमा ) Grandfather (बाजे ) 4 5 Son ( छोरा ) Daughter Daughter in-law बुहारी ) Father in-law ( ससुरा) 8 For Married Women Only (विवाहित महिलाको हकमा",
+   "left": "",
+   "right": "",
+   "above": "Details of Family Members ( परिवार सदस्य सम्बन्धमा )",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 78
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   222,
+   1702,
+   2099,
+   455
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "Position/ Estimated Annual Nature of Occupation/ Address of Inst. S.N. Name of Institution Income/ Designation Business (संस्थाको ठेगाना ) (सि.नं. ) (संस्थाको नाम ) Remuneration (पेशा/व्यवसायको प्रकृति (पद) (अनुमानित वार्षिक आन्दानी/पारिश्रमिक",
+   "left": "",
+   "right": "",
+   "above": "(10) Details of Account Holder's Occupation / Business (खातावाला ग्राहक संलग्न रहेको पेशा/व्यवसाय )",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 79
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   222,
+   1363,
+   680,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Business Income (व्यवसायिक आम्दानी )",
+    "bbox": [
+     222,
+     1363,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "annual_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Business Income (व्यवसायिक आम्दानी )"
+   ]
+  },
+  "n": 80
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1092,
+   1363,
+   409,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Salary income (तलब )",
+    "bbox": [
+     1092,
+     1363,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "annual_income",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Business Income (व्यवसायिक आम्दानी )",
+   "options": [
+    "Salary income (तलब )"
+   ]
+  },
+  "n": 81
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1092,
+   1428,
+   997,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Remittance from abroad (Mention name of country)",
+    "bbox": [
+     1092,
+     1428,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Return on Investment (लगानी प्रतिफल )",
+   "options": [
+    "Remittance from abroad (Mention name of country)"
+   ]
+  },
+  "n": 82
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   222,
+   1432,
+   692,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Return on Investment (लगानी प्रतिफल )",
+    "bbox": [
+     222,
+     1432,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Return on Investment (लगानी प्रतिफल )"
+   ]
+  },
+  "n": 83
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   224,
+   1489,
+   835,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Other Income (Please specify) अन्य (उल्लेख जर्नु पर्ने",
+    "bbox": [
+     224,
+     1489,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Other Income (Please specify) अन्य (उल्लेख जर्नु पर्ने"
+   ]
+  },
+  "n": 84
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1934,
+   2410,
+   429,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1934,
+     2410,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "No (होइन)",
+    "bbox": [
+     2144,
+     2410,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Yes",
+    "No (होइन)"
+   ]
+  },
+  "n": 85
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1934,
+   2533,
+   426,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1934,
+     2533,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "No (होइन )",
+    "bbox": [
+     2144,
+     2533,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "के तपाईं राजनितिज्ञ अथवा राजनितिज्ञको नातेदार हुनुहुन्छ ?)",
+   "options": [
+    "Yes",
+    "No (होइन )"
+   ]
+  },
+  "n": 86
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1934,
+   2647,
+   338,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1934,
+     2647,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "No",
+    "bbox": [
+     2161,
+     2647,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "(14) Have you been convicted for any crime in the past? (तपाईं विगतमा कुनै अपराधमा दण्डित हुनुभएको ?)",
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  "n": 87
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1934,
+   2847,
+   338,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1934,
+     2847,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "No",
+    "bbox": [
+     2161,
+     2847,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  "n": 88
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1934,
+   3059,
+   338,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1934,
+     3059,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "No",
+    "bbox": [
+     2161,
+     3059,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "(16) Do you already have account with Laxmi Sunrise Bank ? (के तपाईको पहिले नै लक्ष्ममी सन्राइज बैंकमा कुनै खाता छ ?)",
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  "n": 89
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1226,
+   3118,
+   1122,
+   55
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1226,
+     3118,
+     66,
+     55
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1368,
+     3118,
+     70,
+     55
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1821,
+     3118,
+     67,
+     55
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1886,
+     3118,
+     67,
+     55
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     2023,
+     3118,
+     64,
+     55
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     2086,
+     3118,
+     61,
+     55
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     2145,
+     3118,
+     67,
+     55
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     2211,
+     3118,
+     67,
+     55
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     2278,
+     3119,
+     70,
+     53
+    ]
+   }
+  ],
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "If yes, mention account no. भने खाता नं. उल्लेख गर्नुहोस्",
+   "options": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 90
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1953,
+   3119,
+   71,
+   53
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1953,
+     3119,
+     71,
+     53
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 91
+ }
+]
