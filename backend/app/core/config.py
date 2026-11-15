@@ -49,6 +49,9 @@ class Settings(BaseSettings):
     # OCR text is personal data; it is not logged unless explicitly enabled.
     log_ocr_text: bool = False
 
+    # Load EasyOCR models in a background thread at startup.
+    ocr_preload: bool = True
+
     # Background worker.
     worker_enabled: bool = True
     worker_poll_interval_s: float = 1.0

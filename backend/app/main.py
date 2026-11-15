@@ -73,6 +73,10 @@ async def lifespan(app: FastAPI):
     interrupted = job_queue.recover_interrupted_jobs()
     if interrupted:
         log.warning("marked interrupted jobs as failed", extra={"ctx": {"count": interrupted}})
+    if get_settings().ocr_preload:
+        from app.services.ocr.engine import preload_in_background
+
+        preload_in_background()  # first upload should not wait for model loading
     worker = job_queue.Worker()
     app.state.worker = worker
     if get_settings().worker_enabled:
