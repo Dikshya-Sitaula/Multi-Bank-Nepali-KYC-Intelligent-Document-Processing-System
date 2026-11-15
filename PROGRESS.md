@@ -10,6 +10,14 @@ Resume. Read CLAUDE.md and PROGRESS.md and continue.
 
 Current branch convention: `phase-N-<slug>` merged into `main` when the phase passes.
 
+## ACTIVE: one-hour demo sprint
+
+**Demo sprint is active** (instructions in `docs/SPRINT.md`, branch `demo-sprint`).
+Current step: **Step 2 (demo form generator)**. Step 1 done: EasyOCR preload at startup;
+Phase 3 was already merged with the full 160-capture self-test, so no rerun.
+Phase 4 (Template Studio) is paused; its branch `phase-4-template-enrollment` holds the
+reviewed Laxmi Sunrise and Machhapuchchhre templates.
+
 ## Phase status
 
 | Phase | Name | Status |
