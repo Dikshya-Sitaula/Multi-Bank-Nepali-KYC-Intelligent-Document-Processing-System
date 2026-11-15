@@ -1,6 +1,6 @@
 # PROGRESS.md
 
-Last updated: 2026-11-15 (session 1)
+Last updated: 2026-11-15 (session 2)
 
 ## Resume instructions
 
@@ -16,8 +16,8 @@ Current branch convention: `phase-N-<slug>` merged into `main` when the phase pa
 |---|---|---|
 | 1 | Inspect and plan | DONE (merged to main) |
 | 2 | Backend foundation | DONE (merged to main) |
-| 3 | Preprocessing + quality + template identification | IN PROGRESS |
-| 4 | Template enrollment (CHECKPOINT A) | not started |
+| 3 | Preprocessing + quality + template identification | DONE (merged to main) |
+| 4 | Template enrollment (CHECKPOINT A) | IN PROGRESS |
 | 5 | Synthetic data engine | not started |
 | 6 | Frontend foundation | not started |
 | 7 | YOLO training (CHECKPOINT B) | not started |
@@ -57,6 +57,42 @@ Current branch convention: `phase-N-<slug>` merged into `main` when the phase pa
 - [x] `backend/scripts/create_user.py`, `scripts/dev.py` one-command launcher.
 - [x] 41 pytest tests pass. Live smoke test: server start, admin login, audit entry.
 
+## Phase 3 log
+
+- [x] `app/services/preprocessing/`: orientation, page boundary, perspective, deskew,
+      resize to 2480 px, median denoise, CLAHE on lightness, optional threshold. Every step
+      configurable in `config/app.yaml`; per-step timings; debug images on request; the
+      full original-to-processed transform is tracked as one 3x3 matrix.
+- [x] `app/services/quality/page_check.py`: resolution, blur, skew, glare (heuristic),
+      contrast warnings.
+- [x] `app/services/template/`: SIFT features (cached per template page), ratio test,
+      one-to-one matching, MAGSAC homography on a shortlist of 4 pages, geometric
+      sanity check, documented confidence score, "unknown form" outcome; registration
+      with optional ECC refinement and printed-structure overlap score.
+- [x] `app/services/datasets/phone_sim.py`: procedural phone-photo simulator that
+      returns the exact page-to-photo homography.
+- [x] `backend/scripts/identify_selftest.py`, `backend/scripts/debug_pipeline.py`.
+- [x] 69 pytest tests pass (28 new CV tests on synthetic forms, no bank PDFs needed).
+
+**Phase 3 measured results** (`reports/template_identification.md`, seed 1234,
+2 simulated phone captures per page per level, 20 template pages, 160 captures total):
+
+| Distortion level | Correct template and page | Median registration error | p95 of max error |
+|---|---|---|---|
+| none | 40/40 | 0.19 px | 1.0 px |
+| light | 40/40 | 0.29 px | 1.33 px |
+| medium | 40/40 | 0.39 px | 3.02 px |
+| strong | 40/40 | 0.48 px | 1.85 px |
+| all | 160/160 (100%) | 0.35 px | 1.81 px |
+
+- Non-form pages correctly rejected as "unknown": 10/10.
+- Median timings per page on CPU: preprocessing about 1.5 s, identification about 2.1 s.
+- Caveat: these are simulated captures, cleaner than many real phone photos. They are an
+  upper bound until real photos are tested at Checkpoint C.
+- A bug found and fixed by a test: repeated glyphs let many photo keypoints match one
+  template keypoint, and RANSAC returned a degenerate homography. One-to-one matching
+  fixed it.
+
 ## Decisions made
 
 - Python venv at `.venv/` using the Anaconda 3.13 base interpreter (torch and ultralytics
@@ -79,15 +115,18 @@ Current branch convention: `phase-N-<slug>` merged into `main` when the phase pa
 ## Known issues / blockers
 
 - Optional Global IME form not supplied; `globalime` is skipped.
-- PyTorch, Ultralytics and EasyOCR are not installed yet. The GPU (RTX 3050, 4 GB) is
-  visible to the driver; the CUDA build of torch will be installed before Phase 7/8.
+- **GPU blocker for local training:** NVIDIA driver 516.40 supports CUDA 11.7 at most. No
+  current PyTorch build for Python 3.13 supports CUDA 11.7, so torch is installed as the
+  CPU build (2.15.0+cpu) with EasyOCR 1.7.2. Local GPU training needs a driver update
+  (CUDA 12.x capable); otherwise train on Colab. To be decided at Checkpoint B.
 - Machine RAM is 7.2 GB, which limits dataset generation batch sizes and EasyOCR + YOLO
   running together. Keep worker concurrency at 1.
 - Tesseract is not installed; it is optional in the spec and will be treated as absent.
 
 ## Next step
 
-Phase 3 on branch `phase-3-preprocessing-identification`: OpenCV preprocessing steps
-(each configurable, with debug images), page quality warnings, template identification
-(ORB/SIFT + RANSAC homography against enrolled pages, with "unknown form"), registration
-to the template canvas, tests including simulated phone-photo distortion.
+Phase 4 on branch `phase-4-template-enrollment`: `config/fields.yaml` vocabulary,
+auto-proposal (`propose_templates.py`), human corrections in
+`templates/<id>/review_edits.yaml` built into `template.json` by `build_template.py`,
+Template Studio (backend endpoints + frontend editor), template self-test.
+Then stop at CHECKPOINT A.
