@@ -91,8 +91,14 @@ cd frontend; npm install; cd ..
 # rasterize source PDFs and write reports/source_quality.md
 .venv\Scripts\python.exe backend\scripts\rasterize_sources.py
 
-# backend tests
-.venv\Scripts\python.exe -m pytest backend\tests -q
+# create the first admin (password is prompted, never stored in code)
+.venv\Scripts\python.exe backend\scripts\create_user.py admin --role admin
+
+# backend tests (config in pytest.ini)
+.venv\Scripts\python.exe -m pytest -q
+
+# new migration after changing models
+cd backend; ..\.venv\Scripts\alembic.exe revision --autogenerate -m "msg"; cd ..
 
 # start backend + frontend together
 .venv\Scripts\python.exe scripts\dev.py
