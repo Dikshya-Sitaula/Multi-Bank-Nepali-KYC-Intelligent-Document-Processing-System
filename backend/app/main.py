@@ -19,7 +19,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import func, select
 
 from app import __version__
-from app.api import auth, jobs, system, templates
+from app.api import auth, documents, jobs, system, templates
+from app.workers import document_job  # noqa: F401  (registers the process_document job)
 from app.core.config import get_settings
 from app.core.logging import configure_logging
 from app.core.security import hash_password
@@ -112,6 +113,7 @@ def create_app() -> FastAPI:
     api.include_router(auth.router)
     api.include_router(jobs.router)
     api.include_router(templates.router)
+    api.include_router(documents.router)
     app.include_router(api)
     return app
 

@@ -100,6 +100,7 @@ class HealthOut(BaseModel):
     version: str
     environment: str
     mock_cv: bool
+    mode: str
     database: ComponentStatus
     worker: ComponentStatus
     components: list[ComponentStatus]

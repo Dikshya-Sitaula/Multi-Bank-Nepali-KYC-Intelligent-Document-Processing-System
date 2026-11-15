@@ -64,16 +64,19 @@ def health(request: Request, db: DB) -> HealthOut:
                         detail="Installed" if shutil.which("tesseract") else "Not installed (optional)"),
     ]
 
-    banners: list[str] = []
+    from app.services.detection.template_snap import TemplateSnapDetector
+    from app.services.ocr.engine import get_engine
+
+    ocr = get_engine()
+    components.append(ComponentStatus(name="ocr_models", ok=ocr.status == "ready", detail=f"EasyOCR en+ne: {ocr.status}"))
+    banners: list[str] = [f"{TemplateSnapDetector.status_text} YOLO model not trained yet."]
     if s.mock_cv:
         banners.append("MOCK MODE: computer-vision output is simulated for UI development. "
                        "Nothing shown is real model output.")
-    if not yolo.ok:
-        banners.append("YOLO model not loaded. Upload and UI work, but real field detection "
-                       "needs trained weights.")
 
     overall = "ok" if database.ok else "degraded"
     return HealthOut(status=overall, version=__version__, environment=s.app_env, mock_cv=s.mock_cv,
+                     mode="template_alignment+snap",
                      database=database, worker=worker_status, components=components, banners=banners)
 
 

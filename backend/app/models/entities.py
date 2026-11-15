@@ -175,6 +175,10 @@ class FieldDetection(Base):
     h: Mapped[float] = mapped_column(Float, nullable=False)
     model_id: Mapped[int | None] = mapped_column(ForeignKey("ml_models.id", ondelete="SET NULL"))
     crop_path: Mapped[str | None] = mapped_column(String(512))
+    # Which detector produced this box ("template_alignment+snap" today, "yolo" once trained).
+    method: Mapped[str] = mapped_column(String(48), nullable=False, default="template_alignment+snap")
+    region_key: Mapped[str | None] = mapped_column(String(64))
+    snap: Mapped[dict[str, Any] | None] = mapped_column(JSON)
 
     page: Mapped[Page] = relationship(back_populates="detections")
 
@@ -201,6 +205,8 @@ class ExtractedField(TimestampMixin, Base):
     status: Mapped[FieldStatus] = mapped_column(_enum(FieldStatus), nullable=False, default=FieldStatus.needs_review)
     validation_messages: Mapped[list[str] | None] = mapped_column(JSON)
     crop_path: Mapped[str | None] = mapped_column(String(512))
+    group_id: Mapped[str | None] = mapped_column(String(64))
+    extra: Mapped[dict[str, Any] | None] = mapped_column(JSON)   # checkbox states, OCR candidates
     verified_by: Mapped[int | None] = mapped_column(ForeignKey("users.id", ondelete="SET NULL"))
     verified_at: Mapped[datetime | None] = mapped_column(UTCDateTime())
 
