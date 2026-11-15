@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+*.env.local
+
+# Data, datasets, weights, uploads (large / private)
+data/synthetic/
+data/real_test/photos/
+data/htr_lines/
+dataset/images/
+dataset/labels/
+models/**/*.pt
+models/**/*.pth
+models/**/*.onnx
+uploads/
+outputs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Keep source PDFs tracked? No: they belong to the banks. Track only quality report.
+data/source_forms/*.pdf
+
+# Rasterized template pages are generated artefacts; template.json is tracked
+templates/*/pages/*.png
+
+# Node
+node_modules/
+frontend/dist/
+frontend/playwright-report/
+frontend/test-results/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
