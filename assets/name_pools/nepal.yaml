@@ -1,0 +1,64 @@
+# Data pools for FICTIONAL synthetic identities. Names are common given names and family
+# names combined at random; no record describes a real person. Place names are real
+# administrative units of Nepal (public geography), so addresses look realistic.
+
+given_male:
+  - {ne: राम, en: Ram}
+  - {ne: हरि, en: Hari}
+  - {ne: सुरेश, en: Suresh}
+  - {ne: बिकास, en: Bikash}
+  - {ne: प्रकाश, en: Prakash}
+  - {ne: अनिल, en: Anil}
+  - {ne: दिपक, en: Dipak}
+  - {ne: सन्तोष, en: Santosh}
+  - {ne: रमेश, en: Ramesh}
+  - {ne: कृष्ण, en: Krishna}
+  - {ne: सुमन, en: Suman}
+  - {ne: नवराज, en: Nawaraj}
+given_female:
+  - {ne: सीता, en: Sita}
+  - {ne: गीता, en: Gita}
+  - {ne: सरिता, en: Sarita}
+  - {ne: अनिता, en: Anita}
+  - {ne: पूजा, en: Puja}
+  - {ne: सविना, en: Sabina}
+  - {ne: कमला, en: Kamala}
+  - {ne: रिता, en: Rita}
+  - {ne: सुनिता, en: Sunita}
+  - {ne: मञ्जु, en: Manju}
+family:
+  - {ne: श्रेष्ठ, en: Shrestha}
+  - {ne: अधिकारी, en: Adhikari}
+  - {ne: थापा, en: Thapa}
+  - {ne: गुरुङ, en: Gurung}
+  - {ne: पौडेल, en: Poudel}
+  - {ne: खड्का, en: Khadka}
+  - {ne: तामाङ, en: Tamang}
+  - {ne: राई, en: Rai}
+  - {ne: भट्टराई, en: Bhattarai}
+  - {ne: महर्जन, en: Maharjan}
+  - {ne: कार्की, en: Karki}
+  - {ne: शर्मा, en: Sharma}
+provinces:
+  - {ne: कोशी, en: Koshi, districts: [{ne: मोरङ, en: Morang}, {ne: सुनसरी, en: Sunsari}, {ne: झापा, en: Jhapa}]}
+  - {ne: मधेस, en: Madhesh, districts: [{ne: पर्सा, en: Parsa}, {ne: धनुषा, en: Dhanusha}]}
+  - {ne: बागमती, en: Bagmati, districts: [{ne: काठमाडौं, en: Kathmandu}, {ne: ललितपुर, en: Lalitpur}, {ne: भक्तपुर, en: Bhaktapur}, {ne: चितवन, en: Chitwan}]}
+  - {ne: गण्डकी, en: Gandaki, districts: [{ne: कास्की, en: Kaski}, {ne: स्याङ्जा, en: Syangja}, {ne: तनहुँ, en: Tanahun}]}
+  - {ne: लुम्बिनी, en: Lumbini, districts: [{ne: रुपन्देही, en: Rupandehi}, {ne: दाङ, en: Dang}]}
+  - {ne: कर्णाली, en: Karnali, districts: [{ne: सुर्खेत, en: Surkhet}]}
+  - {ne: सुदूरपश्चिम, en: Sudurpashchim, districts: [{ne: कैलाली, en: Kailali}]}
+municipalities:
+  - {ne: नगरपालिका, en: Municipality}
+  - {ne: महानगरपालिका, en: Metropolitan City}
+  - {ne: गाउँपालिका, en: Rural Municipality}
+toles:
+  - {ne: शान्तिनगर, en: Shantinagar}
+  - {ne: नयाँ बजार, en: Naya Bazar}
+  - {ne: चोक टोल, en: Chowk Tole}
+  - {ne: बसुन्धरा, en: Basundhara}
+  - {ne: लेकसाइड, en: Lakeside}
+  - {ne: गणेश टोल, en: Ganesh Tole}
+occupations: [Teacher, Engineer, Farmer, Business, Nurse, Accountant, Driver, Student]
+employers: [Everest Traders, Himal Pvt. Ltd., Shanti School, Annapurna Hotel, Green Agro Farm, City Hospital]
+designations: [Officer, Assistant, Manager, Teacher, Supervisor, Clerk]
+email_domains: [example.com, mail.example.org, test.example.net]
