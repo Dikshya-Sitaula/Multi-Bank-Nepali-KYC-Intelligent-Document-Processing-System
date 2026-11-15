@@ -13,7 +13,6 @@ from typing import Any
 from sqlalchemy import (
     JSON,
     Boolean,
-    DateTime,
     Enum,
     Float,
     ForeignKey,
@@ -25,7 +24,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from app.models.base import Base, TimestampMixin, utcnow
+from app.models.base import Base, TimestampMixin, UTCDateTime, utcnow
 from app.models.enums import DocumentStatus, FieldStatus, JobStatus, ModelKind, Role
 
 
@@ -45,7 +44,7 @@ class User(TimestampMixin, Base):
     password_hash: Mapped[str] = mapped_column(String(128), nullable=False)
     role: Mapped[Role] = mapped_column(_enum(Role), nullable=False, default=Role.employee)
     is_active: Mapped[bool] = mapped_column(Boolean, nullable=False, default=True)
-    last_login_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    last_login_at: Mapped[datetime | None] = mapped_column(UTCDateTime())
 
 
 # --------------------------------------------------------------------------- templates
@@ -125,11 +124,11 @@ class Document(TimestampMixin, Base):
         _enum(DocumentStatus), nullable=False, default=DocumentStatus.uploaded
     )
     uploaded_by: Mapped[int | None] = mapped_column(ForeignKey("users.id", ondelete="SET NULL"))
-    processing_started_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
-    processing_finished_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    processing_started_at: Mapped[datetime | None] = mapped_column(UTCDateTime())
+    processing_finished_at: Mapped[datetime | None] = mapped_column(UTCDateTime())
     processing_seconds: Mapped[float | None] = mapped_column(Float)
     verified_by: Mapped[int | None] = mapped_column(ForeignKey("users.id", ondelete="SET NULL"))
-    verified_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    verified_at: Mapped[datetime | None] = mapped_column(UTCDateTime())
 
     template: Mapped[FormTemplate | None] = relationship()
     pages: Mapped[list[Page]] = relationship(
@@ -203,7 +202,7 @@ class ExtractedField(TimestampMixin, Base):
     validation_messages: Mapped[list[str] | None] = mapped_column(JSON)
     crop_path: Mapped[str | None] = mapped_column(String(512))
     verified_by: Mapped[int | None] = mapped_column(ForeignKey("users.id", ondelete="SET NULL"))
-    verified_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    verified_at: Mapped[datetime | None] = mapped_column(UTCDateTime())
 
     document: Mapped[Document] = relationship(back_populates="fields")
     edits: Mapped[list[FieldEdit]] = relationship(
@@ -222,7 +221,7 @@ class FieldEdit(Base):
     old_status: Mapped[str | None] = mapped_column(String(32))
     new_status: Mapped[str | None] = mapped_column(String(32))
     reason: Mapped[str | None] = mapped_column(String(256))
-    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(UTCDateTime(), default=utcnow, nullable=False)
 
     field: Mapped[ExtractedField] = relationship(back_populates="edits")
 
@@ -248,9 +247,9 @@ class ProcessingJob(TimestampMixin, Base):
     log: Mapped[list[dict[str, Any]] | None] = mapped_column(JSON)
     document_id: Mapped[int | None] = mapped_column(ForeignKey("documents.id", ondelete="CASCADE"))
     created_by: Mapped[int | None] = mapped_column(ForeignKey("users.id", ondelete="SET NULL"))
-    started_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
-    finished_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
-    heartbeat_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    started_at: Mapped[datetime | None] = mapped_column(UTCDateTime())
+    finished_at: Mapped[datetime | None] = mapped_column(UTCDateTime())
+    heartbeat_at: Mapped[datetime | None] = mapped_column(UTCDateTime())
 
     document: Mapped[Document | None] = relationship(back_populates="jobs")
 
@@ -348,4 +347,4 @@ class AuditLog(Base):
     entity_id: Mapped[str | None] = mapped_column(String(64))
     details: Mapped[dict[str, Any] | None] = mapped_column(JSON)
     ip_address: Mapped[str | None] = mapped_column(String(64))
-    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(UTCDateTime(), default=utcnow, nullable=False)

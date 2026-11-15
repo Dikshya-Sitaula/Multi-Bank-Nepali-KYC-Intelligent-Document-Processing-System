@@ -15,8 +15,8 @@ Current branch convention: `phase-N-<slug>` merged into `main` when the phase pa
 | Phase | Name | Status |
 |---|---|---|
 | 1 | Inspect and plan | DONE (merged to main) |
-| 2 | Backend foundation | IN PROGRESS |
-| 3 | Preprocessing + quality + template identification | not started |
+| 2 | Backend foundation | DONE (merged to main) |
+| 3 | Preprocessing + quality + template identification | IN PROGRESS |
 | 4 | Template enrollment (CHECKPOINT A) | not started |
 | 5 | Synthetic data engine | not started |
 | 6 | Frontend foundation | not started |
@@ -45,10 +45,25 @@ Current branch convention: `phase-N-<slug>` merged into `main` when the phase pa
 - [x] Quality metrics module + 4 passing unit tests.
 - [x] `backend/requirements.txt`, `.env.example`, `config/source_forms.yaml`.
 
+## Phase 2 log
+
+- [x] Settings from env (`app/core/config.py`), production refuses the dev secret.
+- [x] 16 relational tables (`app/models/entities.py`), UTC-aware timestamps on SQLite.
+- [x] Alembic initial migration; startup runs `upgrade head`; a test fails on drift.
+- [x] JWT auth (PyJWT + bcrypt), admin/employee roles, login rate limit, audit log.
+- [x] Storage service: magic-byte validation, random names, traversal guard.
+- [x] DB-backed job queue + worker thread, stage timings, cancel, crash recovery, SSE.
+- [x] `/api/v1/health` with honest component status and banners (YOLO missing, MOCK).
+- [x] `backend/scripts/create_user.py`, `scripts/dev.py` one-command launcher.
+- [x] 41 pytest tests pass. Live smoke test: server start, admin login, audit entry.
+
 ## Decisions made
 
 - Python venv at `.venv/` using the Anaconda 3.13 base interpreter (torch and ultralytics
   both ship 3.13 wheels).
+- Auth uses PyJWT + bcrypt directly (passlib 1.7 breaks with bcrypt 5).
+- No default accounts. First admin via `create_user.py` or BOOTSTRAP_ADMIN_* env.
+- One worker thread only (7 GB RAM, 4 GB GPU).
 - YOLO base model: `yolo11n` (configurable in `config/app.yaml`).
 - SQLite for development, URL from env; PostgreSQL-ready through SQLAlchemy.
 
@@ -72,6 +87,7 @@ Current branch convention: `phase-N-<slug>` merged into `main` when the phase pa
 
 ## Next step
 
-Phase 2 (backend foundation) on branch `phase-2-backend-foundation`: settings, SQLAlchemy
-models for every SPEC §13.1 table, Alembic migration, JWT auth with admin/employee roles,
-storage service, health endpoint, DB-backed job queue skeleton, pytest coverage.
+Phase 3 on branch `phase-3-preprocessing-identification`: OpenCV preprocessing steps
+(each configurable, with debug images), page quality warnings, template identification
+(ORB/SIFT + RANSAC homography against enrolled pages, with "unknown form"), registration
+to the template canvas, tests including simulated phone-photo distortion.

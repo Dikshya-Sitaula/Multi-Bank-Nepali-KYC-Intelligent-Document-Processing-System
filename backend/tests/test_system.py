@@ -71,3 +71,9 @@ def test_migrations_match_models(client):
     with get_engine().begin() as conn:
         cfg.attributes["connection"] = conn
         command.check(cfg)  # raises if autogenerate finds differences
+
+
+def test_timestamps_are_utc_aware(client, make_user):
+    _, headers = make_user("asha")
+    created = client.get("/api/v1/auth/me", headers=headers).json()["created_at"]
+    assert created.endswith("Z") or created.endswith("+00:00")
