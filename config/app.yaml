@@ -1,0 +1,59 @@
+# Application parameters for the computer-vision pipeline.
+# Every value here can be overridden per request from the Pipeline Lab and is read by
+# backend/app/core/app_config.py. No pipeline parameter is hard-coded in Python.
+
+preprocessing:
+  # Output canvas: A4 portrait at 300 DPI, the same scale as the rasterized templates.
+  target_width: 2480
+  orientation:
+    enabled: true            # EXIF transpose + rotate landscape photos to portrait
+  boundary:
+    enabled: true            # find the paper edges in a photo
+    work_width: 1000         # detection runs on a downscaled copy for speed
+    min_area_fraction: 0.25  # the page must cover at least this much of the photo
+    canny_low: 30
+    canny_high: 120
+  perspective:
+    enabled: true            # four-point warp of the detected page to a rectangle
+  deskew:
+    enabled: true
+    max_angle_deg: 10.0      # only small residual skew is corrected here
+    min_line_fraction: 0.25  # Hough lines must be at least this fraction of page width
+  denoise:
+    method: median           # none | median | nlmeans
+    median_ksize: 3
+    nlmeans_h: 5
+  contrast:
+    method: clahe            # none | clahe  (applied to lightness only; ink colour kept)
+    clahe_clip: 2.0
+    clahe_tile: 8
+  threshold:
+    enabled: false           # off by default: binarizing can destroy light handwriting
+    block_size: 35
+    c: 10
+
+quality:
+  min_short_side_px: 1000    # below this, small handwriting becomes unreadable
+  min_sharpness: 60.0        # variance of Laplacian at 1600 px width (photos)
+  max_skew_deg: 5.0
+  max_glare_fraction: 0.02
+  min_ink_contrast: 80.0
+
+identification:
+  detector: sift             # sift | orb
+  work_width: 1000           # features are computed at this page width
+  max_features: 4000
+  ratio_test: 0.75           # Lowe's ratio test
+  shortlist: 4               # RANSAC is fitted only for the pages with most raw matches
+  ransac_reproj_px: 5.0
+  min_inliers: 25            # fewer inliers than this = "unknown form"
+  full_confidence_inliers: 200
+  min_page_area_ratio: 0.3   # sanity check on the recovered homography
+  max_page_area_ratio: 3.0
+
+registration:
+  refine_ecc: true           # sub-pixel refinement after feature homography
+  ecc_work_width: 800
+  ecc_iterations: 60
+  ecc_epsilon: 1.0e-5
+  overlap_tolerance_px: 3    # printed-structure overlap measured within this distance
