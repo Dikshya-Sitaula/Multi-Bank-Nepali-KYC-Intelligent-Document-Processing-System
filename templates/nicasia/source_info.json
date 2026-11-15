@@ -1,0 +1,110 @@
+{
+  "template_id": "nicasia",
+  "bank_name": "NIC Asia Bank",
+  "source_file": "data/source_forms/NIC_ASIA_KYC_Update_Individual.pdf",
+  "source_sha256": "30de7c0b01335a596579c9179025d38c5fd7df58e122a3d2aa2772be3621b028",
+  "rasterized_at": "2026-11-15T14:53:35",
+  "dpi": 300,
+  "page_count": 5,
+  "source_kind": "embedded_scan",
+  "min_native_dpi": 144.2,
+  "quality_verdict": "clean",
+  "suggested_role": "training",
+  "pages": [
+    {
+      "page": 1,
+      "native_dpi": 144.2,
+      "file": "templates/nicasia/pages/page_1.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 2783.37,
+      "contrast_rms": 65.77,
+      "ink_contrast": 255.0,
+      "mean_intensity": 226.62,
+      "glare_fraction": 0.541
+    },
+    {
+      "page": 2,
+      "native_dpi": 144.2,
+      "file": "templates/nicasia/pages/page_2.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 2610.52,
+      "contrast_rms": 63.05,
+      "ink_contrast": 255.0,
+      "mean_intensity": 227.2,
+      "glare_fraction": 0.5634
+    },
+    {
+      "page": 3,
+      "native_dpi": 144.2,
+      "file": "templates/nicasia/pages/page_3.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 2735.56,
+      "contrast_rms": 61.71,
+      "ink_contrast": 255.0,
+      "mean_intensity": 229.64,
+      "glare_fraction": 0.5656
+    },
+    {
+      "page": 4,
+      "native_dpi": 144.2,
+      "file": "templates/nicasia/pages/page_4.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 1610.84,
+      "contrast_rms": 44.17,
+      "ink_contrast": 255.0,
+      "mean_intensity": 243.41,
+      "glare_fraction": 0.7086
+    },
+    {
+      "page": 5,
+      "native_dpi": 144.2,
+      "file": "templates/nicasia/pages/page_5.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 3633.45,
+      "contrast_rms": 53.25,
+      "ink_contrast": 255.0,
+      "mean_intensity": 237.71,
+      "glare_fraction": 0.6053
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Mapping of template ids to the blank source PDFs in data/source_forms/.
+# Adding a bank form = add an entry here + drop the PDF in data/source_forms/.
+forms:
+  nicasia:
+    file: NIC_ASIA_KYC_Update_Individual.pdf
+    bank_name: NIC Asia Bank
+  laxmisunrise:
+    file: Laxmisunrisebank-Individuals.pdf
+    bank_name: Laxmi Sunrise Bank
+  machhapuchhre:
+    file: Machapuchre_update_form_personal.pdf
+    bank_name: Machhapuchchhre Bank
+  nabil:
+    file: nabil_kyc.pdf
+    bank_name: Nabil Bank
+  globalime:
+    file: globalime_kyc.pdf
+    bank_name: Global IME Bank
+    optional: true
+
+# Triage thresholds (revised in Phase 1 after inspecting measured values; see
+# reports/source_quality.md for why global sharpness/RMS contrast are not used).
+quality_thresholds:
+  min_native_dpi: 120.0
+  min_ink_contrast: 80.0
