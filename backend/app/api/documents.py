@@ -56,7 +56,7 @@ def _field_out(f: ExtractedField, vocab: dict) -> dict[str, Any]:
         "raw_text": f.raw_text, "normalized_value": f.normalized_value,
         "detection_confidence": f.detection_confidence, "ocr_confidence": f.ocr_confidence, "engine": f.engine,
         "status": f.status.value, "validation_messages": f.validation_messages or [], "crop_path": f.crop_path,
-        "checkbox": extra.get("checkbox"), "ocr_raw": extra.get("ocr_raw"), "ink": extra.get("ink"),
+        "checkbox": extra.get("checkbox"), "ocr_raw": extra.get("ocr_raw"), "ink": extra.get("ink"), "bbox": extra.get("bbox"),
         "verified_by": f.verified_by, "verified_at": f.verified_at,
     }
 

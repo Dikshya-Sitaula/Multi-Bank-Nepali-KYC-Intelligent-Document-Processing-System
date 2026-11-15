@@ -88,7 +88,7 @@ def process_document(ctx: JobContext) -> dict:
                     detection_confidence=f["detection_confidence"], ocr_confidence=f["ocr_confidence"],
                     engine=f["engine"], status=FieldStatus(f["status"]),
                     validation_messages=f["validation_messages"] or None, crop_path=f["crop"],
-                    extra={k: f[k] for k in ("checkbox", "ocr_raw", "ink", "region_id", "party", "section", "display_name")
+                    extra={k: f[k] for k in ("checkbox", "ocr_raw", "ink", "region_id", "party", "section", "display_name", "bbox")
                            if k in f}))
     with session_scope() as db:
         doc = db.get(Document, ctx.document_id)

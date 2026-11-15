@@ -173,7 +173,7 @@ def main() -> int:
             print(f"{name}: {len(files)} pages, {len(truth)} fields written")
     # One extra, deliberately hard capture: strong rotation + forced shadow.
     filled, tid = first_filled
-    hard = simulate_capture(filled, rng, "strong", overrides={"rotation_deg": 25.0, "shadow_prob": 1.0,
+    hard = simulate_capture(filled, rng, "strong", overrides={"rotation_exact_deg": 24.0, "shadow_prob": 1.0,
                                                                "glare_prob": 0.0, "landscape_prob": 0.0})
     hdir = OUT / "SYNTHETIC_strong_rotation_shadow"
     hdir.mkdir(exist_ok=True)

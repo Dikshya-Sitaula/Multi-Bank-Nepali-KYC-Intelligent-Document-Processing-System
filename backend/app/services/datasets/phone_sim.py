@@ -78,7 +78,8 @@ def simulate_capture(page: np.ndarray, rng: np.random.Generator, level: str = "m
     fill = rng.uniform(*p["page_fill"])
     scale = fill * min(out_w / pw, out_h / ph) if not landscape else fill * min(out_w / ph, out_h / pw)
     sw, sh = pw * scale, ph * scale
-    rot = rng.uniform(-p["rotation_deg"], p["rotation_deg"]) + (90.0 if landscape else 0.0)
+    rot = (float(p["rotation_exact_deg"]) if p.get("rotation_exact_deg") is not None
+           else rng.uniform(-p["rotation_deg"], p["rotation_deg"])) + (90.0 if landscape else 0.0)
     corners = np.array([[-sw / 2, -sh / 2], [sw / 2, -sh / 2], [sw / 2, sh / 2], [-sw / 2, sh / 2]], np.float32)
     jitter = rng.uniform(-p["corner_jitter"], p["corner_jitter"], (4, 2)).astype(np.float32) * np.array([sw, sh], np.float32)
     corners = corners + jitter
