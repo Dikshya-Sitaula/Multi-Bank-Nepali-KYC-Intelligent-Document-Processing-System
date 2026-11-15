@@ -1,0 +1,33 @@
+# Core backend
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+sqlalchemy>=2.0
+alembic>=1.13
+python-jose[cryptography]>=3.3
+passlib[bcrypt]>=1.7
+python-multipart>=0.0.9
+httpx>=0.27
+pyyaml>=6.0
+rich>=13
+psutil>=5.9
+openpyxl>=3.1
+sse-starlette>=2.1
+
+# Computer vision
+opencv-python-headless>=4.10
+numpy>=1.26
+pillow>=10.3
+scikit-image>=0.23
+pymupdf>=1.24
+
+# Detection / OCR / HTR (heavy; installed in Phase 7-8, see docs/MODEL_TRAINING.md)
+# torch / torchvision : install the CUDA build matching your driver, see check_env.py output
+# ultralytics>=8.3
+# easyocr>=1.7
+# python-Levenshtein>=0.25   (CER computation)
+
+# Testing
+pytest>=8.2
+pytest-asyncio>=0.23
