@@ -1,0 +1,2208 @@
+[
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   459,
+   409,
+   1817,
+   79
+  ],
+  "source": "raster",
+  "cell_count": 30,
+  "cells": [
+   [
+    459,
+    409,
+    50,
+    79
+   ],
+   [
+    511,
+    411,
+    58,
+    75
+   ],
+   [
+    571,
+    411,
+    59,
+    75
+   ],
+   [
+    632,
+    411,
+    58,
+    75
+   ],
+   [
+    694,
+    411,
+    56,
+    75
+   ],
+   [
+    755,
+    411,
+    58,
+    75
+   ],
+   [
+    815,
+    411,
+    58,
+    75
+   ],
+   [
+    875,
+    411,
+    59,
+    75
+   ],
+   [
+    938,
+    411,
+    56,
+    75
+   ],
+   [
+    998,
+    411,
+    56,
+    75
+   ],
+   [
+    1059,
+    411,
+    58,
+    75
+   ],
+   [
+    1119,
+    411,
+    58,
+    75
+   ],
+   [
+    1181,
+    411,
+    56,
+    75
+   ],
+   [
+    1242,
+    411,
+    58,
+    75
+   ],
+   [
+    1302,
+    411,
+    58,
+    75
+   ],
+   [
+    1365,
+    411,
+    56,
+    75
+   ],
+   [
+    1425,
+    411,
+    58,
+    75
+   ],
+   [
+    1485,
+    411,
+    58,
+    75
+   ],
+   [
+    1546,
+    411,
+    58,
+    75
+   ],
+   [
+    1608,
+    411,
+    58,
+    75
+   ],
+   [
+    1670,
+    411,
+    59,
+    75
+   ],
+   [
+    1731,
+    411,
+    58,
+    75
+   ],
+   [
+    1791,
+    411,
+    58,
+    75
+   ],
+   [
+    1852,
+    411,
+    58,
+    75
+   ],
+   [
+    1914,
+    411,
+    58,
+    75
+   ],
+   [
+    1974,
+    411,
+    59,
+    75
+   ],
+   [
+    2035,
+    411,
+    58,
+    75
+   ],
+   [
+    2095,
+    411,
+    58,
+    75
+   ],
+   [
+    2158,
+    411,
+    56,
+    75
+   ],
+   [
+    2218,
+    411,
+    58,
+    75
+   ]
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Nare iln Block",
+   "right": "",
+   "above": "संरक्षकको विवरण (नाबालकको हृकमा मात्र) Guardians Details (In case of Minor only)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 0
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1790,
+   510,
+   572,
+   66
+  ],
+  "source": "raster",
+  "cell_count": 8,
+  "cells": [
+   [
+    1790,
+    510,
+    67,
+    65
+   ],
+   [
+    1863,
+    510,
+    64,
+    65
+   ],
+   [
+    1936,
+    510,
+    64,
+    65
+   ],
+   [
+    2007,
+    510,
+    66,
+    66
+   ],
+   [
+    2080,
+    510,
+    66,
+    65
+   ],
+   [
+    2152,
+    510,
+    67,
+    65
+   ],
+   [
+    2225,
+    510,
+    67,
+    65
+   ],
+   [
+    2298,
+    510,
+    64,
+    65
+   ]
+  ],
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "MV  $ ो ो म 0",
+   "left": "Date Cr Issuarice जारी जरेको मिति",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 1
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1408,
+   1282,
+   125,
+   35
+  ],
+  "source": "raster",
+  "cell_count": 3,
+  "cells": [
+   [
+    1408,
+    1282,
+    44,
+    35
+   ],
+   [
+    1452,
+    1286,
+    27,
+    31
+   ],
+   [
+    1510,
+    1286,
+    23,
+    29
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 2
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1090,
+   274,
+   83,
+   33
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2278,
+   409,
+   86,
+   79
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 4
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1192,
+   1279,
+   25,
+   36
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 5
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1596,
+   1282,
+   24,
+   35
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1612,
+   2697,
+   29,
+   42
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1467,
+   2710,
+   18,
+   27
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 8
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1290,
+   278,
+   16,
+   31
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 9
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   517,
+   1813,
+   1859,
+   297
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "income_range",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "आयको सीमा ( वार्षिक विवरण) / Income Limit ( Annual Details) रु. ५००००१ देरि रु. ५०००co सम्म रु. s०,०० ००१ देखि रु. २००० ००० सम्ग फु tatc-२२ सम्म From Upto Rs 5tt0* Rs 5aboul to Rs 1n,50,003 From Ps. 1DOuDDl tc Rs. २C0 OUU रु. २००० ००१ देखि रु. 00 CDD अन्टा माथि 4J. ५JDt toc सम्म जम Abore Rs 5,2,009 From Rs. 2J 0o ul to Rs. 5२ 0J Du",
+   "left": "आर्थिक विवरण Financial Details",
+   "right": "",
+   "above": "ID Number of Employee कर्मचारीको हकमा कमचारी परिचयपत्र नं",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 10
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   517,
+   1352,
+   1859,
+   186
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "सार्वजनिकं निजी क्षेत्र एन.जी.ओ. / आई.एन.जी.ओ. वैदेशिक रोजगार सरकारी विशेषज्ञ Public Private Sector NGO/INIGC Government Expert Foreign Eirolorment कुष्िculture विद्यार्थी सेवा निवृत व्यापारी गहिणी अन्य trlel३४; Housewife Businessperson Retired Student Other",
+   "left": "पेशा Occupation",
+   "right": "",
+   "above": "पेशागत विवरण (Details of Occupation)",
+   "row": "पेशा Occupation",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 11
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   517,
+   1540,
+   1859,
+   93
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "सेवामुखी उच्पादन अन्य  सलाउ। Manufacturing Service Oriented Other",
+   "left": "व्यापारको प्रकार Type Of Business",
+   "right": "",
+   "above": "कुष्िculture Businessperson",
+   "row": "व्यापारको प्रकार Type Of Business",
+   "col": "सरकारी सार्वजनिकं निजी क्षेत्र एन.जी.ओ. / आई.एन.जी.ओ. विशेषज्ञ वैदेशिक रोजगार Government Public Private Sector NGO/INIGC Expert Foreign Eirolorment व्यापारी कुष्िculture सेवा निवृत विद्यार्थी गहिणी अन्य Businessperson Retired Student Housewife Other trlel३४;",
+   "matched_on": "above"
+  },
+  "n": 12
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   133,
+   2684,
+   2234,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "गैरआवासिय नेपालीको हकमा (n case of NRN)",
+   "left": "",
+   "right": "",
+   "above": "दांया (Righti बौंया Left)",
+   "row": "",
+   "col": "पेशागत विवरण (Details of Occupation)",
+   "matched_on": "above"
+  },
+  "n": 13
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   122,
+   256,
+   2236,
+   70
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "संरक्षकको विवरण (नाबालकको हृकमा मात्र) Guardians Details (In case of Minor only)",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 14
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   133,
+   1261,
+   2237,
+   69
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "पेशागत विवरण (Details of Occupation)",
+   "left": "",
+   "right": "",
+   "above": "Kational ID Number राष्टिय परिचय पत्र नं",
+   "row": "",
+   "col": "संरक्षकको विवरण (नाबालकको हृकमा मात्र) Guardians Details (In case of Minor only)",
+   "matched_on": "above"
+  },
+  "n": 15
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   459,
+   334,
+   1905,
+   73
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "नाम",
+   "right": "",
+   "above": "संरक्षकको विवरण (नाबालकको हृकमा मात्र) Guardians Details (In case of Minor only)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 16
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   153,
+   2196,
+   331,
+   389
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "person_photo",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "संरक्षकको फोटो (हालसालै खिचेको) Rezent Phato",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 17
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   126,
+   1813,
+   389,
+   297
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "आर्थिक विवरण Financial Details",
+   "left": "",
+   "right": "आयको सीमा ( वार्षिक विवरण) / Income Limit ( Annual Details)",
+   "above": "Desicnation पट",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 18
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   544,
+   678,
+   1822,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "पञ्ाचार ठेगानाः Corresponaence Address:",
+   "right": "",
+   "above": "Relationship with applicant: निवेदकसंगको सम्बन्ध",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 19
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1523,
+   3218,
+   547,
+   171
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "signature",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "संरक्षकको हस्ताक्षर Signature of Guardian",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 20
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1822,
+   2348,
+   548,
+   168
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "signature",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "संरक्षकको हस्ताक्षर Signature Of Guardian",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 21
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   744,
+   3124,
+   329,
+   279
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Signature of Guardian",
+   "above": "Thumb Print औंठा छाप",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 22
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   411,
+   3124,
+   329,
+   279
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Thumb Print औंठा छाप",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 23
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   1059,
+   2256,
+   330,
+   277
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "person_photo",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Rezent Phato संरक्षकको फोटो (हालसालै खिचेको)",
+   "right": "Signature Of Guardian",
+   "above": "Thuimb Print संरक्षकको औंठा छाप",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 24
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   728,
+   2256,
+   328,
+   277
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "person_photo",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Rezent Phato संरक्षकको फोटो (हालसालै खिचेको)",
+   "right": "",
+   "above": "Thuimb Print संरक्षकको औंठा छाप",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 25
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   517,
+   1636,
+   1058,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "कर्यरत संस्थाको नाम Current Crganization Name",
+   "right": "Aclclress",
+   "above": "Manufacturing Service Oriented",
+   "row": "कर्यरत संस्थाको नाम Current Crganization Name",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 26
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1059,
+   1057,
+   1307,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "स्थायी लेखा नं Email: ईंनेलः",
+   "right": "",
+   "above": "Mlobile No : NID No.",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 27
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   619,
+   851,
+   1183,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_municipality",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "गा.पा न.पा. } उ.म.न.पा म. न.पा.: Rura Municipality Municipality",
+   "right": "चडा न.:",
+   "above": "District: Province:",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 28
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   126,
+   1352,
+   389,
+   186
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "पेशा Occupation",
+   "left": "",
+   "right": "सरकारी",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 29
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   517,
+   1725,
+   733,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "पट Desicnation",
+   "right": "कर्मचारीको हकमा कमचारी परिचयपत्र नं",
+   "above": "",
+   "row": "पट Desicnation",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 30
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   405,
+   2783,
+   999,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "वैदेशिक ठेगाना Foreian Address",
+   "right": "शहरः",
+   "above": "गैरआवासिय नेपालीको हकमा (n case of NRN)",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 31
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1252,
+   1725,
+   664,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "कर्मचारीको हकमा कमचारी परिचयपत्र नं ID Number of Employee",
+   "left": "",
+   "right": "",
+   "above": "Aclclress ठेगाना",
+   "row": "पट Desicnation",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 32
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1754,
+   1636,
+   622,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "ठेगाना Aclclress",
+   "right": "",
+   "above": " सलाउ।",
+   "row": "कर्यरत संस्थाको नाम Current Crganization Name",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 33
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1541,
+   2783,
+   833,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Cit ' शहरः",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 34
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   476,
+   1150,
+   782,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "राष्टिय परिचय पत्र नं Kational ID Number",
+   "right": "",
+   "above": "Email: ईंनेलः",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 35
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   234,
+   971,
+   683,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_tole",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "टोल Tole",
+   "right": "मेबाइल नं.",
+   "above": "City : Sub Mletropolitan City/ Lletropolitar",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 36
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1723,
+   594,
+   641,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "निवेदकसंगको सम्बन्ध Relationship with applicant:",
+   "right": "",
+   "above": "MV  ो",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 37
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1918,
+   1725,
+   458,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "ID Number of Employee कर्मचारीको हकमा कमचारी परिचयपत्र नं",
+   "right": "",
+   "above": "",
+   "row": "पट Desicnation",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 38
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1756,
+   2881,
+   618,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "IRr | Codle Ilc गैर आवाशिय कोड नंः",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 39
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   126,
+   1540,
+   389,
+   93
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "व्यापारको प्रकार Type Of Business",
+   "left": "",
+   "right": "उच्पादन",
+   "above": "Occupation पेशा",
+   "row": "",
+   "col": "पेशा Occupation",
+   "matched_on": "above"
+  },
+  "n": 40
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1789,
+   761,
+   577,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_district",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "जिञ्लाः District:",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 41
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   274,
+   761,
+   570,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "देश Country",
+   "right": "प्रदेशः",
+   "above": "Corresponaence Address: ठेगानाः",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 42
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1806,
+   971,
+   560,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "national_id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Mlobile No : NID No. टेलिफोन नं. :",
+   "right": "",
+   "above": "ैara No. चडा न.:",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 43
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   815,
+   2881,
+   543,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "राज्यः देशः Countr y",
+   "right": "गैर आवाशिय कोड नंः",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 44
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   126,
+   1725,
+   389,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "पट Desicnation",
+   "left": "",
+   "right": "",
+   "above": "Current Crganization Name कर्यरत संस्थाको नाम",
+   "row": "",
+   "col": "कर्यरत संस्थाको नाम Current Crganization Name",
+   "matched_on": "above"
+  },
+  "n": 45
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   126,
+   1636,
+   389,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "कर्यरत संस्थाको नाम Current Crganization Name",
+   "left": "",
+   "right": "",
+   "above": "Type Of Business व्यापारको प्रकार",
+   "row": "",
+   "col": "व्यापारको प्रकार Type Of Business",
+   "matched_on": "col"
+  },
+  "n": 46
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   386,
+   1063,
+   531,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "PAK No स्थायी लेखा नं",
+   "right": "ईंनेलः",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 47
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1059,
+   761,
+   518,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_province",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "प्रदेशः Province:",
+   "right": "जिञ्लाः",
+   "above": "Relationship with applicant:",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 48
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1125,
+   971,
+   456,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "मेबाइल नं. Mlobile No :",
+   "right": "टेलिफोन नं. :",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 49
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   390,
+   507,
+   452,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "नागरिकता जं. Citizenship No",
+   "right": "जारी जिल्ला",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 50
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   234,
+   2881,
+   398,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_province",
+  "group_id": "current",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "State राज्यः",
+   "right": "देशः",
+   "above": "Foreian Address वैदेशिक ठेगाना",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 51
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1086,
+   507,
+   374,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_issue_district",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "जारी जिल्ला Issue District",
+   "right": "जारी जरेको मिति",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 52
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1999,
+   851,
+   365,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "चडा न.: ैara No.",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 53
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1577,
+   1636,
+   173,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ठेगाना Aclclress",
+   "left": "",
+   "right": "",
+   "above": "Other अन्य",
+   "row": "कर्यरत संस्थाको नाम Current Crganization Name",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 54
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1444,
+   272,
+   580,
+   41
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1444,
+     272,
+     31,
+     41
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1521,
+     280,
+     22,
+     29
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1716,
+     280,
+     21,
+     29
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1739,
+     280,
+     25,
+     29
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1997,
+     280,
+     27,
+     29
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 55
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1235,
+   280,
+   165,
+   29
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1235,
+     280,
+     25,
+     29
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1263,
+     280,
+     24,
+     29
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1348,
+     280,
+     23,
+     29
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1373,
+     280,
+     27,
+     29
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 56
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1158,
+   1275,
+   437,
+   40
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1158,
+     1275,
+     34,
+     38
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1564,
+     1284,
+     31,
+     31
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    ""
+   ]
+  },
+  "n": 57
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1287,
+   1286,
+   21,
+   29
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1287,
+     1286,
+     21,
+     29
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 58
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   556,
+   1372,
+   1780,
+   65
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "सरकारी",
+    "bbox": [
+     556,
+     1372,
+     66,
+     65
+    ]
+   },
+   {
+    "label": "Public Private Sector",
+    "bbox": [
+     856,
+     1372,
+     64,
+     65
+    ]
+   },
+   {
+    "label": "एन.जी.ओ. / आई.एन.जी.ओ.",
+    "bbox": [
+     1307,
+     1372,
+     67,
+     65
+    ]
+   },
+   {
+    "label": "विशेषज्ञ",
+    "bbox": [
+     1776,
+     1372,
+     64,
+     65
+    ]
+   },
+   {
+    "label": "वैदेशिक रोजगार",
+    "bbox": [
+     1998,
+     1372,
+     65,
+     65
+    ]
+   }
+  ],
+  "suggested_field": "occupation_choice",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "पेशा",
+   "options": [
+    "सरकारी",
+    "Public Private Sector",
+    "एन.जी.ओ. / आई.एन.जी.ओ.",
+    "विशेषज्ञ",
+    "वैदेशिक रोजगार"
+   ]
+  },
+  "n": 59
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   558,
+   1453,
+   1579,
+   67
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Businessperson",
+    "bbox": [
+     558,
+     1453,
+     64,
+     67
+    ]
+   },
+   {
+    "label": "कुष्िculture",
+    "bbox": [
+     912,
+     1453,
+     64,
+     67
+    ]
+   },
+   {
+    "label": "सेवा निवृत",
+    "bbox": [
+     1201,
+     1453,
+     65,
+     67
+    ]
+   },
+   {
+    "label": "विद्यार्थी",
+    "bbox": [
+     1470,
+     1453,
+     64,
+     67
+    ]
+   },
+   {
+    "label": "Housewife",
+    "bbox": [
+     1705,
+     1453,
+     64,
+     67
+    ]
+   },
+   {
+    "label": "अन्य",
+    "bbox": [
+     1971,
+     1453,
+     65,
+     67
+    ]
+   }
+  ],
+  "suggested_field": "occupation_choice",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Occupation",
+   "options": [
+    "Businessperson",
+    "कुष्िculture",
+    "सेवा निवृत",
+    "विद्यार्थी",
+    "Housewife",
+    "अन्य"
+   ]
+  },
+  "n": 60
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   562,
+   1553,
+   1575,
+   65
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "उच्पादन",
+    "bbox": [
+     562,
+     1553,
+     64,
+     65
+    ]
+   },
+   {
+    "label": "सेवामुखी",
+    "bbox": [
+     1080,
+     1553,
+     67,
+     65
+    ]
+   },
+   {
+    "label": "अन्य",
+    "bbox": [
+     1597,
+     1553,
+     64,
+     65
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "व्यापारको प्रकार Type Of Business",
+   "options": [
+    "उच्पादन",
+    "सेवामुखी",
+    "अन्य"
+   ]
+  },
+  "n": 61
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   562,
+   1897,
+   1749,
+   70
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Upto Rs",
+    "bbox": [
+     562,
+     1897,
+     64,
+     66
+    ]
+   },
+   {
+    "label": "From",
+    "bbox": [
+     980,
+     1897,
+     65,
+     66
+    ]
+   },
+   {
+    "label": "रु. s०,०० ००१ देखि रु. २००० ००० सम्ग",
+    "bbox": [
+     1678,
+     1903,
+     64,
+     64
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "आर्थिक विवरण Financial Details",
+   "options": [
+    "Upto Rs",
+    "From",
+    "रु. s०,०० ००१ देखि रु. २००० ००० सम्ग"
+   ]
+  },
+  "n": 62
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1351,
+   1982,
+   348,
+   65
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Abore Rs 5,2,009",
+    "bbox": [
+     1351,
+     1982,
+     64,
+     65
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "रु. २००० ००१ देखि रु. From Rs. 2J 0o ul to Rs. 5२ 0J Du ५JDt toc सम्म",
+   "options": [
+    "Abore Rs 5,2,009"
+   ]
+  },
+  "n": 63
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   564,
+   1984,
+   389,
+   65
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "रु. २००० ००१ देखि रु.",
+    "bbox": [
+     564,
+     1984,
+     67,
+     65
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "रु. २००० ००१ देखि रु."
+   ]
+  },
+  "n": 64
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1641,
+   2697,
+   31,
+   42
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1641,
+     2697,
+     31,
+     42
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 65
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1487,
+   2710,
+   29,
+   27
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1487,
+     2710,
+     29,
+     27
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 66
+ }
+]

@@ -1,0 +1,144 @@
+# Developer review of the automatic proposals for the Laxmi Sunrise Individual KYC form.
+# Candidate numbers refer to proposals/page_N.json (see build_template.py for the format).
+# Each change was decided by inspecting the page image with the numbered proposals.
+
+template:
+  bank_name: Laxmi Sunrise Bank
+  form_name: Individual KYC
+  languages: [eng, nep]
+
+pages:
+  1:
+    drop: [92, 86]                      # page-edge strip and header band, not fields
+    set:
+      1: {field_id: dob_ad}             # A.D. cells were not matched ("ई. सं." spacing)
+      7: {field_id: person_photo}       # "Photo" frame
+      98: {options: [female, male, other]}
+      12: {group_id: citizenship}
+      24: {field_id: citizenship_issue_date, group_id: citizenship}
+      20: {field_id: citizenship_issue_district, group_id: citizenship}
+      99: {field_id: other_choice, group_id: nid_not_received, options: [not_received]}
+      100: {field_id: other_choice, group_id: pan_not_received, options: [not_received]}
+      29: {group_id: passport}
+      83: {group_id: passport}
+      64: {group_id: passport}
+      6: {group_id: other_id}
+      67: {field_id: id_number, group_id: other_id}
+      26: {group_id: other_id}
+      81: {group_id: other_id}
+      58: {group_id: other_id}
+      16: {group_id: minor_id, party: minor}
+      14: {group_id: minor_id, party: minor}
+      19: {group_id: minor_id, party: minor}
+      5: {group_id: guardian_id, party: guardian}
+      65: {group_id: guardian_id, party: guardian}
+      22: {group_id: guardian_id, party: guardian}
+      79: {group_id: guardian_id, party: guardian}
+      39: {group_id: guardian_id, party: guardian}
+    add:
+      - {field_id: branch_name, bbox_px: [355, 300, 420, 90], label: "Branch (dotted line)"}
+    group_by_x:
+      # The 3-column address table: which address each cell belongs to.
+      - y: [0.27, 0.46]
+        fields: [address_house_no, address_tole, address_ward, address_municipality, address_district,
+                 address_province, phone, mobile, email]
+        columns: [[0.26, 0.505, permanent], [0.505, 0.725, current], [0.725, 0.95, mailing]]
+
+  2:
+    drop: [74, 78, 79, 7, 10, 13, 14, 80, 81, 82, 83, 84, 90, 16, 0, 91]
+    set:
+      # Family table: name column, one row per relation (row_index within a relation).
+      29: {field_id: family_member_name, group_id: spouse}
+      34: {field_id: family_member_name, group_id: father}
+      39: {field_id: family_member_name, group_id: mother}
+      31: {field_id: family_member_name, group_id: grandfather}
+      35: {field_id: family_member_name, group_id: son, row_index: 1}
+      33: {field_id: family_member_name, group_id: son, row_index: 2}
+      38: {field_id: family_member_name, group_id: son, row_index: 3}
+      36: {field_id: family_member_name, group_id: daughter, row_index: 1}
+      37: {field_id: family_member_name, group_id: daughter, row_index: 2}
+      28: {field_id: family_member_name, group_id: daughter, row_index: 3}
+      27: {field_id: family_member_name, group_id: daughter_in_law, row_index: 1}
+      26: {field_id: family_member_name, group_id: daughter_in_law, row_index: 2}
+      25: {field_id: family_member_name, group_id: daughter_in_law, row_index: 3}
+      20: {field_id: family_member_name, group_id: father_in_law}
+      69: {field_id: source_of_income_text, group_id: other_income}
+      70: {field_id: source_of_income_text, group_id: remittance_country}
+      # Occupation table (3 rows).
+      46: {row_index: 1}
+      49: {row_index: 2}
+      47: {row_index: 3}
+      48: {field_id: occupation_text, row_index: 1}
+      53: {field_id: occupation_text, row_index: 2}
+      50: {field_id: occupation_text, row_index: 3}
+      51: {field_id: employer_address, row_index: 1}
+      54: {field_id: employer_address, row_index: 2}
+      52: {field_id: employer_address, row_index: 3}
+      58: {row_index: 1}
+      61: {row_index: 2}
+      60: {row_index: 3}
+      55: {row_index: 1}
+      57: {row_index: 2}
+      56: {row_index: 3}
+      71: {field_id: transaction_amount, group_id: annual_projected}
+      85: {group_id: government_employee, options: [yes, no]}
+      86: {group_id: politician_or_relative, options: [yes, no]}
+      87: {group_id: criminal_record, options: [yes, no]}
+      72: {field_id: declaration_detail, group_id: criminal_record}
+      88: {group_id: beneficial_owner, options: [yes, no]}
+      89: {group_id: existing_account_this_bank, options: [yes, no]}
+    add:
+      - field_id: source_of_income
+        bbox_px: [215, 1352, 1885, 168]
+        label: "Source of Income"
+        options:
+          - {id: business, label: Business Income, bbox_px: [222, 1363, 26, 26]}
+          - {id: salary, label: Salary income, bbox_px: [1092, 1363, 26, 26]}
+          - {id: investment_return, label: Return on Investment, bbox_px: [222, 1432, 26, 26]}
+          - {id: remittance, label: Remittance from abroad, bbox_px: [1092, 1428, 26, 26]}
+          - {id: other, label: Other Income, bbox_px: [224, 1489, 26, 26]}
+      - {field_id: bank_account_number, group_id: existing_account_this_bank, cell_count: 16,
+         bbox_px: [1226, 3116, 1124, 58], label: "If yes, mention account no."}
+
+  3:
+    drop: [38, 42]
+    set:
+      43: {group_id: other_bank_account, options: [yes, no]}
+      2: {group_id: other_bank, row_index: 1}
+      5: {group_id: other_bank, row_index: 2}
+      3: {group_id: other_bank, row_index: 3}
+      9: {group_id: other_bank, row_index: 4}
+      6: {group_id: other_bank, row_index: 1}
+      8: {group_id: other_bank, row_index: 2}
+      7: {group_id: other_bank, row_index: 3}
+      10: {group_id: other_bank, row_index: 4}
+      12: {field_id: bank_account_type, group_id: other_bank, row_index: 1}
+      14: {field_id: bank_account_type, group_id: other_bank, row_index: 2}
+      13: {field_id: bank_account_type, group_id: other_bank, row_index: 3}
+      15: {field_id: bank_account_type, group_id: other_bank, row_index: 4}
+      44: {group_id: foreign_national, options: [yes, no]}
+      45: {field_id: other_choice, group_id: foreign_status, options: [green_card, pr, nrn, foreigner]}
+      22: {field_id: id_number, group_id: foreign_id}
+      23: {field_id: address_full_text, group_id: foreign}
+      24: {field_id: address_tole, group_id: foreign}
+      25: {field_id: address_municipality, group_id: foreign}
+      26: {field_id: other_text, group_id: foreign_zip_code}
+      27: {field_id: address_country, group_id: foreign}
+      28: {field_id: phone, group_id: foreign}
+      29: {field_id: other_text, group_id: foreign_contact_person}
+      30: {field_id: id_issue_date, group_id: visa}
+      31: {field_id: id_expiry_date, group_id: visa}
+      32: {field_id: landlord_name}
+      33: {field_id: landlord_address}
+      34: {field_id: landlord_phone}
+      0: {field_id: location_map, bbox_px: [129, 2101, 2224, 1075]}   # exclude the landmark lines
+      35: {field_id: nearest_landmark}
+      36: {field_id: landmark_distance}
+
+  4:
+    set:
+      0: {field_id: thumbprint_right}
+      1: {field_id: thumbprint_left}
+      3: {field_id: form_date, group_id: declaration}
+    add:
+      - {field_id: signature, bbox_px: [280, 1830, 560, 165], label: "Signature of the Account Holder(s)"}

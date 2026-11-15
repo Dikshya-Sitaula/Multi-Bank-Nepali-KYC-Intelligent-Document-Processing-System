@@ -160,7 +160,7 @@ def identify(img: np.ndarray, overrides: dict[str, Any] | None = None,
 
     ranked = sorted(cands, key=lambda c: (c.plausible, c.inliers), reverse=True)
     summary = [{"template_id": c.template_id, "page_number": c.page_number, "inliers": c.inliers,
-                "good_matches": c.good_matches, "plausible": c.plausible} for c in ranked[:5]]
+                "good_matches": c.good_matches, "plausible": c.plausible} for c in ranked]
     ms = (time.perf_counter() - t0) * 1000
     best = ranked[0] if ranked else None
     if best is None or not best.plausible or best.inliers < cfg["min_inliers"]:

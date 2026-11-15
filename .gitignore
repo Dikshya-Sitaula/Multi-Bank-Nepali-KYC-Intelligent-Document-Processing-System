@@ -46,3 +46,6 @@ Thumbs.db
 .idea/
 *.log
 templates/*/features/
+templates/*/proposals/*.jpg
+templates/*/.build_sha256
+data/demo_forms/

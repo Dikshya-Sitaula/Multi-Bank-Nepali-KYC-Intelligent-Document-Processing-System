@@ -1,0 +1,3810 @@
+[
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   661,
+   957,
+   1700,
+   83
+  ],
+  "source": "raster",
+  "cell_count": 16,
+  "cells": [
+   [
+    661,
+    957,
+    104,
+    83
+   ],
+   [
+    765,
+    957,
+    104,
+    83
+   ],
+   [
+    871,
+    957,
+    104,
+    83
+   ],
+   [
+    975,
+    957,
+    106,
+    83
+   ],
+   [
+    1081,
+    957,
+    104,
+    83
+   ],
+   [
+    1188,
+    957,
+    104,
+    83
+   ],
+   [
+    1292,
+    957,
+    104,
+    83
+   ],
+   [
+    1396,
+    957,
+    110,
+    83
+   ],
+   [
+    1514,
+    957,
+    104,
+    83
+   ],
+   [
+    1621,
+    957,
+    104,
+    83
+   ],
+   [
+    1727,
+    957,
+    104,
+    83
+   ],
+   [
+    1831,
+    957,
+    104,
+    83
+   ],
+   [
+    1937,
+    957,
+    104,
+    83
+   ],
+   [
+    2041,
+    957,
+    104,
+    83
+   ],
+   [
+    2147,
+    957,
+    104,
+    83
+   ],
+   [
+    2251,
+    957,
+    110,
+    83
+   ]
+  ],
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "३   0 3 7 0 0 1 7",
+   "left": "हितग्राही खाता नम्बर Beneficial Owner Account Nor",
+   "right": "",
+   "above": "DPID Client ID",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 0
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   467,
+   1246,
+   1817,
+   77
+  ],
+  "source": "raster",
+  "cell_count": 30,
+  "cells": [
+   [
+    467,
+    1246,
+    50,
+    77
+   ],
+   [
+    519,
+    1246,
+    59,
+    75
+   ],
+   [
+    582,
+    1246,
+    56,
+    75
+   ],
+   [
+    642,
+    1246,
+    58,
+    75
+   ],
+   [
+    703,
+    1246,
+    58,
+    75
+   ],
+   [
+    763,
+    1246,
+    58,
+    75
+   ],
+   [
+    825,
+    1246,
+    59,
+    75
+   ],
+   [
+    886,
+    1246,
+    58,
+    75
+   ],
+   [
+    946,
+    1246,
+    58,
+    75
+   ],
+   [
+    1006,
+    1246,
+    59,
+    75
+   ],
+   [
+    1067,
+    1246,
+    58,
+    75
+   ],
+   [
+    1127,
+    1246,
+    60,
+    75
+   ],
+   [
+    1190,
+    1246,
+    58,
+    75
+   ],
+   [
+    1250,
+    1246,
+    58,
+    75
+   ],
+   [
+    1312,
+    1246,
+    57,
+    75
+   ],
+   [
+    1373,
+    1246,
+    58,
+    75
+   ],
+   [
+    1433,
+    1246,
+    58,
+    75
+   ],
+   [
+    1496,
+    1246,
+    56,
+    75
+   ],
+   [
+    1556,
+    1246,
+    58,
+    75
+   ],
+   [
+    1616,
+    1246,
+    59,
+    75
+   ],
+   [
+    1679,
+    1246,
+    58,
+    75
+   ],
+   [
+    1741,
+    1246,
+    56,
+    75
+   ],
+   [
+    1802,
+    1246,
+    56,
+    75
+   ],
+   [
+    1862,
+    1246,
+    58,
+    75
+   ],
+   [
+    1922,
+    1246,
+    59,
+    75
+   ],
+   [
+    1983,
+    1246,
+    58,
+    75
+   ],
+   [
+    2045,
+    1246,
+    58,
+    75
+   ],
+   [
+    2106,
+    1246,
+    58,
+    75
+   ],
+   [
+    2166,
+    1246,
+    58,
+    75
+   ],
+   [
+    2226,
+    1246,
+    58,
+    75
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Name In Eloce Letters",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 1
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   537,
+   1353,
+   502,
+   67
+  ],
+  "source": "raster",
+  "cell_count": 7,
+  "cells": [
+   [
+    537,
+    1353,
+    67,
+    67
+   ],
+   [
+    610,
+    1353,
+    66,
+    67
+   ],
+   [
+    683,
+    1353,
+    64,
+    67
+   ],
+   [
+    756,
+    1353,
+    64,
+    67
+   ],
+   [
+    826,
+    1353,
+    67,
+    67
+   ],
+   [
+    901,
+    1353,
+    65,
+    67
+   ],
+   [
+    972,
+    1353,
+    67,
+    67
+   ]
+  ],
+  "suggested_field": "dob_bs",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "|1 N",
+   "left": "Date of Birth BS. वि.सं.",
+   "right": "ई.सं.",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 2
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1149,
+   1353,
+   572,
+   67
+  ],
+  "source": "raster",
+  "cell_count": 8,
+  "cells": [
+   [
+    1149,
+    1353,
+    64,
+    67
+   ],
+   [
+    1220,
+    1353,
+    66,
+    67
+   ],
+   [
+    1293,
+    1353,
+    66,
+    67
+   ],
+   [
+    1366,
+    1353,
+    64,
+    67
+   ],
+   [
+    1438,
+    1353,
+    65,
+    67
+   ],
+   [
+    1511,
+    1353,
+    65,
+    67
+   ],
+   [
+    1584,
+    1353,
+    65,
+    67
+   ],
+   [
+    1655,
+    1356,
+    66,
+    64
+   ]
+  ],
+  "suggested_field": "dob_ad",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "|१ Ivl",
+   "left": "N #.D. ई.सं.",
+   "right": "स्थायी लेखा नं.",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 3
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1780,
+   1582,
+   426,
+   65
+  ],
+  "source": "raster",
+  "cell_count": 6,
+  "cells": [
+   [
+    1780,
+    1582,
+    64,
+    65
+   ],
+   [
+    1853,
+    1582,
+    64,
+    65
+   ],
+   [
+    1923,
+    1582,
+    67,
+    65
+   ],
+   [
+    1996,
+    1582,
+    67,
+    65
+   ],
+   [
+    2069,
+    1582,
+    65,
+    65
+   ],
+   [
+    2142,
+    1582,
+    64,
+    65
+   ]
+  ],
+  "suggested_field": "address_district",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "।१  `l",
+   "left": "IssLle District Date Cf Issuiance जारी गरेकों मिति",
+   "right": "",
+   "above": "Female Other",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 4
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1115,
+   2112,
+   422,
+   84
+  ],
+  "source": "raster",
+  "cell_count": 7,
+  "cells": [
+   [
+    1115,
+    2112,
+    58,
+    84
+   ],
+   [
+    1175,
+    2112,
+    58,
+    84
+   ],
+   [
+    1235,
+    2112,
+    59,
+    84
+   ],
+   [
+    1296,
+    2112,
+    58,
+    84
+   ],
+   [
+    1358,
+    2112,
+    58,
+    84
+   ],
+   [
+    1419,
+    2112,
+    58,
+    84
+   ],
+   [
+    1479,
+    2113,
+    58,
+    83
+   ]
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Grandfather s Name IIIN BLOCK LETTERSI",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 5
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1539,
+   2112,
+   843,
+   84
+  ],
+  "source": "raster",
+  "cell_count": 14,
+  "cells": [
+   [
+    1539,
+    2112,
+    59,
+    84
+   ],
+   [
+    1600,
+    2112,
+    60,
+    84
+   ],
+   [
+    1662,
+    2112,
+    58,
+    84
+   ],
+   [
+    1723,
+    2112,
+    58,
+    84
+   ],
+   [
+    1783,
+    2112,
+    58,
+    84
+   ],
+   [
+    1843,
+    2112,
+    61,
+    84
+   ],
+   [
+    1906,
+    2112,
+    58,
+    84
+   ],
+   [
+    1966,
+    2112,
+    58,
+    84
+   ],
+   [
+    2026,
+    2112,
+    61,
+    84
+   ],
+   [
+    2089,
+    2112,
+    58,
+    84
+   ],
+   [
+    2149,
+    2112,
+    58,
+    84
+   ],
+   [
+    2210,
+    2112,
+    58,
+    84
+   ],
+   [
+    2272,
+    2112,
+    60,
+    84
+   ],
+   [
+    2335,
+    2112,
+    47,
+    84
+   ]
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Grandfather s Name IIIN BLOCK LETTERSI",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 6
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1113,
+   2287,
+   1219,
+   83
+  ],
+  "source": "raster",
+  "cell_count": 20,
+  "cells": [
+   [
+    1113,
+    2287,
+    60,
+    83
+   ],
+   [
+    1175,
+    2287,
+    58,
+    83
+   ],
+   [
+    1235,
+    2287,
+    59,
+    83
+   ],
+   [
+    1296,
+    2287,
+    58,
+    83
+   ],
+   [
+    1358,
+    2287,
+    58,
+    83
+   ],
+   [
+    1419,
+    2287,
+    58,
+    83
+   ],
+   [
+    1479,
+    2287,
+    58,
+    83
+   ],
+   [
+    1539,
+    2287,
+    59,
+    83
+   ],
+   [
+    1600,
+    2287,
+    60,
+    83
+   ],
+   [
+    1662,
+    2287,
+    58,
+    83
+   ],
+   [
+    1723,
+    2287,
+    58,
+    83
+   ],
+   [
+    1783,
+    2287,
+    58,
+    83
+   ],
+   [
+    1843,
+    2287,
+    61,
+    83
+   ],
+   [
+    1906,
+    2287,
+    58,
+    83
+   ],
+   [
+    1966,
+    2287,
+    58,
+    83
+   ],
+   [
+    2026,
+    2287,
+    61,
+    83
+   ],
+   [
+    2089,
+    2287,
+    58,
+    83
+   ],
+   [
+    2149,
+    2287,
+    58,
+    83
+   ],
+   [
+    2210,
+    2287,
+    60,
+    83
+   ],
+   [
+    2272,
+    2287,
+    60,
+    83
+   ]
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "father",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Fathers Name IN BLOCK LETTERS)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 7
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1115,
+   2460,
+   1267,
+   83
+  ],
+  "source": "raster",
+  "cell_count": 21,
+  "cells": [
+   [
+    1115,
+    2460,
+    58,
+    83
+   ],
+   [
+    1175,
+    2460,
+    58,
+    83
+   ],
+   [
+    1235,
+    2460,
+    59,
+    83
+   ],
+   [
+    1296,
+    2460,
+    58,
+    83
+   ],
+   [
+    1358,
+    2460,
+    58,
+    83
+   ],
+   [
+    1419,
+    2460,
+    58,
+    83
+   ],
+   [
+    1479,
+    2460,
+    58,
+    83
+   ],
+   [
+    1539,
+    2460,
+    59,
+    83
+   ],
+   [
+    1600,
+    2460,
+    60,
+    83
+   ],
+   [
+    1662,
+    2460,
+    58,
+    83
+   ],
+   [
+    1723,
+    2460,
+    58,
+    83
+   ],
+   [
+    1783,
+    2460,
+    58,
+    83
+   ],
+   [
+    1843,
+    2460,
+    61,
+    83
+   ],
+   [
+    1906,
+    2460,
+    58,
+    83
+   ],
+   [
+    1966,
+    2460,
+    58,
+    83
+   ],
+   [
+    2026,
+    2460,
+    59,
+    83
+   ],
+   [
+    2089,
+    2460,
+    58,
+    83
+   ],
+   [
+    2149,
+    2460,
+    58,
+    83
+   ],
+   [
+    2210,
+    2460,
+    60,
+    83
+   ],
+   [
+    2272,
+    2460,
+    60,
+    83
+   ],
+   [
+    2335,
+    2460,
+    47,
+    83
+   ]
+  ],
+  "suggested_field": "name_boxed",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "llothher s Name IIN BLOCK LETTERSJ",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 8
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1115,
+   2633,
+   1267,
+   83
+  ],
+  "source": "raster",
+  "cell_count": 21,
+  "cells": [
+   [
+    1115,
+    2633,
+    58,
+    83
+   ],
+   [
+    1175,
+    2633,
+    58,
+    83
+   ],
+   [
+    1235,
+    2633,
+    59,
+    83
+   ],
+   [
+    1296,
+    2633,
+    58,
+    83
+   ],
+   [
+    1358,
+    2633,
+    58,
+    83
+   ],
+   [
+    1419,
+    2633,
+    58,
+    83
+   ],
+   [
+    1479,
+    2633,
+    58,
+    83
+   ],
+   [
+    1539,
+    2633,
+    59,
+    83
+   ],
+   [
+    1600,
+    2633,
+    60,
+    83
+   ],
+   [
+    1662,
+    2633,
+    58,
+    83
+   ],
+   [
+    1723,
+    2633,
+    58,
+    83
+   ],
+   [
+    1783,
+    2633,
+    58,
+    83
+   ],
+   [
+    1843,
+    2633,
+    61,
+    83
+   ],
+   [
+    1906,
+    2633,
+    58,
+    83
+   ],
+   [
+    1966,
+    2633,
+    58,
+    83
+   ],
+   [
+    2026,
+    2633,
+    61,
+    83
+   ],
+   [
+    2089,
+    2633,
+    58,
+    83
+   ],
+   [
+    2149,
+    2633,
+    58,
+    83
+   ],
+   [
+    2212,
+    2633,
+    58,
+    83
+   ],
+   [
+    2272,
+    2633,
+    60,
+    83
+   ],
+   [
+    2335,
+    2633,
+    47,
+    83
+   ]
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Spouses Name (IN BLOCK LETTERS)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 9
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1115,
+   2806,
+   1267,
+   83
+  ],
+  "source": "raster",
+  "cell_count": 21,
+  "cells": [
+   [
+    1115,
+    2806,
+    58,
+    83
+   ],
+   [
+    1175,
+    2806,
+    58,
+    83
+   ],
+   [
+    1235,
+    2806,
+    59,
+    83
+   ],
+   [
+    1298,
+    2806,
+    58,
+    83
+   ],
+   [
+    1358,
+    2806,
+    58,
+    83
+   ],
+   [
+    1419,
+    2806,
+    58,
+    83
+   ],
+   [
+    1479,
+    2806,
+    58,
+    83
+   ],
+   [
+    1539,
+    2806,
+    61,
+    83
+   ],
+   [
+    1600,
+    2806,
+    60,
+    83
+   ],
+   [
+    1662,
+    2806,
+    58,
+    83
+   ],
+   [
+    1723,
+    2806,
+    58,
+    83
+   ],
+   [
+    1783,
+    2806,
+    60,
+    83
+   ],
+   [
+    1843,
+    2806,
+    61,
+    83
+   ],
+   [
+    1906,
+    2806,
+    58,
+    83
+   ],
+   [
+    1966,
+    2806,
+    58,
+    83
+   ],
+   [
+    2026,
+    2806,
+    61,
+    83
+   ],
+   [
+    2089,
+    2806,
+    58,
+    83
+   ],
+   [
+    2149,
+    2806,
+    58,
+    83
+   ],
+   [
+    2210,
+    2806,
+    60,
+    83
+   ],
+   [
+    2272,
+    2806,
+    60,
+    83
+   ],
+   [
+    2335,
+    2806,
+    47,
+    83
+   ]
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Son Daughter s Name IN BLOCK LETTERS)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 10
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1115,
+   2978,
+   239,
+   84
+  ],
+  "source": "raster",
+  "cell_count": 4,
+  "cells": [
+   [
+    1115,
+    2978,
+    58,
+    84
+   ],
+   [
+    1175,
+    2978,
+    58,
+    84
+   ],
+   [
+    1235,
+    2978,
+    59,
+    84
+   ],
+   [
+    1298,
+    2981,
+    56,
+    81
+   ]
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "daughter_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 11
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1358,
+   2978,
+   179,
+   84
+  ],
+  "source": "raster",
+  "cell_count": 3,
+  "cells": [
+   [
+    1358,
+    2978,
+    58,
+    84
+   ],
+   [
+    1419,
+    2978,
+    58,
+    84
+   ],
+   [
+    1479,
+    2981,
+    58,
+    81
+   ]
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "daughter_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 12
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1539,
+   2978,
+   242,
+   84
+  ],
+  "source": "raster",
+  "cell_count": 4,
+  "cells": [
+   [
+    1539,
+    2978,
+    59,
+    84
+   ],
+   [
+    1600,
+    2978,
+    60,
+    84
+   ],
+   [
+    1662,
+    2978,
+    58,
+    84
+   ],
+   [
+    1723,
+    2980,
+    58,
+    82
+   ]
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "daughter_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 13
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1783,
+   2978,
+   304,
+   84
+  ],
+  "source": "raster",
+  "cell_count": 5,
+  "cells": [
+   [
+    1783,
+    2978,
+    60,
+    84
+   ],
+   [
+    1843,
+    2978,
+    61,
+    84
+   ],
+   [
+    1906,
+    2978,
+    58,
+    84
+   ],
+   [
+    1966,
+    2978,
+    58,
+    84
+   ],
+   [
+    2026,
+    2981,
+    61,
+    81
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 14
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   2089,
+   2978,
+   293,
+   84
+  ],
+  "source": "raster",
+  "cell_count": 5,
+  "cells": [
+   [
+    2089,
+    2978,
+    58,
+    84
+   ],
+   [
+    2149,
+    2978,
+    58,
+    84
+   ],
+   [
+    2212,
+    2978,
+    58,
+    84
+   ],
+   [
+    2272,
+    2978,
+    60,
+    84
+   ],
+   [
+    2335,
+    2978,
+    47,
+    84
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 15
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1115,
+   3151,
+   1267,
+   81
+  ],
+  "source": "raster",
+  "cell_count": 21,
+  "cells": [
+   [
+    1115,
+    3151,
+    58,
+    81
+   ],
+   [
+    1175,
+    3151,
+    58,
+    81
+   ],
+   [
+    1235,
+    3151,
+    59,
+    81
+   ],
+   [
+    1298,
+    3151,
+    56,
+    81
+   ],
+   [
+    1358,
+    3151,
+    58,
+    81
+   ],
+   [
+    1419,
+    3151,
+    58,
+    81
+   ],
+   [
+    1479,
+    3151,
+    58,
+    81
+   ],
+   [
+    1539,
+    3151,
+    59,
+    81
+   ],
+   [
+    1600,
+    3151,
+    60,
+    81
+   ],
+   [
+    1662,
+    3151,
+    58,
+    81
+   ],
+   [
+    1723,
+    3151,
+    58,
+    81
+   ],
+   [
+    1783,
+    3151,
+    60,
+    81
+   ],
+   [
+    1843,
+    3151,
+    61,
+    81
+   ],
+   [
+    1906,
+    3151,
+    58,
+    81
+   ],
+   [
+    1966,
+    3151,
+    58,
+    81
+   ],
+   [
+    2026,
+    3151,
+    61,
+    81
+   ],
+   [
+    2089,
+    3151,
+    58,
+    81
+   ],
+   [
+    2149,
+    3151,
+    58,
+    81
+   ],
+   [
+    2210,
+    3151,
+    60,
+    81
+   ],
+   [
+    2272,
+    3151,
+    60,
+    81
+   ],
+   [
+    2335,
+    3151,
+    47,
+    81
+   ]
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "father_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Father in-law 5 Name iIn case of Married Womenl",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 16
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   1115,
+   3322,
+   1267,
+   83
+  ],
+  "source": "raster",
+  "cell_count": 21,
+  "cells": [
+   [
+    1115,
+    3322,
+    58,
+    83
+   ],
+   [
+    1175,
+    3322,
+    58,
+    83
+   ],
+   [
+    1235,
+    3322,
+    59,
+    83
+   ],
+   [
+    1298,
+    3322,
+    56,
+    83
+   ],
+   [
+    1358,
+    3322,
+    58,
+    83
+   ],
+   [
+    1419,
+    3322,
+    58,
+    83
+   ],
+   [
+    1479,
+    3322,
+    58,
+    83
+   ],
+   [
+    1539,
+    3322,
+    61,
+    83
+   ],
+   [
+    1600,
+    3322,
+    60,
+    83
+   ],
+   [
+    1662,
+    3322,
+    58,
+    83
+   ],
+   [
+    1723,
+    3322,
+    58,
+    83
+   ],
+   [
+    1783,
+    3322,
+    60,
+    83
+   ],
+   [
+    1845,
+    3322,
+    59,
+    83
+   ],
+   [
+    1906,
+    3322,
+    58,
+    83
+   ],
+   [
+    1966,
+    3322,
+    58,
+    83
+   ],
+   [
+    2026,
+    3322,
+    61,
+    83
+   ],
+   [
+    2089,
+    3322,
+    58,
+    83
+   ],
+   [
+    2149,
+    3322,
+    58,
+    83
+   ],
+   [
+    2212,
+    3322,
+    58,
+    83
+   ],
+   [
+    2272,
+    3322,
+    60,
+    83
+   ],
+   [
+    2335,
+    3322,
+    47,
+    83
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "llother in-law s Name iIn case of llarried Women y",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 17
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1102,
+   919,
+   19,
+   29
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "हितग्राही खाता नम्बर",
+   "right": "",
+   "above": "आफु सरोकार नभएको विवरण उल्लेख गरिएको कोठामा धर्का तनिदिनु होला",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 18
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1748,
+   1962,
+   18,
+   40
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 19
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2335,
+   2285,
+   47,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 20
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   322,
+   676,
+   2039,
+   102
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "शारना Branzh",
+   "right": "",
+   "above": "",
+   "row": "शारना Branzh",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 21
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   322,
+   580,
+   2039,
+   94
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "सिति Date",
+   "right": "",
+   "above": "Details of Natural Person",
+   "row": "सिति Date",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 22
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   136,
+   1948,
+   2240,
+   72
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "परिवारका सदस्यहरूको विवरण (ठाउं नपुग भएमा थप गर्न सकिने) (Details of Family Members)",
+   "left": "",
+   "right": "",
+   "above": "नाबालकको हकमा निजको नै उल्लेख गर्नुपर्ने hlarried",
+   "row": "",
+   "col": "ग्राहकको विवरण (Details of Client)",
+   "matched_on": "col"
+  },
+  "n": 23
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   1077,
+   2226,
+   70
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ग्राहकको विवरण (Details of Client)",
+   "left": "",
+   "right": "",
+   "above": "३   0 3",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 24
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   467,
+   1171,
+   1892,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "जाम",
+   "right": "",
+   "above": "ग्राहकको विवरण (Details of Client)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 25
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   2031,
+   130,
+   328,
+   389
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "person_photo",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "हालसालै खिचेको फोटो Recent Photo नाबालकका हकट निजको नै राख्नुपर्ने",
+   "left": "KYC UPDATE FORM Details of Natural Person प्राकृतिक व्यक्तिको परिचय विवरण",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 26
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1115,
+   2545,
+   1267,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "spouse",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "पति / पत्नीको नाम",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 27
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1113,
+   2373,
+   1269,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "आआाका नाम",
+   "right": "",
+   "above": "",
+   "row": "L",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 28
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1113,
+   2027,
+   1269,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "grandfather",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "बाजेको नाम",
+   "right": "",
+   "above": "परिवारका सदस्यहरूको विवरण (ठाउं नपुग भएमा थप गर्न सकिने) (Details of Family Members)",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 29
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1115,
+   2200,
+   1267,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "जाम",
+   "right": "",
+   "above": "",
+   "row": "-",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 30
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1115,
+   2893,
+   1267,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "daughter_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "बुहारीको नाम",
+   "right": "",
+   "above": "",
+   "row": "११",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 31
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1115,
+   2720,
+   1267,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "छोरा छोरीको नाम",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 32
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1115,
+   3064,
+   1267,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "father_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "ससुराको नाल (विवाहित महिलाको हकमा )",
+   "right": "",
+   "above": "",
+   "row": "१३",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 33
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1115,
+   3237,
+   1267,
+   81
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "mother_in_law",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "सासुको नाम (विवाहित महिलाको हकमा)",
+   "right": "",
+   "above": "",
+   "row": "१५",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 34
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2285,
+   859,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Fathers Name IN BLOCK LETTERS)",
+   "left": "",
+   "right": "",
+   "above": "बुबाको जाम",
+   "row": "",
+   "col": "जाम बुबाको",
+   "matched_on": "above"
+  },
+  "n": 35
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2112,
+   859,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Grandfather s Name IIIN BLOCK LETTERSI",
+   "left": "",
+   "right": "",
+   "above": "बाजेको नाम",
+   "row": "",
+   "col": "बाजेको नाम",
+   "matched_on": "above"
+  },
+  "n": 36
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2978,
+   859,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "left": "१२",
+   "right": "",
+   "above": "बुहारीको नाम",
+   "row": "१२",
+   "col": "बुहारीको नाम",
+   "matched_on": "above"
+  },
+  "n": 37
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2545,
+   859,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "पति / पत्नीको नाम",
+   "left": "",
+   "right": "",
+   "above": "llothher s Name IIN BLOCK LETTERSJ",
+   "row": "",
+   "col": "llothher s Name IIN BLOCK LETTERSJ",
+   "matched_on": "above"
+  },
+  "n": 38
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2633,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Spouses Name (IN BLOCK LETTERS)",
+   "left": "",
+   "right": "",
+   "above": "पति / पत्नीको नाम",
+   "row": "",
+   "col": "पति / पत्नीको नाम",
+   "matched_on": "above"
+  },
+  "n": 39
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2200,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "बुबाको जाम",
+   "left": "-",
+   "right": "",
+   "above": "Grandfather s Name IIIN BLOCK LETTERSI",
+   "row": "-",
+   "col": "Grandfather s Name IIIN BLOCK LETTERSI",
+   "matched_on": "above"
+  },
+  "n": 40
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2027,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "बाजेको नाम",
+   "left": "",
+   "right": "",
+   "above": "परिवारका सदस्यहरूको विवरण (ठाउं नपुग भएमा थप गर्न सकिने) (Details of Family Members)",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 41
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2460,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "llothher s Name IIN BLOCK LETTERSJ",
+   "left": "",
+   "right": "",
+   "above": "आआाका नाम",
+   "row": "",
+   "col": "आआाका नाम",
+   "matched_on": "col"
+  },
+  "n": 42
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2893,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "बुहारीको नाम",
+   "left": "११",
+   "right": "",
+   "above": "Son Daughter s Name IN BLOCK LETTERS)",
+   "row": "११",
+   "col": "Son Daughter s Name IN BLOCK LETTERS)",
+   "matched_on": "above"
+  },
+  "n": 43
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2373,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "आआाका नाम",
+   "left": "L",
+   "right": "",
+   "above": "Fathers Name IN BLOCK LETTERS)",
+   "row": "L",
+   "col": "Fathers Name IN BLOCK LETTERS)",
+   "matched_on": "above"
+  },
+  "n": 44
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2806,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Son Daughter s Name IN BLOCK LETTERS)",
+   "left": "१०",
+   "right": "",
+   "above": "छोरा छोरीको नाम",
+   "row": "१०",
+   "col": "छोरा छोरीको नाम",
+   "matched_on": "above"
+  },
+  "n": 45
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   2720,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "छोरा छोरीको नाम",
+   "left": "",
+   "right": "",
+   "above": "Spouses Name (IN BLOCK LETTERS)",
+   "row": "",
+   "col": "Spouses Name (IN BLOCK LETTERS)",
+   "matched_on": "above"
+  },
+  "n": 46
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   3322,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "llother in-law s Name iIn case of llarried Women y",
+   "left": "१६",
+   "right": "",
+   "above": "सासुको नाम (विवाहित महिलाको हकमा)",
+   "row": "१६",
+   "col": "सासुको नाम (विवाहित महिलाको हकमा)",
+   "matched_on": "above"
+  },
+  "n": 47
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   3064,
+   859,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ससुराको नाल (विवाहित महिलाको हकमा )",
+   "left": "१३",
+   "right": "",
+   "above": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "row": "१३",
+   "col": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "matched_on": "above"
+  },
+  "n": 48
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   3237,
+   859,
+   81
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "सासुको नाम (विवाहित महिलाको हकमा)",
+   "left": "१५",
+   "right": "",
+   "above": "Father in-law 5 Name iIn case of Married Womenl",
+   "row": "१५",
+   "col": "Father in-law 5 Name iIn case of Married Womenl",
+   "matched_on": "above"
+  },
+  "n": 49
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   3151,
+   859,
+   81
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Father in-law 5 Name iIn case of Married Womenl",
+   "left": "१४",
+   "right": "",
+   "above": "ससुराको नाल (विवाहित महिलाको हकमा )",
+   "row": "१४",
+   "col": "ससुराको नाल (विवाहित महिलाको हकमा )",
+   "matched_on": "above"
+  },
+  "n": 50
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   917,
+   527,
+   116
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "हितग्राही खाता नम्बर Beneficial Owner Account Nor",
+   "left": "",
+   "right": "7",
+   "above": "Please Complete all details तल उल्लेखित विवरण राम्रोसंग भर्नु पर्ने।",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 51
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   251,
+   1696,
+   787,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "email",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Emmail: ईमेलः",
+   "right": "जैरआवासीय नेपालीको हकमा परिचयपत्र नं र ठेगानाः",
+   "above": "Citizenship No. IssLle District",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 52
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   486,
+   1800,
+   781,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "national_id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "National ID Number राष्ट्िय परिचय पत्र नं",
+   "right": "चिवाहित",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 53
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1891,
+   1696,
+   460,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "ID number ancl aclclress for Nor Resident Nebalis: जैरआवासीय नेपालीको हकमा परिचयपत्र नं र ठेगानाः",
+   "right": "",
+   "above": "।१  `l",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 54
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   401,
+   1583,
+   451,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "नागरिकता नं. Citizenship No.",
+   "right": "जारी जिल्ला",
+   "above": "Klepali Othier",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 55
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1981,
+   1352,
+   380,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "pan_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Ivl PAI No स्थायी लेखा नं.",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "हालसालै खिचेको फोटो Recent Photo नाबालकका हकट निजको नै राख्नुपर्ने",
+   "matched_on": "left"
+  },
+  "n": 56
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1094,
+   1583,
+   370,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "citizenship_issue_district",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "जारी जिल्ला IssLle District",
+   "right": "जारी गरेकों मिति",
+   "above": "Gencler लिङ्ग",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 57
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   122,
+   676,
+   197,
+   102
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "शारना Branzh",
+   "left": "",
+   "right": "",
+   "above": "Date सिति",
+   "row": "",
+   "col": "सिति Date",
+   "matched_on": "above"
+  },
+  "n": 58
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   122,
+   580,
+   197,
+   94
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "सिति Date",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 59
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1516,
+   917,
+   406,
+   31
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "DPID",
+   "right": "",
+   "above": "आफु सरोकार नभएको विवरण उल्लेख गरिएको कोठामा धर्का तनिदिनु होला",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 60
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1138,
+   917,
+   366,
+   32
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "हितग्राही खाता नम्बर",
+   "right": "",
+   "above": "आफु सरोकार नभएको विवरण उल्लेख गरिएको कोठामा धर्का तनिदिनु होला",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 61
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1993,
+   917,
+   362,
+   32
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "आफु सरोकार नभएको विवरण उल्लेख गरिएको कोठामा धर्का तनिदिनु होला",
+   "row": "",
+   "col": "हालसालै खिचेको फोटो Recent Photo नाबालकका हकट निजको नै राख्नुपर्ने",
+   "matched_on": "above"
+  },
+  "n": 62
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2285,
+   119,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Fathers Name IN BLOCK LETTERS)",
+   "above": "-",
+   "row": "",
+   "col": "-",
+   "matched_on": "col"
+  },
+  "n": 63
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2545,
+   119,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "पति / पत्नीको नाम",
+   "above": "",
+   "row": "",
+   "col": "L",
+   "matched_on": "col"
+  },
+  "n": 64
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2978,
+   119,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "१२",
+   "left": "",
+   "right": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "above": "११",
+   "row": "",
+   "col": "११",
+   "matched_on": "col"
+  },
+  "n": 65
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2112,
+   119,
+   84
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Grandfather s Name IIIN BLOCK LETTERSI",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 66
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   3064,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "१३",
+   "left": "",
+   "right": "ससुराको नाल",
+   "above": "१२",
+   "row": "",
+   "col": "१२",
+   "matched_on": "col"
+  },
+  "n": 67
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2200,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "-",
+   "left": "",
+   "right": "बुबाको",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 68
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2633,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "Spouses Name (IN BLOCK LETTERS)",
+   "above": "",
+   "row": "",
+   "col": "L",
+   "matched_on": "col"
+  },
+  "n": 69
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   3322,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "१६",
+   "left": "",
+   "right": "llother in-law s Name iIn case of llarried Women y",
+   "above": "१५",
+   "row": "",
+   "col": "१५",
+   "matched_on": "col"
+  },
+  "n": 70
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2806,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "१०",
+   "left": "",
+   "right": "Son Daughter s Name IN BLOCK LETTERS)",
+   "above": "",
+   "row": "",
+   "col": "L",
+   "matched_on": "col"
+  },
+  "n": 71
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2373,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "L",
+   "left": "",
+   "right": "आआाका नाम",
+   "above": "",
+   "row": "",
+   "col": "-",
+   "matched_on": "col"
+  },
+  "n": 72
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2460,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "llothher s Name IIN BLOCK LETTERSJ",
+   "above": "L",
+   "row": "",
+   "col": "L",
+   "matched_on": "col"
+  },
+  "n": 73
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2027,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "बाजेको नाम",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 74
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2893,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "११",
+   "left": "",
+   "right": "बुहारीको नाम",
+   "above": "१०",
+   "row": "",
+   "col": "१०",
+   "matched_on": "col"
+  },
+  "n": 75
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   2720,
+   119,
+   83
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "छोरा छोरीको नाम",
+   "above": "",
+   "row": "",
+   "col": "L",
+   "matched_on": "col"
+  },
+  "n": 76
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   3151,
+   119,
+   81
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "१४",
+   "left": "",
+   "right": "Father in-law 5 Name iIn case of Married Womenl",
+   "above": "१३",
+   "row": "",
+   "col": "१३",
+   "matched_on": "col"
+  },
+  "n": 77
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   130,
+   3237,
+   119,
+   81
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "१५",
+   "left": "",
+   "right": "सासुको नाम (विवाहित महिलाको हकमा)",
+   "above": "१४",
+   "row": "",
+   "col": "१४",
+   "matched_on": "col"
+  },
+  "n": 78
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   197,
+   978,
+   37,
+   31
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     197,
+     978,
+     37,
+     31
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 79
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1227,
+   1094,
+   339,
+   40
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1227,
+     1094,
+     33,
+     40
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1523,
+     1098,
+     43,
+     36
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    ""
+   ]
+  },
+  "n": 80
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1304,
+   1103,
+   217,
+   29
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1304,
+     1103,
+     25,
+     29
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1496,
+     1103,
+     25,
+     29
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    ""
+   ]
+  },
+  "n": 81
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   2287,
+   1244,
+   72,
+   79
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     2287,
+     1244,
+     72,
+     79
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 82
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   466,
+   1354,
+   200,
+   66
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "|1",
+    "bbox": [
+     466,
+     1354,
+     65,
+     66
+    ]
+   }
+  ],
+  "suggested_field": "dob_bs",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Date of Birth BS. वि.सं.",
+   "options": [
+    "|1"
+   ]
+  },
+  "n": 83
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   410,
+   1474,
+   420,
+   65
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "नेपाली",
+    "bbox": [
+     410,
+     1474,
+     65,
+     65
+    ]
+   },
+   {
+    "label": "अन्च्य",
+    "bbox": [
+     664,
+     1474,
+     64,
+     65
+    ]
+   }
+  ],
+  "suggested_field": "nationality",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "राष्ट्रियता Nationality",
+   "options": [
+    "नेपाली",
+    "अन्च्य"
+   ]
+  },
+  "n": 84
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1495,
+   1474,
+   621,
+   65
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "परुष",
+    "bbox": [
+     1495,
+     1474,
+     66,
+     65
+    ]
+   },
+   {
+    "label": "महिला",
+    "bbox": [
+     1722,
+     1474,
+     64,
+     65
+    ]
+   },
+   {
+    "label": "अटय",
+    "bbox": [
+     1951,
+     1474,
+     66,
+     65
+    ]
+   }
+  ],
+  "suggested_field": "gender",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "'स्ारहे } लिङ्ग Gencler",
+   "options": [
+    "परुष",
+    "महिला",
+    "अटय"
+   ]
+  },
+  "n": 85
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   2215,
+   1580,
+   137,
+   67
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     2215,
+     1580,
+     64,
+     67
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     2286,
+     1582,
+     66,
+     65
+    ]
+   }
+  ],
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "जारी गरेकों मिति ।१  `l",
+   "options": [
+    "",
+    ""
+   ]
+  },
+  "n": 86
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1722,
+   1805,
+   169,
+   67
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "हाइन",
+    "bbox": [
+     1722,
+     1805,
+     64,
+     67
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "hlarried हा Te५",
+   "options": [
+    "हाइन"
+   ]
+  },
+  "n": 87
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1495,
+   1807,
+   122,
+   65
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "हा",
+    "bbox": [
+     1495,
+     1807,
+     66,
+     65
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "चिवाहित hlarried",
+   "options": [
+    "हा"
+   ]
+  },
+  "n": 88
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1561,
+   1963,
+   530,
+   40
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1561,
+     1963,
+     33,
+     40
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     2066,
+     1973,
+     25,
+     29
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    ""
+   ]
+  },
+  "n": 89
+ }
+]

@@ -102,6 +102,16 @@ cd backend; ..\.venv\Scripts\alembic.exe revision --autogenerate -m "msg"; cd ..
 
 # start backend + frontend together
 .venv\Scripts\python.exe scripts\dev.py
+
+# generate SYNTHETIC demo forms (data/demo_forms/)
+.venv\Scripts\python.exe backend\scripts\generate_demo_forms.py
+
+# template proposals -> reviewed template.json
+.venv\Scripts\python.exe backend\scripts\propose_templates.py <template_id>
+.venv\Scripts\python.exe backend\scripts\build_template.py <template_id>
+
+# responsive screenshots with installed Chrome (needs both servers running)
+node scripts\screenshots.mjs <user> <PASSWORD_ENV_VAR> outputs\screens "/@1440,390"
 ```
 
 (Commands for later phases are added here as the scripts are created.)

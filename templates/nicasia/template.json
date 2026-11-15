@@ -1,0 +1,4409 @@
+{
+ "schema_version": 1,
+ "template_id": "nicasia",
+ "bank_name": "NIC Asia Bank",
+ "form_name": null,
+ "languages": [
+  "eng",
+  "nep"
+ ],
+ "role": "training",
+ "pages": [
+  {
+   "page_number": 1,
+   "image": "pages/page_1.png",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 2,
+   "image": "pages/page_2.png",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 3,
+   "image": "pages/page_3.png",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 4,
+   "image": "pages/page_4.png",
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 5,
+   "image": "pages/page_5.png",
+   "width": 2481,
+   "height": 3508
+  }
+ ],
+ "regions": [
+  {
+   "id": "p1_c000",
+   "page": 1,
+   "field_id": "bank_account_number",
+   "bbox": [
+    0.266425,
+    0.272805,
+    0.685208,
+    0.02366
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": 16,
+   "cells": [
+    [
+     0.266425,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.308343,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.351068,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.392987,
+     0.272805,
+     0.042725,
+     0.02366
+    ],
+    [
+     0.435711,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.478839,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.520758,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.562676,
+     0.272805,
+     0.044337,
+     0.02366
+    ],
+    [
+     0.610238,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.653366,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.69609,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.738009,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.780734,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.822652,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.865377,
+     0.272805,
+     0.041919,
+     0.02366
+    ],
+    [
+     0.907295,
+     0.272805,
+     0.044337,
+     0.02366
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "हितग्राही खाता नम्बर Beneficial Owner Account Nor / ३   0 3 7 0 0 1 7",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c002",
+   "page": 1,
+   "field_id": "dob_bs",
+   "bbox": [
+    0.216445,
+    0.38569,
+    0.202338,
+    0.019099
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": 7,
+   "cells": [
+    [
+     0.216445,
+     0.38569,
+     0.027005,
+     0.019099
+    ],
+    [
+     0.245869,
+     0.38569,
+     0.026602,
+     0.019099
+    ],
+    [
+     0.275292,
+     0.38569,
+     0.025796,
+     0.019099
+    ],
+    [
+     0.304716,
+     0.38569,
+     0.025796,
+     0.019099
+    ],
+    [
+     0.33293,
+     0.38569,
+     0.027005,
+     0.019099
+    ],
+    [
+     0.36316,
+     0.38569,
+     0.026199,
+     0.019099
+    ],
+    [
+     0.391778,
+     0.38569,
+     0.027005,
+     0.019099
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Date of Birth BS. वि.सं. / |1 N",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c003",
+   "page": 1,
+   "field_id": "dob_ad",
+   "bbox": [
+    0.46312,
+    0.38569,
+    0.230552,
+    0.019099
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": 8,
+   "cells": [
+    [
+     0.46312,
+     0.38569,
+     0.025796,
+     0.019099
+    ],
+    [
+     0.491737,
+     0.38569,
+     0.026602,
+     0.019099
+    ],
+    [
+     0.521161,
+     0.38569,
+     0.026602,
+     0.019099
+    ],
+    [
+     0.550584,
+     0.38569,
+     0.025796,
+     0.019099
+    ],
+    [
+     0.579605,
+     0.38569,
+     0.026199,
+     0.019099
+    ],
+    [
+     0.609029,
+     0.38569,
+     0.026199,
+     0.019099
+    ],
+    [
+     0.638452,
+     0.38569,
+     0.026199,
+     0.019099
+    ],
+    [
+     0.66707,
+     0.386545,
+     0.026602,
+     0.018244
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "N #.D. ई.सं. / |१ Ivl",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c004",
+   "page": 1,
+   "field_id": "address_district",
+   "bbox": [
+    0.717453,
+    0.450969,
+    0.171705,
+    0.018529
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "permanent",
+   "cell_count": 6,
+   "cells": [
+    [
+     0.717453,
+     0.450969,
+     0.025796,
+     0.018529
+    ],
+    [
+     0.746876,
+     0.450969,
+     0.025796,
+     0.018529
+    ],
+    [
+     0.775091,
+     0.450969,
+     0.027005,
+     0.018529
+    ],
+    [
+     0.804514,
+     0.450969,
+     0.027005,
+     0.018529
+    ],
+    [
+     0.833938,
+     0.450969,
+     0.026199,
+     0.018529
+    ],
+    [
+     0.863362,
+     0.450969,
+     0.025796,
+     0.018529
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "IssLle District Date Cf Issuiance जारी गरेकों मिति / ।१  `l",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c005",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.602052,
+    0.170093,
+    0.023945
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "grandfather",
+   "cell_count": 7,
+   "cells": [
+    [
+     0.449416,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.473599,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.497783,
+     0.602052,
+     0.023781,
+     0.023945
+    ],
+    [
+     0.52237,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.54736,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.571947,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.596131,
+     0.602338,
+     0.023378,
+     0.02366
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Grandfather s Name IIIN BLOCK LETTERSI",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c006",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.620314,
+    0.602052,
+    0.339782,
+    0.023945
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "grandfather",
+   "cell_count": 14,
+   "cells": [
+    [
+     0.620314,
+     0.602052,
+     0.023781,
+     0.023945
+    ],
+    [
+     0.644901,
+     0.602052,
+     0.024184,
+     0.023945
+    ],
+    [
+     0.669891,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.694478,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.718662,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.742846,
+     0.602052,
+     0.024587,
+     0.023945
+    ],
+    [
+     0.768239,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.792422,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.816606,
+     0.602052,
+     0.024587,
+     0.023945
+    ],
+    [
+     0.841999,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.866183,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.89077,
+     0.602052,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.91576,
+     0.602052,
+     0.024184,
+     0.023945
+    ],
+    [
+     0.941153,
+     0.602052,
+     0.018944,
+     0.023945
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Grandfather s Name IIIN BLOCK LETTERSI",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c007",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.448609,
+    0.651938,
+    0.491334,
+    0.02366
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "father",
+   "cell_count": 20,
+   "cells": [
+    [
+     0.448609,
+     0.651938,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.473599,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.497783,
+     0.651938,
+     0.023781,
+     0.02366
+    ],
+    [
+     0.52237,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.54736,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.571947,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.596131,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.620314,
+     0.651938,
+     0.023781,
+     0.02366
+    ],
+    [
+     0.644901,
+     0.651938,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.669891,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.694478,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.718662,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.742846,
+     0.651938,
+     0.024587,
+     0.02366
+    ],
+    [
+     0.768239,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.792422,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.816606,
+     0.651938,
+     0.024587,
+     0.02366
+    ],
+    [
+     0.841999,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.866183,
+     0.651938,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.89077,
+     0.651938,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.91576,
+     0.651938,
+     0.024184,
+     0.02366
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Fathers Name IN BLOCK LETTERS)",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c008",
+   "page": 1,
+   "field_id": "name_boxed",
+   "bbox": [
+    0.449416,
+    0.701254,
+    0.510681,
+    0.02366
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": 21,
+   "cells": [
+    [
+     0.449416,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.473599,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.497783,
+     0.701254,
+     0.023781,
+     0.02366
+    ],
+    [
+     0.52237,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.54736,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.571947,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.596131,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.620314,
+     0.701254,
+     0.023781,
+     0.02366
+    ],
+    [
+     0.644901,
+     0.701254,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.669891,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.694478,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.718662,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.742846,
+     0.701254,
+     0.024587,
+     0.02366
+    ],
+    [
+     0.768239,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.792422,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.816606,
+     0.701254,
+     0.023781,
+     0.02366
+    ],
+    [
+     0.841999,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.866183,
+     0.701254,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.89077,
+     0.701254,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.91576,
+     0.701254,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.941153,
+     0.701254,
+     0.018944,
+     0.02366
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "llothher s Name IIN BLOCK LETTERSJ",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c009",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.75057,
+    0.510681,
+    0.02366
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "spouse",
+   "cell_count": 21,
+   "cells": [
+    [
+     0.449416,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.473599,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.497783,
+     0.75057,
+     0.023781,
+     0.02366
+    ],
+    [
+     0.52237,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.54736,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.571947,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.596131,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.620314,
+     0.75057,
+     0.023781,
+     0.02366
+    ],
+    [
+     0.644901,
+     0.75057,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.669891,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.694478,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.718662,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.742846,
+     0.75057,
+     0.024587,
+     0.02366
+    ],
+    [
+     0.768239,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.792422,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.816606,
+     0.75057,
+     0.024587,
+     0.02366
+    ],
+    [
+     0.841999,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.866183,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.891576,
+     0.75057,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.91576,
+     0.75057,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.941153,
+     0.75057,
+     0.018944,
+     0.02366
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Spouses Name (IN BLOCK LETTERS)",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c010",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.799886,
+    0.510681,
+    0.02366
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "son",
+   "cell_count": 21,
+   "cells": [
+    [
+     0.449416,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.473599,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.497783,
+     0.799886,
+     0.023781,
+     0.02366
+    ],
+    [
+     0.523176,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.54736,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.571947,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.596131,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.620314,
+     0.799886,
+     0.024587,
+     0.02366
+    ],
+    [
+     0.644901,
+     0.799886,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.669891,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.694478,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.718662,
+     0.799886,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.742846,
+     0.799886,
+     0.024587,
+     0.02366
+    ],
+    [
+     0.768239,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.792422,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.816606,
+     0.799886,
+     0.024587,
+     0.02366
+    ],
+    [
+     0.841999,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.866183,
+     0.799886,
+     0.023378,
+     0.02366
+    ],
+    [
+     0.89077,
+     0.799886,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.91576,
+     0.799886,
+     0.024184,
+     0.02366
+    ],
+    [
+     0.941153,
+     0.799886,
+     0.018944,
+     0.02366
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Son Daughter s Name IN BLOCK LETTERS)",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c011",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.848917,
+    0.096332,
+    0.023945
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "daughter_in_law",
+   "cell_count": 4,
+   "cells": [
+    [
+     0.449416,
+     0.848917,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.473599,
+     0.848917,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.497783,
+     0.848917,
+     0.023781,
+     0.023945
+    ],
+    [
+     0.523176,
+     0.849772,
+     0.022572,
+     0.02309
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c012",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.54736,
+    0.848917,
+    0.072148,
+    0.023945
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "daughter_in_law",
+   "cell_count": 3,
+   "cells": [
+    [
+     0.54736,
+     0.848917,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.571947,
+     0.848917,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.596131,
+     0.849772,
+     0.023378,
+     0.02309
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c013",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.620314,
+    0.848917,
+    0.097541,
+    0.023945
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "daughter_in_law",
+   "cell_count": 4,
+   "cells": [
+    [
+     0.620314,
+     0.848917,
+     0.023781,
+     0.023945
+    ],
+    [
+     0.644901,
+     0.848917,
+     0.024184,
+     0.023945
+    ],
+    [
+     0.669891,
+     0.848917,
+     0.023378,
+     0.023945
+    ],
+    [
+     0.694478,
+     0.849487,
+     0.023378,
+     0.023375
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Daughter in-law s Name  IN BLOCK LETTERS)",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c016",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.898233,
+    0.510681,
+    0.02309
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "father_in_law",
+   "cell_count": 21,
+   "cells": [
+    [
+     0.449416,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.473599,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.497783,
+     0.898233,
+     0.023781,
+     0.02309
+    ],
+    [
+     0.523176,
+     0.898233,
+     0.022572,
+     0.02309
+    ],
+    [
+     0.54736,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.571947,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.596131,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.620314,
+     0.898233,
+     0.023781,
+     0.02309
+    ],
+    [
+     0.644901,
+     0.898233,
+     0.024184,
+     0.02309
+    ],
+    [
+     0.669891,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.694478,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.718662,
+     0.898233,
+     0.024184,
+     0.02309
+    ],
+    [
+     0.742846,
+     0.898233,
+     0.024587,
+     0.02309
+    ],
+    [
+     0.768239,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.792422,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.816606,
+     0.898233,
+     0.024587,
+     0.02309
+    ],
+    [
+     0.841999,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.866183,
+     0.898233,
+     0.023378,
+     0.02309
+    ],
+    [
+     0.89077,
+     0.898233,
+     0.024184,
+     0.02309
+    ],
+    [
+     0.91576,
+     0.898233,
+     0.024184,
+     0.02309
+    ],
+    [
+     0.941153,
+     0.898233,
+     0.018944,
+     0.02309
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Father in-law 5 Name iIn case of Married Womenl",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c018",
+   "page": 1,
+   "field_id": "yes_no",
+   "bbox": [
+    0.444176,
+    0.261973,
+    0.007658,
+    0.008267
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "हितग्राही खाता नम्बर",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c022",
+   "page": 1,
+   "field_id": "form_date",
+   "bbox": [
+    0.129786,
+    0.165336,
+    0.821846,
+    0.026796
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "सिति Date / सिति Date",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c026",
+   "page": 1,
+   "field_id": "person_photo",
+   "bbox": [
+    0.818622,
+    0.037058,
+    0.132205,
+    0.110889
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "KYC UPDATE FORM Details of Natural Person प्राकृतिक व्यक्तिको परिचय विवरण / हालसालै खिचेको फोटो Recent Photo नाबालकका हकट निजको नै राख्नुपर्ने",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c027",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.725485,
+    0.510681,
+    0.023945
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "spouse",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "पति / पत्नीको नाम",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c029",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.448609,
+    0.577822,
+    0.511487,
+    0.02366
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "grandfather",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "बाजेको नाम",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c031",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.824686,
+    0.510681,
+    0.02366
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "daughter_in_law",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "बुहारीको नाम / ११",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c032",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.775371,
+    0.510681,
+    0.02366
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "son",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "छोरा छोरीको नाम",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c033",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.873432,
+    0.510681,
+    0.02366
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "father_in_law",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "ससुराको नाल (विवाहित महिलाको हकमा ) / १३",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c034",
+   "page": 1,
+   "field_id": "family_member_name",
+   "bbox": [
+    0.449416,
+    0.922748,
+    0.510681,
+    0.02309
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "mother_in_law",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "सासुको नाम (विवाहित महिलाको हकमा) / १५",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c052",
+   "page": 1,
+   "field_id": "email",
+   "bbox": [
+    0.101169,
+    0.483466,
+    0.317211,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Emmail: ईमेलः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c053",
+   "page": 1,
+   "field_id": "national_id_number",
+   "bbox": [
+    0.195889,
+    0.513113,
+    0.314792,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "National ID Number राष्ट्िय परिचय पत्र नं",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c054",
+   "page": 1,
+   "field_id": "id_number",
+   "bbox": [
+    0.762193,
+    0.483466,
+    0.185409,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "ID number ancl aclclress for Nor Resident Nebalis: जैरआवासीय नेपालीको हकमा परिचयपत्र नं र ठेगानाः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c055",
+   "page": 1,
+   "field_id": "citizenship_number",
+   "bbox": [
+    0.161628,
+    0.451254,
+    0.181782,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "नागरिकता नं. Citizenship No.",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c056",
+   "page": 1,
+   "field_id": "pan_number",
+   "bbox": [
+    0.798468,
+    0.385405,
+    0.153164,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Ivl PAI No स्थायी लेखा नं. / हालसालै खिचेको फोटो Recent Photo नाबालकका हकट निजको नै राख्नुपर्ने",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c057",
+   "page": 1,
+   "field_id": "citizenship_issue_district",
+   "bbox": [
+    0.440951,
+    0.451254,
+    0.149133,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "जारी जिल्ला IssLle District",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c060",
+   "page": 1,
+   "field_id": "yes_no",
+   "bbox": [
+    0.611044,
+    0.261403,
+    0.163644,
+    0.008837
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "DPID",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c061",
+   "page": 1,
+   "field_id": "yes_no",
+   "bbox": [
+    0.458686,
+    0.261403,
+    0.147521,
+    0.009122
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "हितग्राही खाता नम्बर",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c062",
+   "page": 1,
+   "field_id": "yes_no",
+   "bbox": [
+    0.803305,
+    0.261403,
+    0.145909,
+    0.009122
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "हालसालै खिचेको फोटो Recent Photo नाबालकका हकट निजको नै राख्नुपर्ने",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c083",
+   "page": 1,
+   "field_id": "dob_bs",
+   "bbox": [
+    0.187827,
+    0.385975,
+    0.080613,
+    0.018814
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": [
+    {
+     "id": "opt1",
+     "label": "|1",
+     "bbox": [
+      0.187827,
+      0.385975,
+      0.026199,
+      0.018814
+     ]
+    }
+   ],
+   "label": "Date of Birth BS. वि.सं.",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c084",
+   "page": 1,
+   "field_id": "nationality",
+   "bbox": [
+    0.165256,
+    0.420182,
+    0.169287,
+    0.018529
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": [
+    {
+     "id": "opt1",
+     "label": "नेपाली",
+     "bbox": [
+      0.165256,
+      0.420182,
+      0.026199,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt2",
+     "label": "अन्च्य",
+     "bbox": [
+      0.267634,
+      0.420182,
+      0.025796,
+      0.018529
+     ]
+    }
+   ],
+   "label": "राष्ट्रियता Nationality",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c085",
+   "page": 1,
+   "field_id": "gender",
+   "bbox": [
+    0.60258,
+    0.420182,
+    0.250302,
+    0.018529
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": [
+    {
+     "id": "opt1",
+     "label": "परुष",
+     "bbox": [
+      0.60258,
+      0.420182,
+      0.026602,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt2",
+     "label": "महिला",
+     "bbox": [
+      0.694075,
+      0.420182,
+      0.025796,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt3",
+     "label": "अटय",
+     "bbox": [
+      0.786376,
+      0.420182,
+      0.026602,
+      0.018529
+     ]
+    }
+   ],
+   "label": "'स्ारहे } लिङ्ग Gencler",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p1_c086",
+   "page": 1,
+   "field_id": "form_date",
+   "bbox": [
+    0.892785,
+    0.450399,
+    0.05522,
+    0.019099
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": [
+    {
+     "id": "opt1",
+     "label": null,
+     "bbox": [
+      0.892785,
+      0.450399,
+      0.025796,
+      0.019099
+     ]
+    },
+    {
+     "id": "opt2",
+     "label": null,
+     "bbox": [
+      0.921403,
+      0.450969,
+      0.026602,
+      0.018529
+     ]
+    }
+   ],
+   "label": "जारी गरेकों मिति ।१  `l",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c003",
+   "page": 2,
+   "field_id": "yes_no",
+   "bbox": [
+    0.607013,
+    0.338655,
+    0.032648,
+    0.008267
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": 3,
+   "cells": [
+    [
+     0.607013,
+     0.338655,
+     0.016123,
+     0.008267
+    ],
+    [
+     0.623942,
+     0.338655,
+     0.007255,
+     0.008267
+    ],
+    [
+     0.631197,
+     0.338655,
+     0.008464,
+     0.008267
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": null,
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c008",
+   "page": 2,
+   "field_id": "income_range",
+   "bbox": [
+    0.208384,
+    0.847777,
+    0.749295,
+    0.084949
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "आर्थिक विवरण Financial Details / आय्यको सीमा ( वार्षिक विवरण) / Income Limit Annual Details) २,००,००१ देखि रु. १D ०० ००० सम्ग रु. १००D ००१ देख रु. २० ००००० रु. ",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c010",
+   "page": 2,
+   "field_id": "bank_account_number",
+   "bbox": [
+    0.25796,
+    0.558153,
+    0.698912,
+    0.036203
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "बैंक खाताको नम्बर Bank Account Number / बैंक खाताको नम्बर Bank Account Number",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c011",
+   "page": 2,
+   "field_id": "branch_name",
+   "bbox": [
+    0.25796,
+    0.629418,
+    0.698912,
+    0.035063
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "शाखाको नम Branch Name / शाखाको नम Branch Name",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c012",
+   "page": 2,
+   "field_id": "bank_name",
+   "bbox": [
+    0.25796,
+    0.594926,
+    0.698912,
+    0.033922
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "बैंकको नाम Nare of Bank / बैंकको नाम Nare of Bank",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c019",
+   "page": 2,
+   "field_id": "designation",
+   "bbox": [
+    0.050786,
+    0.847777,
+    0.156792,
+    0.084949
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "आर्थिक विवरण Financial Details",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c020",
+   "page": 2,
+   "field_id": "nearest_landmark",
+   "bbox": [
+    0.206771,
+    0.460376,
+    0.747682,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Flearest Landmark: नजिकको ल्याण्डमार्कः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c021",
+   "page": 2,
+   "field_id": "address_district",
+   "bbox": [
+    0.320032,
+    0.233466,
+    0.634422,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Rural दlunicipality Miunicipalit  Sub Metropolitan City/ Metropolitan City",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c022",
+   "page": 2,
+   "field_id": "employer_name",
+   "bbox": [
+    0.208384,
+    0.79675,
+    0.426441,
+    0.025086
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "कार्ररत संस्थाको नाम Currert Craarizaticr Narie / कार्ररत संस्थाको नाम Currert Craarizaticr Narie",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c026",
+   "page": 2,
+   "field_id": "designation",
+   "bbox": [
+    0.208384,
+    0.822406,
+    0.295445,
+    0.02423
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "पद Designation / पद Designation",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c030",
+   "page": 2,
+   "field_id": "employer_name",
+   "bbox": [
+    0.706973,
+    0.79675,
+    0.250705,
+    0.025086
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "ठेगाना Aclclress / कार्ररत संस्थाको नाम Currert Craarizaticr Narie",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c031",
+   "page": 2,
+   "field_id": "address_municipality",
+   "bbox": [
+    0.320032,
+    0.401653,
+    0.352277,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "permanent",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Rural Municipality Municipality Sub Metropolitan City/ Metropolitan City",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c032",
+   "page": 2,
+   "field_id": "address_tole",
+   "bbox": [
+    0.375655,
+    0.266249,
+    0.298267,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "starcl Ho : Tole टालः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c033",
+   "page": 2,
+   "field_id": "address_tole",
+   "bbox": [
+    0.100363,
+    0.43301,
+    0.260782,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "permanent",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Tole टाोलः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c034",
+   "page": 2,
+   "field_id": "id_number",
+   "bbox": [
+    0.773075,
+    0.822406,
+    0.184603,
+    0.02423
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "ID Number of Employee कर्मचारीको हकमा कर्मचारी परिचयपत्र नं / पद Designation",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c035",
+   "page": 2,
+   "field_id": "address_province",
+   "bbox": [
+    0.423216,
+    0.370011,
+    0.248287,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "permanent",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "प्रदेशः Province:",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c036",
+   "page": 2,
+   "field_id": "address_province",
+   "bbox": [
+    0.423216,
+    0.199829,
+    0.248287,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "प्रदेशः Prowince:",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c040",
+   "page": 2,
+   "field_id": "address_country",
+   "bbox": [
+    0.126159,
+    0.370011,
+    0.209996,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "permanent",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "देशः Country :",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c041",
+   "page": 2,
+   "field_id": "address_country",
+   "bbox": [
+    0.126159,
+    0.199829,
+    0.209996,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "देशः Country :",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c042",
+   "page": 2,
+   "field_id": "address_district",
+   "bbox": [
+    0.762999,
+    0.370011,
+    0.191455,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "permanent",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "जिल्लाः District:",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c043",
+   "page": 2,
+   "field_id": "phone",
+   "bbox": [
+    0.762193,
+    0.43301,
+    0.192261,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "टेलिफोन नं. : Telephone No.:",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c044",
+   "page": 2,
+   "field_id": "address_block_no",
+   "bbox": [
+    0.762193,
+    0.266249,
+    0.192261,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "ढ्लक नं : Block No :",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c045",
+   "page": 2,
+   "field_id": "address_block_no",
+   "bbox": [
+    0.451028,
+    0.43301,
+    0.191858,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "permanent",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "ब्लक नं.: Block |lo :",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c047",
+   "page": 2,
+   "field_id": "address_district",
+   "bbox": [
+    0.762999,
+    0.199829,
+    0.191455,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "जिल्लाः District:",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c048",
+   "page": 2,
+   "field_id": "phone",
+   "bbox": [
+    0.156389,
+    0.295325,
+    0.191455,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "टेलिफोन नं. Telephone No :",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c049",
+   "page": 2,
+   "field_id": "address_ward",
+   "bbox": [
+    0.127771,
+    0.266249,
+    0.190649,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "वडा नं : starcl Ho :",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c050",
+   "page": 2,
+   "field_id": "mobile",
+   "bbox": [
+    0.769045,
+    0.295895,
+    0.185409,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Alternate Nlcbile No : वैकल्पिक मोबाइल नं :",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c051",
+   "page": 2,
+   "field_id": "yes_no",
+   "bbox": [
+    0.447803,
+    0.295895,
+    0.169287,
+    0.017389
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "tobbile No : माबाइल न.ः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c055",
+   "page": 2,
+   "field_id": "occupation_choice",
+   "bbox": [
+    0.224103,
+    0.721779,
+    0.718662,
+    0.018814
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": [
+    {
+     "id": "opt1",
+     "label": "सरकारी",
+     "bbox": [
+      0.224103,
+      0.721779,
+      0.026602,
+      0.018814
+     ]
+    },
+    {
+     "id": "opt2",
+     "label": "Public Private Sector",
+     "bbox": [
+      0.345022,
+      0.721779,
+      0.025796,
+      0.018814
+     ]
+    },
+    {
+     "id": "opt3",
+     "label": "एन.जी.ओं. / आईं.एन.जी.ओ.",
+     "bbox": [
+      0.526804,
+      0.721779,
+      0.027005,
+      0.018814
+     ]
+    },
+    {
+     "id": "opt4",
+     "label": "विशेषज्ञ",
+     "bbox": [
+      0.71584,
+      0.721779,
+      0.025796,
+      0.018814
+     ]
+    },
+    {
+     "id": "opt5",
+     "label": "वैदेशिक रोजगार",
+     "bbox": [
+      0.80532,
+      0.721779,
+      0.026199,
+      0.018814
+     ]
+    }
+   ],
+   "label": "पेशा",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p2_c056",
+   "page": 2,
+   "field_id": "occupation_choice",
+   "bbox": [
+    0.224909,
+    0.745439,
+    0.636437,
+    0.018529
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": [
+    {
+     "id": "opt1",
+     "label": "Businessperson",
+     "bbox": [
+      0.224909,
+      0.745439,
+      0.025796,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt2",
+     "label": "कषि",
+     "bbox": [
+      0.367594,
+      0.745439,
+      0.025796,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt3",
+     "label": "सेवा निवृत",
+     "bbox": [
+      0.484079,
+      0.745439,
+      0.026199,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt4",
+     "label": "विद्यार्थी",
+     "bbox": [
+      0.592503,
+      0.745439,
+      0.025796,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt5",
+     "label": "गूृहिणी",
+     "bbox": [
+      0.687223,
+      0.745439,
+      0.025796,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt6",
+     "label": "अन्य",
+     "bbox": [
+      0.794438,
+      0.745439,
+      0.026199,
+      0.018529
+     ]
+    }
+   ],
+   "label": "Occupation",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c000",
+   "page": 3,
+   "field_id": "yes_no",
+   "bbox": [
+    0.185006,
+    0.116591,
+    0.732366,
+    0.02252
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": 30,
+   "cells": [
+    [
+     0.185006,
+     0.116591,
+     0.020153,
+     0.02252
+    ],
+    [
+     0.205965,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.230149,
+     0.117161,
+     0.023781,
+     0.02138
+    ],
+    [
+     0.254736,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.279726,
+     0.117161,
+     0.022572,
+     0.02138
+    ],
+    [
+     0.304313,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.328497,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.35268,
+     0.117161,
+     0.023781,
+     0.02138
+    ],
+    [
+     0.378073,
+     0.117161,
+     0.022572,
+     0.02138
+    ],
+    [
+     0.402257,
+     0.117161,
+     0.022572,
+     0.02138
+    ],
+    [
+     0.426844,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.451028,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.476018,
+     0.117161,
+     0.022572,
+     0.02138
+    ],
+    [
+     0.500605,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.524788,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.550181,
+     0.117161,
+     0.022572,
+     0.02138
+    ],
+    [
+     0.574365,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.598549,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.623136,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.648126,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.673116,
+     0.117161,
+     0.023781,
+     0.02138
+    ],
+    [
+     0.697703,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.721886,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.746473,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.771463,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.795647,
+     0.117161,
+     0.023781,
+     0.02138
+    ],
+    [
+     0.820234,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.844418,
+     0.117161,
+     0.023378,
+     0.02138
+    ],
+    [
+     0.869811,
+     0.117161,
+     0.022572,
+     0.02138
+    ],
+    [
+     0.893994,
+     0.117161,
+     0.023378,
+     0.02138
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Nare iln Block",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c001",
+   "page": 3,
+   "field_id": "form_date",
+   "bbox": [
+    0.721483,
+    0.145382,
+    0.230552,
+    0.018814
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": 8,
+   "cells": [
+    [
+     0.721483,
+     0.145382,
+     0.027005,
+     0.018529
+    ],
+    [
+     0.750907,
+     0.145382,
+     0.025796,
+     0.018529
+    ],
+    [
+     0.780331,
+     0.145382,
+     0.025796,
+     0.018529
+    ],
+    [
+     0.808948,
+     0.145382,
+     0.026602,
+     0.018814
+    ],
+    [
+     0.838372,
+     0.145382,
+     0.026602,
+     0.018529
+    ],
+    [
+     0.867392,
+     0.145382,
+     0.027005,
+     0.018529
+    ],
+    [
+     0.896816,
+     0.145382,
+     0.027005,
+     0.018529
+    ],
+    [
+     0.926239,
+     0.145382,
+     0.025796,
+     0.018529
+    ]
+   ],
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Date Cr Issuarice जारी जरेको मिति / MV  $ ो ो म 0",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c010",
+   "page": 3,
+   "field_id": "income_range",
+   "bbox": [
+    0.208384,
+    0.516819,
+    0.749295,
+    0.084664
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "आर्थिक विवरण Financial Details / आयको सीमा ( वार्षिक विवरण) / Income Limit ( Annual Details) रु. ५००००१ देरि रु. ५०००co सम्म रु. s०,०० ००१ देखि रु. २००० ००० सम्",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c016",
+   "page": 3,
+   "field_id": "yes_no",
+   "bbox": [
+    0.185006,
+    0.095211,
+    0.767836,
+    0.02081
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "नाम",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c017",
+   "page": 3,
+   "field_id": "person_photo",
+   "bbox": [
+    0.061669,
+    0.625998,
+    0.133414,
+    0.110889
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "संरक्षकको फोटो (हालसालै खिचेको) Rezent Phato",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c020",
+   "page": 3,
+   "field_id": "signature",
+   "bbox": [
+    0.613865,
+    0.917332,
+    0.220476,
+    0.048746
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "संरक्षकको हस्ताक्षर Signature of Guardian",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c021",
+   "page": 3,
+   "field_id": "signature",
+   "bbox": [
+    0.734381,
+    0.669327,
+    0.220879,
+    0.047891
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "संरक्षकको हस्ताक्षर Signature Of Guardian",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c022",
+   "page": 3,
+   "field_id": "yes_no",
+   "bbox": [
+    0.299879,
+    0.890536,
+    0.132608,
+    0.079532
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": null,
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c023",
+   "page": 3,
+   "field_id": "yes_no",
+   "bbox": [
+    0.165659,
+    0.890536,
+    0.132608,
+    0.079532
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": null,
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c024",
+   "page": 3,
+   "field_id": "person_photo",
+   "bbox": [
+    0.426844,
+    0.643101,
+    0.133011,
+    0.078962
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Rezent Phato संरक्षकको फोटो (हालसालै खिचेको)",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c025",
+   "page": 3,
+   "field_id": "person_photo",
+   "bbox": [
+    0.29343,
+    0.643101,
+    0.132205,
+    0.078962
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Rezent Phato संरक्षकको फोटो (हालसालै खिचेको)",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c026",
+   "page": 3,
+   "field_id": "employer_name",
+   "bbox": [
+    0.208384,
+    0.466363,
+    0.426441,
+    0.02423
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "कर्यरत संस्थाको नाम Current Crganization Name / कर्यरत संस्थाको नाम Current Crganization Name",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c027",
+   "page": 3,
+   "field_id": "pan_number",
+   "bbox": [
+    0.426844,
+    0.301311,
+    0.526804,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "स्थायी लेखा नं Email: ईंनेलः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c028",
+   "page": 3,
+   "field_id": "address_municipality",
+   "bbox": [
+    0.249496,
+    0.242588,
+    0.476824,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "गा.पा न.पा. } उ.म.न.पा म. न.पा.: Rura Municipality Municipality",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c031",
+   "page": 3,
+   "field_id": "address_country",
+   "bbox": [
+    0.163241,
+    0.79333,
+    0.40266,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "वैदेशिक ठेगाना Foreian Address",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c033",
+   "page": 3,
+   "field_id": "employer_name",
+   "bbox": [
+    0.706973,
+    0.466363,
+    0.250705,
+    0.02423
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "ठेगाना Aclclress / कर्यरत संस्थाको नाम Current Crganization Name",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c035",
+   "page": 3,
+   "field_id": "id_number",
+   "bbox": [
+    0.191858,
+    0.327822,
+    0.315195,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "राष्टिय परिचय पत्र नं Kational ID Number",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c036",
+   "page": 3,
+   "field_id": "address_tole",
+   "bbox": [
+    0.094317,
+    0.276796,
+    0.275292,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "टोल Tole",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c038",
+   "page": 3,
+   "field_id": "id_number",
+   "bbox": [
+    0.773075,
+    0.491733,
+    0.184603,
+    0.02423
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "ID Number of Employee कर्मचारीको हकमा कमचारी परिचयपत्र नं / पट Desicnation",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c041",
+   "page": 3,
+   "field_id": "address_district",
+   "bbox": [
+    0.72108,
+    0.216933,
+    0.232568,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "जिञ्लाः District:",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c042",
+   "page": 3,
+   "field_id": "address_country",
+   "bbox": [
+    0.110439,
+    0.216933,
+    0.229746,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "देश Country",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c043",
+   "page": 3,
+   "field_id": "national_id_number",
+   "bbox": [
+    0.727932,
+    0.276796,
+    0.225715,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Mlobile No : NID No. टेलिफोन नं. :",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c044",
+   "page": 3,
+   "field_id": "address_country",
+   "bbox": [
+    0.328497,
+    0.821266,
+    0.218863,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "राज्यः देशः Countr y",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c047",
+   "page": 3,
+   "field_id": "pan_number",
+   "bbox": [
+    0.155582,
+    0.303022,
+    0.214027,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "PAK No स्थायी लेखा नं",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c048",
+   "page": 3,
+   "field_id": "address_province",
+   "bbox": [
+    0.426844,
+    0.216933,
+    0.208787,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "प्रदेशः Province:",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c049",
+   "page": 3,
+   "field_id": "yes_no",
+   "bbox": [
+    0.453446,
+    0.276796,
+    0.183797,
+    0.017959
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "मेबाइल नं. Mlobile No :",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c050",
+   "page": 3,
+   "field_id": "citizenship_number",
+   "bbox": [
+    0.157195,
+    0.144527,
+    0.182185,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "नागरिकता जं. Citizenship No",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c051",
+   "page": 3,
+   "field_id": "address_province",
+   "bbox": [
+    0.094317,
+    0.821266,
+    0.160419,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": "current",
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "State राज्यः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c052",
+   "page": 3,
+   "field_id": "citizenship_issue_district",
+   "bbox": [
+    0.437727,
+    0.144527,
+    0.150746,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "जारी जिल्ला Issue District",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c053",
+   "page": 3,
+   "field_id": "yes_no",
+   "bbox": [
+    0.805723,
+    0.242588,
+    0.147118,
+    0.017674
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "चडा न.: ैara No.",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c059",
+   "page": 3,
+   "field_id": "occupation_choice",
+   "bbox": [
+    0.224103,
+    0.391106,
+    0.717453,
+    0.018529
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": [
+    {
+     "id": "opt1",
+     "label": "सरकारी",
+     "bbox": [
+      0.224103,
+      0.391106,
+      0.026602,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt2",
+     "label": "Public Private Sector",
+     "bbox": [
+      0.345022,
+      0.391106,
+      0.025796,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt3",
+     "label": "एन.जी.ओ. / आई.एन.जी.ओ.",
+     "bbox": [
+      0.526804,
+      0.391106,
+      0.027005,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt4",
+     "label": "विशेषज्ञ",
+     "bbox": [
+      0.71584,
+      0.391106,
+      0.025796,
+      0.018529
+     ]
+    },
+    {
+     "id": "opt5",
+     "label": "वैदेशिक रोजगार",
+     "bbox": [
+      0.80532,
+      0.391106,
+      0.026199,
+      0.018529
+     ]
+    }
+   ],
+   "label": "पेशा",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p3_c060",
+   "page": 3,
+   "field_id": "occupation_choice",
+   "bbox": [
+    0.224909,
+    0.414196,
+    0.636437,
+    0.019099
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": [
+    {
+     "id": "opt1",
+     "label": "Businessperson",
+     "bbox": [
+      0.224909,
+      0.414196,
+      0.025796,
+      0.019099
+     ]
+    },
+    {
+     "id": "opt2",
+     "label": "कुष्िculture",
+     "bbox": [
+      0.367594,
+      0.414196,
+      0.025796,
+      0.019099
+     ]
+    },
+    {
+     "id": "opt3",
+     "label": "सेवा निवृत",
+     "bbox": [
+      0.484079,
+      0.414196,
+      0.026199,
+      0.019099
+     ]
+    },
+    {
+     "id": "opt4",
+     "label": "विद्यार्थी",
+     "bbox": [
+      0.592503,
+      0.414196,
+      0.025796,
+      0.019099
+     ]
+    },
+    {
+     "id": "opt5",
+     "label": "Housewife",
+     "bbox": [
+      0.687223,
+      0.414196,
+      0.025796,
+      0.019099
+     ]
+    },
+    {
+     "id": "opt6",
+     "label": "अन्य",
+     "bbox": [
+      0.794438,
+      0.414196,
+      0.026199,
+      0.019099
+     ]
+    }
+   ],
+   "label": "Occupation",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p4_c000",
+   "page": 4,
+   "field_id": "location_map",
+   "bbox": [
+    0.049174,
+    0.13797,
+    0.907699,
+    0.290194
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": null,
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p4_c001",
+   "page": 4,
+   "field_id": "name_english",
+   "bbox": [
+    0.049174,
+    0.888826,
+    0.908505,
+    0.078962
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "रुजु गर्नेको प्रमाणित गर्नेको थरः नाम थरः नाम पd: पदः हस्ताक्षरः हस्ताक्षरः मितिः टितिः कार्यालयको जाम नथा छाए",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p4_c005",
+   "page": 4,
+   "field_id": "yes_no",
+   "bbox": [
+    0.332527,
+    0.699544,
+    0.132608,
+    0.106613
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": null,
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p4_c006",
+   "page": 4,
+   "field_id": "yes_no",
+   "bbox": [
+    0.198307,
+    0.699544,
+    0.132608,
+    0.106613
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": null,
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p4_c009",
+   "page": 4,
+   "field_id": "name_english",
+   "bbox": [
+    0.460298,
+    0.891676,
+    0.118098,
+    0.058723
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "रुजु गर्नेको प्रमाणित गर्नेको नाम थरः नाम पd: पदः हस्ताक्षरः हस्ताक्षरः मितिः कार्यालयको जाम नथा छाए टितिः थरः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c000",
+   "page": 5,
+   "field_id": "name_english",
+   "bbox": [
+    0.047561,
+    0.887115,
+    0.907699,
+    0.078962
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "प्रमाणित जर्नेको रुजु गर्नेको नाम थरः नाम थरः पटः पटः हस्ताक्षरः हस्ताक्षरः मितिः मितिः कार्याजयको नम तथा ८7",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c002",
+   "page": 5,
+   "field_id": "signature",
+   "bbox": [
+    0.243853,
+    0.855473,
+    0.704555,
+    0.026226
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "Customer Profiling / Customer Profiling / संचालक पदाधिकारी शेयरधनी कर्मचार अन्य",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c004",
+   "page": 5,
+   "field_id": "address_country",
+   "bbox": [
+    0.259573,
+    0.640251,
+    0.673922,
+    0.0248
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "कम्पनीको नाम / कम्पनीको नाम",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c005",
+   "page": 5,
+   "field_id": "employer_name",
+   "bbox": [
+    0.665054,
+    0.47691,
+    0.26844,
+    0.026226
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "आवद्ध कार्यालय संस्थाको नाम र ठेगाना",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c006",
+   "page": 5,
+   "field_id": "employer_name",
+   "bbox": [
+    0.665054,
+    0.577822,
+    0.26844,
+    0.025941
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "आवद्घ कार्यालय् संस्थाको नाम र ठेगाना",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c007",
+   "page": 5,
+   "field_id": "name_english",
+   "bbox": [
+    0.45788,
+    0.890536,
+    0.118904,
+    0.058153
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "रुजु गर्नेको प्रमाणित जर्नेको नाम थरः नाम थरः पटः पटः हस्ताक्षरः हस्ताक्षरः मितिः कार्याजयको नम तथा ८7 मितिः",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c013",
+   "page": 5,
+   "field_id": "yes_no",
+   "bbox": [
+    0.259573,
+    0.577822,
+    0.21322,
+    0.025941
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "पट",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c015",
+   "page": 5,
+   "field_id": "designation",
+   "bbox": [
+    0.259573,
+    0.452109,
+    0.21322,
+    0.0248
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "व्यक्तिको नाम / व्यक्तिको नाम / पट",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c016",
+   "page": 5,
+   "field_id": "designation",
+   "bbox": [
+    0.259573,
+    0.553022,
+    0.21322,
+    0.0248
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "व्यक्तिको नाम / व्यक्तिको नाम / पट / पट",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c021",
+   "page": 5,
+   "field_id": "yes_no",
+   "bbox": [
+    0.070133,
+    0.47691,
+    0.18944,
+    0.026226
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "व्यक्तिको नाम",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c034",
+   "page": 5,
+   "field_id": "designation",
+   "bbox": [
+    0.472793,
+    0.669897,
+    0.056832,
+    0.015964
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "संचालक पदाधिकारी",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c035",
+   "page": 5,
+   "field_id": "designation",
+   "bbox": [
+    0.607819,
+    0.669897,
+    0.056429,
+    0.015964
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "संचालक पदाधिकारी शेयरधनी",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c036",
+   "page": 5,
+   "field_id": "designation",
+   "bbox": [
+    0.740427,
+    0.669897,
+    0.056026,
+    0.015964
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "पदाधिकारी शेयरधनी कर्मचार",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c043",
+   "page": 5,
+   "field_id": "occupation_choice",
+   "bbox": [
+    0.800887,
+    0.508267,
+    0.045949,
+    0.012543
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "(ज) तपाईलाई प्रचलित कानुन बमोजिम कुनै पेशा रोजगार वा व्यवसाय्य गर्न रोक लगाइएको छ म",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c047",
+   "page": 5,
+   "field_id": "yes_no",
+   "bbox": [
+    0.800887,
+    0.275086,
+    0.045949,
+    0.012543
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "(क) तपाईको विरुद्घमा अदालतमा कुनै अपराधिक कारवाही विरुद्ध मुद्दा चलेको छ ",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c048",
+   "page": 5,
+   "field_id": "address_country",
+   "bbox": [
+    0.800887,
+    0.608039,
+    0.045949,
+    0.012543
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "।ञ) तपाई धितोपत्र खरिद बिक्री गर्ने मुख्य उद्देश्यले स्थापित इन्भेष्टनेन्ट कम्पनीमा संग्लन अषको ?",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c051",
+   "page": 5,
+   "field_id": "address_country",
+   "bbox": [
+    0.887142,
+    0.608039,
+    0.045546,
+    0.012543
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "।ञ) तपाई धितोपत्र खरिद बिक्री गर्ने मुख्य उद्देश्यले स्थापित इन्भेष्टनेन्ट कम्पनीमा संग्लन अषको ?",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c052",
+   "page": 5,
+   "field_id": "occupation_choice",
+   "bbox": [
+    0.887142,
+    0.508267,
+    0.045546,
+    0.012543
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "(ज) तपाईलाई प्रचलित कानुन बमोजिम कुनै पेशा रोजगार वा व्यवसाय्य गर्न रोक लगाइएको छ म +ज",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c054",
+   "page": 5,
+   "field_id": "designation",
+   "bbox": [
+    0.887142,
+    0.417617,
+    0.046352,
+    0.012258
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "(छ) तपाईले कनै राजनैतिक पदमा निर्वाचित वा मनोनित प्रतिनिधिको रुपमा कामकाज जरिरहनु भएको छ (PEP)?",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c058",
+   "page": 5,
+   "field_id": "designation",
+   "bbox": [
+    0.800887,
+    0.417617,
+    0.045949,
+    0.012258
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "(छ) तपाईले कनै राजनैतिक पदमा निर्वाचित वा मनोनित प्रतिनिधिको रुपमा कामकाज जरिरहनु भएको छ (PEP)?",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c059",
+   "page": 5,
+   "field_id": "designation",
+   "bbox": [
+    0.800887,
+    0.524515,
+    0.045949,
+    0.012258
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "वा नजिकको सम्बन्ध अएका व्यक्तिहरु प्रचलित कानून बमोजिम उच्च पदस्थ व्यक्ति ?",
+   "source": "proposed",
+   "review_status": "proposed"
+  },
+  {
+   "id": "p5_c060",
+   "page": 5,
+   "field_id": "designation",
+   "bbox": [
+    0.887142,
+    0.524515,
+    0.045546,
+    0.012258
+   ],
+   "party": "customer",
+   "applicant_index": null,
+   "row_index": null,
+   "group_id": null,
+   "cell_count": null,
+   "cells": null,
+   "printed_prefill": false,
+   "checkbox_options": null,
+   "label": "वा नजिकको सम्बन्ध अएका व्यक्तिहरु प्रचलित कानून बमोजिम उच्च पदस्थ व्यक्ति ? हाइन",
+   "source": "proposed",
+   "review_status": "proposed"
+  }
+ ],
+ "enrollment": {
+  "status": "proposed",
+  "approved_by": null,
+  "approved_at": null
+ }
+}

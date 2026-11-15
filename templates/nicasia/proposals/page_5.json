@@ -1,0 +1,1527 @@
+[
+ {
+  "kind": "frame",
+  "bbox": [
+   118,
+   3112,
+   2252,
+   277
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "प्रमाणित जर्नेको रुजु गर्नेको नाम थरः नाम थरः पटः पटः हस्ताक्षरः हस्ताक्षरः मितिः मितिः कार्याजयको नम तथा ८7",
+   "left": "",
+   "right": "",
+   "above": "Customer Profiling",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 0
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   118,
+   2983,
+   2252,
+   127
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Customer Profiling",
+   "left": "",
+   "right": "",
+   "above": "कार्यालय प्रयोजनका लागि मात्र खातावालाको नान",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 1
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   605,
+   3001,
+   1748,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "signature",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Customer Profiling",
+   "right": "",
+   "above": "कार्यालय प्रयोजनका लागि मात्र हस्ताक्षर .",
+   "row": "Customer Profiling",
+   "col": "संचालक पदाधिकारी शेयरधनी कर्मचार अन्य",
+   "matched_on": "above"
+  },
+  "n": 2
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   644,
+   2333,
+   1672,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "पदाधिकारी शेयरधनी कर्मचार संचालक अन्य",
+   "left": "पट",
+   "right": "",
+   "above": "",
+   "row": "पट",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   644,
+   2246,
+   1672,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "कम्पनीको नाम",
+   "right": "",
+   "above": "(भएमा देहाए बमोजिम विवरण उल्लेख गर्नुहोस) ।ञ) तपाई धितोपत्र खरिद बिक्री गर्ने मुख्य उद्देश्यले स्थापित इन्भेष्टनेन्ट कम्पनीमा संग्लन अषको ?",
+   "row": "कम्पनीको नाम",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 4
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1650,
+   1673,
+   666,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "आवद्ध कार्यालय संस्थाको नाम र ठेगाना",
+   "row": "",
+   "col": "आवद्ध कार्यालय संस्थाको नाम र ठेगाना",
+   "matched_on": "above"
+  },
+  "n": 5
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1650,
+   2027,
+   666,
+   91
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "आवद्घ कार्यालय् संस्थाको नाम र ठेगाना",
+   "row": "",
+   "col": "आवद्घ कार्यालय् संस्थाको नाम र ठेगाना",
+   "matched_on": "above"
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1136,
+   3124,
+   295,
+   204
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "प्रमाणित जर्नेको",
+   "above": "",
+   "row": "रुजु गर्नेको प्रमाणित जर्नेको नाम थरः नाम थरः पटः पटः हस्ताक्षरः हस्ताक्षरः मितिः कार्याजयको नम तथा ८7 मितिः",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1650,
+   1940,
+   666,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "आवद्घ कार्यालय् संस्थाको नाम र ठेगाना",
+   "left": "अवधि",
+   "right": "",
+   "above": "वा नजिकको सम्बन्ध अएका व्यक्तिहरु प्रचलित कानून बमोजिम उच्च पदस्थ व्यक्ति ? हाइन",
+   "row": "व्यक्तिको नाम",
+   "col": "आवद्ध कार्यालय संस्थाको नाम र ठेगाना",
+   "matched_on": "above"
+  },
+  "n": 8
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1650,
+   1586,
+   666,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "आवद्ध कार्यालय संस्थाको नाम र ठेगाना",
+   "left": "अवधि",
+   "right": "",
+   "above": "",
+   "row": "व्यक्तिको नाम",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 9
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   353,
+   2639,
+   637,
+   90
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "जाम",
+   "row": "",
+   "col": "जाम",
+   "matched_on": "col"
+  },
+  "n": 10
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   353,
+   2552,
+   637,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "जाम",
+   "left": "ऋ.सं.",
+   "right": "सdबन्द",
+   "above": "।यदि छ अने हिताधिकारी हकमा अतिरित्त (KYC फारन भर्नुहोस। ) तपाईको हिताधीकारी हुनुहुन्छ ?",
+   "row": "ऋ.सं.",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 11
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   644,
+   1673,
+   529,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "पट",
+   "row": "",
+   "col": "पट",
+   "matched_on": "col"
+  },
+  "n": 12
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   644,
+   2027,
+   529,
+   91
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "पट विवरण खुलाउनुहोस)",
+   "row": "",
+   "col": "पट",
+   "matched_on": "above"
+  },
+  "n": 13
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1333,
+   2639,
+   525,
+   90
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "ठेगाना",
+   "row": "",
+   "col": "ठेगाना",
+   "matched_on": "col"
+  },
+  "n": 14
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   644,
+   1586,
+   529,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "पट",
+   "left": "व्यक्तिको नाम",
+   "right": "अवधि",
+   "above": "(छ) तपाईले कनै राजनैतिक पदमा निर्वाचित वा मनोनित प्रतिनिधिको रुपमा कामकाज जरिरहनु भएको छ (PEP)?",
+   "row": "व्यक्तिको नाम",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 15
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   644,
+   1940,
+   529,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "पट",
+   "left": "व्यक्तिको नाम",
+   "right": "अवधि",
+   "above": "विवरण खुलाउनुहोस) वा नजिकको सम्बन्ध अएका व्यक्तिहरु प्रचलित कानून बमोजिम उच्च पदस्थ व्यक्ति ?",
+   "row": "व्यक्तिको नाम",
+   "col": "पट",
+   "matched_on": "above"
+  },
+  "n": 16
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1333,
+   2552,
+   525,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ठेगाना",
+   "left": "जाम सdबन्द",
+   "right": "सम्पर्क नम्बर",
+   "above": "",
+   "row": "ऋ.सं.",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 17
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1173,
+   1673,
+   477,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "अवधि",
+   "row": "",
+   "col": "अवधि",
+   "matched_on": "col"
+  },
+  "n": 18
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1173,
+   2027,
+   477,
+   91
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "अवधि",
+   "row": "",
+   "col": "अवधि",
+   "matched_on": "col"
+  },
+  "n": 19
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   174,
+   2333,
+   470,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "पट",
+   "left": "",
+   "right": "संचालक",
+   "above": "कम्पनीको नाम",
+   "row": "",
+   "col": "कम्पनीको नाम",
+   "matched_on": "col"
+  },
+  "n": 20
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   174,
+   1673,
+   470,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "व्यक्तिको नाम (छ भने विस्तृत विवरण खुलाउनुहोस)",
+   "row": "",
+   "col": "व्यक्तिको नाम",
+   "matched_on": "above"
+  },
+  "n": 21
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   174,
+   2027,
+   470,
+   91
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "व्यक्तिको नाम विस्तृत",
+   "row": "",
+   "col": "व्यक्तिको नाम",
+   "matched_on": "col"
+  },
+  "n": 22
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1173,
+   1586,
+   477,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "अवधि",
+   "left": "व्यक्तिको नाम पट",
+   "right": "आवद्ध कार्यालय संस्थाको नाम र ठेगाना",
+   "above": "(छ) तपाईले कनै राजनैतिक पदमा निर्वाचित वा मनोनित प्रतिनिधिको रुपमा कामकाज जरिरहनु भएको छ (PEP)?",
+   "row": "व्यक्तिको नाम",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 23
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1173,
+   1940,
+   477,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "अवधि",
+   "left": "व्यक्तिको नाम पट",
+   "right": "आवद्घ कार्यालय् संस्थाको नाम र ठेगाना",
+   "above": "वा नजिकको सम्बन्ध अएका व्यक्तिहरु प्रचलित कानून बमोजिम उच्च पदस्थ व्यक्ति ?",
+   "row": "व्यक्तिको नाम",
+   "col": "अवधि",
+   "matched_on": "above"
+  },
+  "n": 24
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1858,
+   2639,
+   458,
+   90
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "सम्पर्क नम्बर",
+   "row": "",
+   "col": "सम्पर्क नम्बर",
+   "matched_on": "col"
+  },
+  "n": 25
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   174,
+   1940,
+   470,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "व्यक्तिको नाम",
+   "left": "",
+   "right": "पट",
+   "above": "विस्तृत विवरण खुलाउनुहोस)",
+   "row": "",
+   "col": "व्यक्तिको नाम",
+   "matched_on": "above"
+  },
+  "n": 26
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   174,
+   2246,
+   470,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "कम्पनीको नाम",
+   "left": "",
+   "right": "",
+   "above": "(भएमा देहाए बमोजिम विवरण उल्लेख गर्नुहोस) ।ञ) तपाई धितोपत्र खरिद बिक्री गर्ने मुख्य उद्देश्यले स्थापित इन्भेष्टनेन्ट कम्पनीमा संग्लन अषको ?",
+   "row": "",
+   "col": "व्यक्तिको नाम",
+   "matched_on": "above"
+  },
+  "n": 27
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   174,
+   1586,
+   470,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "व्यक्तिको नाम",
+   "left": "",
+   "right": "पट",
+   "above": "(छ भने विस्तृत विवरण खुलाउनुहोस) (छ) तपाईले कनै राजनैतिक पदमा निर्वाचित वा मनोनित प्रतिनिधिको रुपमा कामकाज जरिरहनु भएको छ (PEP)?",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 28
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1858,
+   2552,
+   458,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "सम्पर्क नम्बर",
+   "left": "सdबन्द ठेगाना",
+   "right": "",
+   "above": "",
+   "row": "ऋ.सं.",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 29
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   990,
+   2639,
+   341,
+   90
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "सdबन्द",
+   "row": "",
+   "col": "सdबन्द",
+   "matched_on": "col"
+  },
+  "n": 30
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   990,
+   2552,
+   341,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "सdबन्द",
+   "left": "ऋ.सं. जाम",
+   "right": "ठेगाना",
+   "above": "।यदि छ अने हिताधिकारी हकमा अतिरित्त (KYC फारन भर्नुहोस। )",
+   "row": "ऋ.सं.",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 31
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   174,
+   2639,
+   177,
+   90
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "ऋ.सं.",
+   "row": "",
+   "col": "ऋ.सं.",
+   "matched_on": "col"
+  },
+  "n": 32
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   174,
+   2552,
+   177,
+   85
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "ऋ.सं.",
+   "left": "",
+   "right": "जाम",
+   "above": "।यदि छ अने हिताधिकारी हकमा अतिरित्त (KYC फारन भर्नुहोस। ) तपाईको हिताधीकारी हुनुहुन्छ ?",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 33
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1173,
+   2350,
+   141,
+   56
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "संचालक पदाधिकारी",
+   "right": "शेयरधनी",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 34
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1508,
+   2350,
+   140,
+   56
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "संचालक पदाधिकारी शेयरधनी",
+   "right": "कर्मचार",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 35
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1837,
+   2350,
+   139,
+   56
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "पदाधिकारी शेयरधनी कर्मचार",
+   "right": "अन्य",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 36
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   834,
+   2350,
+   139,
+   56
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "पट संचालक",
+   "right": "पदाधिकारी",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 37
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2116,
+   2350,
+   139,
+   56
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "शेयरधनी कर्मचार अन्य",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 38
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   1342,
+   115,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 39
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   1088,
+   115,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "a",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 40
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   1213,
+   115,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 41
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   965,
+   115,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "ख=",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 42
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   1783,
+   114,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "occupation_choice",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "(ज) तपाईलाई प्रचलित कानुन बमोजिम कुनै पेशा रोजगार वा व्यवसाय्य गर्न रोक लगाइएको छ म",
+   "right": "+ज",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 43
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   1213,
+   114,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 44
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   1088,
+   114,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "a",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 45
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   2437,
+   114,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "अन्य",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 46
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   965,
+   114,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "(क) तपाईको विरुद्घमा अदालतमा कुनै अपराधिक कारवाही विरुद्ध मुद्दा चलेको छ ",
+   "right": "ख=",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 47
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   2133,
+   114,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "।ञ) तपाई धितोपत्र खरिद बिक्री गर्ने मुख्य उद्देश्यले स्थापित इन्भेष्टनेन्ट कम्पनीमा संग्लन अषको ?",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 48
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   1342,
+   114,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 49
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   2464,
+   113,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 50
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   2133,
+   113,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "।ञ) तपाई धितोपत्र खरिद बिक्री गर्ने मुख्य उद्देश्यले स्थापित इन्भेष्टनेन्ट कम्पनीमा संग्लन अषको ?",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 51
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   1783,
+   113,
+   44
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "occupation_choice",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "(ज) तपाईलाई प्रचलित कानुन बमोजिम कुनै पेशा रोजगार वा व्यवसाय्य गर्न रोक लगाइएको छ म +ज",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 52
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   1028,
+   115,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "ज्ञ",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 53
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   1465,
+   115,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "(छ) तपाईले कनै राजनैतिक पदमा निर्वाचित वा मनोनित प्रतिनिधिको रुपमा कामकाज जरिरहनु भएको छ (PEP)?",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 54
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   1409,
+   115,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 55
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   1028,
+   114,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "ज्ञ",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 56
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   1409,
+   114,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 57
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   1465,
+   114,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "(छ) तपाईले कनै राजनैतिक पदमा निर्वाचित वा मनोनित प्रतिनिधिको रुपमा कामकाज जरिरहनु भएको छ (PEP)?",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 58
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1987,
+   1840,
+   114,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "वा नजिकको सम्बन्ध अएका व्यक्तिहरु प्रचलित कानून बमोजिम उच्च पदस्थ व्यक्ति ?",
+   "right": "हाइन",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 59
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2201,
+   1840,
+   113,
+   43
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "वा नजिकको सम्बन्ध अएका व्यक्तिहरु प्रचलित कानून बमोजिम उच्च पदस्थ व्यक्ति ? हाइन",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 60
+ }
+]

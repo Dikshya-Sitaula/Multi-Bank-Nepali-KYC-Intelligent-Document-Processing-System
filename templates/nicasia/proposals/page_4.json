@@ -1,0 +1,252 @@
+[
+ {
+  "kind": "frame",
+  "bbox": [
+   122,
+   484,
+   2252,
+   1018
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "location_map",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Location Map of Current Residence हाल बसोबास रहेको स्थानको नक्शा",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 0
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   122,
+   3118,
+   2254,
+   277
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "रुजु गर्नेको प्रमाणित गर्नेको थरः नाम थरः नाम पd: पदः हस्ताक्षरः हस्ताक्षरः मितिः टितिः कार्यालयको जाम नथा छाए",
+   "left": "",
+   "right": "",
+   "above": "Customer Profiling",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 1
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   122,
+   2987,
+   2254,
+   129
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Customer Profiling",
+   "left": "",
+   "right": "",
+   "above": "कार्यालय प्रयोजनका लागि मात्र दौंया Righti",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 2
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   907,
+   353,
+   1467,
+   129
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Location Map of Current Residence",
+   "left": "हाल बसोबास रहेको स्थानको नक्शा",
+   "right": "",
+   "above": "",
+   "row": "हाल बसोबास रहेको स्थानको नक्शा",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   638,
+   3008,
+   1719,
+   91
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Customer Profiling",
+   "right": "",
+   "above": "कार्यालय प्रयोजनका लागि मात्र",
+   "row": "Customer Profiling",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 4
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   825,
+   2454,
+   329,
+   374
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Thurmb Impression औंठा छाप",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 5
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   492,
+   2454,
+   329,
+   374
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Thurmb Impression औंठा छाप",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1362,
+   2529,
+   662,
+   168
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   122,
+   353,
+   782,
+   129
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "हाल बसोबास रहेको स्थानको नक्शा",
+   "left": "",
+   "right": "Location Map of Current Residence",
+   "above": "CAPIIAL",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 8
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1142,
+   3128,
+   293,
+   206
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "name_english",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "प्रमाणित गर्नेको",
+   "above": "",
+   "row": "रुजु गर्नेको प्रमाणित गर्नेको नाम थरः नाम पd: पदः हस्ताक्षरः हस्ताक्षरः मितिः कार्यालयको जाम नथा छाए टितिः थरः",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 9
+ }
+]

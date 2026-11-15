@@ -1,0 +1,3287 @@
+[
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   938,
+   118,
+   75,
+   34
+  ],
+  "source": "raster",
+  "cell_count": 3,
+  "cells": [
+   [
+    938,
+    118,
+    27,
+    34
+   ],
+   [
+    967,
+    118,
+    20,
+    33
+   ],
+   [
+    988,
+    118,
+    25,
+    34
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 0
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   790,
+   809,
+   169,
+   28
+  ],
+  "source": "raster",
+  "cell_count": 4,
+  "cells": [
+   [
+    790,
+    809,
+    21,
+    28
+   ],
+   [
+    840,
+    809,
+    22,
+    28
+   ],
+   [
+    880,
+    809,
+    21,
+    28
+   ],
+   [
+    940,
+    809,
+    19,
+    27
+   ]
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 1
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   409,
+   2785,
+   705,
+   49
+  ],
+  "source": "raster",
+  "cell_count": 9,
+  "cells": [
+   [
+    409,
+    2785,
+    78,
+    49
+   ],
+   [
+    488,
+    2785,
+    77,
+    49
+   ],
+   [
+    566,
+    2785,
+    78,
+    49
+   ],
+   [
+    645,
+    2785,
+    77,
+    49
+   ],
+   [
+    723,
+    2785,
+    78,
+    49
+   ],
+   [
+    802,
+    2785,
+    77,
+    49
+   ],
+   [
+    880,
+    2785,
+    77,
+    49
+   ],
+   [
+    958,
+    2785,
+    78,
+    49
+   ],
+   [
+    1037,
+    2785,
+    77,
+    49
+   ]
+  ],
+  "suggested_field": "customer_id",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Customer ID",
+   "right": "Date",
+   "above": "For Banks Use only बैंक प्रयोजनको लागि मात्र)",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 2
+ },
+ {
+  "kind": "cell_strip",
+  "bbox": [
+   409,
+   2847,
+   1436,
+   50
+  ],
+  "source": "raster",
+  "cell_count": 16,
+  "cells": [
+   [
+    409,
+    2847,
+    89,
+    50
+   ],
+   [
+    499,
+    2847,
+    89,
+    50
+   ],
+   [
+    589,
+    2847,
+    89,
+    50
+   ],
+   [
+    679,
+    2847,
+    89,
+    50
+   ],
+   [
+    769,
+    2847,
+    88,
+    50
+   ],
+   [
+    858,
+    2847,
+    89,
+    50
+   ],
+   [
+    948,
+    2847,
+    89,
+    50
+   ],
+   [
+    1038,
+    2847,
+    89,
+    50
+   ],
+   [
+    1128,
+    2847,
+    89,
+    50
+   ],
+   [
+    1218,
+    2847,
+    89,
+    50
+   ],
+   [
+    1308,
+    2847,
+    88,
+    50
+   ],
+   [
+    1397,
+    2847,
+    89,
+    50
+   ],
+   [
+    1487,
+    2847,
+    89,
+    50
+   ],
+   [
+    1577,
+    2847,
+    89,
+    50
+   ],
+   [
+    1667,
+    2847,
+    88,
+    50
+   ],
+   [
+    1756,
+    2847,
+    89,
+    50
+   ]
+  ],
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Account Number",
+   "right": "",
+   "above": "Date M  M",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1062,
+   118,
+   23,
+   33
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 4
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   371,
+   886,
+   18,
+   27
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 5
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   739,
+   809,
+   17,
+   27
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   409,
+   2909,
+   1970,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Related Accounts",
+   "right": "",
+   "above": "Date M  M",
+   "row": "Related Accounts",
+   "col": "If Yes provide following details (यदि हो भने तल उल्लेखित विवरण भर्नुहोस",
+   "matched_on": "above"
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   928,
+   2289,
+   66
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "S.N. (क्र.सं.) Parameter ( सीमा)",
+   "left": "",
+   "right": "",
+   "above": "प्रश्नहरुको जवाफ हो वा होइनमा दिनुहोस्)",
+   "row": "",
+   "col": "Answer following questions in Yes or No (तपसिलमा उल्लेखित प्रश्नहरुको जवाफ हो वा होइनमा दिनुहोस्)",
+   "matched_on": "above"
+  },
+  "n": 8
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   392,
+   1060,
+   1990,
+   57
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "provide following details (यदि हो भने तल उल्लेखित विवरण भर्नुहोस If Yes",
+   "left": "",
+   "right": "",
+   "above": "US Person अमेरिकी व्यक्ति) Yes",
+   "row": "",
+   "col": "Date of membership Expiry of membership Name of close associates Name of associated organization Position (पद Institution ( संस्था) (सदस्यताको मिति (सदस्यताको समाप्ती) (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "above"
+  },
+  "n": 9
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   1828,
+   1537,
+   275,
+   390
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "signature",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "म / हामीले बुझेसम्म ठीक सांचो तथा पूर्ण छ।छ्न्।) Account Holder s Signature ( खातावालाको दस्तखत)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 10
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   2103,
+   1537,
+   275,
+   390
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "signature",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Account Holder s Signature ( खातावालाको दस्तखत)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 11
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   97,
+   3306,
+   1419,
+   91
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Page 3 of 3",
+   "left": "",
+   "right": "",
+   "above": "Sign KYC Verified By:",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 12
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   409,
+   3077,
+   978,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "KYC Updated Byः",
+   "right": "Sign",
+   "above": "",
+   "row": "KYC Updated Byः",
+   "col": "W9 Form submitted W9 फर्म बुझाएको",
+   "matched_on": "left"
+  },
+  "n": 13
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   409,
+   3161,
+   978,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "KYC Verified By:",
+   "right": "Sign",
+   "above": "",
+   "row": "KYC Verified By:",
+   "col": "W9 Form submitted W9 फर्म बुझाएको",
+   "matched_on": "col"
+  },
+  "n": 14
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   409,
+   2994,
+   977,
+   71
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Risk  Category",
+   "right": "Gorup ID",
+   "above": "",
+   "row": "Risk  Category",
+   "col": "W9 Form submitted W9 फर्म बुझाएको",
+   "matched_on": "col"
+  },
+  "n": 15
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   391,
+   996,
+   825,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "US Person अमेरिकी व्यक्ति)",
+   "left": "1 (१)",
+   "right": "Yes",
+   "above": "Parameter ( सीमा) प्रश्नहरुको",
+   "row": "1 (१)",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 16
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1475,
+   337,
+   458,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Name of close associates (निजसंग सम्बन्धित व्यक्तिको नाम)",
+   "left": "Date of membership (सदस्यताको समाप्ती) Expiry of membership",
+   "right": "Name of associated organization",
+   "above": "",
+   "row": "Date of membership Expiry of membership Name of close associates Name of associated organization Position (पद Institution ( संस्था) (सदस्यताको मिति (सदस्यताको समाप्ती) (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 17
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1933,
+   337,
+   457,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "left": "Expiry of membership Name of close associates (निजसंग सम्बन्धित व्यक्तिको नाम)",
+   "right": "",
+   "above": "",
+   "row": "Date of membership Expiry of membership Name of close associates Name of associated organization Position (पद Institution ( संस्था) (सदस्यताको मिति (सदस्यताको समाप्ती) (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 18
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1933,
+   441,
+   457,
+   99
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(निजसंग सम्बन्धित संस्थाको नाम) Name of associated organization",
+   "row": "",
+   "col": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "above"
+  },
+  "n": 19
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1475,
+   442,
+   458,
+   98
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(निजसंग सम्बन्धित व्यक्तिको नाम) Name of close associates",
+   "row": "",
+   "col": "Name of close associates (निजसंग सम्बन्धित व्यक्तिको नाम)",
+   "matched_on": "col"
+  },
+  "n": 20
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   392,
+   1429,
+   824,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "W9 फर्म बुझाएको W9 Form submitted",
+   "left": "b",
+   "right": "Yes",
+   "above": "TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.) Resident of US ( अमेरिकी बासिन्दा)",
+   "row": "b W9 Form submitted W9 फर्म बुझाएको Yes No हाइन",
+   "col": "TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.)",
+   "matched_on": "row"
+  },
+  "n": 21
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   392,
+   1266,
+   824,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Country of Birth US (जन्मेको देश अमेरिका)",
+   "left": "C",
+   "right": "Yes",
+   "above": "US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "row": "C Country of Birth US (जन्मेको देश अमेरिका) Yes No हाइ",
+   "col": "US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड",
+   "matched_on": "row"
+  },
+  "n": 22
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   392,
+   1212,
+   824,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड",
+   "left": "b",
+   "right": "Yes",
+   "above": "US TELEPHONE Number ( अमेरिकी टेलिफोन नं.) US INDICIA",
+   "row": "b US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड Yes No हाइन",
+   "col": "US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "matched_on": "row"
+  },
+  "n": 23
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   392,
+   1321,
+   824,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Resident of US ( अमेरिकी बासिन्दा)",
+   "left": "3 (३)",
+   "right": "Yes",
+   "above": "Country of Birth US (जन्मेको देश अमेरिका) US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड",
+   "row": "3 (३) Resident of US ( अमेरिकी बासिन्दा) Yes No (हाइन।",
+   "col": "Country of Birth US (जन्मेको देश अमेरिका)",
+   "matched_on": "row"
+  },
+  "n": 24
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   392,
+   1375,
+   824,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.)",
+   "left": "a",
+   "right": "",
+   "above": "Resident of US ( अमेरिकी बासिन्दा) Country of Birth US (जन्मेको देश अमेरिका)",
+   "row": "a TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.)",
+   "col": "Resident of US ( अमेरिकी बासिन्दा)",
+   "matched_on": "above"
+  },
+  "n": 25
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1217,
+   996,
+   689,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Yes No (होइन।",
+   "left": "US Person अमेरिकी व्यक्ति)",
+   "right": "",
+   "above": "जवाफ हो वा होइनमा दिनुहोस्)",
+   "row": "1 (१)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 26
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   337,
+   378,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Position (पद",
+   "left": "",
+   "right": "Institution ( संस्था)",
+   "above": "If yes, please furnish following information ( यदि भएमा निम्न उल्लेखित विवरण भर्नुहोस्। पदस्थ व्यक्तिको पारिवारिक सदस्य",
+   "row": "Date of membership Expiry of membership Name of close associates Name of associated organization Position (पद Institution ( संस्था) (सदस्यताको मिति (सदस्यताको समाप्ती) (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम)",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 27
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   392,
+   1164,
+   824,
+   47
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "left": "a",
+   "right": "",
+   "above": "US INDICIA provide following details (यदि हो भने तल उल्लेखित विवरण भर्नुहोस",
+   "row": "a US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "col": "US INDICIA",
+   "matched_on": "row"
+  },
+  "n": 28
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   392,
+   1117,
+   824,
+   47
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "US INDICIA",
+   "left": "2(२)",
+   "right": "",
+   "above": "provide following details (यदि हो भने तल उल्लेखित विवरण भर्नुहोस If Yes",
+   "row": "2(२) US INDICIA",
+   "col": "US Person अमेरिकी व्यक्ति)",
+   "matched_on": "above"
+  },
+  "n": 29
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1370,
+   115,
+   1008,
+   37
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "DECLARATION (स्वःघोषणा)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 30
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   102,
+   442,
+   378,
+   98
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "designation",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Position (पद",
+   "row": "",
+   "col": "Position (पद",
+   "matched_on": "above"
+  },
+  "n": 31
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1217,
+   1375,
+   689,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.)",
+   "right": "",
+   "above": "Yes No (हाइन।",
+   "row": "a TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.)",
+   "col": "Yes No (होइन।",
+   "matched_on": "above"
+  },
+  "n": 32
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1125,
+   337,
+   350,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Expiry of membership (सदस्यताको समाप्ती)",
+   "left": "Institution ( संस्था) (सदस्यताको मिति Date of membership",
+   "right": "(निजसंग सम्बन्धित व्यक्तिको नाम)",
+   "above": "",
+   "row": "Date of membership Expiry of membership Name of close associates Name of associated organization Position (पद Institution ( संस्था) (सदस्यताको मिति (सदस्यताको समाप्ती) (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 33
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1125,
+   442,
+   350,
+   98
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(सदस्यताको समाप्ती) Expiry of membership",
+   "row": "",
+   "col": "Expiry of membership (सदस्यताको समाप्ती)",
+   "matched_on": "col"
+  },
+  "n": 34
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   791,
+   337,
+   333,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of membership (सदस्यताको मिति",
+   "left": "Position (पद Institution ( संस्था)",
+   "right": "Expiry of membership",
+   "above": "If yes, please furnish following information ( यदि भएमा निम्न उल्लेखित विवरण भर्नुहोस्। निजसंग सम्बन्धित व्यक्ति हुनुहुन्छ ?)",
+   "row": "Date of membership Expiry of membership Name of close associates Name of associated organization Position (पद Institution ( संस्था) (सदस्यताको मिति (सदस्यताको समाप्ती) (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 35
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1341,
+   874,
+   1028,
+   33
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Answer following questions in Yes or No (तपसिलमा उल्लेखित प्रश्नहरुको जवाफ हो वा होइनमा दिनुहोस्)",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 36
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   791,
+   442,
+   333,
+   98
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(सदस्यताको मिति Date of membership",
+   "row": "",
+   "col": "Date of membership (सदस्यताको मिति",
+   "matched_on": "above"
+  },
+  "n": 37
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1217,
+   1117,
+   689,
+   47
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "US INDICIA",
+   "right": "",
+   "above": "provide following details (यदि हो भने तल उल्लेखित विवरण भर्नुहोस Yes",
+   "row": "2(२) US INDICIA",
+   "col": "Yes No (होइन।",
+   "matched_on": "above"
+  },
+  "n": 38
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   481,
+   337,
+   310,
+   103
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Institution ( संस्था)",
+   "left": "Position (पद",
+   "right": "Date of membership",
+   "above": "If yes, please furnish following information ( यदि भएमा निम्न उल्लेखित विवरण भर्नुहोस्। निजसंग सम्बन्धित व्यक्ति हुनुहुन्छ ?)",
+   "row": "Date of membership Expiry of membership Name of close associates Name of associated organization Position (पद Institution ( संस्था) (सदस्यताको मिति (सदस्यताको समाप्ती) (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम)",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 39
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1217,
+   1165,
+   689,
+   46
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "phone",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "right": "",
+   "above": "provide following details (यदि हो भने तल उल्लेखित विवरण भर्नुहोस",
+   "row": "a US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "col": "Yes No (होइन।",
+   "matched_on": "left"
+  },
+  "n": 40
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1494,
+   802,
+   877,
+   36
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 41
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   481,
+   442,
+   310,
+   98
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Institution ( संस्था)",
+   "row": "",
+   "col": "Institution ( संस्था)",
+   "matched_on": "col"
+  },
+  "n": 42
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   110,
+   115,
+   819,
+   37
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "DECLARATION (स्वःघोषणा)",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 43
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1907,
+   996,
+   475,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Yes No (होइन।",
+   "right": "",
+   "above": "",
+   "row": "1 (१)",
+   "col": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "left"
+  },
+  "n": 44
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1410,
+   1429,
+   496,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Yes No हाइन",
+   "left": "W9 Form submitted W9 फर्म बुझाएको",
+   "right": "",
+   "above": "Yes No (हाइन।",
+   "row": "b W9 Form submitted W9 फर्म बुझाएको Yes No हाइन",
+   "col": "Yes No (हाइन।",
+   "matched_on": "row"
+  },
+  "n": 45
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1410,
+   1266,
+   496,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Yes No हाइ",
+   "left": "Country of Birth US (जन्मेको देश अमेरिका)",
+   "right": "",
+   "above": "No Yes",
+   "row": "C Country of Birth US (जन्मेको देश अमेरिका) Yes No हाइ",
+   "col": "Yes No हाइन",
+   "matched_on": "left"
+  },
+  "n": 46
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1410,
+   1212,
+   496,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Yes No हाइन",
+   "left": "US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड",
+   "right": "",
+   "above": "",
+   "row": "b US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड Yes No हाइन",
+   "col": "Name of close associates (निजसंग सम्बन्धित व्यक्तिको नाम)",
+   "matched_on": "row"
+  },
+  "n": 47
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1410,
+   1321,
+   496,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "No (हाइन। Yes",
+   "left": "Resident of US ( अमेरिकी बासिन्दा)",
+   "right": "",
+   "above": "Yes No",
+   "row": "3 (३) Resident of US ( अमेरिकी बासिन्दा) Yes No (हाइन।",
+   "col": "Yes No हाइ",
+   "matched_on": "row"
+  },
+  "n": 48
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1907,
+   1429,
+   475,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Yes No हाइन",
+   "right": "",
+   "above": "",
+   "row": "b W9 Form submitted W9 फर्म बुझाएको Yes No हाइन",
+   "col": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "left"
+  },
+  "n": 49
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1907,
+   1212,
+   475,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Yes No हाइन",
+   "right": "",
+   "above": "",
+   "row": "b US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड Yes No हाइन",
+   "col": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "left"
+  },
+  "n": 50
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1907,
+   1375,
+   475,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "a TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.)",
+   "col": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "col"
+  },
+  "n": 51
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1907,
+   1321,
+   475,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Yes No (हाइन।",
+   "right": "",
+   "above": "",
+   "row": "3 (३) Resident of US ( अमेरिकी बासिन्दा) Yes No (हाइन।",
+   "col": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "left"
+  },
+  "n": 52
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1907,
+   1266,
+   475,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Yes No हाइ",
+   "right": "",
+   "above": "",
+   "row": "C Country of Birth US (जन्मेको देश अमेरिका) Yes No हाइ",
+   "col": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "left"
+  },
+  "n": 53
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2032,
+   3161,
+   348,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Sign Code",
+   "right": "",
+   "above": "",
+   "row": "KYC Verified By:",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 54
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2032,
+   3077,
+   348,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Sign Code",
+   "right": "",
+   "above": "",
+   "row": "KYC Updated Byः",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 55
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1531,
+   3077,
+   347,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Sign",
+   "right": "Code",
+   "above": "",
+   "row": "KYC Updated Byः",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 56
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1531,
+   3161,
+   347,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Sign",
+   "right": "Code",
+   "above": "",
+   "row": "KYC Verified By:",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 57
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   91,
+   2909,
+   317,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Related Accounts",
+   "left": "",
+   "right": "",
+   "above": "Account Number Customer ID",
+   "row": "",
+   "col": "Account Number",
+   "matched_on": "above"
+  },
+  "n": 58
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   91,
+   2993,
+   317,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": " Category Risk",
+   "left": "",
+   "right": "",
+   "above": "Related Accounts",
+   "row": "",
+   "col": "Related Accounts",
+   "matched_on": "col"
+  },
+  "n": 59
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   91,
+   3161,
+   317,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "KYC Verified By:",
+   "left": "",
+   "right": "",
+   "above": "KYC Updated Byः",
+   "row": "",
+   "col": "KYC Updated Byः",
+   "matched_on": "above"
+  },
+  "n": 60
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   91,
+   3077,
+   317,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "KYC Updated Byः",
+   "left": "",
+   "right": "",
+   "above": " Category Risk",
+   "row": "",
+   "col": "Risk  Category",
+   "matched_on": "col"
+  },
+  "n": 61
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1907,
+   1117,
+   475,
+   47
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "employer_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "2(२) US INDICIA",
+   "col": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "col"
+  },
+  "n": 62
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   105,
+   802,
+   629,
+   35
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "FATCA DECLARATION (बिदेशी खाता कर अनुपालन ऐन सम्बन्धी घोषणा)",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 63
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1907,
+   1165,
+   475,
+   46
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "phone",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "a US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "col": "Name of associated organization (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "row"
+  },
+  "n": 64
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   929,
+   297,
+   66
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "S.N. (क्र.सं.)",
+   "left": "",
+   "right": "",
+   "above": "Answer following questions in Yes or No (तपसिलमा उल्लेखित",
+   "row": "S.N. (क्र.सं.) Parameter ( सीमा)",
+   "col": "Position (पद",
+   "matched_on": "above"
+  },
+  "n": 65
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   996,
+   298,
+   63
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "1 (१)",
+   "left": "",
+   "right": "US Person अमेरिकी व्यक्ति)",
+   "above": "S.N. (क्र.सं.) Answer following questions in Yes or No (तपसिलमा उल्लेखित",
+   "row": "",
+   "col": "S.N. (क्र.सं.)",
+   "matched_on": "above"
+  },
+  "n": 66
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   1060,
+   297,
+   57
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "1 (१) S.N. (क्र.सं.)",
+   "row": "",
+   "col": "1 (१)",
+   "matched_on": "col"
+  },
+  "n": 67
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   1429,
+   297,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "b",
+   "left": "",
+   "right": "W9 Form submitted",
+   "above": "a 3 (३)",
+   "row": "b W9 Form submitted W9 फर्म बुझाएको Yes No हाइन",
+   "col": "a",
+   "matched_on": "row"
+  },
+  "n": 68
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   1266,
+   297,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "C",
+   "left": "",
+   "right": "Country of Birth US (जन्मेको देश अमेरिका)",
+   "above": "b a",
+   "row": "C Country of Birth US (जन्मेको देश अमेरिका) Yes No हाइ",
+   "col": "b",
+   "matched_on": "row"
+  },
+  "n": 69
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   90,
+   2784,
+   318,
+   50
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Customer ID",
+   "left": "",
+   "right": "",
+   "above": "For Banks Use only बैंक प्रयोजनको लागि मात्र)",
+   "row": "",
+   "col": "b",
+   "matched_on": "col"
+  },
+  "n": 70
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   91,
+   2846,
+   317,
+   51
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Account Number",
+   "left": "",
+   "right": "",
+   "above": "Customer ID For Banks Use only बैंक प्रयोजनको लागि मात्र)",
+   "row": "",
+   "col": "Customer ID",
+   "matched_on": "above"
+  },
+  "n": 71
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   1375,
+   297,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "a",
+   "left": "",
+   "right": "TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.)",
+   "above": "3 (३) C",
+   "row": "a TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.)",
+   "col": "3 (३)",
+   "matched_on": "col"
+  },
+  "n": 72
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   1212,
+   297,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "b",
+   "left": "",
+   "right": "US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड",
+   "above": "a 2(२)",
+   "row": "b US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड Yes No हाइन",
+   "col": "a",
+   "matched_on": "row"
+  },
+  "n": 73
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   1321,
+   297,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "3 (३)",
+   "left": "",
+   "right": "Resident of US ( अमेरिकी बासिन्दा)",
+   "above": "C b",
+   "row": "3 (३) Resident of US ( अमेरिकी बासिन्दा) Yes No (हाइन।",
+   "col": "C",
+   "matched_on": "row"
+  },
+  "n": 74
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   1117,
+   297,
+   47
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "2(२)",
+   "left": "",
+   "right": "US INDICIA",
+   "above": "1 (१)",
+   "row": "2(२) US INDICIA",
+   "col": "1 (१)",
+   "matched_on": "col"
+  },
+  "n": 75
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   93,
+   1165,
+   297,
+   46
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "phone",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "a",
+   "left": "",
+   "right": "US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "above": "2(२)",
+   "row": "a US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "col": "2(२)",
+   "matched_on": "row"
+  },
+  "n": 76
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1877,
+   3077,
+   155,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Code",
+   "left": "Sign",
+   "right": "",
+   "above": "",
+   "row": "KYC Updated Byः",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 77
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1877,
+   3161,
+   155,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Code",
+   "left": "Sign",
+   "right": "",
+   "above": "Code",
+   "row": "KYC Verified By:",
+   "col": "Code",
+   "matched_on": "col"
+  },
+  "n": 78
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1387,
+   3161,
+   143,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Sign",
+   "left": "",
+   "right": "",
+   "above": "Sign",
+   "row": "KYC Verified By:",
+   "col": "Sign",
+   "matched_on": "col"
+  },
+  "n": 79
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1387,
+   3077,
+   143,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Sign",
+   "left": "",
+   "right": "",
+   "above": "Gorup ID",
+   "row": "KYC Updated Byः",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 80
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1217,
+   1429,
+   147,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "W9 Form submitted W9 फर्म बुझाएको",
+   "right": "Yes",
+   "above": "",
+   "row": "b W9 Form submitted W9 फर्म बुझाएको Yes No हाइन",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 81
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1217,
+   1266,
+   147,
+   54
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Country of Birth US (जन्मेको देश अमेरिका)",
+   "right": "Yes",
+   "above": "",
+   "row": "C Country of Birth US (जन्मेको देश अमेरिका) Yes No हाइ",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 82
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1217,
+   1321,
+   146,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Resident of US ( अमेरिकी बासिन्दा)",
+   "right": "Yes",
+   "above": "",
+   "row": "3 (३) Resident of US ( अमेरिकी बासिन्दा) Yes No (हाइन।",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 83
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1217,
+   1212,
+   146,
+   53
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड",
+   "right": "Yes",
+   "above": "",
+   "row": "b US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड Yes No हाइन",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 84
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   88,
+   861,
+   2293,
+   59
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "प्रश्नहरुको Answer following questions in Yes or No (तपसिलमा उल्लेखित जवाफ हो वा होइनमा दिनुहोस्)",
+   "left": "",
+   "right": "",
+   "above": "FATCA DECLARATION (बिदेशी खाता कर अनुपालन ऐन सम्बन्धी घोषणा)",
+   "row": "",
+   "col": "FATCA DECLARATION (बिदेशी खाता कर अनुपालन ऐन सम्बन्धी घोषणा)",
+   "matched_on": "above"
+  },
+  "n": 85
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   995,
+   2289,
+   64
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "US Person अमेरिकी व्यक्ति) 1 (१) Yes No (होइन।",
+   "left": "",
+   "right": "",
+   "above": "Parameter ( सीमा) S.N. (क्र.सं.)",
+   "row": "",
+   "col": "S.N. (क्र.सं.) Parameter ( सीमा)",
+   "matched_on": "col"
+  },
+  "n": 86
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   1116,
+   2289,
+   47
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "2(२) US INDICIA",
+   "left": "",
+   "right": "",
+   "above": "provide following details (यदि हो भने तल उल्लेखित विवरण भर्नुहोस If Yes",
+   "row": "",
+   "col": "If Yes provide following details (यदि हो भने तल उल्लेखित विवरण भर्नुहोस",
+   "matched_on": "above"
+  },
+  "n": 87
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   1164,
+   2289,
+   47
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "US TELEPHONE Number ( अमेरिकी टेलिफोन नं.) a",
+   "left": "",
+   "right": "",
+   "above": "2(२) US INDICIA",
+   "row": "",
+   "col": "2(२) US INDICIA",
+   "matched_on": "col"
+  },
+  "n": 88
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   1211,
+   2289,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड Yes No b हाइन",
+   "left": "",
+   "right": "",
+   "above": "US TELEPHONE Number ( अमेरिकी टेलिफोन नं.) a",
+   "row": "",
+   "col": "a US TELEPHONE Number ( अमेरिकी टेलिफोन नं.)",
+   "matched_on": "above"
+  },
+  "n": 89
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   1265,
+   2289,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Country of Birth US (जन्मेको देश अमेरिका) Yes No C हाइ",
+   "left": "",
+   "right": "",
+   "above": "US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड No",
+   "row": "",
+   "col": "b US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड Yes No हाइन",
+   "matched_on": "above"
+  },
+  "n": 90
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   1320,
+   2289,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "3 (३) Resident of US ( अमेरिकी बासिन्दा) No (हाइन। Yes",
+   "left": "",
+   "right": "",
+   "above": "Country of Birth US (जन्मेको देश अमेरिका) Yes",
+   "row": "",
+   "col": "C Country of Birth US (जन्मेको देश अमेरिका) Yes No हाइ",
+   "matched_on": "above"
+  },
+  "n": 91
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   1374,
+   2289,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.) a",
+   "left": "",
+   "right": "",
+   "above": "3 (३) Resident of US ( अमेरिकी बासिन्दा)",
+   "row": "",
+   "col": "3 (३) Resident of US ( अमेरिकी बासिन्दा) Yes No (हाइन।",
+   "matched_on": "col"
+  },
+  "n": 92
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   92,
+   1429,
+   2289,
+   54
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "W9 फर्म बुझाएको Yes b W9 Form submitted No हाइन",
+   "left": "",
+   "right": "",
+   "above": "TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.) a",
+   "row": "",
+   "col": "a TIN Number (कर दाखिला गर्ने व्यक्तिको परिचय नं.)",
+   "matched_on": "col"
+  },
+  "n": 93
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   91,
+   789,
+   2292,
+   60
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "FATCA DECLARATION (बिदेशी खाता कर अनुपालन ऐन सम्बन्धी घोषणा)",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Date of membership Expiry of membership Name of close associates Name of associated organization Position (पद Institution ( संस्था) (सदस्यताको मिति (सदस्यताको समाप्ती) (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "col"
+  },
+  "n": 94
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   336,
+   2289,
+   104
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Date of membership Expiry of membership Name of associated organization Name of close associates Position (पद Institution ( संस्था) (सदस्यताको मिति (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम) (सदस्यताको समाप्ती)",
+   "left": "",
+   "right": "",
+   "above": "If yes, please furnish following information ( यदि भएमा निम्न उल्लेखित विवरण भर्नुहोस्। निजसंग सम्बन्धित व्यक्ति हुनुहुन्छ ?)",
+   "row": "",
+   "col": "DECLARATION (स्वःघोषणा)",
+   "matched_on": "above"
+  },
+  "n": 95
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   96,
+   101,
+   2290,
+   63
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "DECLARATION (स्वःघोषणा)",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 96
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   101,
+   441,
+   2289,
+   99
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "(सदस्यताको मिति (सदस्यताको समाप्ती)",
+   "row": "",
+   "col": "Date of membership Expiry of membership Name of close associates Name of associated organization Position (पद Institution ( संस्था) (सदस्यताको मिति (सदस्यताको समाप्ती) (निजसंग सम्बन्धित व्यक्तिको नाम) (निजसंग सम्बन्धित संस्थाको नाम)",
+   "matched_on": "above"
+  },
+  "n": 97
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   409,
+   2993,
+   1970,
+   71
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Gorup ID",
+   "left": "Risk  Category",
+   "right": "",
+   "above": "",
+   "row": "Risk  Category",
+   "col": "If Yes provide following details (यदि हो भने तल उल्लेखित विवरण भर्नुहोस",
+   "matched_on": "col"
+  },
+  "n": 98
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1147,
+   118,
+   30,
+   34
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1147,
+     118,
+     30,
+     34
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 99
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1327,
+   199,
+   471,
+   39
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1327,
+     199,
+     42,
+     39
+    ]
+   },
+   {
+    "label": "No ( होइन।",
+    "bbox": [
+     1603,
+     199,
+     42,
+     39
+    ]
+   }
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "left": "निजसंग सम्बन्धित व्यक्ति हुनुहुन्छ ?) Politically Exposed Person (PEP) or Close Family Member or Associated of PEP?",
+   "options": [
+    "Yes",
+    "No ( होइन।"
+   ]
+  },
+  "n": 100
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   571,
+   620,
+   879,
+   39
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     571,
+     620,
+     47,
+     39
+    ]
+   },
+   {
+    "label": "No",
+    "bbox": [
+     865,
+     620,
+     42,
+     39
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Blacklisted (कालोसूचीमा परेको)",
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  "n": 101
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1887,
+   620,
+   481,
+   39
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1887,
+     620,
+     42,
+     39
+    ]
+   },
+   {
+    "label": "No होइन",
+    "bbox": [
+     2179,
+     620,
+     42,
+     39
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Convicted crime in past (विगतमा अपराधिक सजाय पाएको)",
+   "options": [
+    "Yes",
+    "No होइन"
+   ]
+  },
+  "n": 102
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1006,
+   809,
+   24,
+   28
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     1006,
+     809,
+     24,
+     28
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    ""
+   ]
+  },
+  "n": 103
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   143,
+   886,
+   436,
+   20
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "",
+    "bbox": [
+     143,
+     886,
+     18,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     329,
+     886,
+     17,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     408,
+     886,
+     17,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     477,
+     886,
+     17,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     524,
+     886,
+     17,
+     20
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     562,
+     886,
+     17,
+     20
+    ]
+   }
+  ],
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 104
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1606,
+   1005,
+   178,
+   43
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "No (होइन।",
+    "bbox": [
+     1606,
+     1005,
+     47,
+     43
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Yes",
+   "options": [
+    "No (होइन।"
+   ]
+  },
+  "n": 105
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1362,
+   1006,
+   88,
+   43
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1362,
+     1006,
+     47,
+     43
+    ]
+   }
+  ],
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "left": "US Person अमेरिकी व्यक्ति)",
+   "options": [
+    "Yes"
+   ]
+  },
+  "n": 106
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1362,
+   1216,
+   291,
+   44
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1362,
+     1216,
+     47,
+     43
+    ]
+   },
+   {
+    "label": "No",
+    "bbox": [
+     1606,
+     1217,
+     47,
+     43
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "US Citizenship/ Green Card ( अमेरिकी नागरिक / ग्रीनकार्ड",
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  "n": 107
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1362,
+   1270,
+   291,
+   44
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1362,
+     1270,
+     47,
+     43
+    ]
+   },
+   {
+    "label": "No",
+    "bbox": [
+     1606,
+     1271,
+     47,
+     43
+    ]
+   }
+  ],
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Country of Birth US (जन्मेको देश अमेरिका)",
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  "n": 108
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1606,
+   1321,
+   178,
+   43
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "No (हाइन।",
+    "bbox": [
+     1606,
+     1321,
+     47,
+     43
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Yes",
+   "options": [
+    "No (हाइन।"
+   ]
+  },
+  "n": 109
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1362,
+   1325,
+   88,
+   43
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1362,
+     1325,
+     47,
+     43
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Resident of US ( अमेरिकी बासिन्दा)",
+   "options": [
+    "Yes"
+   ]
+  },
+  "n": 110
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1362,
+   1433,
+   291,
+   44
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1362,
+     1433,
+     47,
+     43
+    ]
+   },
+   {
+    "label": "No",
+    "bbox": [
+     1606,
+     1434,
+     47,
+     43
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "W9 Form submitted W9 फर्म बुझाएको",
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  "n": 111
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1339,
+   2784,
+   506,
+   50
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "M  M",
+    "bbox": [
+     1339,
+     2784,
+     59,
+     50
+    ]
+   },
+   {
+    "label": "M  M",
+    "bbox": [
+     1399,
+     2784,
+     59,
+     50
+    ]
+   },
+   {
+    "label": "Y",
+    "bbox": [
+     1474,
+     2784,
+     59,
+     50
+    ]
+   },
+   {
+    "label": "Y",
+    "bbox": [
+     1533,
+     2784,
+     59,
+     50
+    ]
+   },
+   {
+    "label": "Y Y",
+    "bbox": [
+     1609,
+     2784,
+     59,
+     50
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1668,
+     2784,
+     59,
+     50
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1727,
+     2784,
+     59,
+     50
+    ]
+   },
+   {
+    "label": "",
+    "bbox": [
+     1786,
+     2784,
+     59,
+     50
+    ]
+   }
+  ],
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "Date",
+   "options": [
+    "M  M",
+    "M  M",
+    "Y",
+    "Y",
+    "Y Y",
+    "",
+    "",
+    ""
+   ]
+  },
+  "n": 112
+ }
+]

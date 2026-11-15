@@ -18,7 +18,8 @@ def test_health_reports_missing_model_honestly(client):
     assert body["mock_cv"] is False
     yolo = next(c for c in body["components"] if c["name"] == "yolo")
     assert yolo["ok"] is False
-    assert any("YOLO model not loaded" in b for b in body["banners"])
+    assert any("YOLO model not trained yet" in b for b in body["banners"])
+    assert body["mode"] == "template_alignment+snap"
     assert not any("MOCK" in b for b in body["banners"])
 
 

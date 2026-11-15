@@ -1,0 +1,22 @@
+{
+ "template_id": "machhapuchhre",
+ "bank_name": "Machhapuchchhre Bank",
+ "role": "training",
+ "pages": [
+  {
+   "page_number": 1,
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 2,
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 3,
+   "width": 2481,
+   "height": 3508
+  }
+ ]
+}

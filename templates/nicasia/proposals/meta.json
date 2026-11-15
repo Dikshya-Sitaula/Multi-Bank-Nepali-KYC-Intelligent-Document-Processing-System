@@ -1,0 +1,32 @@
+{
+ "template_id": "nicasia",
+ "bank_name": "NIC Asia Bank",
+ "role": "training",
+ "pages": [
+  {
+   "page_number": 1,
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 2,
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 3,
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 4,
+   "width": 2481,
+   "height": 3508
+  },
+  {
+   "page_number": 5,
+   "width": 2481,
+   "height": 3508
+  }
+ ]
+}

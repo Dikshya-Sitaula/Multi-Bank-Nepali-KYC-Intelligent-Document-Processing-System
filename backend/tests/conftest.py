@@ -27,6 +27,7 @@ def app_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Iterator[Path]:
     monkeypatch.setenv("UPLOAD_DIR", str(tmp_path / "uploads"))
     monkeypatch.setenv("OUTPUT_DIR", str(tmp_path / "outputs"))
     monkeypatch.setenv("WORKER_ENABLED", "false")
+    monkeypatch.setenv("OCR_PRELOAD", "false")
     monkeypatch.setenv("MOCK_CV", "false")
     monkeypatch.delenv("BOOTSTRAP_ADMIN_USERNAME", raising=False)
     monkeypatch.delenv("BOOTSTRAP_ADMIN_PASSWORD", raising=False)

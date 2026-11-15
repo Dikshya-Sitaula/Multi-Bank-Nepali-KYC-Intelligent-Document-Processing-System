@@ -1,0 +1,274 @@
+# Developer review of the automatic proposals for the Machhapuchchhre Bank
+# KYC Update and Dormant A/C Activation Form (Personal), MBL-OP-070.
+#
+# This form draws every letter cell as a separate square, so the proposer split some
+# fields and merged others (e.g. B.S. and A.D. dates of birth became one 16-box group;
+# gender and marital status became one 6-box group). Those regions are rebuilt below
+# from the detected cell coordinates. Pages use keep_only: only listed candidates,
+# table cells and added regions are kept.
+
+template:
+  bank_name: Machhapuchchhre Bank
+  form_name: KYC Update and Dormant A/C Activation Form (Personal)
+  languages: [eng, nep]
+
+pages:
+  1:
+    keep_only: true
+    set:
+      15: {field_id: person_photo}
+      19: {field_id: name_english}
+      36: {field_id: nationality}
+      28: {field_id: other_text, group_id: resident}
+      67: {field_id: social_media_id, group_id: viber}
+      68: {field_id: social_media_id, group_id: facebook}
+      66: {field_id: social_media_id, group_id: other}
+      110: {field_id: yes_no, group_id: dormant, options: [yes, no]}
+      # Address table (rows), groups from the column via group_by_x below.
+      31: {field_id: address_country}
+      43: {field_id: address_country}
+      50: {field_id: address_country}
+      32: {field_id: address_province}
+      39: {field_id: address_province}
+      46: {field_id: address_province}
+      30: {field_id: address_district}
+      41: {field_id: address_district}
+      48: {field_id: address_district}
+      21: {field_id: address_municipality}
+      22: {field_id: address_municipality}
+      24: {field_id: address_municipality}
+      34: {field_id: address_ward}
+      42: {field_id: address_ward}
+      45: {field_id: address_ward}
+      29: {field_id: address_tole}
+      37: {field_id: address_tole}
+      47: {field_id: address_tole}
+      33: {field_id: address_house_no}
+      40: {field_id: address_house_no}
+      49: {field_id: address_house_no}
+      27: {field_id: phone}
+      25: {field_id: mobile}
+      16: {field_id: email}
+      13: {field_id: geo_coordinate, group_id: permanent}
+      14: {field_id: geo_coordinate, group_id: current}
+      11: {field_id: location_map, group_id: permanent}
+      12: {field_id: location_map, group_id: current}
+    group_by_x:
+      - y: [0.36, 0.50]
+        fields: [address_country, address_province, address_district, address_municipality,
+                 address_ward, address_tole, address_house_no]
+        columns: [[0.154, 0.443, permanent], [0.443, 0.718, current], [0.718, 0.97, local_contact]]
+    add:
+      - {field_id: branch_name, bbox_px: [95, 170, 540, 75], label: "Branch (dotted line)"}
+      - {field_id: form_date, cell_count: 8, bbox_px: [1530, 294, 506, 57], label: "Date D D M M Y Y Y Y"}
+      - {field_id: customer_id, cell_count: 9, bbox_px: [515, 446, 630, 65], label: "Customer ID"}
+      - field_id: other_choice
+        group_id: minor_major
+        bbox_px: [1530, 446, 520, 65]
+        label: "Account Holder: Minor / Major"
+        options:
+          - {id: minor, label: Minor, bbox_px: [1540, 453, 53, 52]}
+          - {id: major, label: Major, bbox_px: [1816, 453, 53, 52]}
+      - {field_id: bank_account_number, group_id: this_account, cell_count: 16, bbox_px: [515, 604, 1876, 65],
+         label: "Account No."}
+      - {field_id: other_text, group_id: dormancy_reason, bbox_px: [830, 715, 1430, 70],
+         label: "Reason for dormancy (dotted line)"}
+      - {field_id: dob_bs, cell_count: 8, bbox_px: [693, 798, 602, 58], label: "Date of Birth B.S."}
+      - {field_id: dob_ad, cell_count: 8, bbox_px: [1503, 798, 603, 58], label: "Date of Birth A.D."}
+      - field_id: gender
+        bbox_px: [340, 862, 710, 62]
+        label: Gender
+        options:
+          - {id: male, label: Male, bbox_px: [348, 871, 53, 52]}
+          - {id: female, label: Female, bbox_px: [561, 871, 53, 52]}
+          - {id: other, label: Others, bbox_px: [817, 871, 53, 52]}
+      - field_id: marital_status
+        bbox_px: [1460, 862, 1000, 62]
+        label: Marital Status
+        options:
+          - {id: married, label: Married, bbox_px: [1467, 871, 53, 52]}
+          - {id: unmarried, label: Unmarried, bbox_px: [1742, 871, 53, 52]}
+          - {id: other, label: Others, bbox_px: [2065, 871, 53, 52]}
+      - field_id: education_choice
+        bbox_px: [425, 1000, 700, 65]
+        label: Education
+        options:
+          - {id: literate, label: Literate, bbox_px: [431, 1008, 56, 50]}
+          - {id: illiterate, label: Illiterate, bbox_px: [791, 1008, 56, 50]}
+
+  2:
+    keep_only: true
+    tables:
+      # Identification Details table: one row per legal ID, P1 ids get their own field.
+      - kinds: [box]
+        rows:
+          - [0.058, 0.077, national_id, {field_map: {id_number: national_id_number}}]
+          - [0.077, 0.097, citizenship, {field_map: {id_number: citizenship_number, id_issued_by: citizenship_issue_district, id_issue_date: citizenship_issue_date}}]
+          - [0.097, 0.117, passport, {field_map: {id_number: passport_number}}]
+          - [0.117, 0.136, driving_license]
+          - [0.136, 0.156, pan, {field_map: {id_number: pan_number}}]
+          - [0.156, 0.176, birth_certificate]
+          - [0.176, 0.196, other_id]
+        cols:
+          - [0.25, 0.412, id_number]
+          - [0.412, 0.569, id_issued_by]
+          - [0.569, 0.712, id_issue_date]
+          - [0.712, 0.859, id_expiry_date]
+          - [0.859, 0.97, other_text]
+      # Related Parties table.
+      - kinds: [box]
+        attrs: {party: related_party}
+        rows:
+          - [0.251, 0.272, spouse]
+          - [0.272, 0.292, mother]
+          - [0.292, 0.313, father]
+          - [0.313, 0.333, grandfather]
+          - [0.333, 0.354, son]
+          - [0.354, 0.374, daughter]
+          - [0.374, 0.395, father_in_law]
+          - [0.395, 0.416, legal_custodian]
+          - [0.416, 0.446, related_non_personal]
+        cols:
+          - [0.191, 0.493, family_member_name]
+          - [0.493, 0.591, id_type]
+          - [0.591, 0.712, id_number]
+          - [0.712, 0.829, other_text]
+          - [0.829, 0.965, customer_id]
+    set:
+      178: {field_id: id_document_choice, group_id: national_id, options: [selected]}
+      179: {field_id: id_document_choice, group_id: citizenship, options: [selected]}
+      180: {field_id: id_document_choice, group_id: passport, options: [selected]}
+      181: {field_id: id_document_choice, group_id: driving_license, options: [selected]}
+      182: {field_id: id_document_choice, group_id: pan, options: [selected]}
+      183: {field_id: id_document_choice, group_id: birth_certificate, options: [selected]}
+      184: {field_id: id_document_choice, group_id: other_id, options: [selected]}
+      35: {field_id: other_text, group_id: account_purpose_other}
+      88: {field_id: source_of_income_text, group_id: other}
+      15: {field_id: occupation_text, group_id: other}
+      14: {field_id: employer_name}
+      16: {field_id: annual_income}
+      17: {field_id: transaction_amount, group_id: annual_turnover}
+      148: {field_id: signature}
+    add:
+      - field_id: account_purpose_choice
+        bbox_px: [828, 1675, 1565, 115]
+        label: Purpose of Account Opening
+        options:
+          - {id: saving, label: Saving, bbox_px: [835, 1682, 40, 41]}
+          - {id: remuneration, label: Remuneration, bbox_px: [1102, 1682, 40, 41]}
+          - {id: remittance, label: Remittance, bbox_px: [1541, 1682, 40, 41]}
+          - {id: loan_transaction, label: Loan Transaction, bbox_px: [1901, 1682, 40, 41]}
+          - {id: investment, label: Investment, bbox_px: [835, 1746, 40, 41]}
+          - {id: other, label: Others, bbox_px: [1190, 1746, 40, 41]}
+      - field_id: source_of_income
+        bbox_px: [550, 1806, 1840, 120]
+        label: Source of Fund
+        options:
+          - {id: remuneration, label: Remuneration, bbox_px: [558, 1814, 40, 41]}
+          - {id: agriculture, label: Agriculture, bbox_px: [1042, 1814, 40, 41]}
+          - {id: business_income, label: Business Income, bbox_px: [1408, 1814, 40, 41]}
+          - {id: investment_income, label: Investment Income, bbox_px: [1894, 1814, 40, 41]}
+          - {id: inheritance_gift, label: Inheritance/Gift, bbox_px: [558, 1879, 40, 41]}
+          - {id: disposal_of_assets, label: Disposal of Assets, bbox_px: [1040, 1879, 40, 41]}
+          - {id: other, label: Others, bbox_px: [1644, 1879, 40, 41]}
+      - field_id: occupation_choice
+        bbox_px: [90, 1945, 2300, 185]
+        label: Nature of Occupation
+        options:
+          - {id: private_sector, label: Private Sector, bbox_px: [715, 1952, 40, 41]}
+          - {id: professional, label: Professional, bbox_px: [1215, 1952, 40, 41]}
+          - {id: retired, label: Retired, bbox_px: [1666, 1952, 40, 41]}
+          - {id: politician, label: Politician, bbox_px: [2052, 1952, 40, 41]}
+          - {id: public_sector, label: Public Sector, bbox_px: [96, 2020, 40, 41]}
+          - {id: self_employed, label: Self Employed, bbox_px: [620, 2019, 40, 41]}
+          - {id: house_wife, label: House Wife, bbox_px: [1095, 2019, 40, 41]}
+          - {id: government_sector, label: Government Sector, bbox_px: [1477, 2019, 40, 41]}
+          - {id: business, label: Business, bbox_px: [2052, 2019, 40, 41]}
+          - {id: student, label: Student, bbox_px: [96, 2085, 40, 41]}
+          - {id: other, label: Others, bbox_px: [435, 2085, 40, 41]}
+      - field_id: transaction_range_choice
+        group_id: monthly_transactions
+        bbox_px: [885, 2430, 1500, 55]
+        label: Number of Monthly transaction
+        options:
+          - {id: lt_15, label: "<15", bbox_px: [891, 2440, 41, 41]}
+          - {id: "15_30", label: "15-30", bbox_px: [1354, 2439, 41, 41]}
+          - {id: gt_30, label: ">30", bbox_px: [1861, 2439, 41, 41]}
+      - field_id: transaction_range_choice
+        group_id: annual_transaction_volume
+        bbox_px: [92, 2700, 676, 500]
+        label: Transaction Details (annual)
+        options:
+          - {id: lt_0_5m, label: Below NPR 0.5 Million, bbox_px: [119, 2708, 46, 41]}
+          - {id: 0_5m_1m, label: NPR 0.5 - 1 Million, bbox_px: [119, 2771, 46, 41]}
+          - {id: 1m_1_5m, label: NPR 1 - 1.5 Million, bbox_px: [119, 2834, 46, 41]}
+          - {id: 1_5m_2_5m, label: NPR 1.5 - 2.5 Million, bbox_px: [119, 2896, 46, 41]}
+          - {id: 2_5m_5m, label: NPR 2.5 - 5 Million, bbox_px: [119, 2959, 46, 41]}
+          - {id: 5m_10m, label: NPR 5 - 10 Million, bbox_px: [119, 3022, 46, 41]}
+          - {id: 10m_50m, label: NPR 10 - 50 Million, bbox_px: [119, 3084, 46, 41]}
+          - {id: gt_50m, label: Above NPR 50 Million, bbox_px: [119, 3147, 46, 41]}
+      - field_id: transaction_range_choice
+        group_id: net_worth
+        bbox_px: [768, 2700, 816, 440]
+        label: Net Worth
+        options:
+          - {id: lt_1m, label: Less than NPR 1 Million, bbox_px: [799, 2708, 46, 41]}
+          - {id: 1m_5m, label: NPR 1 - 5 Million, bbox_px: [799, 2771, 46, 41]}
+          - {id: 5m_10m, label: NPR 5 - 10 Million, bbox_px: [799, 2834, 46, 41]}
+          - {id: 10m_50m, label: NPR 10 - 50 Million, bbox_px: [799, 2896, 46, 41]}
+          - {id: 50m_100m, label: NPR 50 - 100 Million, bbox_px: [799, 2959, 46, 41]}
+          - {id: 100m_200m, label: NPR 100 - 200 Million, bbox_px: [799, 3022, 46, 41]}
+          - {id: gt_200m, label: Above NPR 200 Million, bbox_px: [799, 3084, 46, 41]}
+      - field_id: income_range
+        group_id: annual_income
+        bbox_px: [1585, 2700, 795, 380]
+        label: Annual Income
+        options:
+          - {id: 0_5m_1m, label: NPR 0.5 - 1 Million, bbox_px: [1630, 2708, 46, 41]}
+          - {id: 1m_1_5m, label: NPR 1 - 1.5 Million, bbox_px: [1630, 2771, 46, 41]}
+          - {id: 1_5m_2_5m, label: NPR 1.5 - 2.5 Million, bbox_px: [1630, 2834, 46, 41]}
+          - {id: 2_5m_5m, label: NPR 2.5 - 5 Million, bbox_px: [1630, 2896, 46, 41]}
+          - {id: 5m_10m, label: NPR 5 - 10 Million, bbox_px: [1630, 2959, 46, 41]}
+          - {id: gt_10m, label: Above NPR 10 Million, bbox_px: [1630, 3022, 46, 41]}
+
+  3:
+    keep_only: true
+    set:
+      100: {field_id: yes_no, group_id: pep, options: [yes, no]}
+      31: {field_id: declaration_detail, group_id: pep_position}
+      42: {field_id: declaration_detail, group_id: pep_institution}
+      37: {field_id: declaration_detail, group_id: pep_membership_date}
+      34: {field_id: declaration_detail, group_id: pep_membership_expiry}
+      20: {field_id: declaration_detail, group_id: pep_close_associate}
+      19: {field_id: declaration_detail, group_id: pep_associated_organization}
+      101: {field_id: yes_no, group_id: blacklisted, options: [yes, no]}
+      102: {field_id: yes_no, group_id: criminal_record, options: [yes, no]}
+      107: {field_id: yes_no, group_id: fatca_us_citizen_green_card, options: [yes, no]}
+      108: {field_id: yes_no, group_id: fatca_country_of_birth_us, options: [yes, no]}
+      111: {field_id: yes_no, group_id: fatca_w9_submitted, options: [yes, no]}
+      40: {field_id: phone, group_id: fatca_us_telephone}
+      32: {field_id: other_text, group_id: fatca_us_tin}
+      # The thumb impression box is split in two; the form does not print which side is
+      # which, so the left half is taken as the right thumb (the convention printed on
+      # the NIC Asia and Laxmi Sunrise forms). Check this at Checkpoint A.
+      10: {field_id: thumbprint_right}
+      11: {field_id: thumbprint_left}
+    add:
+      # US person and US resident rows: the Yes and No boxes were detected as separate
+      # single-box groups, so each question is rebuilt as one yes/no group.
+      - field_id: yes_no
+        group_id: fatca_us_person
+        bbox_px: [1355, 1000, 440, 55]
+        label: US Person
+        options:
+          - {id: yes, label: Yes, bbox_px: [1362, 1006, 40, 43]}
+          - {id: no, label: No, bbox_px: [1606, 1005, 40, 43]}
+      - field_id: yes_no
+        group_id: fatca_us_resident
+        bbox_px: [1355, 1318, 440, 55]
+        label: Resident of US
+        options:
+          - {id: yes, label: Yes, bbox_px: [1362, 1325, 40, 43]}
+          - {id: no, label: No, bbox_px: [1606, 1321, 40, 43]}
+      - {field_id: signature, bbox_px: [1080, 1720, 720, 160], label: "Account Holder's Signature"}
+      - {field_id: bank_use_area, bbox_px: [88, 2770, 2295, 470], label: "For Bank's Use only"}

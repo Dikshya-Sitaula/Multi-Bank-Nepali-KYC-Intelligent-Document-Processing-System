@@ -1,0 +1,91 @@
+# Printed-label keywords used by backend/scripts/propose_templates.py to SUGGEST a field
+# for each proposed box. Suggestions are always reviewed by a human (Checkpoint A).
+#
+# Matching: the label text near a box (row label, column header, text to the left or
+# above) is lower-cased; rules are tried top to bottom and the first rule whose `any`
+# keywords appear (and whose `all` keywords, if given, also appear) wins.
+# `group_id` sets the template region's group (which address, relation, question...).
+# Keep more specific rules above general ones. Adding a bank's wording is a data change.
+
+rules:
+  # --- dates of birth (before generic "date")
+  - {any: ["b.s", "bs (", "वि.सं", "वि. सं"], all_any: ["birth", "जन्म"], field_id: dob_bs}
+  - {any: ["a.d", "ad (", "ई.सं", "ई. सं"], all_any: ["birth", "जन्म"], field_id: dob_ad}
+  - {any: ["b.s", "वि.सं"], field_id: dob_bs}
+  - {any: ["a.d", "ई.सं"], field_id: dob_ad}
+
+  # --- names
+  - {any: ["grandfather", "grand father", "बाजे", "हजुरबुबा"], field_id: family_member_name, group_id: grandfather}
+  - {any: ["grand mother", "grandmother", "बज्यै"], field_id: family_member_name, group_id: grandmother}
+  - {any: ["father-in-law", "father in-law", "father in law", "ससुरा"], field_id: family_member_name, group_id: father_in_law}
+  - {any: ["mother-in-law", "mother in law", "सासु"], field_id: family_member_name, group_id: mother_in_law}
+  - {any: ["daughter-in-law", "daughter in-law", "बुहारी"], field_id: family_member_name, group_id: daughter_in_law}
+  - {any: ["father", "बुबा", "बाबु"], field_id: family_member_name, group_id: father}
+  - {any: ["mother", "आमा"], field_id: family_member_name, group_id: mother}
+  - {any: ["spouse", "husband", "wife", "पति", "पत्नी"], field_id: family_member_name, group_id: spouse}
+  - {any: ["son/daughter", "छोरा/छोरी"], field_id: family_member_name, group_id: child}
+  - {any: ["son", "छोरा"], field_id: family_member_name, group_id: son}
+  - {any: ["daughter", "छोरी"], field_id: family_member_name, group_id: daughter}
+  - {any: ["landlord"], all_any: ["phone", "contact"], field_id: landlord_phone}
+  - {any: ["landlord"], all_any: ["address"], field_id: landlord_address}
+  - {any: ["landlord", "घरबेटी"], field_id: landlord_name}
+  - {any: ["block letters", "in block"], field_id: name_boxed}
+  - {any: ["name surname", "नाम थर", "account holder's name", "name of account"], field_id: name_english}
+
+  # --- identification
+  - {any: ["citizenship no", "नागरिकता नं"], field_id: citizenship_number}
+  - {any: ["issue district", "जारी जिल्ला"], field_id: citizenship_issue_district}
+  - {any: ["date of issuance", "जारी गरेको मिति"], field_id: citizenship_issue_date}
+  - {any: ["pan no", "pan number", "स्थायी लेखा"], field_id: pan_number}
+  - {any: ["passport no", "राहदानी नं"], field_id: passport_number}
+  - {any: ["national id", "nid number", "nid no", "राष्ट्रिय परिचय", "रा.प.प"], field_id: national_id_number}
+  - {any: ["id type", "परिचयपत्रको किसिम"], field_id: id_type}
+  - {any: ["date of expiry", "expiry date", "समाप्ति"], field_id: id_expiry_date}
+  - {any: ["date of issue", "issued date", "जारी मिति"], field_id: id_issue_date}
+  - {any: ["issued by", "issued place", "जारी गर्ने"], field_id: id_issued_by}
+  - {any: ["id no", "id number", "परिचयपत्र नं"], field_id: id_number}
+
+  # --- contact
+  - {any: ["alternate mobile", "mobile", "मोबाइल", "मोबाईल"], field_id: mobile}
+  - {any: ["telephone", "tel.", "landline", "phone", "टेलिफोन", "फोन"], field_id: phone}
+  - {any: ["email", "e-mail", "इमेल", "ईमेल"], field_id: email}
+
+  # --- address parts
+  - {any: ["house no", "घर नं"], field_id: address_house_no}
+  - {any: ["block no", "ब्लक नं"], field_id: address_block_no}
+  - {any: ["tole", "street", "टोल"], field_id: address_tole}
+  - {any: ["ward", "वडा"], field_id: address_ward}
+  - {any: ["municipality", "mun.", "गा.पा", "न.पा"], field_id: address_municipality}
+  - {any: ["district", "जिल्ला"], field_id: address_district}
+  - {any: ["province", "state", "प्रदेश"], field_id: address_province}
+  - {any: ["country", "देश"], field_id: address_country}
+
+  # --- occupation and income
+  - {any: ["designation", "position", "पद"], field_id: designation}
+  - {any: ["organization name", "organisation name", "institution name", "employer", "संस्थाको नाम", "कार्यरत"], field_id: employer_name}
+  - {any: ["income limit", "आयको सीमा"], field_id: income_range}
+  - {any: ["annual income", "estimated annual", "आम्दानी"], field_id: annual_income}
+  - {any: ["source of income", "source of fund", "आम्दानीको श्रोत", "कोषको श्रोत"], field_id: source_of_income}
+  - {any: ["occupation", "पेशा"], field_id: occupation_choice}
+  - {any: ["education", "शैक्षिक", "शिक्षा"], field_id: education}
+
+  # --- location
+  - {any: ["location map", "नक्सा"], field_id: location_map}
+  - {any: ["landmark", "सीमा चिन्ह", "ल्याण्डमार्क"], field_id: nearest_landmark}
+  - {any: ["distance"], field_id: landmark_distance}
+  - {any: ["longitude", "latitude"], field_id: geo_coordinate}
+
+  # --- biometrics and form
+  - {any: ["photo", "फोटो"], field_id: person_photo}
+  - {any: ["signature", "हस्ताक्षर", "दस्तखत"], field_id: signature}
+  - {any: ["right", "दाँया", "दायाँ"], field_id: thumbprint_right}
+  - {any: ["left", "बाँया", "बायाँ"], field_id: thumbprint_left}
+  - {any: ["branch", "शाखा"], field_id: branch_name}
+  - {any: ["date", "मिति"], field_id: form_date}
+  - {any: ["nationality", "राष्ट्रियता"], field_id: nationality}
+  - {any: ["gender", "sex", "लिङ्ग"], field_id: gender}
+  - {any: ["marital", "married", "वैवाहिक", "विवाहित"], field_id: marital_status}
+  - {any: ["account no", "account number", "खाता नं"], field_id: bank_account_number}
+  - {any: ["customer id", "client id", "ग्राहक संकेत"], field_id: customer_id}
+  - {any: ["bank name", "बैंकको नाम"], field_id: bank_name}
+  - {any: ["yes", "no", "छ", "छैन", "हो", "होइन"], field_id: yes_no}

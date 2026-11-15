@@ -1,0 +1,1220 @@
+[
+ {
+  "kind": "frame",
+  "bbox": [
+   129,
+   2101,
+   2224,
+   1224
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "nearest_landmark",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "N m./km far from my residence Nearest Landmark is मेरो घरबाट (नजिकको प्रसिद्ध स्थल मि./कि.मि. टाढा रहेको |)",
+   "left": "",
+   "right": "",
+   "above": "Google Plus Code को Copy दिनुहोस् I) (२0) Location map or google map /Google Plus Code of current residence (हाल बसोबास गरिरहेको स्थानको नक्सा अथवा Google Map/",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 0
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   341,
+   277,
+   770,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Bank Name (बैंकको नाम )",
+   "left": "S.N. ऋ.सं. )",
+   "right": "A/C No. (खाता नं. )",
+   "above": "If yes, mention the details भने उल्लेख जर्नुहोस्",
+   "row": "S.N. ऋ.सं. )",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 1
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   341,
+   370,
+   770,
+   91
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "Bank Name (बैंकको नाम )",
+   "row": "",
+   "col": "Bank Name (बैंकको नाम )",
+   "matched_on": "above"
+  },
+  "n": 2
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   341,
+   549,
+   770,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Bank Name (बैंकको नाम )",
+   "matched_on": "col"
+  },
+  "n": 3
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1112,
+   277,
+   727,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "A/C No. (खाता नं. )",
+   "left": "Bank Name (बैंकको नाम )",
+   "right": "A/C Type",
+   "above": "(के तपाईको अन्य कुनै बैंक/वित्तीय संस्थामा खाता छ",
+   "row": "S.N. ऋ.सं. )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 4
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   341,
+   462,
+   770,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Bank Name (बैंकको नाम )",
+   "matched_on": "col"
+  },
+  "n": 5
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1112,
+   370,
+   727,
+   91
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "A/C No. (खाता नं. )",
+   "row": "",
+   "col": "A/C No. (खाता नं. )",
+   "matched_on": "above"
+  },
+  "n": 6
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1112,
+   549,
+   727,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "A/C No. (खाता नं. )",
+   "matched_on": "col"
+  },
+  "n": 7
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1112,
+   462,
+   727,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "A/C No. (खाता नं. )",
+   "matched_on": "col"
+  },
+  "n": 8
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   341,
+   636,
+   770,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "Bank Name (बैंकको नाम )",
+   "matched_on": "col"
+  },
+  "n": 9
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1112,
+   636,
+   727,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "A/C No. (खाता नं. )",
+   "matched_on": "col"
+  },
+  "n": 10
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1840,
+   277,
+   507,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "A/C Type (खाताको प्रकार)",
+   "left": "A/C No. (खाता नं. )",
+   "right": "",
+   "above": "Yes No",
+   "row": "S.N. ऋ.सं. )",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 11
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1840,
+   370,
+   507,
+   91
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "A/C Type (खाताको प्रकार)",
+   "row": "",
+   "col": "A/C Type (खाताको प्रकार)",
+   "matched_on": "col"
+  },
+  "n": 12
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1840,
+   549,
+   507,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "A/C Type (खाताको प्रकार)",
+   "matched_on": "col"
+  },
+  "n": 13
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1840,
+   462,
+   507,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "A/C Type (खाताको प्रकार)",
+   "matched_on": "col"
+  },
+  "n": 14
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   1840,
+   636,
+   507,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "A/C Type (खाताको प्रकार)",
+   "matched_on": "col"
+  },
+  "n": 15
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   229,
+   277,
+   111,
+   92
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "S.N. ऋ.सं. )",
+   "left": "",
+   "right": "Bank Name (बैंकको नाम )",
+   "above": "If yes, mention the details (17) Do you have Bank account with other BFI's",
+   "row": "",
+   "col": "",
+   "matched_on": "above"
+  },
+  "n": 16
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   229,
+   370,
+   111,
+   91
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "ऋ.सं. ) S.N.",
+   "row": "",
+   "col": "S.N. ऋ.सं. )",
+   "matched_on": "col"
+  },
+  "n": 17
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   229,
+   549,
+   111,
+   87
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "S.N. ऋ.सं. )",
+   "matched_on": "col"
+  },
+  "n": 18
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   229,
+   462,
+   111,
+   86
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "S.N. ऋ.सं. )",
+   "matched_on": "col"
+  },
+  "n": 19
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   229,
+   636,
+   111,
+   74
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "S.N. ऋ.सं. )",
+   "matched_on": "col"
+  },
+  "n": 20
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   118,
+   43,
+   2246,
+   64
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 21
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   925,
+   1024,
+   1426,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Passport/Social Security No./NRN No.",
+   "right": "",
+   "above": "Foreigner (Please specify Country)",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 22
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   674,
+   1103,
+   1677,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Foreign Country Address",
+   "right": "",
+   "above": "No. Foreigner (Please specify Country)",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 23
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   325,
+   1182,
+   629,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_tole",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Street:",
+   "right": "City:",
+   "above": "Foreign Country Address Passport/Social Security No./NRN",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 24
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1046,
+   1182,
+   671,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "City:",
+   "right": "Zip Code:",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 25
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1910,
+   1182,
+   441,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Zip Code:",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 26
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   482,
+   1262,
+   797,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "address_country",
+  "group_id": "permanent",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Country Name:",
+   "right": "Telephone",
+   "above": "City: Foreign Country Address",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 27
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1572,
+   1262,
+   776,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "phone",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Telephone No.:",
+   "right": "",
+   "above": "Zip Code:",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 28
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   811,
+   1341,
+   1530,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "family_member_name",
+  "group_id": "son",
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Foreign Country Contact Person",
+   "right": "",
+   "above": "Telephone No.:",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 29
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   507,
+   1420,
+   650,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "form_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Visa Issue Date",
+   "right": "Visa Expiry Date",
+   "above": "Foreign Country Contact Person",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 30
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1491,
+   1420,
+   859,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "id_expiry_date",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Visa Expiry Date",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 31
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   754,
+   1778,
+   671,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "landlord_name",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Landlord's Name (घरबेटीको नाम)",
+   "right": "Address (ठेगाना) :",
+   "above": "सम्पर्क नम्बर उल्लेख जर्नुपर्ने ) ठेगाना",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 32
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1744,
+   1778,
+   587,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Address (ठेगाना) :",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 33
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   616,
+   1862,
+   776,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Contact No. (सम्पर्क नं.):",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 34
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   582,
+   3194,
+   735,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "nearest_landmark",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "Nearest Landmark",
+   "right": "is",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 35
+ },
+ {
+  "kind": "underline",
+  "bbox": [
+   1365,
+   3194,
+   322,
+   62
+  ],
+  "source": "raster",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "is",
+   "right": "m./km far from my residence",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 36
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   3387,
+   2480,
+   120
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": true,
+  "context": {
+   "inside": "Laxmi Sunrise",
+   "left": "",
+   "right": "",
+   "above": "(नजिकको प्रसिद्ध स्थल मि./कि.मि. टाढा रहेको",
+   "row": "",
+   "col": "N Nearest Landmark is m./km far from my residence (नजिकको प्रसिद्ध स्थल मेरो घरबाट मि./कि.मि. टाढा रहेको |)",
+   "matched_on": "col"
+  },
+  "n": 37
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2372,
+   0,
+   107,
+   3464
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "location_map",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "(खाताको प्रकार) (२0) Location map or google map /Google Plus Code of current residence (हाल बसोबास गरिरहेको स्थानको नक्सा अथवा Google Map/ No (होइन )",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": "left"
+  },
+  "n": 38
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   0,
+   107,
+   3464
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "(२0) Location map or google map /Google Plus Code of current residence (हाल बसोबास गरिरहेको स्थानको नक्सा अथवा Google Map/",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 39
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   0,
+   0,
+   2480,
+   107
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "",
+   "col": "",
+   "matched_on": ""
+  },
+  "n": 40
+ },
+ {
+  "kind": "box",
+  "bbox": [
+   2301,
+   3387,
+   70,
+   120
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": null,
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "",
+   "left": "",
+   "right": "",
+   "above": "",
+   "row": "Laxmi Sunrise",
+   "col": "",
+   "matched_on": "row"
+  },
+  "n": 41
+ },
+ {
+  "kind": "frame",
+  "bbox": [
+   228,
+   276,
+   2118,
+   434
+  ],
+  "source": "vector",
+  "cell_count": null,
+  "cells": null,
+  "suggested_field": "bank_account_number",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "inside": "S.N. Bank Name (बैंकको नाम ) A/C Type A/C No. (खाता नं. ) (खाताको प्रकार) ऋ.सं. )",
+   "left": "",
+   "right": "",
+   "above": "If yes, mention the details भने उल्लेख जर्नुहोस्",
+   "row": "",
+   "col": "",
+   "matched_on": "inside"
+  },
+  "n": 42
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1913,
+   154,
+   340,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1913,
+     154,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "No",
+    "bbox": [
+     2140,
+     154,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "(के तपाईको अन्य कुनै बैंक/वित्तीय संस्थामा खाता छ ?)",
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  "n": 43
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   1913,
+   744,
+   442,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Yes",
+    "bbox": [
+     1913,
+     744,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "No (होइन )",
+    "bbox": [
+     2140,
+     744,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "yes_no",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "(18) Are you a foreign national/foreign green card holder/ PR/NRN?",
+   "options": [
+    "Yes",
+    "No (होइन )"
+   ]
+  },
+  "n": 44
+ },
+ {
+  "kind": "checkbox_group",
+  "bbox": [
+   180,
+   970,
+   1510,
+   26
+  ],
+  "source": "raster",
+  "options": [
+   {
+    "label": "Green Card Holder",
+    "bbox": [
+     180,
+     970,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "PR",
+    "bbox": [
+     631,
+     970,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "NRN",
+    "bbox": [
+     801,
+     970,
+     30,
+     26
+    ]
+   },
+   {
+    "label": "Foreigner (Please specify Country)",
+    "bbox": [
+     1015,
+     970,
+     30,
+     26
+    ]
+   }
+  ],
+  "suggested_field": "address_country",
+  "group_id": null,
+  "label_cell": false,
+  "context": {
+   "left": "",
+   "options": [
+    "Green Card Holder",
+    "PR",
+    "NRN",
+    "Foreigner (Please specify Country)"
+   ]
+  },
+  "n": 45
+ }
+]
