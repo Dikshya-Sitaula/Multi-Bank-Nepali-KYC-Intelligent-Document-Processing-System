@@ -1,0 +1,72 @@
+{
+  "template_id": "machhapuchhre",
+  "bank_name": "Machhapuchchhre Bank",
+  "source_file": "data/source_forms/Machapuchre_update_form_personal.pdf",
+  "source_sha256": "b7139b160780f466f2d622456f23ee7888ed5697fa6c9bec29a127dbffac3fe8",
+  "rasterized_at": "2026-11-15T14:53:42",
+  "dpi": 300,
+  "page_count": 3,
+  "source_kind": "vector",
+  "min_native_dpi": null,
+  "quality_verdict": "clean",
+  "suggested_role": "training",
+  "pages": [
+    {
+      "page": 1,
+      "native_dpi": null,
+      "file": "templates/machhapuchhre/pages/page_1.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": true,
+      "vector_drawings": 8491,
+      "embedded_images": 0,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 2843.02,
+      "contrast_rms": 63.52,
+      "ink_contrast": 223.0,
+      "mean_intensity": 228.08,
+      "glare_fraction": 0.6319
+    },
+    {
+      "page": 2,
+      "native_dpi": null,
+      "file": "templates/machhapuchhre/pages/page_2.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": true,
+      "vector_drawings": 5393,
+      "embedded_images": 0,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 3619.64,
+      "contrast_rms": 64.71,
+      "ink_contrast": 222.0,
+      "mean_intensity": 222.5,
+      "glare_fraction": 0.5065
+    },
+    {
+      "page": 3,
+      "native_dpi": null,
+      "file": "templates/machhapuchhre/pages/page_3.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": true,
+      "vector_drawings": 11321,
+      "embedded_images": 0,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 2427.75,
+      "contrast_rms": 55.76,
+      "ink_contrast": 223.0,
+      "mean_intensity": 233.15,
+      "glare_fraction": 0.6811
+    }
+  ]
+}

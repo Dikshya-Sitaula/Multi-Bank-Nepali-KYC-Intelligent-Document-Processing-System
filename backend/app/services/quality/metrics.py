@@ -40,6 +40,16 @@ def contrast_rms(gray: np.ndarray) -> float:
     return float(gray.std())
 
 
+def ink_contrast(gray: np.ndarray) -> float:
+    """Distance between paper (median grey) and ink (0.1th percentile grey).
+
+    Unlike RMS contrast, this does not drop just because a page is mostly blank
+    or printed in a light colour (e.g. orange ink on white). The low percentile is
+    used so that sparse pages, with very little ink, are still measured on ink."""
+    lo, hi = np.percentile(gray, [0.1, 50])
+    return float(hi - lo)
+
+
 def glare_fraction(gray: np.ndarray, level: int = 250) -> float:
     """Fraction of pixels inside smoothed near-saturated regions.
 
@@ -58,6 +68,7 @@ def page_quality_metrics(img: np.ndarray) -> dict:
         "height_px": int(h),
         "sharpness_laplacian_var": round(sharpness_laplacian_var(gray), 2),
         "contrast_rms": round(contrast_rms(gray), 2),
+        "ink_contrast": round(ink_contrast(gray), 2),
         "mean_intensity": round(float(gray.mean()), 2),
         "glare_fraction": round(glare_fraction(gray), 4),
     }

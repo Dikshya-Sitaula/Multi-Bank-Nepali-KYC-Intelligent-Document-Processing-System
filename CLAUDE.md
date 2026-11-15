@@ -72,7 +72,9 @@ frontend/src/{components,pages,layouts,hooks,services,types,utils,i18n}
 
 - Windows 11, PowerShell. Base interpreter: Anaconda Python 3.13 (`python`).
   Project venv: `.venv/` (create with `python -m venv .venv`).
-- GPU: NVIDIA GeForce RTX 3050 Laptop, 4 GB VRAM. Node 24, npm 11. No Tesseract installed.
+- GPU: NVIDIA GeForce RTX 3050 Laptop, 4 GB VRAM. RAM 7.2 GB, 12 logical cores.
+  Node 24, npm 11. No Tesseract installed.
+- Import PyMuPDF as `pymupdf` (the `fitz` name is deprecated).
 - Use `.venv/Scripts/python.exe` (Windows) for every backend command.
 
 ## Run commands

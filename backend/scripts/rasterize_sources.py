@@ -23,7 +23,7 @@ from datetime import datetime
 from pathlib import Path
 
 import cv2
-import fitz  # PyMuPDF
+import pymupdf as fitz  # PyMuPDF (the old 'fitz' import name is deprecated)
 import numpy as np
 import yaml
 
@@ -47,6 +47,20 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+def native_dpi(doc: "fitz.Document", page: "fitz.Page") -> float | None:
+    """Real resolution of the page content.
+
+    A scanned page is a single embedded bitmap; rendering it at 300 DPI does not add
+    detail, so its true resolution is the bitmap width divided by the page width in
+    inches. Returns None for a pure vector page (resolution-independent)."""
+    best = None
+    for im in page.get_images(full=True):
+        width_px = doc.extract_image(im[0])["width"]
+        dpi = width_px / (page.rect.width / 72.0)
+        best = dpi if best is None else max(best, dpi)
+    return round(best, 1) if best is not None else None
+
+
 def rasterize(pdf_path: Path, out_dir: Path, dpi: int) -> list[dict]:
     """Render every page to PNG and measure its quality."""
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -63,6 +77,7 @@ def rasterize(pdf_path: Path, out_dir: Path, dpi: int) -> list[dict]:
             cv2.imwrite(str(out), bgr)
             info = {
                 "page": i,
+                "native_dpi": native_dpi(doc, page),
                 "file": out.relative_to(ROOT).as_posix(),
                 "page_size_pt": [round(page.rect.width, 1), round(page.rect.height, 1)],
                 "has_text_layer": bool(page.get_text("text").strip()),
@@ -81,9 +96,14 @@ def write_report(results: dict, missing: list[str], thresholds: dict, dpi: int) 
         f"{datetime.now().isoformat(timespec='seconds')}.",
         f"Rasterized with PyMuPDF at {dpi} DPI. PDF text layers are not used.", "",
         "## Thresholds (from `config/source_forms.yaml`)", "",
-        f"- Minimum sharpness (variance of Laplacian): {thresholds['min_sharpness']}",
-        f"- Minimum RMS contrast: {thresholds['min_contrast']}", "",
+        f"- Minimum native resolution of scanned content: {thresholds['min_native_dpi']} DPI "
+        "(vector pages are resolution-independent and always pass)",
+        f"- Minimum ink contrast (median grey minus 0.1th percentile grey): {thresholds['min_ink_contrast']}", "",
         "A form is **clean** (training template) only if every page passes both thresholds.", "",
+        "Why these criteria: a scanned page is one embedded bitmap, and rasterizing it at 300 DPI "
+        "cannot add detail, so its native DPI is the honest resolution. Global Laplacian variance "
+        "and RMS contrast are kept as information only: JPEG block artefacts inflate the "
+        "Laplacian, and a crisp vector form printed in light orange ink has low RMS contrast.", "",
     ]
     if missing:
         lines += ["## Missing or unreadable source files", ""]
@@ -94,16 +114,18 @@ def write_report(results: dict, missing: list[str], thresholds: dict, dpi: int) 
     for tid, info in results.items():
         lines += [
             f"## `{tid}` ({info['source_file']})", "",
+            f"Source kind: {info['source_kind']}"
+            + (f", lowest native DPI {info['min_native_dpi']}" if info['min_native_dpi'] else "") + ".",
             f"Verdict: **{info['quality_verdict']}**. Suggested role: {info['suggested_role']}.", "",
-            "| Page | Size px | Sharpness | Contrast | Mean | Text layer | Vector drawings | Embedded images |",
+            "| Page | Size px | Native DPI | Ink contrast | Laplacian var (info) | RMS contrast (info) | Text layer | Vector drawings |",
             "|---|---|---|---|---|---|---|---|",
         ]
         for p in info["pages"]:
             lines.append(
                 f"| {p['page']} | {p['width_px']}x{p['height_px']} | "
+                f"{p['native_dpi'] if p['native_dpi'] else 'vector'} | {p['ink_contrast']:.1f} | "
                 f"{p['sharpness_laplacian_var']:.1f} | {p['contrast_rms']:.1f} | "
-                f"{p['mean_intensity']:.1f} | {p['has_text_layer']} | "
-                f"{p['vector_drawings']} | {p['embedded_images']} |"
+                f"{p['has_text_layer']} | {p['vector_drawings']} |"
             )
         lines.append("")
     REPORT.parent.mkdir(parents=True, exist_ok=True)
@@ -131,9 +153,14 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001 - unreadable PDF is reported, not fatal
             missing.append(f"`{tid}`: `{entry['file']}` unreadable ({type(exc).__name__}: {exc})")
             continue
-        min_sharp = min(p["sharpness_laplacian_var"] for p in pages)
-        min_contrast = min(p["contrast_rms"] for p in pages)
-        clean = min_sharp >= thresholds["min_sharpness"] and min_contrast >= thresholds["min_contrast"]
+        # Verdict. Global Laplacian variance and RMS contrast are recorded but NOT used:
+        # JPEG block artefacts inflate the Laplacian, and light-coloured vector forms have
+        # low RMS contrast despite being perfectly crisp (see report notes).
+        dpis = [p["native_dpi"] for p in pages if p["native_dpi"] is not None]
+        min_dpi = min(dpis) if dpis else None  # None = vector source
+        min_ink = min(p["ink_contrast"] for p in pages)
+        dpi_ok = min_dpi is None or min_dpi >= thresholds["min_native_dpi"]
+        clean = dpi_ok and min_ink >= thresholds["min_ink_contrast"]
         info = {
             "template_id": tid,
             "bank_name": entry.get("bank_name"),
@@ -142,6 +169,8 @@ def main() -> int:
             "rasterized_at": datetime.now().isoformat(timespec="seconds"),
             "dpi": args.dpi,
             "page_count": len(pages),
+            "source_kind": "vector" if min_dpi is None else "embedded_scan",
+            "min_native_dpi": min_dpi,
             "quality_verdict": "clean" if clean else "low_quality",
             "suggested_role": "training" if clean else "evaluation_only (held-out unseen template)",
             "pages": pages,

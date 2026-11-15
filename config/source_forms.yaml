@@ -18,8 +18,8 @@ forms:
     bank_name: Global IME Bank
     optional: true
 
-# Triage thresholds. Initial values; they are revisited after inspecting the measured
-# numbers in reports/source_quality.md, and any change is recorded in PROGRESS.md.
+# Triage thresholds (revised in Phase 1 after inspecting measured values; see
+# reports/source_quality.md for why global sharpness/RMS contrast are not used).
 quality_thresholds:
-  min_sharpness: 150.0
-  min_contrast: 40.0
+  min_native_dpi: 120.0
+  min_ink_contrast: 80.0

@@ -14,8 +14,8 @@ Current branch convention: `phase-N-<slug>` merged into `main` when the phase pa
 
 | Phase | Name | Status |
 |---|---|---|
-| 1 | Inspect and plan | IN PROGRESS |
-| 2 | Backend foundation | not started |
+| 1 | Inspect and plan | DONE (merged to main) |
+| 2 | Backend foundation | IN PROGRESS |
 | 3 | Preprocessing + quality + template identification | not started |
 | 4 | Template enrollment (CHECKPOINT A) | not started |
 | 5 | Synthetic data engine | not started |
@@ -36,9 +36,14 @@ Current branch convention: `phase-N-<slug>` merged into `main` when the phase pa
 - [x] git initialised, remote `origin` set, `main` pushed, branch `phase-1-inspect-and-plan` created.
 - [x] Folder structure created per SPEC §7.
 - [x] `docs/SPEC.md`, `CLAUDE.md`, `PROGRESS.md` written.
-- [ ] `backend/scripts/check_env.py`
-- [ ] `backend/scripts/rasterize_sources.py` + `reports/source_quality.md`
-- [ ] `backend/requirements.txt`, `.env.example`, `config/app.yaml`
+- [x] Source PDFs supplied by the user (found in Downloads) copied read-only into
+      `data/source_forms/` under the expected names. Originals untouched.
+- [x] Manual visual inspection of every page: `reports/form_inspection.md`.
+- [x] `backend/scripts/check_env.py` -> `reports/environment.md`.
+- [x] `backend/scripts/rasterize_sources.py` -> `templates/<id>/pages/page_N.png`,
+      `templates/<id>/source_info.json`, `reports/source_quality.md`.
+- [x] Quality metrics module + 4 passing unit tests.
+- [x] `backend/requirements.txt`, `.env.example`, `config/source_forms.yaml`.
 
 ## Decisions made
 
@@ -47,16 +52,26 @@ Current branch convention: `phase-N-<slug>` merged into `main` when the phase pa
 - YOLO base model: `yolo11n` (configurable in `config/app.yaml`).
 - SQLite for development, URL from env; PostgreSQL-ready through SQLAlchemy.
 
+- **Triage criteria revised after measuring.** The first run used global Laplacian
+  variance and RMS contrast. It wrongly failed Laxmi Sunrise (crisp vector form in light
+  orange ink) and passed Nabil (JPEG artefacts inflate the Laplacian). Final criteria:
+  native resolution of embedded scans (min 120 DPI; vector always passes) and ink
+  contrast (median grey minus 0.1th percentile, min 80).
+- **Triage result:** training templates = nicasia (scan, 144 DPI), laxmisunrise (vector),
+  machhapuchhre (vector). Held-out evaluation template = nabil (scan, 69 DPI).
+- Import PyMuPDF as `pymupdf` (the `fitz` name is deprecated in the installed 1.26+/2.x).
+
 ## Known issues / blockers
 
-- **BLOCKER (needs user):** the source PDFs are not in `data/source_forms/`. Expected files:
-  `NIC_ASIA_KYC_Update_Individual.pdf`, `Laxmisunrisebank-Individuals.pdf`,
-  `Machapuchre_update_form_personal.pdf`, `nabil_kyc.pdf`. Rasterization, quality triage and
-  template enrollment (Phases 1, 3, 4) cannot run on real forms until they are added.
-  Everything that does not depend on the PDFs continues.
+- Optional Global IME form not supplied; `globalime` is skipped.
+- PyTorch, Ultralytics and EasyOCR are not installed yet. The GPU (RTX 3050, 4 GB) is
+  visible to the driver; the CUDA build of torch will be installed before Phase 7/8.
+- Machine RAM is 7.2 GB, which limits dataset generation batch sizes and EasyOCR + YOLO
+  running together. Keep worker concurrency at 1.
 - Tesseract is not installed; it is optional in the spec and will be treated as absent.
 
 ## Next step
 
-Finish Phase 1 scripts (`check_env.py`, `rasterize_sources.py`), run them, commit, merge to
-main, then start Phase 2 (backend foundation) on branch `phase-2-backend-foundation`.
+Phase 2 (backend foundation) on branch `phase-2-backend-foundation`: settings, SQLAlchemy
+models for every SPEC §13.1 table, Alembic migration, JWT auth with admin/employee roles,
+storage service, health endpoint, DB-backed job queue skeleton, pytest coverage.

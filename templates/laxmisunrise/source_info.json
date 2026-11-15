@@ -1,0 +1,91 @@
+{
+  "template_id": "laxmisunrise",
+  "bank_name": "Laxmi Sunrise Bank",
+  "source_file": "data/source_forms/Laxmisunrisebank-Individuals.pdf",
+  "source_sha256": "172d1df3da658f67f77bb4bde9ca3a6fd50a9be52d4a94ed80748e00574fdc80",
+  "rasterized_at": "2026-11-15T14:53:37",
+  "dpi": 300,
+  "page_count": 4,
+  "source_kind": "vector",
+  "min_native_dpi": null,
+  "quality_verdict": "clean",
+  "suggested_role": "training",
+  "pages": [
+    {
+      "page": 1,
+      "native_dpi": null,
+      "file": "templates/laxmisunrise/pages/page_1.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": true,
+      "vector_drawings": 448,
+      "embedded_images": 0,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 698.22,
+      "contrast_rms": 27.87,
+      "ink_contrast": 108.0,
+      "mean_intensity": 242.4,
+      "glare_fraction": 0.5919
+    },
+    {
+      "page": 2,
+      "native_dpi": null,
+      "file": "templates/laxmisunrise/pages/page_2.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": true,
+      "vector_drawings": 147,
+      "embedded_images": 0,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 643.58,
+      "contrast_rms": 22.69,
+      "ink_contrast": 108.0,
+      "mean_intensity": 245.66,
+      "glare_fraction": 0.6625
+    },
+    {
+      "page": 3,
+      "native_dpi": null,
+      "file": "templates/laxmisunrise/pages/page_3.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": true,
+      "vector_drawings": 77,
+      "embedded_images": 0,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 419.54,
+      "contrast_rms": 19.82,
+      "ink_contrast": 108.0,
+      "mean_intensity": 247.22,
+      "glare_fraction": 0.7229
+    },
+    {
+      "page": 4,
+      "native_dpi": null,
+      "file": "templates/laxmisunrise/pages/page_4.png",
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "has_text_layer": true,
+      "vector_drawings": 57,
+      "embedded_images": 0,
+      "width_px": 2481,
+      "height_px": 3508,
+      "sharpness_laplacian_var": 289.64,
+      "contrast_rms": 16.87,
+      "ink_contrast": 108.0,
+      "mean_intensity": 248.54,
+      "glare_fraction": 0.7833
+    }
+  ]
+}

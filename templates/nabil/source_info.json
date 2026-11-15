@@ -1,0 +1,167 @@
+{
+  "template_id": "nabil",
+  "bank_name": "Nabil Bank",
+  "source_file": "data/source_forms/nabil_kyc.pdf",
+  "source_sha256": "9b0cd7e6202ff374caebf4e859d8a5c02096f902540379e8d51e46b5848c1f93",
+  "rasterized_at": "2026-11-15T14:53:45",
+  "dpi": 300,
+  "page_count": 8,
+  "source_kind": "embedded_scan",
+  "min_native_dpi": 69.3,
+  "quality_verdict": "low_quality",
+  "suggested_role": "evaluation_only (held-out unseen template)",
+  "pages": [
+    {
+      "page": 1,
+      "native_dpi": 69.3,
+      "file": "templates/nabil/pages/page_1.png",
+      "page_size_pt": [
+        595.0,
+        842.0
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2480,
+      "height_px": 3509,
+      "sharpness_laplacian_var": 981.65,
+      "contrast_rms": 47.09,
+      "ink_contrast": 255.0,
+      "mean_intensity": 234.69,
+      "glare_fraction": 0.603
+    },
+    {
+      "page": 2,
+      "native_dpi": 69.3,
+      "file": "templates/nabil/pages/page_2.png",
+      "page_size_pt": [
+        595.0,
+        842.0
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2480,
+      "height_px": 3509,
+      "sharpness_laplacian_var": 699.15,
+      "contrast_rms": 42.02,
+      "ink_contrast": 247.0,
+      "mean_intensity": 237.52,
+      "glare_fraction": 0.644
+    },
+    {
+      "page": 3,
+      "native_dpi": 69.3,
+      "file": "templates/nabil/pages/page_3.png",
+      "page_size_pt": [
+        595.0,
+        842.0
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2480,
+      "height_px": 3509,
+      "sharpness_laplacian_var": 703.84,
+      "contrast_rms": 54.61,
+      "ink_contrast": 255.0,
+      "mean_intensity": 232.48,
+      "glare_fraction": 0.6664
+    },
+    {
+      "page": 4,
+      "native_dpi": 69.3,
+      "file": "templates/nabil/pages/page_4.png",
+      "page_size_pt": [
+        595.0,
+        842.0
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2480,
+      "height_px": 3509,
+      "sharpness_laplacian_var": 954.73,
+      "contrast_rms": 46.2,
+      "ink_contrast": 251.0,
+      "mean_intensity": 235.55,
+      "glare_fraction": 0.613
+    },
+    {
+      "page": 5,
+      "native_dpi": 69.3,
+      "file": "templates/nabil/pages/page_5.png",
+      "page_size_pt": [
+        595.0,
+        842.0
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2480,
+      "height_px": 3509,
+      "sharpness_laplacian_var": 591.28,
+      "contrast_rms": 40.01,
+      "ink_contrast": 237.0,
+      "mean_intensity": 239.19,
+      "glare_fraction": 0.6862
+    },
+    {
+      "page": 6,
+      "native_dpi": 69.3,
+      "file": "templates/nabil/pages/page_6.png",
+      "page_size_pt": [
+        595.0,
+        842.0
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2480,
+      "height_px": 3509,
+      "sharpness_laplacian_var": 820.04,
+      "contrast_rms": 60.79,
+      "ink_contrast": 254.0,
+      "mean_intensity": 224.29,
+      "glare_fraction": 0.5737
+    },
+    {
+      "page": 7,
+      "native_dpi": 69.3,
+      "file": "templates/nabil/pages/page_7.png",
+      "page_size_pt": [
+        595.0,
+        842.0
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2480,
+      "height_px": 3509,
+      "sharpness_laplacian_var": 724.84,
+      "contrast_rms": 40.48,
+      "ink_contrast": 237.0,
+      "mean_intensity": 239.29,
+      "glare_fraction": 0.6809
+    },
+    {
+      "page": 8,
+      "native_dpi": 69.3,
+      "file": "templates/nabil/pages/page_8.png",
+      "page_size_pt": [
+        595.0,
+        842.0
+      ],
+      "has_text_layer": false,
+      "vector_drawings": 0,
+      "embedded_images": 1,
+      "width_px": 2480,
+      "height_px": 3509,
+      "sharpness_laplacian_var": 743.9,
+      "contrast_rms": 43.79,
+      "ink_contrast": 235.0,
+      "mean_intensity": 235.73,
+      "glare_fraction": 0.6436
+    }
+  ]
+}

@@ -101,7 +101,10 @@ Every page has an "Applicants' Signature" line at the bottom right.
 ## Conclusions for later phases
 
 - Use raster images only; never PDF text.
-- Training templates (expected, to be confirmed by the measured triage): nicasia,
-  laxmisunrise, machhapuchhre. Held-out evaluation template: nabil.
-- Vector drawings are available for laxmisunrise and machhapuchhre, which should make
-  region auto-proposal more accurate there; nicasia and nabil need raster (OpenCV) proposal.
+- Measured triage (`reports/source_quality.md`) agrees with the visual inspection:
+  - `nicasia`: embedded JPEG scan at about 144 DPI, no vector drawings. Clean enough for
+    training. Region proposal must be raster-based (OpenCV).
+  - `laxmisunrise`, `machhapuchhre`: vector PDFs. Clean training templates; vector
+    rectangles and lines can drive region proposal.
+  - `nabil`: embedded JPEG scan at about 69 DPI, visibly soft. Evaluation only, as the
+    held-out unseen-template experiment.
