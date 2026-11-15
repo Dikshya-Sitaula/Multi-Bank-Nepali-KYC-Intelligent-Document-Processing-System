@@ -44,6 +44,10 @@ class PreprocessResult:
     rotation_deg: int                 # coarse rotation applied (0 or 90)
     skew_deg: float | None            # residual skew that was measured
     params: dict[str, Any]
+    # 3x3 matrix mapping original-image pixel coords -> processed-image pixel coords.
+    # Used to draw boxes found on the processed page back onto the original photo, and
+    # to measure registration error against simulated ground truth.
+    transform: np.ndarray = field(default_factory=lambda: np.eye(3))
 
     def timings(self) -> dict[str, float]:
         return {s.name: s.ms for s in self.steps}
@@ -60,6 +64,7 @@ def preprocess(img: np.ndarray, overrides: dict[str, Any] | None = None, keep_de
         return out, ms
 
     current = img
+    M = np.eye(3)  # accumulated original -> current transform
     if keep_debug:
         records.append(StepRecord("original", True, 0.0, {"size": [img.shape[1], img.shape[0]]}, img))
 
@@ -67,7 +72,10 @@ def preprocess(img: np.ndarray, overrides: dict[str, Any] | None = None, keep_de
     out, ms = run("orientation", cfg["orientation"]["enabled"], steps.rotate_to_portrait, current)
     rotation = 0
     if out is not None:
+        h0 = current.shape[0]
         current, rotation = out
+        if rotation == 90:  # cv2.ROTATE_90_CLOCKWISE: (x, y) -> (h - 1 - y, x)
+            M = np.array([[0, -1, h0 - 1], [1, 0, 0], [0, 0, 1]], float) @ M
     records.append(StepRecord("orientation", out is not None, ms, {"rotated_deg": rotation},
                               current if keep_debug else None))
 
@@ -99,6 +107,7 @@ def preprocess(img: np.ndarray, overrides: dict[str, Any] | None = None, keep_de
     out, ms = run("perspective", do_persp, steps.warp_quad_to_rect, current, quad if quad is not None else np.zeros((4, 2)))
     if out is not None:
         current = out[0]
+        M = out[1].astype(float) @ M
     records.append(StepRecord("perspective", out is not None, ms,
                               {"size": [current.shape[1], current.shape[0]]}, current if keep_debug else None))
 
@@ -111,15 +120,20 @@ def preprocess(img: np.ndarray, overrides: dict[str, Any] | None = None, keep_de
         skew, lines_used = out
         if skew is not None and abs(skew) >= 0.1:
             t0 = time.perf_counter()
+            rot = cv2.getRotationMatrix2D((current.shape[1] / 2, current.shape[0] / 2), -skew, 1.0)
             current = steps.rotate_image(current, -skew)
+            M = np.vstack([rot, [0, 0, 1]]) @ M
             ms += round((time.perf_counter() - t0) * 1000, 2)
     records.append(StepRecord("deskew", out is not None, ms,
                               {"skew_deg": None if skew is None else round(skew, 3), "lines_used": lines_used},
                               current if keep_debug else None))
 
     # 5. resize to template scale
+    before_hw = current.shape[:2]
     out, ms = run("resize", True, steps.resize_to_width, current, int(cfg["target_width"]))
     current, scale = out
+    sx, sy = current.shape[1] / before_hw[1], current.shape[0] / before_hw[0]
+    M = np.diag([sx, sy, 1.0]) @ M
     records.append(StepRecord("resize", True, ms, {"scale": round(scale, 4)}, current if keep_debug else None))
 
     # 6. denoise
@@ -150,4 +164,5 @@ def preprocess(img: np.ndarray, overrides: dict[str, Any] | None = None, keep_de
         rotation_deg=rotation,
         skew_deg=None if skew is None else round(skew, 3),
         params=cfg,
+        transform=M,
     )

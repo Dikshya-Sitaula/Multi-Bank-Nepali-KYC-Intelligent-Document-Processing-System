@@ -106,7 +106,15 @@ def ratio_matches(q: PageFeatures, t: PageFeatures, ratio: float) -> list:
     if len(q.points) < 2 or len(t.points) < 2:
         return []
     knn = _matcher(q.detector).knnMatch(q.descriptors, t.descriptors, k=2)
-    return [m[0] for m in knn if len(m) == 2 and m[0].distance < ratio * m[1].distance]
+    good = [m[0] for m in knn if len(m) == 2 and m[0].distance < ratio * m[1].distance]
+    # One-to-one: keep only the best match per template keypoint. Without this, repeated
+    # glyphs or cells can send many photo keypoints to the same template keypoint, and
+    # RANSAC can then "explain" them with a degenerate, collapsing homography.
+    best: dict[int, cv2.DMatch] = {}
+    for m in good:
+        if m.trainIdx not in best or m.distance < best[m.trainIdx].distance:
+            best[m.trainIdx] = m
+    return list(best.values())
 
 
 def match_page(q: PageFeatures, t: PageFeatures, cfg: dict, good: list | None = None) -> Candidate | None:
