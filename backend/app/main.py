@@ -19,7 +19,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import func, select
 
 from app import __version__
-from app.api import auth, jobs, system
+from app.api import auth, jobs, system, templates
 from app.core.config import get_settings
 from app.core.logging import configure_logging
 from app.core.security import hash_password
@@ -52,11 +52,24 @@ def bootstrap_admin() -> None:
         log.info("bootstrap admin created", extra={"ctx": {"username": s.bootstrap_admin_username}})
 
 
+def sync_templates() -> None:
+    """Mirror templates/<id>/template.json files into the database tables."""
+    from app.services.template.store import sync_all
+
+    with session_scope() as db:
+        try:
+            n = sync_all(db)
+            log.info("templates synced", extra={"ctx": {"count": n}})
+        except Exception:  # noqa: BLE001 - an invalid template must not stop the app
+            log.exception("template sync failed")
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     configure_logging()
     run_migrations()
     bootstrap_admin()
+    sync_templates()
     interrupted = job_queue.recover_interrupted_jobs()
     if interrupted:
         log.warning("marked interrupted jobs as failed", extra={"ctx": {"count": interrupted}})
@@ -94,6 +107,7 @@ def create_app() -> FastAPI:
     api.include_router(system.router)
     api.include_router(auth.router)
     api.include_router(jobs.router)
+    api.include_router(templates.router)
     app.include_router(api)
     return app
 

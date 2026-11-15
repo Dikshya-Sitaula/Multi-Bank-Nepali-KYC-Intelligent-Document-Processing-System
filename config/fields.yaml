@@ -1,0 +1,153 @@
+# Shared field vocabulary for every bank form (SPEC section 8.1).
+#
+# WHY one shared vocabulary: one YOLO model must serve every bank. A YOLO class describes
+# the *kind* of field ("a date of birth in B.S.", "a family member's name", "a yes/no
+# answer"). WHICH question, applicant, table row or address block a detection belongs to
+# comes from the template (templates/<id>/template.json) after registration, not from YOLO.
+# That is why there is one `address_district` class rather than `permanent_district` and
+# `current_district`: the template region's `group_id` says which address it is.
+#
+# Entry keys:
+#   id            stable semantic id, used in template.json regions and in the database
+#   display_name  label shown in the review UI
+#   yolo_class    detector class name (several ids may share one class; see `classes`)
+#   field_type    text | boxed_chars | checkbox_group | visual
+#                 A template region with `cell_count` is read as boxed characters even if
+#                 the vocabulary default is `text` (e.g. a date written in cells).
+#   language      eng | nep | digits | mixed   (what the customer is expected to write)
+#   ocr           whether the crop goes to OCR/HTR (visual items and checkboxes do not)
+#   validation    named rule implemented in services/extraction/validators.py
+#   required      mandatory on a complete KYC record
+#   section       grouping in the review UI
+#   priority      P1 must work, P2 should work, P3 nice to have
+#
+# Only fields that exist on at least one enrolled form are listed (no invented classes).
+
+version: 1
+
+# Which priorities the detector is trained on (SPEC: P1 + P2 first).
+train_priorities: [P1, P2]
+
+sections:
+  - {id: identity, display_name: Identity}
+  - {id: identification, display_name: Identification documents}
+  - {id: contact, display_name: Contact}
+  - {id: address, display_name: Address}
+  - {id: family, display_name: Family}
+  - {id: occupation, display_name: Occupation and income}
+  - {id: declarations, display_name: Declarations}
+  - {id: banking, display_name: Banking}
+  - {id: location, display_name: Location}
+  - {id: biometrics, display_name: Photo, signature and thumbprints}
+  - {id: form, display_name: Form details}
+  - {id: other, display_name: Other}
+
+fields:
+  # ------------------------------------------------------------------ identity (P1)
+  - {id: name_english, display_name: "Name (English)", yolo_class: name_english, field_type: text, language: eng, ocr: true, validation: person_name, required: true, section: identity, priority: P1}
+  - {id: name_nepali, display_name: "Name (Nepali)", yolo_class: name_nepali, field_type: text, language: nep, ocr: true, validation: person_name, required: false, section: identity, priority: P1}
+  - {id: name_boxed, display_name: "Name (block letters)", yolo_class: name_boxed, field_type: boxed_chars, language: eng, ocr: true, validation: person_name, required: true, section: identity, priority: P1}
+  - {id: dob_bs, display_name: "Date of birth (B.S.)", yolo_class: dob_bs, field_type: boxed_chars, language: digits, ocr: true, validation: date_bs, required: true, section: identity, priority: P1}
+  - {id: dob_ad, display_name: "Date of birth (A.D.)", yolo_class: dob_ad, field_type: boxed_chars, language: digits, ocr: true, validation: date_ad, required: true, section: identity, priority: P1}
+  - {id: gender, display_name: Gender, yolo_class: gender, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: true, section: identity, priority: P1}
+  - {id: marital_status, display_name: Marital status, yolo_class: marital_status, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: false, section: identity, priority: P1}
+  - {id: nationality, display_name: Nationality, yolo_class: nationality, field_type: text, language: mixed, ocr: true, validation: free_text, required: true, section: identity, priority: P1}
+  - {id: nationality_choice, display_name: "Nationality (choice)", yolo_class: nationality_choice, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: true, section: identity, priority: P1}
+  - {id: title, display_name: Title, yolo_class: title, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: false, section: identity, priority: P2}
+  - {id: education, display_name: Education, yolo_class: education, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: identity, priority: P2}
+  - {id: education_choice, display_name: "Education (choice)", yolo_class: education_choice, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: false, section: identity, priority: P2}
+
+  # ------------------------------------------------------------------ identification (P1/P2)
+  - {id: citizenship_number, display_name: Citizenship number, yolo_class: citizenship_number, field_type: text, language: mixed, ocr: true, validation: citizenship_number, required: true, section: identification, priority: P1}
+  - {id: citizenship_issue_date, display_name: Citizenship issue date, yolo_class: citizenship_issue_date, field_type: text, language: digits, ocr: true, validation: date_any, required: true, section: identification, priority: P1}
+  - {id: citizenship_issue_district, display_name: Citizenship issue district, yolo_class: citizenship_issue_district, field_type: text, language: mixed, ocr: true, validation: district, required: true, section: identification, priority: P1}
+  - {id: pan_number, display_name: PAN, yolo_class: pan_number, field_type: text, language: digits, ocr: true, validation: pan, required: false, section: identification, priority: P1}
+  - {id: passport_number, display_name: Passport number, yolo_class: passport_number, field_type: text, language: mixed, ocr: true, validation: passport, required: false, section: identification, priority: P1}
+  - {id: national_id_number, display_name: National ID number, yolo_class: national_id_number, field_type: text, language: digits, ocr: true, validation: national_id, required: false, section: identification, priority: P1}
+  # Generic identity-document table cells (passport details, other IDs, minor ID, guardian
+  # ID). The region's group_id says which document they belong to.
+  - {id: id_type, display_name: ID type, yolo_class: id_type, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: identification, priority: P2}
+  - {id: id_number, display_name: ID number, yolo_class: id_number, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: identification, priority: P2}
+  - {id: id_issued_by, display_name: ID issued by / place, yolo_class: id_issued_by, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: identification, priority: P2}
+  - {id: id_issue_date, display_name: ID issue date, yolo_class: id_issue_date, field_type: text, language: digits, ocr: true, validation: date_any, required: false, section: identification, priority: P2}
+  - {id: id_expiry_date, display_name: ID expiry date, yolo_class: id_expiry_date, field_type: text, language: digits, ocr: true, validation: date_any, required: false, section: identification, priority: P2}
+  - {id: id_document_choice, display_name: Identification document type, yolo_class: id_document_choice, field_type: checkbox_group, language: eng, ocr: false, validation: multi_choice, required: false, section: identification, priority: P2}
+
+  # ------------------------------------------------------------------ contact (P1)
+  - {id: phone, display_name: Telephone, yolo_class: phone, field_type: text, language: digits, ocr: true, validation: phone_landline, required: false, section: contact, priority: P1}
+  - {id: mobile, display_name: Mobile, yolo_class: mobile, field_type: text, language: digits, ocr: true, validation: phone_mobile, required: true, section: contact, priority: P1}
+  - {id: email, display_name: Email, yolo_class: email, field_type: text, language: eng, ocr: true, validation: email, required: false, section: contact, priority: P1}
+  - {id: social_media_id, display_name: Social media ID, yolo_class: social_media_id, field_type: text, language: eng, ocr: true, validation: free_text, required: false, section: contact, priority: P3}
+
+  # ------------------------------------------------------------------ address (P1)
+  # group_id on the region: permanent | current | mailing | office | local_contact | foreign | guardian
+  - {id: address_country, display_name: Country, yolo_class: address_country, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: address, priority: P1}
+  - {id: address_province, display_name: Province, yolo_class: address_province, field_type: text, language: mixed, ocr: true, validation: province, required: true, section: address, priority: P1}
+  - {id: address_district, display_name: District, yolo_class: address_district, field_type: text, language: mixed, ocr: true, validation: district, required: true, section: address, priority: P1}
+  - {id: address_municipality, display_name: Municipality, yolo_class: address_municipality, field_type: text, language: mixed, ocr: true, validation: free_text, required: true, section: address, priority: P1}
+  - {id: address_ward, display_name: Ward number, yolo_class: address_ward, field_type: text, language: digits, ocr: true, validation: ward, required: true, section: address, priority: P1}
+  - {id: address_tole, display_name: Tole / street, yolo_class: address_tole, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: address, priority: P1}
+  - {id: address_house_no, display_name: House number, yolo_class: address_house_no, field_type: text, language: digits, ocr: true, validation: free_text, required: false, section: address, priority: P1}
+  - {id: address_block_no, display_name: Block number, yolo_class: address_block_no, field_type: text, language: digits, ocr: true, validation: free_text, required: false, section: address, priority: P3}
+  - {id: address_full_text, display_name: Address (free text), yolo_class: address_full_text, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: address, priority: P2}
+
+  # ------------------------------------------------------------------ family (P1)
+  # group_id on the region: grandfather | father | mother | spouse | son | daughter |
+  # daughter_in_law | father_in_law | mother_in_law | grandmother | legal_custodian | ...
+  - {id: family_member_name, display_name: Family member name, yolo_class: family_member_name, field_type: text, language: mixed, ocr: true, validation: person_name, required: false, section: family, priority: P1}
+  - {id: family_relation, display_name: Relation, yolo_class: family_relation, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: family, priority: P2}
+  - {id: family_detail, display_name: Family member detail, yolo_class: family_detail, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: family, priority: P3}
+
+  # ------------------------------------------------------------------ occupation (P1)
+  - {id: occupation_choice, display_name: Occupation, yolo_class: occupation_choice, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: true, section: occupation, priority: P1}
+  - {id: occupation_text, display_name: "Occupation (text)", yolo_class: occupation_text, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: occupation, priority: P1}
+  - {id: business_type_choice, display_name: Type of business, yolo_class: business_type_choice, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: false, section: occupation, priority: P2}
+  - {id: employer_name, display_name: Employer / organisation, yolo_class: employer_name, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: occupation, priority: P1}
+  - {id: employer_address, display_name: Employer address, yolo_class: employer_address, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: occupation, priority: P2}
+  - {id: designation, display_name: Designation, yolo_class: designation, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: occupation, priority: P1}
+  - {id: employee_id, display_name: Employee ID, yolo_class: employee_id, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: occupation, priority: P3}
+  - {id: income_range, display_name: Income range, yolo_class: income_range, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: false, section: occupation, priority: P1}
+  - {id: annual_income, display_name: Annual income (amount), yolo_class: annual_income, field_type: text, language: digits, ocr: true, validation: amount, required: false, section: occupation, priority: P1}
+  - {id: source_of_income, display_name: Source of income, yolo_class: source_of_income, field_type: checkbox_group, language: eng, ocr: false, validation: multi_choice, required: false, section: occupation, priority: P1}
+  - {id: source_of_income_text, display_name: "Source of income (text)", yolo_class: source_of_income_text, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: occupation, priority: P2}
+
+  # ------------------------------------------------------------------ declarations (P2)
+  # One class for every yes/no question; the template's group_id names the question
+  # (pep, criminal_record, beneficial_owner, fatca_us_person, ...).
+  - {id: yes_no, display_name: Yes / No answer, yolo_class: yes_no, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: false, section: declarations, priority: P2}
+  - {id: declaration_detail, display_name: Declaration detail, yolo_class: declaration_detail, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: declarations, priority: P2}
+
+  # ------------------------------------------------------------------ banking (P2)
+  - {id: bank_name, display_name: Bank name, yolo_class: bank_name, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: banking, priority: P2}
+  - {id: bank_account_number, display_name: Account number, yolo_class: bank_account_number, field_type: text, language: digits, ocr: true, validation: account_number, required: false, section: banking, priority: P2}
+  - {id: bank_account_type, display_name: Account type, yolo_class: bank_account_type, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: banking, priority: P2}
+  - {id: bank_branch, display_name: Bank branch, yolo_class: bank_branch, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: banking, priority: P2}
+  - {id: customer_id, display_name: Customer / client ID, yolo_class: customer_id, field_type: boxed_chars, language: digits, ocr: true, validation: free_text, required: false, section: banking, priority: P2}
+  - {id: account_purpose_choice, display_name: Account purpose / type, yolo_class: account_purpose_choice, field_type: checkbox_group, language: eng, ocr: false, validation: multi_choice, required: false, section: banking, priority: P2}
+  - {id: transaction_amount, display_name: Expected transaction amount, yolo_class: transaction_amount, field_type: text, language: digits, ocr: true, validation: amount, required: false, section: banking, priority: P2}
+  - {id: transaction_range_choice, display_name: Transaction / turnover range, yolo_class: transaction_range_choice, field_type: checkbox_group, language: eng, ocr: false, validation: single_choice, required: false, section: banking, priority: P2}
+
+  # ------------------------------------------------------------------ location (P1/P2)
+  - {id: location_map, display_name: Location map, yolo_class: location_map, field_type: visual, language: mixed, ocr: false, validation: none, required: true, section: location, priority: P1}
+  - {id: nearest_landmark, display_name: Nearest landmark, yolo_class: nearest_landmark, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: location, priority: P2}
+  - {id: landmark_distance, display_name: Distance from landmark, yolo_class: landmark_distance, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: location, priority: P2}
+  - {id: geo_coordinate, display_name: Latitude / longitude, yolo_class: geo_coordinate, field_type: text, language: digits, ocr: true, validation: free_text, required: false, section: location, priority: P3}
+  - {id: landlord_name, display_name: Landlord name, yolo_class: landlord_name, field_type: text, language: mixed, ocr: true, validation: person_name, required: false, section: location, priority: P2}
+  - {id: landlord_phone, display_name: Landlord phone, yolo_class: landlord_phone, field_type: text, language: digits, ocr: true, validation: phone_any, required: false, section: location, priority: P2}
+  - {id: landlord_address, display_name: Landlord address, yolo_class: landlord_address, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: location, priority: P2}
+
+  # ------------------------------------------------------------------ biometrics (P1)
+  - {id: person_photo, display_name: Photo, yolo_class: person_photo, field_type: visual, language: mixed, ocr: false, validation: none, required: true, section: biometrics, priority: P1}
+  - {id: signature, display_name: Signature, yolo_class: signature, field_type: visual, language: mixed, ocr: false, validation: none, required: true, section: biometrics, priority: P1}
+  - {id: thumbprint_right, display_name: Right thumbprint, yolo_class: thumbprint_right, field_type: visual, language: mixed, ocr: false, validation: none, required: true, section: biometrics, priority: P1}
+  - {id: thumbprint_left, display_name: Left thumbprint, yolo_class: thumbprint_left, field_type: visual, language: mixed, ocr: false, validation: none, required: true, section: biometrics, priority: P1}
+
+  # ------------------------------------------------------------------ form details (P2/P3)
+  - {id: form_date, display_name: Form date, yolo_class: form_date, field_type: text, language: digits, ocr: true, validation: date_any, required: false, section: form, priority: P2}
+  - {id: branch_name, display_name: Branch, yolo_class: branch_name, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: form, priority: P2}
+
+  # ------------------------------------------------------------------ long tail (P3)
+  # Merged catch-alls instead of hundreds of rare classes (SPEC section 8.1).
+  - {id: other_text, display_name: Other text, yolo_class: other_text, field_type: text, language: mixed, ocr: true, validation: free_text, required: false, section: other, priority: P3}
+  - {id: other_choice, display_name: Other choice, yolo_class: other_choice, field_type: checkbox_group, language: eng, ocr: false, validation: multi_choice, required: false, section: other, priority: P3}
+  - {id: bank_use_area, display_name: Bank use only area, yolo_class: bank_use_area, field_type: visual, language: mixed, ocr: false, validation: none, required: false, section: other, priority: P3}
