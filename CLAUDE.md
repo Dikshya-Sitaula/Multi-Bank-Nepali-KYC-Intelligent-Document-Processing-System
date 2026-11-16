@@ -115,3 +115,5 @@ node scripts\screenshots.mjs <user> <PASSWORD_ENV_VAR> outputs\screens "/@1440,3
 ```
 
 (Commands for later phases are added here as the scripts are created.)
+
+- Never add Co-Authored-By trailers or AI attribution to commits or pull requests.
