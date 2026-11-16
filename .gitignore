@@ -49,3 +49,10 @@ templates/*/features/
 templates/*/proposals/*.jpg
 templates/*/.build_sha256
 data/demo_forms/
+
+# Exclude claude files
+.claude/
+CLAUDE.md
+claude.md
+*.db-shm
+*.db-wal
