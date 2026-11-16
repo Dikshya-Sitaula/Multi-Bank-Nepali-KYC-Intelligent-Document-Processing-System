@@ -5,14 +5,14 @@ Last updated: 2026-11-15 (session 2, after demo sprint)
 ## Resume instructions
 
 ```
-Resume. Read CLAUDE.md and PROGRESS.md and continue.
+Resume. Read PROGRESS.md and continue.
 ```
 
 Current branch convention: `phase-N-<slug>` merged into `main` when the phase passes.
 
 ## Demo sprint (2026-11-15): DONE, merged to main
 
-Instructions: `docs/SPRINT.md`. Branch `demo-sprint` (built on `phase-4-template-enrollment`).
+Branch `demo-sprint` (built on `phase-4-template-enrollment`).
 
 **What works (tested for real through the API and in a browser):**
 - One-command start (`scripts/dev.py`), JWT login, `create_user.py` (password typed in).
