@@ -10,7 +10,7 @@ values and shows everything for human review, search and export.
 detector is designed in but **not trained yet**, and nothing in the UI is labelled as a
 YOLO result. Demo forms are SYNTHETIC (fictional people, procedural photos and signatures).
 
-Full brief: `docs/SPEC.md`. Demo sprint brief: `docs/SPRINT.md`. Status: `PROGRESS.md`.
+Full brief: `docs/SPEC.md`. Status: `PROGRESS.md`.
 
 ## Start the app (Windows PowerShell)
 
