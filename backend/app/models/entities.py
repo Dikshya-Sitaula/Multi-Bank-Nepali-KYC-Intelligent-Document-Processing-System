@@ -354,3 +354,30 @@ class AuditLog(Base):
     details: Mapped[dict[str, Any] | None] = mapped_column(JSON)
     ip_address: Mapped[str | None] = mapped_column(String(64))
     created_at: Mapped[datetime] = mapped_column(UTCDateTime(), default=utcnow, nullable=False)
+
+
+# --------------------------------------------------------------------------- customer profile
+
+
+class CustomerProfile(TimestampMixin, Base):
+    """Clean, consolidated 1-row-per-customer record derived from verified KYC documents."""
+
+    __tablename__ = "customer_profiles"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    document_id: Mapped[int] = mapped_column(ForeignKey("documents.id", ondelete="CASCADE"), unique=True, nullable=False)
+    name_english: Mapped[str | None] = mapped_column(String(256))
+    customer_id: Mapped[str | None] = mapped_column(String(64))
+    account_number: Mapped[str | None] = mapped_column(String(64))
+    branch_name: Mapped[str | None] = mapped_column(String(128))
+    gender: Mapped[str | None] = mapped_column(String(32))
+    marital_status: Mapped[str | None] = mapped_column(String(32))
+    dob_bs: Mapped[str | None] = mapped_column(String(32))
+    nationality: Mapped[str | None] = mapped_column(String(64))
+    email: Mapped[str | None] = mapped_column(String(128))
+    mobile: Mapped[str | None] = mapped_column(String(32))
+    permanent_address: Mapped[str | None] = mapped_column(Text)
+    current_address: Mapped[str | None] = mapped_column(Text)
+    education: Mapped[str | None] = mapped_column(String(64))
+    verification_status: Mapped[str | None] = mapped_column(String(32), default="pending")
+

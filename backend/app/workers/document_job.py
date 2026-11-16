@@ -17,6 +17,7 @@ from app.core.config import get_settings
 from app.database.session import session_scope
 from app.models import Document, DocumentStatus, ExtractedField, FieldDetection, FieldStatus, FormTemplate, JobStatus, Page
 from app.models.base import utcnow
+from app.services.extraction.customer import sync_customer_profile
 from app.services.extraction.vision import process_page
 from app.services.preprocessing.steps import decode_image_bytes
 from app.services.storage.files import open_stored
@@ -98,6 +99,7 @@ def process_document(ctx: JobContext) -> dict:
             doc.template_id = ft.id if ft else None
             doc.template_confidence = round(sum(conf_seen) / len(conf_seen), 4)
             doc.status = DocumentStatus.needs_review
+            sync_customer_profile(db, ctx.document_id)
         else:
             doc.status = DocumentStatus.failed
         doc.processing_finished_at = utcnow()
