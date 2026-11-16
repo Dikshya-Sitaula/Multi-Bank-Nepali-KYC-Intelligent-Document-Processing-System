@@ -20,10 +20,11 @@ from sqlalchemy import func, or_, select
 
 from app.api.deps import DB, CurrentUser, client_ip
 from app.core.config import get_settings
-from app.models import (Document, DocumentStatus, ExtractedField, FieldEdit, FieldStatus, FormTemplate, Page,
+from app.models import (CustomerProfile, Document, DocumentStatus, ExtractedField, FieldEdit, FieldStatus, FormTemplate, Page,
                         ProcessingJob)
 from app.models.base import utcnow
 from app.services import audit
+from app.services.extraction.customer import sync_customer_profile
 from app.services.extraction.vision import DEFAULT_PARAMS, lab_rerun
 from app.services.preprocessing.steps import decode_image_bytes, rasterize_pdf_bytes
 from app.services.quality.page_check import check_page
@@ -264,6 +265,8 @@ def patch_field(fid: int, body: FieldPatch, user: CurrentUser, db: DB, request: 
     db.add(FieldEdit(field_id=f.id, user_id=user.id, old_value=old_v, new_value=f.normalized_value,
                      old_status=old_s, new_status=f.status.value, reason="edit"))
     db.commit()
+    sync_customer_profile(db, f.document_id)
+    db.commit()
     audit.record(db, "field.edit", user_id=user.id, entity_type="field", entity_id=f.id,
                  details={"field_id": f.field_id}, ip_address=client_ip(request))
     return _field_out(f, load_vocabulary().by_id())
@@ -287,12 +290,88 @@ def verify_field(fid: int, user: CurrentUser, db: DB, request: Request) -> dict[
         doc.status = DocumentStatus.verified
         doc.verified_by, doc.verified_at = user.id, utcnow()
     db.commit()
+    sync_customer_profile(db, f.document_id)
+    db.commit()
     audit.record(db, "field.verify", user_id=user.id, entity_type="field", entity_id=f.id,
                  details={"field_id": f.field_id}, ip_address=client_ip(request))
     return _field_out(f, load_vocabulary().by_id())
 
 
 # --------------------------------------------------------------------------- search / export / stats
+
+
+@router.get("/customers")
+def list_customers(
+    _: CurrentUser,
+    db: DB,
+    q: str | None = None,
+    status: str | None = None,
+    page: int = Query(1, ge=1),
+    page_size: int = Query(20, ge=1, le=100),
+) -> dict[str, Any]:
+    # Ensure any processed document has a customer profile record
+    docs_with_fields = db.execute(
+        select(Document.id)
+        .join(ExtractedField, ExtractedField.document_id == Document.id)
+        .distinct()
+    ).scalars().all()
+    for did in docs_with_fields:
+        prof_exists = db.execute(select(CustomerProfile.id).where(CustomerProfile.document_id == did)).first()
+        if not prof_exists:
+            sync_customer_profile(db, did)
+            db.commit()
+
+    stmt = (
+        select(CustomerProfile, Document)
+        .join(Document, CustomerProfile.document_id == Document.id)
+    )
+    if q:
+        like = f"%{q.strip()}%"
+        stmt = stmt.where(
+            or_(
+                CustomerProfile.name_english.ilike(like),
+                CustomerProfile.customer_id.ilike(like),
+                CustomerProfile.account_number.ilike(like),
+                CustomerProfile.email.ilike(like),
+                CustomerProfile.mobile.ilike(like),
+                CustomerProfile.permanent_address.ilike(like),
+                CustomerProfile.current_address.ilike(like),
+            )
+        )
+    if status:
+        stmt = stmt.where(CustomerProfile.verification_status == status)
+
+    total = db.execute(select(func.count()).select_from(stmt.subquery())).scalar_one()
+    rows = db.execute(
+        stmt.order_by(CustomerProfile.updated_at.desc(), CustomerProfile.id.desc())
+        .offset((page - 1) * page_size)
+        .limit(page_size)
+    ).all()
+
+    items = []
+    for prof, doc in rows:
+        items.append({
+            "id": prof.id,
+            "document_id": prof.document_id,
+            "document_display_name": doc.display_name,
+            "name_english": prof.name_english or "Unnamed Customer",
+            "customer_id": prof.customer_id,
+            "account_number": prof.account_number,
+            "branch_name": prof.branch_name,
+            "gender": prof.gender,
+            "marital_status": prof.marital_status,
+            "dob_bs": prof.dob_bs,
+            "nationality": prof.nationality,
+            "email": prof.email,
+            "mobile": prof.mobile,
+            "permanent_address": prof.permanent_address,
+            "current_address": prof.current_address,
+            "education": prof.education,
+            "verification_status": prof.verification_status or doc.status.value,
+            "created_at": prof.created_at.isoformat() if prof.created_at else None,
+            "updated_at": prof.updated_at.isoformat() if prof.updated_at else None,
+        })
+    return {"items": items, "total": total, "page": page, "page_size": page_size}
 
 
 @router.get("/search")

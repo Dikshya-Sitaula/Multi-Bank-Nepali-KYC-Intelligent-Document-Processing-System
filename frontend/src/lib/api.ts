@@ -99,3 +99,25 @@ export type StageRun = {
   registration?: { overlap: number; aligned_image: string }
 }
 export type Paged<T> = { items: T[]; total: number; page: number; page_size: number }
+export type CustomerProfile = {
+  id: number
+  document_id: number
+  document_display_name?: string
+  name_english: string | null
+  customer_id: string | null
+  account_number: string | null
+  branch_name: string | null
+  gender: string | null
+  marital_status: string | null
+  dob_bs: string | null
+  nationality: string | null
+  email: string | null
+  mobile: string | null
+  permanent_address: string | null
+  current_address: string | null
+  education: string | null
+  verification_status: string
+  created_at: string
+  updated_at: string
+}
+

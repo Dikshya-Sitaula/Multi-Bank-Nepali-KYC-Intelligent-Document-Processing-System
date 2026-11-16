@@ -3,7 +3,21 @@
 // until a person presses Verify.
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { motion } from 'framer-motion'
-import { CheckCircle2, ChevronUp, Download, FlaskConical, RefreshCw, ZoomIn, ZoomOut } from 'lucide-react'
+import {
+  Camera,
+  CheckCircle2,
+  ChevronUp,
+  CreditCard,
+  Download,
+  FlaskConical,
+  Mail,
+  MapPin,
+  Phone,
+  RefreshCw,
+  User,
+  ZoomIn,
+  ZoomOut,
+} from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { TransformComponent, TransformWrapper, type ReactZoomPanPinchRef } from 'react-zoom-pan-pinch'
@@ -13,6 +27,39 @@ import { api, download, fileUrl, type DocDetail, type Field, type StageRun } fro
 import { cn, confColour, ms, pct, STATUS_LABEL } from '../lib/utils'
 
 const fieldConf = (f: Field) => f.ocr_confidence ?? f.detection_confidence
+
+function getInitials(name: string | null | undefined): string {
+  if (!name) return '?'
+  const parts = name.trim().split(/\s+/)
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase()
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase()
+}
+
+function getCustomerSummary(fields: Field[]) {
+  const byId = (id: string, group?: string) =>
+    fields.find((f) => f.field_id === id && (!group || f.group_id === group))?.normalized_value ||
+    fields.find((f) => f.field_id === id && (!group || f.group_id === group))?.raw_text
+
+  const name =
+    byId('name_english') || byId('name_boxed') || byId('name_nepali') || 'Unknown Customer'
+  const accountNo = byId('bank_account_number')
+  const customerId = byId('customer_id')
+  const email = byId('email')
+  const phone = byId('mobile') || byId('phone')
+  const branch = byId('branch_name')
+
+  // Permanent address
+  const permParts = [
+    byId('address_house_no', 'permanent') ? `House ${byId('address_house_no', 'permanent')}` : null,
+    byId('address_tole', 'permanent') ? `Tole ${byId('address_tole', 'permanent')}` : null,
+    byId('address_municipality', 'permanent'),
+    byId('address_district', 'permanent'),
+    byId('address_country', 'permanent'),
+  ].filter(Boolean)
+  const permAddress = permParts.length > 0 ? permParts.join(', ') : null
+
+  return { name, accountNo, customerId, email, phone, branch, permAddress }
+}
 
 function Inspector({ fields, selected, onSelect, docId }: { fields: Field[]; selected: number | null; onSelect: (id: number) => void; docId: number }) {
   const qc = useQueryClient()
@@ -46,16 +93,45 @@ function FieldRow({ f, active, onSelect, onSaved }: { f: Field; active: boolean;
   const conf = fieldConf(f)
   const low = f.status === 'needs_review' || f.status === 'unreadable'
   const dev = /[ऀ-ॿ]/.test(value + (f.raw_text ?? ''))
+  const hasValue = !!(f.normalized_value || f.raw_text)
+
   return (
     <div ref={ref} onClick={onSelect}
       className={cn('cursor-pointer rounded-xl border p-3 transition', active ? 'border-accent bg-accent/8 glow' : low ? 'border-warn/40 bg-warn/5' : 'border-line bg-panel-2/40 hover:bg-panel-2')}>
       <div className="flex items-center justify-between gap-2">
         <div className="min-w-0">
-          <div className="truncate text-sm font-medium">{f.display_name}</div>
-          <div className="truncate text-[11px] text-muted">{[f.group_id, f.row_index ? `row ${f.row_index}` : null, f.field_id].filter(Boolean).join(' · ')}</div>
+          <div className="truncate text-xs font-medium text-muted">{f.display_name}</div>
+          <div className="truncate text-[10px] text-muted/70">{[f.group_id, f.row_index ? `row ${f.row_index}` : null, f.field_id].filter(Boolean).join(' · ')}</div>
         </div>
         <StatusBadge status={f.status} />
       </div>
+
+      {/* Immediately visible extracted value */}
+      <div className="mt-2 flex items-baseline justify-between gap-2 border-t border-line/40 pt-2">
+        <div className={cn(
+          'truncate text-sm font-semibold',
+          hasValue ? 'text-fg' : 'text-xs font-normal italic text-muted',
+          dev && 'devanagari'
+        )}>
+          {f.field_type === 'visual' ? (
+            <span className="inline-flex items-center gap-1.5 text-xs font-normal text-accent">
+              <Camera className="size-3.5" /> Visual crop captured
+            </span>
+          ) : f.checkbox ? (
+            <span className="text-xs font-medium text-accent">
+              ☑ {f.normalized_value || 'Option selected'}
+            </span>
+          ) : (
+            f.normalized_value || f.raw_text || '— (empty field)'
+          )}
+        </div>
+        {f.ocr_confidence !== null && (
+          <span className="shrink-0 font-mono text-[11px] text-muted">
+            {Math.round(f.ocr_confidence * 100)}%
+          </span>
+        )}
+      </div>
+
       {active && (
         <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} className="mt-3 space-y-3" onClick={(e) => e.stopPropagation()}>
           {f.crop_path && <img src={fileUrl(f.crop_path)} alt="field crop" className="max-h-24 w-full rounded-lg bg-white object-contain" />}
@@ -108,6 +184,7 @@ export default function Review() {
   const ident = stagesQ.data?.identification as { template_size?: [number, number] } | undefined
   const size = ident?.template_size ?? [2481, 3508]
   const aligned = stagesQ.data?.registration?.aligned_image
+  const customer = useMemo(() => getCustomerSummary(doc?.fields ?? []), [doc?.fields])
 
   if (docQ.isLoading) return <div className="grid gap-5 lg:grid-cols-[1fr_420px]"><Skeleton className="h-[75vh]" /><Skeleton className="h-[75vh]" /></div>
   if (docQ.error) return <ErrorState error={docQ.error} />
@@ -151,6 +228,59 @@ export default function Review() {
             {job.stage_timings?.total !== undefined && <span className="font-mono text-accent">total {ms(job.stage_timings.total * 1000)}</span>}
             {running && <span className="flex items-center gap-2"><span className="h-1.5 w-28 overflow-hidden rounded-full bg-line"><span className="block h-full bg-accent transition-all" style={{ width: `${job.progress * 100}%` }} /></span>{job.message}</span>}
             <span className="ml-auto flex flex-wrap gap-2">{Object.entries(counts).map(([k, v]) => <span key={k}>{STATUS_LABEL[k] ?? k}: <b>{v}</b></span>)}</span>
+          </div>
+        </Card>
+      )}
+
+      {/* Quick Customer Profile Summary Card */}
+      {customer.name && customer.name !== 'Unknown Customer' && (
+        <Card className="border border-accent/25 bg-gradient-to-r from-accent/10 via-panel to-panel-2 p-4">
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center gap-3.5">
+              <div className="flex size-12 shrink-0 items-center justify-center rounded-2xl border border-accent/30 bg-accent/20 text-base font-bold text-accent shadow-inner">
+                {getInitials(customer.name)}
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-accent">Scanned Customer</span>
+                  <StatusBadge status={doc.status} />
+                </div>
+                <h2 className="text-xl font-bold tracking-tight text-fg">{customer.name}</h2>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs">
+              {customer.accountNo && (
+                <div className="flex items-center gap-1.5 text-muted">
+                  <CreditCard className="size-4 text-accent" />
+                  <span>A/C: <b className="font-mono text-fg">{customer.accountNo}</b></span>
+                </div>
+              )}
+              {customer.customerId && (
+                <div className="flex items-center gap-1.5 text-muted">
+                  <User className="size-4 text-accent" />
+                  <span>Cust ID: <b className="font-mono text-fg">{customer.customerId}</b></span>
+                </div>
+              )}
+              {customer.permAddress && (
+                <div className="flex items-center gap-1.5 text-muted">
+                  <MapPin className="size-4 text-accent" />
+                  <span>Address: <b className="text-fg">{customer.permAddress}</b></span>
+                </div>
+              )}
+              {customer.email && (
+                <div className="flex items-center gap-1.5 text-muted">
+                  <Mail className="size-4 text-accent" />
+                  <span>Email: <b className="text-fg">{customer.email}</b></span>
+                </div>
+              )}
+              {customer.phone && (
+                <div className="flex items-center gap-1.5 text-muted">
+                  <Phone className="size-4 text-accent" />
+                  <span>Phone: <b className="font-mono text-fg">{customer.phone}</b></span>
+                </div>
+              )}
+            </div>
           </div>
         </Card>
       )}

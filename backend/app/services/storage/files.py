@@ -55,7 +55,8 @@ _SAFE_CHARS = re.compile(r"[^A-Za-z0-9._ -]+")
 
 def safe_display_name(name: str | None, max_len: int = 128) -> str:
     """Sanitise a client filename for display only. It is never used as a disk path."""
-    base = Path(name or "upload").name  # drop any directory components
+    raw = (name or "upload").replace("\\", "/")
+    base = Path(raw).name  # drop any directory components
     base = _SAFE_CHARS.sub("_", base).strip(" .") or "upload"
     return base[:max_len]
 
