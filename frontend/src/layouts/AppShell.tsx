@@ -82,7 +82,6 @@ function StatusChip() {
 export default function AppShell() {
   const [dark, setDark] = useTheme()
   const nav = useNavigate()
-  const { data: health } = useQuery({ queryKey: ['health'], queryFn: () => api<Health>('/health') })
   return (
     <div className="flex min-h-full">
       <aside className="sticky top-0 hidden h-screen w-60 shrink-0 flex-col border-r border-line px-3 py-5 lg:flex">
@@ -117,11 +116,6 @@ export default function AppShell() {
             {dark ? <Sun className="size-4" /> : <Moon className="size-4" />}
           </button>
         </header>
-        {health && (
-          <div className="border-b border-line bg-warn/8 px-4 py-2 text-xs text-warn md:px-6">
-            <b>What is real here:</b> {health.banners.join(' ')} Every image, box and number comes from the backend and the database. Demo forms are SYNTHETIC (fictional people).
-          </div>
-        )}
         <main className="mx-auto w-full max-w-[1600px] min-w-0 flex-1 px-4 py-6 md:px-6"><Outlet /></main>
       </div>
 
