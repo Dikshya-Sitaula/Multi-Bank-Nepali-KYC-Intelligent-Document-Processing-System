@@ -1,5 +1,5 @@
 // Thin typed client for the FastAPI backend. Every value the UI shows comes from here.
-const BASE = '/api/v1'
+const BASE = import.meta.env.VITE_API_BASE || '/api/v1'
 const TOKEN_KEY = 'kyc_token'
 
 export function getToken(): string | null {

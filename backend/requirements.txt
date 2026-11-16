@@ -14,6 +14,7 @@ rich>=13
 psutil>=5.9
 openpyxl>=3.1
 sse-starlette>=2.1
+psycopg[binary]>=3.2
 
 # Computer vision
 opencv-python-headless>=4.10
@@ -23,9 +24,9 @@ scikit-image>=0.23
 pymupdf>=1.24
 
 # Detection / OCR / HTR (heavy; installed in Phase 7-8, see docs/MODEL_TRAINING.md)
-# torch / torchvision : install the CUDA build matching your driver, see check_env.py output
+# torch / torchvision : Render installs the CPU wheels from the PyTorch index
 # ultralytics>=8.3
-# easyocr>=1.7
+easyocr>=1.7
 # python-Levenshtein>=0.25   (CER computation)
 
 # Testing
