@@ -1,16 +1,16 @@
 # Environment report
 
-Generated: 2026-11-15T14:53:53
+Generated: 2026-11-16T16:12:45
 
 ## System
 
-- OS: Windows-11-10.0.26200-SP0
-- Python: 3.13.9 (C:\Users\nitro\Desktop\KYC app\.venv\Scripts\python.exe)
-- CPU: AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD
-- CPU cores (logical): 12
-- RAM: 7.2 GB
-- Compute backend: cuda-driver-only (torch CUDA not active)
-- GPU: NVIDIA GeForce RTX 3050 Laptop GPU (4.0 GB, via nvidia-smi)
+- OS: Linux-7.0.0-42-generic-x86_64-with-glibc2.43
+- Python: 3.14.4 (/home/reesuuu/Projects/Multi-Bank-Nepali-KYC-Intelligent-Document-Processing-System/.venv/bin/python)
+- CPU: unknown
+- CPU cores (logical): 16
+- RAM: 14.4 GB
+- Compute backend: cuda
+- GPU: NVIDIA GeForce RTX 4050 Laptop GPU (5.6 GB, via torch)
 - Tesseract binary: NOT FOUND (optional engine disabled)
 
 ## Python packages
@@ -19,17 +19,18 @@ Generated: 2026-11-15T14:53:53
 |---|---|---|
 | `fitz` | PyMuPDF (PDF rasterization) | OK 2.1 |
 | `cv2` | OpenCV | OK 5.0.0 |
-| `numpy` | NumPy | OK 2.5.4 |
+| `numpy` | NumPy | OK 2.5.5 |
 | `PIL` | Pillow | OK 13.0.0 |
 | `skimage` | scikit-image | OK 0.26.0 |
 | `yaml` | PyYAML | OK 6.0.3 |
-| `fastapi` | FastAPI | OK 0.163.0 |
+| `fastapi` | FastAPI | OK 0.163.1 |
 | `sqlalchemy` | SQLAlchemy | OK 2.1.8 |
 | `alembic` | Alembic | OK 1.20.1 |
-| `torch` | PyTorch | MISSING (ModuleNotFoundError) |
+| `torch` | PyTorch | OK 2.15.0+cu132 |
 | `ultralytics` | Ultralytics YOLO | MISSING (ModuleNotFoundError) |
-| `easyocr` | EasyOCR | MISSING (ModuleNotFoundError) |
+| `easyocr` | EasyOCR | OK 1.7.2 |
 
 ## Recommendations
 
-- An NVIDIA GPU exists but PyTorch CUDA is not active. Install the CUDA build of torch before training (see docs/MODEL_TRAINING.md).
+- YOLO: yolo11n or yolo11s, imgsz 1024-1280, batch 8.
+- CRNN HTR: GPU training is feasible locally.
